@@ -228,15 +228,25 @@
           source="ff4a8780-c71e-49e5-a4fb-a46336c8a675"
           target="ff4a8780-c71e-49e5-a4fb-a46336c8a675">
         <bendpoints
-            startX="-144"
-            startY="-15"
-            endX="-144"
-            endY="-15"/>
+            startX="-180"
+            startY="-18"
+            endX="-180"
+            endY="-18"/>
         <bendpoints
-            startX="-144"
-            startY="-51"
-            endX="-144"
-            endY="-51"/>
+            startX="-180"
+            startY="-78"
+            endX="-180"
+            endY="-78"/>
+        <bendpoints
+            startX="-180"
+            startY="-78"
+            endX="-180"
+            endY="-78"/>
+        <bendpoints
+            startX="-60"
+            startY="-78"
+            endX="-60"
+            endY="-78"/>
         <bendpoints
             startX="-60"
             startY="-51"
@@ -421,19 +431,14 @@
           source="6f2c3f0b-f894-486b-afd6-5c12d65b66b8"
           target="6f2c3f0b-f894-486b-afd6-5c12d65b66b8">
         <bendpoints
+            startX="-84"
+            startY="68"
+            endX="-84"
+            endY="68"/>
+        <bendpoints
             startX="-60"
             startY="56"
             endX="-60"
-            endY="56"/>
-        <bendpoints
-            startX="-72"
-            startY="56"
-            endX="-72"
-            endY="56"/>
-        <bendpoints
-            startX="-84"
-            startY="56"
-            endX="-84"
             endY="56"/>
         <archimateRelationship
             xsi:type="archimate:AssociationRelationship"
@@ -499,9 +504,9 @@
             href="AssociationRelationship_f676d1b1-a8ab-47e1-bf29-a58609dc49a8.xml#f676d1b1-a8ab-47e1-bf29-a58609dc49a8"/>
       </sourceConnections>
       <bounds
-          x="432"
+          x="408"
           y="840"
-          width="193"
+          width="242"
           height="79"/>
       <archimateElement
           xsi:type="archimate:DataObject"
@@ -900,7 +905,7 @@
       <bounds
           x="180"
           y="564"
-          width="192"
+          width="204"
           height="84"/>
       <archimateElement
           xsi:type="archimate:DataObject"
@@ -916,7 +921,7 @@
         textPosition="1">
       <bounds
           x="924"
-          y="492"
+          y="504"
           width="193"
           height="86"/>
       <archimateElement

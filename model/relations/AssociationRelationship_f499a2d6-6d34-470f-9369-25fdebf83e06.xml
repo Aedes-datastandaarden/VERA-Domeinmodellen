@@ -1,12 +1,13 @@
 <archimate:AssociationRelationship
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="n:0 of n:1"
-    id="f499a2d6-6d34-470f-9369-25fdebf83e06">
+    name="huurtoeslagen"
+    id="f499a2d6-6d34-470f-9369-25fdebf83e06"
+    directed="true">
   <source
       xsi:type="archimate:DataObject"
-      href="DataObject_6d8a1725-3065-4638-8607-9257002525a7.xml#6d8a1725-3065-4638-8607-9257002525a7"/>
+      href="DataObject_4c3624d3-0e6c-4992-a081-d9eb9b80d2d3.xml#4c3624d3-0e6c-4992-a081-d9eb9b80d2d3"/>
   <target
       xsi:type="archimate:DataObject"
-      href="DataObject_4c3624d3-0e6c-4992-a081-d9eb9b80d2d3.xml#4c3624d3-0e6c-4992-a081-d9eb9b80d2d3"/>
+      href="DataObject_6d8a1725-3065-4638-8607-9257002525a7.xml#6d8a1725-3065-4638-8607-9257002525a7"/>
 </archimate:AssociationRelationship>

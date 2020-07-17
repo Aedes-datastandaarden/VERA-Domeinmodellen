@@ -1,13 +1,14 @@
 <archimate:AssociationRelationship
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="cluster"
-    id="aee9d58a-8143-427e-be52-502ba5685c3d"
+    name="orders"
+    id="ed0b8c66-3415-41f4-bb0c-906470901992"
+    documentation="De onderhoudsorders die op basis van deze overeenkomst zijn toegekend. "
     directed="true">
   <source
       xsi:type="archimate:DataObject"
       href="DataObject_79264e04-e082-47c4-a64e-490f2a204843.xml#79264e04-e082-47c4-a64e-490f2a204843"/>
   <target
       xsi:type="archimate:DataObject"
-      href="DataObject_28071b07-5f66-4b35-ac77-ddbac16bf13e.xml#28071b07-5f66-4b35-ac77-ddbac16bf13e"/>
+      href="DataObject_692acfe1-dcba-4b74-aa49-f7a1bd47a4a6.xml#692acfe1-dcba-4b74-aa49-f7a1bd47a4a6"/>
 </archimate:AssociationRelationship>

@@ -1,11 +1,12 @@
 <archimate:AssociationRelationship
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="n:n"
-    id="1482abb5-2595-4e94-ad93-91b2f9ac5ec3">
+    name="kandidaat"
+    id="74671a57-3f76-4806-894b-98914bdcdc94"
+    directed="true">
   <source
       xsi:type="archimate:DataObject"
-      href="DataObject_c48fd93d-30dc-4327-a751-666c641f1e78.xml#c48fd93d-30dc-4327-a751-666c641f1e78"/>
+      href="DataObject_3c364049-081c-474c-8fef-d3ef9587590f.xml#3c364049-081c-474c-8fef-d3ef9587590f"/>
   <target
       xsi:type="archimate:DataObject"
       href="DataObject_68d6ff38-6b27-45c2-a6b4-f11e841ef1a1.xml#68d6ff38-6b27-45c2-a6b4-f11e841ef1a1"/>

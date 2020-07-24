@@ -1,12 +1,13 @@
 <archimate:AssociationRelationship
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="n:0 of n:1"
-    id="64ad79d1-da89-406f-9943-80bf1628e7c5">
+    name="stadsdelen"
+    id="64ad79d1-da89-406f-9943-80bf1628e7c5"
+    directed="true">
   <source
       xsi:type="archimate:DataObject"
-      href="DataObject_5559f24c-a44b-4b85-bc66-2d9f29c10948.xml#5559f24c-a44b-4b85-bc66-2d9f29c10948"/>
+      href="DataObject_758ecc05-411f-4d1a-9d36-78ec28a5be1b.xml#758ecc05-411f-4d1a-9d36-78ec28a5be1b"/>
   <target
       xsi:type="archimate:DataObject"
-      href="DataObject_758ecc05-411f-4d1a-9d36-78ec28a5be1b.xml#758ecc05-411f-4d1a-9d36-78ec28a5be1b"/>
+      href="DataObject_5559f24c-a44b-4b85-bc66-2d9f29c10948.xml#5559f24c-a44b-4b85-bc66-2d9f29c10948"/>
 </archimate:AssociationRelationship>

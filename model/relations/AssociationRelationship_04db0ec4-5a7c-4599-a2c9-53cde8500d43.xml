@@ -1,12 +1,13 @@
 <archimate:AssociationRelationship
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="n:0 of n:1"
-    id="04db0ec4-5a7c-4599-a2c9-53cde8500d43">
+    name="acties"
+    id="04db0ec4-5a7c-4599-a2c9-53cde8500d43"
+    directed="true">
   <source
       xsi:type="archimate:DataObject"
-      href="DataObject_25c40c39-1093-4bbf-b87e-2ba9dde0fd68.xml#25c40c39-1093-4bbf-b87e-2ba9dde0fd68"/>
+      href="DataObject_5bea2fcf-576e-4bdf-a522-2e5b1a55e029.xml#5bea2fcf-576e-4bdf-a522-2e5b1a55e029"/>
   <target
       xsi:type="archimate:DataObject"
-      href="DataObject_5bea2fcf-576e-4bdf-a522-2e5b1a55e029.xml#5bea2fcf-576e-4bdf-a522-2e5b1a55e029"/>
+      href="DataObject_25c40c39-1093-4bbf-b87e-2ba9dde0fd68.xml#25c40c39-1093-4bbf-b87e-2ba9dde0fd68"/>
 </archimate:AssociationRelationship>

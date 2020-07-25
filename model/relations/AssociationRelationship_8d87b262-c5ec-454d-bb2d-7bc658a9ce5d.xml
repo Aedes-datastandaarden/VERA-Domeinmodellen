@@ -1,12 +1,13 @@
 <archimate:AssociationRelationship
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="n:0 of n:1"
-    id="8d87b262-c5ec-454d-bb2d-7bc658a9ce5d">
+    name="uitspraken"
+    id="8d87b262-c5ec-454d-bb2d-7bc658a9ce5d"
+    directed="true">
   <source
       xsi:type="archimate:DataObject"
-      href="DataObject_24954b05-bf10-4dd1-b96e-ad057cb11bff.xml#24954b05-bf10-4dd1-b96e-ad057cb11bff"/>
+      href="DataObject_5bea2fcf-576e-4bdf-a522-2e5b1a55e029.xml#5bea2fcf-576e-4bdf-a522-2e5b1a55e029"/>
   <target
       xsi:type="archimate:DataObject"
-      href="DataObject_5bea2fcf-576e-4bdf-a522-2e5b1a55e029.xml#5bea2fcf-576e-4bdf-a522-2e5b1a55e029"/>
+      href="DataObject_24954b05-bf10-4dd1-b96e-ad057cb11bff.xml#24954b05-bf10-4dd1-b96e-ad057cb11bff"/>
 </archimate:AssociationRelationship>

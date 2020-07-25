@@ -1,11 +1,12 @@
 <archimate:AssociationRelationship
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="n:0 of n:1"
-    id="ef23ccc7-cf0b-4965-b702-095d94592c83">
+    name="relatie"
+    id="cd120a8b-233f-4da7-9558-17bdb7232fce"
+    directed="true">
   <source
       xsi:type="archimate:DataObject"
-      href="DataObject_c48fd93d-30dc-4327-a751-666c641f1e78.xml#c48fd93d-30dc-4327-a751-666c641f1e78"/>
+      href="DataObject_94e308a8-acdf-4ae0-9755-0c61340b907f.xml#94e308a8-acdf-4ae0-9755-0c61340b907f"/>
   <target
       xsi:type="archimate:DataObject"
       href="DataObject_c741dd31-2b80-4474-8abe-c8832a718069.xml#c741dd31-2b80-4474-8abe-c8832a718069"/>

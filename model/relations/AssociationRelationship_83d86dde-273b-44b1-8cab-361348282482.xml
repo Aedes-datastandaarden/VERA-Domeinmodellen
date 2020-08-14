@@ -1,11 +1,12 @@
 <archimate:AssociationRelationship
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="n:n"
-    id="426847d7-814b-4e5f-b0ee-ab76308be605">
+    name="boekjaarperiodesaldos"
+    id="83d86dde-273b-44b1-8cab-361348282482"
+    directed="true">
   <source
       xsi:type="archimate:DataObject"
-      href="DataObject_d50fa6cd-14e8-4a13-b37c-7dcd6d7c8699.xml#d50fa6cd-14e8-4a13-b37c-7dcd6d7c8699"/>
+      href="DataObject_c8bdd63f-d057-4384-bb68-a080d84c485f.xml#c8bdd63f-d057-4384-bb68-a080d84c485f"/>
   <target
       xsi:type="archimate:DataObject"
       href="DataObject_f527a278-6e50-4091-a13b-b911632c4f6e.xml#f527a278-6e50-4091-a13b-b911632c4f6e"/>

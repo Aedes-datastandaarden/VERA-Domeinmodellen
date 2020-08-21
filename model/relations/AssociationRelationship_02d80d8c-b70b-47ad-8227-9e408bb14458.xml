@@ -1,8 +1,9 @@
 <archimate:AssociationRelationship
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="n:n"
-    id="02d80d8c-b70b-47ad-8227-9e408bb14458">
+    name="boekingen"
+    id="02d80d8c-b70b-47ad-8227-9e408bb14458"
+    directed="true">
   <source
       xsi:type="archimate:DataObject"
       href="DataObject_4a24bf00-6d06-4177-b8a5-588177ef2949.xml#4a24bf00-6d06-4177-b8a5-588177ef2949"/>

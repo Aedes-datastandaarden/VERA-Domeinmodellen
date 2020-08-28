@@ -2,4 +2,13 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="BetalingsregelingTermijn"
     id="5450e583-8a87-4fe9-bb8b-732eb9a4aa47"
-    documentation="&lt;h4>Definitie&lt;/h4>&#xD;&#xA;De termijngegevens behorende bij een betalingsregeling.&#xD;&#xA;&#xD;&#xA;&lt;h4>Toelichting&lt;/h4>&#xD;&#xA;Bij het aangaan van een betalingsregeling is afgesproken wanneer welk bedrag betaald wordt. In deze klasse is per termijn opgenomen wanneer welk bedrag betaald is of moet worden.&#xD;&#xA;&#xD;&#xA;&lt;h4>Voorbeelden&lt;/h4>&#xD;&#xA;Als een huurder een betalingsregeling aangaat wordt er bepaald in hoeveel termijnen het verschuldigde bedrag moet worden afbetaald. Per termijn wordt een bedrag en een vervaldatum afgesproken.&#xD;&#xA;"/>
+    documentation="&lt;h4>Definitie&lt;/h4>&#xD;&#xA;De termijngegevens behorende bij een betalingsregeling.&#xD;&#xA;&#xD;&#xA;&lt;h4>Toelichting&lt;/h4>&#xD;&#xA;Bij het aangaan van een betalingsregeling is afgesproken wanneer welk bedrag betaald wordt. In deze klasse is per termijn opgenomen wanneer welk bedrag betaald is of moet worden.&#xD;&#xA;&#xD;&#xA;&lt;h4>Voorbeelden&lt;/h4>&#xD;&#xA;Als een huurder een betalingsregeling aangaat wordt er bepaald in hoeveel termijnen het verschuldigde bedrag moet worden afbetaald. Per termijn wordt een bedrag en een vervaldatum afgesproken.&#xD;&#xA;">
+  <properties
+      key="Objecttype"
+      value="Klasse"/>
+  <properties
+      key="Bron"
+      value="VERA 1.0"/>
+  <properties
+      key="Relatie met CORA"/>
+</archimate:DataObject>

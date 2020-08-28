@@ -2,4 +2,13 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Inkomen"
     id="344f656d-bbae-45da-a56a-656ceabeaf65"
-    documentation="Definitie &#xD;&#xA;Voor de relatie vastgelegde inkomens informatie. &#xD;&#xA;&#xD;&#xA;Toelichting &#xD;&#xA;Kan bruto of netto maand of jaar inkomens bevatten alsook de inkomensbron. Bijvoorbeeld: Uitkering of Werk. "/>
+    documentation="&lt;h4>Definitie&lt;/h4>&#xD;&#xA;Voor de relatie vastgelegde inkomens informatie. &#xD;&#xA;&#xD;&#xA;&lt;h4>Toelichting&lt;/h4>&#xD;&#xA;Kan bruto of netto maand of jaar inkomens bevatten alsook de inkomensbron. Bijvoorbeeld: Uitkering of Werk. ">
+  <properties
+      key="Objecttype"
+      value="Klasse"/>
+  <properties
+      key="Bron"
+      value="VERA 1.0"/>
+  <properties
+      key="Relatie met CORA"/>
+</archimate:DataObject>

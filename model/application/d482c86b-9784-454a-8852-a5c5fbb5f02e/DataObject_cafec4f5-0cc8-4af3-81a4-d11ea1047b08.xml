@@ -2,4 +2,13 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Geometrie"
     id="cafec4f5-0cc8-4af3-81a4-d11ea1047b08"
-    documentation="Definitie &#xD;&#xA;Een set aan afmetingen en / of onderlinge verhoudingen van een bepaald object of gebied. &#xD;&#xA;&#xD;&#xA;Toelichting &#xD;&#xA;De geometrie klasse is een basisklasse om geometrische informatie op te slaan van objecten of gebieden. De geometrie klasse kan zelf geen geometrische informatie bevatten. De geometrische informatie wordt vastgelegd door zogenaamde subklassen. Deze subklassen bepalen welk geometrisch stelsel van toepassing is zodat de waarden van de klasse op een juiste manier eenduidig geïnterpreteerd kunnen worden. &#xD;&#xA;&#xD;&#xA;Toepasbaar voor &#xD;&#xA;Locatieaanduiding, contouraanduiding. "/>
+    documentation="&lt;h4>Definitie&lt;/h4>&#xD;&#xA;Een set aan afmetingen en / of onderlinge verhoudingen van een bepaald object of gebied. &#xD;&#xA;&#xD;&#xA;&lt;h4>Toelichting&lt;/h4>&#xD;&#xA;De geometrie klasse is een basisklasse om geometrische informatie op te slaan van objecten of gebieden. De geometrie klasse kan zelf geen geometrische informatie bevatten. De geometrische informatie wordt vastgelegd door zogenaamde subklassen. Deze subklassen bepalen welk geometrisch stelsel van toepassing is zodat de waarden van de klasse op een juiste manier eenduidig geïnterpreteerd kunnen worden. &#xD;&#xA;&#xD;&#xA;&lt;h4>Toepasbaar voor&lt;/h4>&#xD;&#xA;Locatieaanduiding, contouraanduiding. ">
+  <properties
+      key="Objecttype"
+      value="Klasse"/>
+  <properties
+      key="Bron"
+      value="VERA 1.0"/>
+  <properties
+      key="Relatie met CORA"/>
+</archimate:DataObject>

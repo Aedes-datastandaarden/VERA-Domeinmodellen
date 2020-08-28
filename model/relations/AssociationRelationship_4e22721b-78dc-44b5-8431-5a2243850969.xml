@@ -1,8 +1,9 @@
 <archimate:AssociationRelationship
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="n:1"
-    id="4e22721b-78dc-44b5-8431-5a2243850969">
+    name="crediteur"
+    id="4e22721b-78dc-44b5-8431-5a2243850969"
+    directed="true">
   <source
       xsi:type="archimate:DataObject"
       href="DataObject_b34800c8-6f17-490b-b0b3-14742982a645.xml#b34800c8-6f17-490b-b0b3-14742982a645"/>

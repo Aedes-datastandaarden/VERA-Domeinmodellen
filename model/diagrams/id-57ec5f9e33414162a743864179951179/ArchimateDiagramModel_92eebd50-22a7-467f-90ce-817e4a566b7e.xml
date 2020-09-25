@@ -374,6 +374,16 @@
             xsi:type="archimate:AssociationRelationship"
             href="AssociationRelationship_858fed6e-0814-4eef-b635-14ca13e4b5fc.xml#858fed6e-0814-4eef-b635-14ca13e4b5fc"/>
       </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="6675e482-555d-4ee4-b294-6231ad8b81f0"
+          font="1|Segoe UI|11.25|0|WINDOWS|1|-15|0|0|0|400|0|0|0|0|3|2|1|34|Segoe UI"
+          source="cf80f496-20e5-4d6b-bf53-0e1111b7c8dc"
+          target="5af7599c-93af-4039-8d50-f8018384f433">
+        <archimateRelationship
+            xsi:type="archimate:AssociationRelationship"
+            href="AssociationRelationship_08a29e8c-6c72-416d-80fa-fe618d579eba.xml#08a29e8c-6c72-416d-80fa-fe618d579eba"/>
+      </sourceConnections>
       <bounds
           x="1344"
           y="117"
@@ -389,7 +399,7 @@
         targetConnections="b29fcc47-107c-448a-90e5-591866106b72 8af66692-a8a3-4ebd-b2b5-48ca67d47bbd"
         font="1|Segoe UI|12.0|1|WINDOWS|1|-16|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
         fontColor="#ffffff"
-        fillColor="#b5a845"
+        fillColor="#b9b973"
         textPosition="1">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
@@ -1780,6 +1790,23 @@
       <archimateElement
           xsi:type="archimate:DataObject"
           href="DataObject_98204404-6cdc-4156-a95e-334e2a2de36c.xml#98204404-6cdc-4156-a95e-334e2a2de36c"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="5af7599c-93af-4039-8d50-f8018384f433"
+        targetConnections="6675e482-555d-4ee4-b294-6231ad8b81f0"
+        font="1|Segoe UI|12.0|1|WINDOWS|1|-16|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
+        fontColor="#ffffff"
+        fillColor="#b9b973"
+        textPosition="1">
+      <bounds
+          x="912"
+          y="84"
+          width="217"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:DataObject"
+          href="DataObject_c52604a2-014d-4a6b-8c84-7cf988c388ad.xml#c52604a2-014d-4a6b-8c84-7cf988c388ad"/>
     </children>
     <archimateElement
         xsi:type="archimate:Grouping"

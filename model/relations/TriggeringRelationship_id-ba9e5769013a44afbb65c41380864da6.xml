@@ -1,7 +1,15 @@
 <archimate:TriggeringRelationship
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-ba9e5769013a44afbb65c41380864da6">
+    name="Doorgeven onderhoudsverzoek"
+    id="id-ba9e5769013a44afbb65c41380864da6"
+    documentation="Voor het doorgeven van een vastgelegd onderhoudsverzoek naar aanleiding van een Klantmelding. ">
+  <properties
+      key="Type"
+      value="Trigger"/>
+  <properties
+      key="Code"
+      value="OHDT01 "/>
   <source
       xsi:type="archimate:BusinessProcess"
       href="BusinessProcess_id-2fb958672aeb4adea5f6f72119aa5782.xml#id-2fb958672aeb4adea5f6f72119aa5782"/>

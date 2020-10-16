@@ -1,0 +1,14 @@
+<archimate:AssociationRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="adres"
+    id="dafa6085-9014-4180-a821-3c3e9a5bcebe"
+    documentation="Aan een Collectief Object kan een adres gekoppeld worden zodat een specifieke locatie opgenomen kan worden. Met name bij onderhoudswerkzaamheden is dit wenselijk."
+    directed="true">
+  <source
+      xsi:type="archimate:DataObject"
+      href="DataObject_7334afd9-1e93-46d8-b30e-60824b48f954.xml#7334afd9-1e93-46d8-b30e-60824b48f954"/>
+  <target
+      xsi:type="archimate:DataObject"
+      href="DataObject_712ba9ba-94e5-4ce5-a98b-1838315b5cb2.xml#712ba9ba-94e5-4ce5-a98b-1838315b5cb2"/>
+</archimate:AssociationRelationship>

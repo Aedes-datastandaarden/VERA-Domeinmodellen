@@ -1,0 +1,19 @@
+<archimate:TriggeringRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Bevestigen Afspraak "
+    id="id-986274947b284c40a30f152d7e42eeb6"
+    documentation="Voor het bevestigen van een afspraak. &#xD;&#xA;&#xD;&#xA;">
+  <properties
+      key="Type"
+      value="Trigger"/>
+  <properties
+      key="Code"
+      value="OHDT03"/>
+  <source
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_id-23d6b40adccf4d4e913762396b974b22.xml#id-23d6b40adccf4d4e913762396b974b22"/>
+  <target
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_id-ae01e68e24cf4e0b91e97714520ee8cd.xml#id-ae01e68e24cf4e0b91e97714520ee8cd"/>
+</archimate:TriggeringRelationship>

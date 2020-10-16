@@ -1,12 +1,11 @@
-<archimate:TriggeringRelationship
+<archimate:CompositionRelationship
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Afgeronde melding klant"
-    id="id-704e06791a504b28b262a8aa45a61cd4">
+    id="id-28566970c6944a0f8005116a431604fd">
   <source
       xsi:type="archimate:BusinessProcess"
       href="BusinessProcess_id-a6de887b920047a086a65f4076042e55.xml#id-a6de887b920047a086a65f4076042e55"/>
   <target
       xsi:type="archimate:BusinessProcess"
-      href="BusinessProcess_id-05bc62c9600e412c951078ec45f7c54d.xml#id-05bc62c9600e412c951078ec45f7c54d"/>
-</archimate:TriggeringRelationship>
+      href="BusinessProcess_id-ae01e68e24cf4e0b91e97714520ee8cd.xml#id-ae01e68e24cf4e0b91e97714520ee8cd"/>
+</archimate:CompositionRelationship>

@@ -1,4 +1,5 @@
 <archimate:BusinessInteraction
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Onderhoud"
-    id="id-14044c7d515a4b90b25ea9d6830fe35a"/>
+    id="id-14044c7d515a4b90b25ea9d6830fe35a"
+    documentation="In het model zijn de bedrijfsprocessen 'Regisseren onderhoud', ‘Uitvoeren onderhoudsorder’, 'Inspecteren bouwdelen' uitgewerkt. Het bedrijfsproces 'Regisseren onderhoud' is een generiek proces, dat kan worden geïnitieerd vanuit het bedrijfsproces Klantbediening (dan betreft het klachten-/reparatieonderhoud), vanuit het bedrijfsproces ‘Verhuren eenheden’ (dan betreft het mutatieonderhoud) en vanuit het bedrijfsproces ‘Uitvoeren onderhoudsplan’ (indien het planmatig onderhoud betreft). Het bedrijfsproces Klantbediening is binnen CORA ook uitgewerkt, maar het proces ‘Uitvoeren onderhoudsplan’ nog niet. Om die reden is dit in het ketenmodel als black box weergegeven. "/>

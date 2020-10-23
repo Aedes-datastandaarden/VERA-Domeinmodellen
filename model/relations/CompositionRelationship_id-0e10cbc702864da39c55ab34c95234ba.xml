@@ -1,12 +1,11 @@
-<archimate:TriggeringRelationship
+<archimate:CompositionRelationship
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Doorgeven onderzoeksopdracht"
-    id="id-2e04a726bed9401485f33540969adf88">
+    id="id-0e10cbc702864da39c55ab34c95234ba">
   <source
       xsi:type="archimate:BusinessProcess"
-      href="BusinessProcess_id-05bc62c9600e412c951078ec45f7c54d.xml#id-05bc62c9600e412c951078ec45f7c54d"/>
+      href="BusinessProcess_id-c3a657ec2aa44485bbd5545a22951d2e.xml#id-c3a657ec2aa44485bbd5545a22951d2e"/>
   <target
       xsi:type="archimate:BusinessProcess"
       href="BusinessProcess_id-63b029a3cc5f4e2b9e32c7175d514714.xml#id-63b029a3cc5f4e2b9e32c7175d514714"/>
-</archimate:TriggeringRelationship>
+</archimate:CompositionRelationship>

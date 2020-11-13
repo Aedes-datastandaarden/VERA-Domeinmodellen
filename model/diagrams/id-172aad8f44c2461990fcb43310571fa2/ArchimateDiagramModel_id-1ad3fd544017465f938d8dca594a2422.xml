@@ -1,4 +1,33 @@
 <archimate:ArchimateDiagramModel
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Beheer Relatiegegevens"
-    id="id-1ad3fd544017465f938d8dca594a2422"/>
+    id="id-1ad3fd544017465f938d8dca594a2422"
+    viewpoint="business_process_cooperation">
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-04712f351da441ee9814c7865eb88c9a"
+      textAlignment="1">
+    <bounds
+        x="12"
+        y="12"
+        width="1141"
+        height="589"/>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-c7bd7ec43fb84885ad24caecaa3fe5e0"
+        textAlignment="1">
+      <bounds
+          x="24"
+          y="432"
+          width="211"
+          height="140"/>
+      <archimateElement
+          xsi:type="archimate:Grouping"
+          href="Grouping_id-56fb1d8b73cf436ca2baf0e4cc544b62.xml#id-56fb1d8b73cf436ca2baf0e4cc544b62"/>
+    </children>
+    <archimateElement
+        xsi:type="archimate:Grouping"
+        href="Grouping_id-e4e8ca89e361465693c49fa90aed3884.xml#id-e4e8ca89e361465693c49fa90aed3884"/>
+  </children>
+</archimate:ArchimateDiagramModel>

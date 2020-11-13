@@ -2,7 +2,8 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Woonruimteverdeling"
-    id="id-920a5bcd9180418085ab4c639dc6ea3e">
+    id="id-920a5bcd9180418085ab4c639dc6ea3e"
+    viewpoint="business_process_cooperation">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-8fa91746b9914c0393dc75ca39f33b47"
@@ -73,7 +74,7 @@
     <bounds
         x="12"
         y="12"
-        width="805"
+        width="937"
         height="637"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
@@ -158,6 +159,19 @@
       <archimateElement
           xsi:type="archimate:BusinessProcess"
           href="BusinessProcess_id-9c6633ec6aac4074979a2e52c119b3b4.xml#id-9c6633ec6aac4074979a2e52c119b3b4"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-d4e5e442892e4a6aa21c6495d571a9b6"
+        textAlignment="1">
+      <bounds
+          x="696"
+          y="480"
+          width="209"
+          height="140"/>
+      <archimateElement
+          xsi:type="archimate:Grouping"
+          href="Grouping_id-56fb1d8b73cf436ca2baf0e4cc544b62.xml#id-56fb1d8b73cf436ca2baf0e4cc544b62"/>
     </children>
     <archimateElement
         xsi:type="archimate:Grouping"

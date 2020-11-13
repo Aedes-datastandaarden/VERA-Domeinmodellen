@@ -1,4 +1,33 @@
 <archimate:ArchimateDiagramModel
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Beheer Vastgoedgegevens"
-    id="id-d641db7db4504964b426813bb5c405e0"/>
+    id="id-d641db7db4504964b426813bb5c405e0"
+    viewpoint="business_process_cooperation">
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-8bfc017e0c764ee7a54e4c5e826bc4c1"
+      textAlignment="1">
+    <bounds
+        x="12"
+        y="12"
+        width="1129"
+        height="589"/>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-de04c4a68a514544b9ffd31be5275583"
+        textAlignment="1">
+      <bounds
+          x="24"
+          y="420"
+          width="205"
+          height="140"/>
+      <archimateElement
+          xsi:type="archimate:Grouping"
+          href="Grouping_id-56fb1d8b73cf436ca2baf0e4cc544b62.xml#id-56fb1d8b73cf436ca2baf0e4cc544b62"/>
+    </children>
+    <archimateElement
+        xsi:type="archimate:Grouping"
+        href="Grouping_id-40b569268d0b42bd8c195ae7d1b7a754.xml#id-40b569268d0b42bd8c195ae7d1b7a754"/>
+  </children>
+</archimate:ArchimateDiagramModel>

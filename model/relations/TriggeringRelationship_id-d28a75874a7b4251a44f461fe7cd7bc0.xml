@@ -1,0 +1,12 @@
+<archimate:TriggeringRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Kandidaat voor Toewijzen"
+    id="id-d28a75874a7b4251a44f461fe7cd7bc0">
+  <source
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_id-c42fb8c599dd49f6a5a726cc7949337d.xml#id-c42fb8c599dd49f6a5a726cc7949337d"/>
+  <target
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_id-7aa2f305e5d44ec58e6e88b757396ce6.xml#id-7aa2f305e5d44ec58e6e88b757396ce6"/>
+</archimate:TriggeringRelationship>

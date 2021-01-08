@@ -1,0 +1,14 @@
+<archimate:AssociationRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Start contractering"
+    id="id-1b5d2028b0f74fea8d8d51a154b11a54"
+    documentation="Businessevent: Gegunde opdracht"
+    directed="true">
+  <source
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_id-92d4bb38c631458ba847d9365443fcbe.xml#id-92d4bb38c631458ba847d9365443fcbe"/>
+  <target
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_id-d72c62bda0924d54bcc2d1e7eaaa1cd2.xml#id-d72c62bda0924d54bcc2d1e7eaaa1cd2"/>
+</archimate:AssociationRelationship>

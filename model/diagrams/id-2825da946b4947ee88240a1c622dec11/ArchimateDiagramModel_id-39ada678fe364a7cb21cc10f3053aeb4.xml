@@ -100,7 +100,7 @@
     <bounds
         x="12"
         y="12"
-        width="913"
+        width="889"
         height="421"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
@@ -323,104 +323,6 @@
     </children>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
-        id="id-6db54d99e35645d18185d1ccda3608a6"
-        textAlignment="1">
-      <bounds
-          x="696"
-          y="240"
-          width="193"
-          height="162"/>
-      <children
-          xsi:type="archimate:DiagramModelArchimateObject"
-          id="id-3f304abeda9a443787e5a89ddb979678"
-          font="1|Segoe UI|9.0|1|WINDOWS|1|-12|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
-          fontColor="#ffffff"
-          textAlignment="1"
-          fillColor="#2a8ec9"
-          type="1">
-        <bounds
-            x="12"
-            y="77"
-            width="169"
-            height="25"/>
-        <archimateElement
-            xsi:type="archimate:Grouping"
-            href="Grouping_208c6e09-ac3f-414a-aae5-546e8f0ee05d.xml#208c6e09-ac3f-414a-aae5-546e8f0ee05d"/>
-      </children>
-      <children
-          xsi:type="archimate:DiagramModelArchimateObject"
-          id="id-d7d80e71a957446088e536b11f3dc402"
-          font="1|Segoe UI|9.0|1|WINDOWS|1|-12|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
-          fontColor="#ffffff"
-          textAlignment="1"
-          fillColor="#b9b973"
-          type="1">
-        <bounds
-            x="12"
-            y="53"
-            width="169"
-            height="25"/>
-        <archimateElement
-            xsi:type="archimate:Grouping"
-            href="Grouping_0857ba99-331b-46e0-b6e3-eb503d9d7541.xml#0857ba99-331b-46e0-b6e3-eb503d9d7541"/>
-      </children>
-      <children
-          xsi:type="archimate:DiagramModelArchimateObject"
-          id="id-7e02476d959c46f6b8096995aeb07511"
-          font="1|Segoe UI|9.0|1|WINDOWS|1|-12|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
-          fontColor="#ffffff"
-          textAlignment="1"
-          fillColor="#f18e00"
-          type="1">
-        <bounds
-            x="12"
-            y="101"
-            width="169"
-            height="25"/>
-        <archimateElement
-            xsi:type="archimate:Grouping"
-            href="Grouping_f63f0944-0913-4c7e-a44d-a33f8749ae58.xml#f63f0944-0913-4c7e-a44d-a33f8749ae58"/>
-      </children>
-      <children
-          xsi:type="archimate:DiagramModelArchimateObject"
-          id="id-ec31e0489b8349d29ba2ce38015e3c2b"
-          font="1|Segoe UI|9.0|1|WINDOWS|1|-12|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
-          fontColor="#ffffff"
-          textAlignment="1"
-          fillColor="#d3caa3"
-          type="1">
-        <bounds
-            x="12"
-            y="29"
-            width="169"
-            height="25"/>
-        <archimateElement
-            xsi:type="archimate:Grouping"
-            href="Grouping_id-9e24c38c74f847bf92fed094fc492064.xml#id-9e24c38c74f847bf92fed094fc492064"/>
-      </children>
-      <children
-          xsi:type="archimate:DiagramModelArchimateObject"
-          id="id-e8a44ecaa440432aba6829031a991e58"
-          font="1|Segoe UI|9.0|1|WINDOWS|1|-12|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
-          fontColor="#ffffff"
-          textAlignment="1"
-          fillColor="#7d903d"
-          type="1">
-        <bounds
-            x="12"
-            y="125"
-            width="169"
-            height="25"/>
-        <archimateElement
-            xsi:type="archimate:Grouping"
-            href="Grouping_74353624-9487-42b2-adb2-cc3fa7ce6bec.xml#74353624-9487-42b2-adb2-cc3fa7ce6bec"/>
-      </children>
-      <archimateElement
-          xsi:type="archimate:Grouping"
-          href="Grouping_id-56fb1d8b73cf436ca2baf0e4cc544b62.xml#id-56fb1d8b73cf436ca2baf0e4cc544b62"/>
-    </children>
-    <children
-        xsi:type="archimate:DiagramModelArchimateObject"
         id="id-b36c0ad881f0437b9306d911c4c3edfb"
         targetConnections="id-f831478e77ce464384f338768533ab2e id-821398ad19544fffb0637187bd80fc50"
         font="1|Segoe UI|11.25|1|WINDOWS|1|-15|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
@@ -461,6 +363,104 @@
       <archimateElement
           xsi:type="archimate:DataObject"
           href="DataObject_692acfe1-dcba-4b74-aa49-f7a1bd47a4a6.xml#692acfe1-dcba-4b74-aa49-f7a1bd47a4a6"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-0f9bf110432e482686b428a56588324c"
+        textAlignment="1">
+      <bounds
+          x="696"
+          y="233"
+          width="169"
+          height="169"/>
+      <children
+          xsi:type="archimate:DiagramModelArchimateObject"
+          id="id-66b8c8ef323c4c15a1aacb5cb14b0f0e"
+          font="1|Segoe UI|9.0|1|WINDOWS|1|-12|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
+          fontColor="#ffffff"
+          fillColor="#228ba2"
+          textPosition="1"
+          type="1">
+        <bounds
+            x="12"
+            y="36"
+            width="145"
+            height="25"/>
+        <archimateElement
+            xsi:type="archimate:Grouping"
+            href="Grouping_208c6e09-ac3f-414a-aae5-546e8f0ee05d.xml#208c6e09-ac3f-414a-aae5-546e8f0ee05d"/>
+      </children>
+      <children
+          xsi:type="archimate:DiagramModelArchimateObject"
+          id="id-e2b4cfb3aeda48b88d8ce0033fa457d8"
+          font="1|Segoe UI|9.0|1|WINDOWS|1|-12|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
+          fontColor="#ffffff"
+          fillColor="#fa7034"
+          textPosition="1"
+          type="1">
+        <bounds
+            x="12"
+            y="60"
+            width="145"
+            height="25"/>
+        <archimateElement
+            xsi:type="archimate:Grouping"
+            href="Grouping_f63f0944-0913-4c7e-a44d-a33f8749ae58.xml#f63f0944-0913-4c7e-a44d-a33f8749ae58"/>
+      </children>
+      <children
+          xsi:type="archimate:DiagramModelArchimateObject"
+          id="id-7886e2f8b0404499bc1f81561564f50a"
+          font="1|Segoe UI|9.0|1|WINDOWS|1|-12|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
+          fontColor="#ffffff"
+          fillColor="#1dc34c"
+          textPosition="1"
+          type="1">
+        <bounds
+            x="12"
+            y="84"
+            width="145"
+            height="25"/>
+        <archimateElement
+            xsi:type="archimate:Grouping"
+            href="Grouping_74353624-9487-42b2-adb2-cc3fa7ce6bec.xml#74353624-9487-42b2-adb2-cc3fa7ce6bec"/>
+      </children>
+      <children
+          xsi:type="archimate:DiagramModelArchimateObject"
+          id="id-c6ae62214b0a4e888190cc97bc9aa1b3"
+          font="1|Segoe UI|9.0|1|WINDOWS|1|-12|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
+          fontColor="#ffffff"
+          fillColor="#fd96a9"
+          textPosition="1"
+          type="1">
+        <bounds
+            x="12"
+            y="108"
+            width="145"
+            height="25"/>
+        <archimateElement
+            xsi:type="archimate:Grouping"
+            href="Grouping_id-9e24c38c74f847bf92fed094fc492064.xml#id-9e24c38c74f847bf92fed094fc492064"/>
+      </children>
+      <children
+          xsi:type="archimate:DiagramModelArchimateObject"
+          id="id-9d3dc198b6d645318942d7428e120804"
+          font="1|Segoe UI|9.0|1|WINDOWS|1|-12|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
+          fontColor="#ffffff"
+          fillColor="#a0812c"
+          textPosition="1"
+          type="1">
+        <bounds
+            x="12"
+            y="132"
+            width="145"
+            height="25"/>
+        <archimateElement
+            xsi:type="archimate:Grouping"
+            href="Grouping_0857ba99-331b-46e0-b6e3-eb503d9d7541.xml#0857ba99-331b-46e0-b6e3-eb503d9d7541"/>
+      </children>
+      <archimateElement
+          xsi:type="archimate:Grouping"
+          href="Grouping_id-978b4fef52c44397910060694b0e51c9.xml#id-978b4fef52c44397910060694b0e51c9"/>
     </children>
     <archimateElement
         xsi:type="archimate:Grouping"

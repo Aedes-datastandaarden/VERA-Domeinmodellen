@@ -1,11 +1,12 @@
 <archimate:AssociationRelationship
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-34327c57d77a458db961164840b249e9"
+    name="Doorgeven projectopdracht"
+    id="id-83d7893cc9b548c0ad186ff2af56af49"
     directed="true">
   <source
       xsi:type="archimate:BusinessProcess"
-      href="BusinessProcess_id-e52283a6be3a4b1ea226d4c8cf04ed87.xml#id-e52283a6be3a4b1ea226d4c8cf04ed87"/>
+      href="BusinessProcess_id-9f195ff2ad5f4f66b265232f5f168d9a.xml#id-9f195ff2ad5f4f66b265232f5f168d9a"/>
   <target
       xsi:type="archimate:BusinessProcess"
       href="BusinessProcess_id-e3379e3f2c30482797d374d557b65c2b.xml#id-e3379e3f2c30482797d374d557b65c2b"/>

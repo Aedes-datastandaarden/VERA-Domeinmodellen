@@ -1,0 +1,5 @@
+<archimate:Grouping
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Synchroniseren clustergegevens"
+    id="0fccf96e-abda-4f1c-9f84-1d96048274ee"
+    documentation="====Definitie====&#xD;&#xA;Kerngegevens van de cluster tbv identificatie&#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;&#xD;&#xA;====Voorbeelden====&#xD;&#xA;&#xD;&#xA;====Attributen====&#xD;&#xA;* code &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;string&#xD;&#xA;* soort &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;referentiedata ClusterSoort&#xD;&#xA;* naam&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;string &#xD;&#xA;* omschrijving&#x9;&#x9;&#x9;&#x9;&#x9;string &#xD;&#xA;* bovenliggendCluster &#xD;&#xA;** code&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;string&#xD;&#xA;** naam&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;string&#xD;&#xA;* begindatum&#x9;&#x9;&#x9;&#x9;&#x9;date &#xD;&#xA;* einddatum&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;date &#xD;&#xA;** Geometrie&#xD;&#xA;** Punt.lengtegraad&#x9;&#x9;&#x9;decimal &#xD;&#xA;** Punt.breedtegraad &#x9;&#x9;decimal"/>

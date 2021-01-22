@@ -1,8 +1,11 @@
 <archimate:TriggeringRelationship
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Doorgeven afgeronde kwaliteitsmeting"
+    name="Doorgeven kwaliteitsmeting resultaat"
     id="id-fa1782d6cc2e44a197883d34456fc54d">
+  <properties
+      key="Bericht"
+      value="Synchroniseren onderhoudsverzoek"/>
   <source
       xsi:type="archimate:BusinessProcess"
       href="BusinessProcess_id-f4257ac6855e4928869ff1d31aedf4f0.xml#id-f4257ac6855e4928869ff1d31aedf4f0"/>

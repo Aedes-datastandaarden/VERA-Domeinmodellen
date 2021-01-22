@@ -1,4 +1,5 @@
 <archimate:DataObject
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Synchroniseren kwaliteitsmetingverzoek"
-    id="id-5fc24ee229b1466c947fd4bee8f96b96"/>
+    name="Synchroniseren KwaliteitsmetingVerzoek"
+    id="id-5fc24ee229b1466c947fd4bee8f96b96"
+    documentation="====attributen====&#xD;&#xA;* code&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;string&#xD;&#xA;* soort&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;Referentiedata&#xD;&#xA;* relatie&#x9;&#x9;&#x9;&#x9;&#x9;Relatierol&#xD;&#xA;* afgerondezaak  Zaak&#xD;&#xA;** code&#xD;&#xA;** soort&#xD;&#xA;* eenheid&#x9;&#x9;&#x9;Eenheid&#xD;&#xA;** soort&#xD;&#xA;** rayon&#xD;&#xA;* adres&#x9;&#x9;&#x9;&#x9;Adres&#xD;&#xA;** gemeente&#xD;&#xA;** plaats&#xD;&#xA;** wijk&#xD;&#xA;** buurt&#xD;&#xA;** postcode&#xD;&#xA;* onderhoudsorder&#xD;&#xA;** code&#xD;&#xA;** po/go?&#xD;&#xA;** beschrijving&#xD;&#xA;** aannemer&#xD;&#xA;&#xD;&#xA;uitsplitsing1&#x9;optioneel&#x9;1e indeling naar keuze t.b.v. uitsplitsingen&#xD;&#xA;uitsplitsing2&#x9;optioneel&#x9;2e indeling naar keuze t.b.v. uitsplitsingen&#xD;&#xA;uitsplitsing3&#x9;optioneel&#x9;3e indeling naar keuze t.b.v. uitsplitsingen&#xD;&#xA;uitsplitsing4&#x9;optioneel&#x9;4e indeling naar keuze t.b.v. uitsplitsingen&#xD;&#xA;&#xD;&#xA;Uitsplitsing Onderhoud:&#xD;&#xA;aannemer&#x9;optioneel&#x9;naam of code aannemer&#xD;&#xA;type&#x9;optioneel&#x9;type werkzaamheden&#xD;&#xA;datum&#x9;optioneel&#x9;datum werkzaamheden&#xD;&#xA;uitbesteed&#x9;optioneel&#x9;dienstverlening bij  reparaties volledig uitbesteed aan aannemer&#xD;&#xA;"/>

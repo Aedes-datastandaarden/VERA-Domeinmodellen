@@ -1,0 +1,5 @@
+<archimate:DataObject
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="KwaliteitsmetingResultaat Synchroniseren"
+    id="id-53b6b5804e1445d1a8fa2fc2b8098b99"
+    documentation="====Attributen====&#xD;&#xA;* code&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;string&#xD;&#xA;* soort&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;Referentiedata&#xD;&#xA;* toestemming?&#x9;ja/nee&#xD;&#xA;* antwoorddatum&#xD;&#xA;* antwoorden&#x9;&#x9;collectie vraagAntwoord&#xD;&#xA;* verzoek&#x9;&#x9;&#x9; &#x9;kwaliteitsmetingverzoek&#xD;&#xA;** code&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;string&#xD;&#xA;** soort&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;Referentiedata&#xD;&#xA;** relatie&#x9;&#x9;&#x9;&#x9;&#x9;Relatierol&#xD;&#xA;** afgerondezaak  Zaak&#xD;&#xA;*** code&#xD;&#xA;*** soort&#xD;&#xA;** eenheid&#x9;&#x9;&#x9;Eenheid&#xD;&#xA;*** soort&#xD;&#xA;*** rayon&#xD;&#xA;** adres&#x9;&#x9;&#x9;&#x9;Adres&#xD;&#xA;*** gemeente&#xD;&#xA;*** plaats&#xD;&#xA;*** wijk&#xD;&#xA;*** buurt&#xD;&#xA;*** postcode&#xD;&#xA;** onderhoudsorder&#xD;&#xA;*** code&#xD;&#xA;*** po/go?&#xD;&#xA;*** beschrijving&#xD;&#xA;*** aannemer&#xD;&#xA;"/>

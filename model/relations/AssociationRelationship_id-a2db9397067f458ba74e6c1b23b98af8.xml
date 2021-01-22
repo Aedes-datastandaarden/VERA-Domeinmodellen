@@ -1,12 +1,13 @@
 <archimate:AssociationRelationship
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-34327c57d77a458db961164840b249e9"
+    name="In exploitatie nemen vastgoed"
+    id="id-a2db9397067f458ba74e6c1b23b98af8"
     directed="true">
   <source
       xsi:type="archimate:BusinessProcess"
-      href="BusinessProcess_id-e52283a6be3a4b1ea226d4c8cf04ed87.xml#id-e52283a6be3a4b1ea226d4c8cf04ed87"/>
+      href="BusinessProcess_id-c0bacb9667c84941bfe978a60d6ac0dc.xml#id-c0bacb9667c84941bfe978a60d6ac0dc"/>
   <target
       xsi:type="archimate:BusinessProcess"
-      href="BusinessProcess_id-e3379e3f2c30482797d374d557b65c2b.xml#id-e3379e3f2c30482797d374d557b65c2b"/>
+      href="BusinessProcess_id-c88f9d2852a449c383e77840cfa4ee68.xml#id-c88f9d2852a449c383e77840cfa4ee68"/>
 </archimate:AssociationRelationship>

@@ -1,12 +1,13 @@
 <archimate:AssociationRelationship
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-34327c57d77a458db961164840b249e9"
+    name="Starten fase"
+    id="id-4cc8738c69974615b06f85385d5fd5c2"
     directed="true">
   <source
       xsi:type="archimate:BusinessProcess"
-      href="BusinessProcess_id-e52283a6be3a4b1ea226d4c8cf04ed87.xml#id-e52283a6be3a4b1ea226d4c8cf04ed87"/>
+      href="BusinessProcess_id-5fd33b7c34714d188678b907949977fa.xml#id-5fd33b7c34714d188678b907949977fa"/>
   <target
       xsi:type="archimate:BusinessProcess"
-      href="BusinessProcess_id-e3379e3f2c30482797d374d557b65c2b.xml#id-e3379e3f2c30482797d374d557b65c2b"/>
+      href="BusinessProcess_id-127d7d644f604905af5a9d9f3140d178.xml#id-127d7d644f604905af5a9d9f3140d178"/>
 </archimate:AssociationRelationship>

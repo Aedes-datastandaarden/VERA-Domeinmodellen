@@ -2,14 +2,11 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Doorgeven clustergegevens"
-    id="961684b4-4a9a-4824-a549-481165e5178c">
-  <properties
-      key="Bericht"
-      value="Synchroniseren clustergegevens"/>
+    id="9e4916fc-b3ad-4023-ab25-40b21b3af0d8">
   <source
       xsi:type="archimate:BusinessProcess"
       href="BusinessProcess_de856fdb-9b6c-4cc2-aa12-8253147ff728.xml#de856fdb-9b6c-4cc2-aa12-8253147ff728"/>
   <target
       xsi:type="archimate:BusinessProcess"
-      href="BusinessProcess_id-a6de887b920047a086a65f4076042e55.xml#id-a6de887b920047a086a65f4076042e55"/>
+      href="BusinessProcess_id-6932b3ea7af6465582d82da9182dd97c.xml#id-6932b3ea7af6465582d82da9182dd97c"/>
 </archimate:TriggeringRelationship>

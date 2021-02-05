@@ -2,7 +2,17 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Kandidaat voor aanbieden"
-    id="id-733541aed6784f22a3d83fcc22b15f73">
+    id="id-733541aed6784f22a3d83fcc22b15f73"
+    documentation="Voor het doorgeven van een kandidaat die heeft aangegeven geïnteresseerd te zijn in bepaald vastgoed.&#xD;&#xA;&#xD;&#xA;In dit scenario wordt elke reactie van een woningzoekende (kandidaat) op de publicatie vanuit het woonruimte verdeelsysteem overgedragen aan het vastgoedsysteem. De reactie kan op elk gewenst moment door het woonruimte verdeelsysteem worden doorgegeven. De verdere verwerking (aanbiedproces) is de verantwoordelijkheid van de vastgoedaanbieder. De vastgoedaanbieder kan dan zelf het proces bepalen.&#xD;&#xA;Bijvoorbeeld in een krimpgebied of vrije sector woning reageert een kandidaat op een publicatie en kan de vastgoedaanbieder direct de eenheid aanbieden.&#xD;&#xA;&#xD;&#xA;==== Scenario's ====&#xD;&#xA;Primair&#xD;&#xA;*&#x9;Als woonruimteverdeler wil ik de kandidaat die heeft gereageerd op vastgoed, doorgeven aan de vastgoedaanbieder zodat de vastgoedaanbieder de eenheid kan aanbieden voor gebruik.&#x9;Kandidaat synchroniseren.">
+  <properties
+      key="Objecttype"
+      value="Trigger"/>
+  <properties
+      key="Code"
+      value="WRVT05"/>
+  <properties
+      key="Bericht"
+      value="Kandidaten synchroniseren"/>
   <source
       xsi:type="archimate:BusinessProcess"
       href="BusinessProcess_id-43f4989007304eadaf7198ca9d49b733.xml#id-43f4989007304eadaf7198ca9d49b733"/>

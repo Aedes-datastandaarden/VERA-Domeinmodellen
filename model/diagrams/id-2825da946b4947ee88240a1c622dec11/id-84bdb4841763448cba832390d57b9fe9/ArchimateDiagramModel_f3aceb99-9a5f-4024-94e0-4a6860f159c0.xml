@@ -1,8 +1,9 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Opvragen woningwaarderinggegevens"
-    id="f3aceb99-9a5f-4024-94e0-4a6860f159c0">
+    name="Woningwaarderinggegevens Opvragen"
+    id="f3aceb99-9a5f-4024-94e0-4a6860f159c0"
+    documentation="====Definitie====&#xD;&#xA;Opvragen van woningwaarderingsgegevens van een eenheid&#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;&#xD;&#xA;====Voorbeelden====&#xD;&#xA;&#xD;&#xA;====Attributen====&#xD;&#xA;* StUF: sleutelgegevens&#xD;&#xA;* Code&#xD;&#xA;* WoningwaarderingResultaat&#xD;&#xA;** StUF: sleutelgegevens&#xD;&#xA;** code&#xD;&#xA;** punten (betreft totaal aantal punten WWS)&#xD;&#xA;** maximaleHuur&#xD;&#xA;** begindatum&#xD;&#xA;** einddatum&#xD;&#xA;** woningwaarderingGroepen: Collectie WoningwaarderingGroepen&#xD;&#xA;*** StUF: sleutelgegevens&#xD;&#xA;*** groep: WoningwaarderingCriteriumGroep&#xD;&#xA;**** code&#xD;&#xA;**** naam&#xD;&#xA;**** omschrijving&#xD;&#xA;**** stelsel met Referentiedata WoningwaarderingStelsel (niet gevuld)&#xD;&#xA;*** punten (betreft totaal aantal punten WWS van de specifieke groep)&#xD;&#xA;*** begindatum&#xD;&#xA;*** einddatum&#xD;&#xA;*** woningwaarderingen: Collectie Woningwaardering&#xD;&#xA;**** code&#xD;&#xA;**** criterium: WoningwaarderingCriterium&#xD;&#xA;***** naam&#xD;&#xA;***** meeteenheid&#xD;&#xA;***** stelsel met Referentiedata WoningwaarderingStelsel (niet gevuld)&#xD;&#xA;**** begindatum&#xD;&#xA;**** einddatum&#xD;&#xA;**** aantal&#xD;&#xA;**** punten (betreft aantal punten van het specifieke element)">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="97fd1c2a-fe9d-45d0-bf5d-1f3b23a3aaa4"

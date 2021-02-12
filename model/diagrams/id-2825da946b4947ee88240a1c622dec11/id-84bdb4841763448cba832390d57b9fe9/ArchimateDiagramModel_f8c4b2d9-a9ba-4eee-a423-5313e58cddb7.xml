@@ -1,7 +1,7 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Synchroniseren Clustergegevens"
+    name="Clustergegevens Synchroniseren"
     id="f8c4b2d9-a9ba-4eee-a423-5313e58cddb7">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
@@ -230,4 +230,10 @@
         xsi:type="archimate:Grouping"
         href="Grouping_id-978b4fef52c44397910060694b0e51c9.xml#id-978b4fef52c44397910060694b0e51c9"/>
   </children>
+  <properties
+      key="Objecttype"
+      value="Bericht"/>
+  <properties
+      key="Bericht"
+      value="bvgvasclu"/>
 </archimate:ArchimateDiagramModel>

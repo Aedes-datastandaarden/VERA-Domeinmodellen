@@ -1,9 +1,12 @@
 <archimate:DataObject
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Woningwaarderinggegevens Opvragen"
+    name="BVG: Woningwaardering"
     id="41277938-b45c-42b0-a247-bba3d0fa9e3e"
-    documentation="====Definitie====&#xD;&#xA;Opvragen van woningwaarderingsgegevens van een eenheid&#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;&#xD;&#xA;====Voorbeelden====&#xD;&#xA;&#xD;&#xA;====Attributen====&#xD;&#xA;* StUF: sleutelgegevens&#xD;&#xA;* Code&#xD;&#xA;* WoningwaarderingResultaat&#xD;&#xA;** StUF: sleutelgegevens&#xD;&#xA;** code&#xD;&#xA;** punten (betreft totaal aantal punten WWS)&#xD;&#xA;** maximaleHuur&#xD;&#xA;** begindatum&#xD;&#xA;** einddatum&#xD;&#xA;** woningwaarderingGroepen: Collectie WoningwaarderingGroepen&#xD;&#xA;*** StUF: sleutelgegevens&#xD;&#xA;*** groep: WoningwaarderingCriteriumGroep&#xD;&#xA;**** code&#xD;&#xA;**** naam&#xD;&#xA;**** omschrijving&#xD;&#xA;**** stelsel met Referentiedata WoningwaarderingStelsel (niet gevuld)&#xD;&#xA;*** punten (betreft totaal aantal punten WWS van de specifieke groep)&#xD;&#xA;*** begindatum&#xD;&#xA;*** einddatum&#xD;&#xA;*** woningwaarderingen: Collectie Woningwaardering&#xD;&#xA;**** code&#xD;&#xA;**** criterium: WoningwaarderingCriterium&#xD;&#xA;***** naam&#xD;&#xA;***** meeteenheid&#xD;&#xA;***** stelsel met Referentiedata WoningwaarderingStelsel (niet gevuld)&#xD;&#xA;**** begindatum&#xD;&#xA;**** einddatum&#xD;&#xA;**** aantal&#xD;&#xA;**** punten (betreft aantal punten van het specifieke element)">
+    documentation="&#xD;&#xA;====Definitie====&#xD;&#xA;Opvragen van woningwaarderingsgegevens van een eenheid&#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;&#xD;&#xA;====Voorbeelden====&#xD;&#xA;&#xD;&#xA;====Attributen====&#xD;&#xA;* StUF: sleutelgegevens&#xD;&#xA;* Code&#xD;&#xA;* WoningwaarderingResultaat&#xD;&#xA;** StUF: sleutelgegevens&#xD;&#xA;** code&#xD;&#xA;** punten (betreft totaal aantal punten WWS)&#xD;&#xA;** maximaleHuur&#xD;&#xA;** begindatum&#xD;&#xA;** einddatum&#xD;&#xA;** woningwaarderingGroepen: Collectie WoningwaarderingGroepen&#xD;&#xA;*** StUF: sleutelgegevens&#xD;&#xA;*** groep: WoningwaarderingCriteriumGroep&#xD;&#xA;**** code&#xD;&#xA;**** naam&#xD;&#xA;**** omschrijving&#xD;&#xA;**** stelsel met Referentiedata WoningwaarderingStelsel (niet gevuld)&#xD;&#xA;*** punten (betreft totaal aantal punten WWS van de specifieke groep)&#xD;&#xA;*** begindatum&#xD;&#xA;*** einddatum&#xD;&#xA;*** woningwaarderingen: Collectie Woningwaardering&#xD;&#xA;**** code&#xD;&#xA;**** criterium: WoningwaarderingCriterium&#xD;&#xA;***** naam&#xD;&#xA;***** meeteenheid&#xD;&#xA;***** stelsel met Referentiedata WoningwaarderingStelsel (niet gevuld)&#xD;&#xA;**** begindatum&#xD;&#xA;**** einddatum&#xD;&#xA;**** aantal&#xD;&#xA;**** punten (betreft aantal punten van het specifieke element)">
   <properties
-      key="StUF-bericht"
-      value="bvgvasreslv01"/>
+      key="Objecttype"
+      value="Bericht"/>
+  <properties
+      key="Code"
+      value="BVGWAA"/>
 </archimate:DataObject>

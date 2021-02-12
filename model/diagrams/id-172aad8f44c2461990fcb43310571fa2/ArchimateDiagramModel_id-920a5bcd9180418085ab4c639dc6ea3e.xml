@@ -3,6 +3,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Woonruimteverdeling"
     id="id-920a5bcd9180418085ab4c639dc6ea3e"
+    documentation="Dit ketenproces model bekijkt de interactie tussen bedrijfs- en werkprocessen van twee rollen:&#xD;&#xA;&#x9;Vastgoedaanbieder (woningcorporatie of tussenpartij)&#xD;&#xA;&#x9;Woonruimteverdeler&#xD;&#xA;"
     viewpoint="business_process_cooperation">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
@@ -644,4 +645,7 @@
         xsi:type="archimate:BusinessInteraction"
         href="BusinessInteraction_id-14b48b1a226a4daa9065181ff0fc7d53.xml#id-14b48b1a226a4daa9065181ff0fc7d53"/>
   </children>
+  <properties
+      key="Objecttype"
+      value="Procesketen"/>
 </archimate:ArchimateDiagramModel>

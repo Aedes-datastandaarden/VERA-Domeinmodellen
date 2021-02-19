@@ -2,7 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Sturingslabels"
     id="id-a5101138804e4feda76230643698d67c"
-    documentation="&#xD;&#xA;====Definitie====&#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;&#xD;&#xA;====Voorbeelden====">
+    documentation="====Definitie ====&#xD;&#xA;Een label dat gebruikt wordt voor operationele sturing. &#xD;&#xA;&#xD;&#xA;====Toelichting ====&#xD;&#xA;De labels die van toepassing zijn op de eenheid die worden gebruikt voor operationele sturing. Deze labels worden toegekend op basis van complexe definities. &#xD;&#xA;&#xD;&#xA;====Voorbeelden ====&#xD;&#xA;Bijvoorbeeld het label Zelfstandige huurwoning wat wordt gebruikt voor verantwoording vanuit de dVI. Waarbij de in dit geval simpele definitie drieledig is: &#xD;&#xA;*Het attribuut eenheid.zelfstandig moet true zijn &#xD;&#xA;*Het attribuut eenheid.soort moet ‘Woonruimte’zijn. &#xD;&#xA;*Het attribuut eenheid.bestemming moet ‘Huur’ zijn. &#xD;&#xA;Als dit het geval is kan de eenheid het sturingslabel ‘Zelfstandige huurwoning’ meekrijgen. ">
   <properties
       key="Objecttype"
       value="Klasse"/>

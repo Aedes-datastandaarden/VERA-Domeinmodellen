@@ -2,13 +2,11 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Prijscomponent"
     id="7fc4f521-953c-4d8a-9bb3-b6d5f0d41f3d"
-    documentation="&lt;h4>Definitie&lt;/h4>&#xD;&#xA;Een component dat de opbouw van de prijs van een overeenkomst bepaalt. &#xD;&#xA;&#xD;&#xA;&lt;h4>Toelichting&lt;/h4> &#xD;&#xA;(Huur)prijzen worden opgebouwd aan de hand van een aantal componenten. Deze opbouw wordt op een structurele manier gefaciliteerd. Een woningcorporatie kan doormiddel van het definiëren van componenten de prijsopbouw bepalen. Per component worden het standaard bedrag aangegeven dat toepasbaar is voor een opgegeven periode. &#xD;&#xA;&#xD;&#xA;&lt;h4>Voorbeelden&lt;/h4> &#xD;&#xA;Een huurprijs bestaat uit de volgende onderdelen en bedragen: &#xD;&#xA;* Subsidiabele huur &#xD;&#xA;* Netto huur &#xD;&#xA;* Servicekosten &#xD;&#xA;Bovengenoemde onderdelen en bedragen worden in VERA als prijscomponenten bij een huurovereenkomst opgenomen. &#xD;&#xA;&#xD;&#xA;&lt;h4>Toepasbaar voor&lt;/h4>  &#xD;&#xA;Huurprijs, servicekosten, abonnementsgelden. ">
-  <properties
-      key="Bron"
-      value="VERA 1.0"/>
+    documentation="&#xD;&#xA;====Definitie====&#xD;&#xA;Een component dat de opbouw van de prijs van een overeenkomst bepaalt. &#xD;&#xA;&#xD;&#xA;====Toelichting==== &#xD;&#xA;(Huur)prijzen worden opgebouwd aan de hand van een aantal componenten. Deze opbouw wordt op een structurele manier gefaciliteerd. Een woningcorporatie kan doormiddel van het definiëren van componenten de prijsopbouw bepalen. Per component worden het standaard bedrag aangegeven dat toepasbaar is voor een opgegeven periode. &#xD;&#xA;&#xD;&#xA;====Voorbeelden==== &#xD;&#xA;Een huurprijs bestaat uit de volgende onderdelen en bedragen: &#xD;&#xA;* Subsidiabele huur &#xD;&#xA;* Netto huur &#xD;&#xA;* Servicekosten &#xD;&#xA;Bovengenoemde onderdelen en bedragen worden in VERA als prijscomponenten bij een huurovereenkomst opgenomen. &#xD;&#xA;&#xD;&#xA;&lt;h4>Toepasbaar voor&lt;/h4>  &#xD;&#xA;Huurprijs, servicekosten, abonnementsgelden. ">
   <properties
       key="Objecttype"
       value="Klasse"/>
   <properties
-      key="Relatie met CORA"/>
+      key="Code"
+      value="OVEPRI"/>
 </archimate:DataObject>

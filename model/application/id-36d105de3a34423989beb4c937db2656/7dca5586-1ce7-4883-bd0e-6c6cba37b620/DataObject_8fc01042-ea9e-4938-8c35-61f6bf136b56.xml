@@ -2,13 +2,11 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Zaaktype"
     id="8fc01042-ea9e-4938-8c35-61f6bf136b56"
-    documentation="====Definitie====&#xD;&#xA;Het geheel van karakteristieke eigenschappen van zaken van eenzelfde soort.&#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;Het zaaktype definieert de samenhangende hoeveelheid werk, de aanleiding, het eindresultaat en de doorlooptijd van de zaak. &#xD;&#xA;&#xD;&#xA;====Voorbeelden====&#xD;&#xA;Het betreft de indeling of groepering van zaken naar hun aard, zoals &quot;Huuropzegging&quot; en &quot;Verhuring&quot;. De afbakening van een zaaktype komt overeen met een bedrijfsproces: &quot;van klant tot klant&quot;. &#xD;&#xA;">
+    documentation="&#xD;&#xA;====Definitie====&#xD;&#xA;Het geheel van karakteristieke eigenschappen van zaken van eenzelfde soort.&#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;Het zaaktype definieert de samenhangende hoeveelheid werk, de aanleiding, het eindresultaat en de doorlooptijd van de zaak. &#xD;&#xA;&#xD;&#xA;====Voorbeelden====&#xD;&#xA;Het betreft de indeling of groepering van zaken naar hun aard, zoals &quot;Huuropzegging&quot; en &quot;Verhuring&quot;. De afbakening van een zaaktype komt overeen met een bedrijfsproces: &quot;van klant tot klant&quot;. &#xD;&#xA;">
   <properties
       key="Objecttype"
       value="Klasse"/>
   <properties
-      key="Bron"
-      value="VERA 3.0"/>
-  <properties
-      key="Relatie met CORA"/>
+      key="Code"
+      value="DOSZAT"/>
 </archimate:DataObject>

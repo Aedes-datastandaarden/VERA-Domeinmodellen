@@ -11,7 +11,7 @@
         x="12"
         y="12"
         width="697"
-        height="325"/>
+        height="229"/>
     <archimateElement
         xsi:type="archimate:DataObject"
         href="DataObject_id-3719f43343d14b09a2f1ceaa18466bd1.xml#id-3719f43343d14b09a2f1ceaa18466bd1"/>
@@ -114,4 +114,31 @@
         xsi:type="archimate:Grouping"
         href="Grouping_id-978b4fef52c44397910060694b0e51c9.xml#id-978b4fef52c44397910060694b0e51c9"/>
   </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-122e4c8ab4c7472ebd01da40b51a9326">
+    <bounds
+        x="12"
+        y="324"
+        width="697"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:DataObject"
+        href="DataObject_id-2ec5fac64bc8468395e3335a56998cb6.xml#id-2ec5fac64bc8468395e3335a56998cb6"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-c987c30525b4476a95f11c02161130d0">
+    <bounds
+        x="12"
+        y="252"
+        width="697"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:DataObject"
+        href="DataObject_id-cded319b85224ad1bcd04303aaf2e13e.xml#id-cded319b85224ad1bcd04303aaf2e13e"/>
+  </children>
+  <properties
+      key="Objecttype"
+      value="Bericht"/>
 </archimate:ArchimateDiagramModel>

@@ -2,13 +2,11 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Taxatie"
     id="14f8d7d6-fd88-433b-a55d-b3bdd457891b"
-    documentation="&lt;h4>Definitie&lt;/h4>&#xD;&#xA;Het resultaat van een waardebepaling van een eenheid. &#xD;&#xA;&#xD;&#xA;&lt;h4>Toelichting&lt;/h4>&#xD;&#xA;Van eenheden kunnen taxatie rapporten gemaakt worden. Een aantal waarden van dit rapport worden vastgelegd in de taxatie klasse. &#xD;&#xA;">
+    documentation="&#xD;&#xA;====Definitie====&#xD;&#xA;Het resultaat van een waardebepaling van een eenheid. &#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;Van eenheden kunnen taxatie rapporten gemaakt worden. Een aantal waarden van dit rapport worden vastgelegd in de taxatie klasse. &#xD;&#xA;">
   <properties
       key="Objecttype"
       value="Klasse"/>
   <properties
-      key="Bron"
-      value="VERA 1.0"/>
-  <properties
-      key="Relatie met CORA"/>
+      key="Code"
+      value="VASTAX"/>
 </archimate:DataObject>

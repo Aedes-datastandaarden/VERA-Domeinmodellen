@@ -2,7 +2,8 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Vastgoed"
-    id="cd260e6d-566d-44ee-a23f-29fc477cf9ae">
+    id="cd260e6d-566d-44ee-a23f-29fc477cf9ae"
+    documentation="Vastgoed is de grond, de nog niet gewonnen delfstoffen, de met de grond verenigde beplantingen, evenals de gebouwen en werken die duurzaam met de grond zijn verenigd, hetzij rechtstreeks, hetzij door vereniging met andere gebouwen of werken. ">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="f89def0a-eaa9-4c5c-b938-4254a8951ea4"
@@ -3319,4 +3320,10 @@
         xsi:type="archimate:Grouping"
         href="Grouping_f63f0944-0913-4c7e-a44d-a33f8749ae58.xml#f63f0944-0913-4c7e-a44d-a33f8749ae58"/>
   </children>
+  <properties
+      key="Objecttype"
+      value="Gegevensdomein"/>
+  <properties
+      key="Code"
+      value="VAS"/>
 </archimate:ArchimateDiagramModel>

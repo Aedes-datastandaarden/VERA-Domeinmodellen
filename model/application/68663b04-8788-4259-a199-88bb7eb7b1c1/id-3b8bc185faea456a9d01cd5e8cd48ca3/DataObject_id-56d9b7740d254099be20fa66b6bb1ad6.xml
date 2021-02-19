@@ -1,4 +1,12 @@
 <archimate:DataObject
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Onderhoudsverzoek Synchroniseren "
-    id="id-56d9b7740d254099be20fa66b6bb1ad6"/>
+    name="OHD: Onderhoudsverzoek"
+    id="id-56d9b7740d254099be20fa66b6bb1ad6"
+    documentation="&#xD;&#xA;====Definitie====&#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;&#xD;&#xA;====Voorbeelden====&#xD;&#xA;&#xD;&#xA;====Attributen====">
+  <properties
+      key="Objecttype"
+      value="Bericht"/>
+  <properties
+      key="Code"
+      value="ODHOND"/>
+</archimate:DataObject>

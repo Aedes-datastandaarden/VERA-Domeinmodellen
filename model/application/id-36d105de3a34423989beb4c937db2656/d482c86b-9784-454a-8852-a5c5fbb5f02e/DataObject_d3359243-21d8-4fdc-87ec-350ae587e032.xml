@@ -2,13 +2,11 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="AdresseerbaarObjectBasisregistratie"
     id="d3359243-21d8-4fdc-87ec-350ae587e032"
-    documentation="&lt;h4>Definitie&lt;/h4>&#xD;&#xA;Basistype voor verblijfsobject, standplaats en ligplaats uit de BAG &#xD;&#xA;&#xD;&#xA;&lt;h4>Toelichting&lt;/h4>&#xD;&#xA;Adresseerbaar object is het basis object van standplaats, ligplaats en verblijfsobject uit BAG. &lt;br />&#xD;&#xA;VERA bevat hiervoor een aparte klasse, er worden dus niet rechtstreeks de BAG-schema’s gebruikt. Dit is gedaan om VERA onafhankelijk van wijzigingen in BAG te maken zodat een wijziging in de schema’s van de BAG geen impact heeft op VERA. &#xD;&#xA;&#xD;&#xA;">
+    documentation="&#xD;&#xA;====Definitie====&#xD;&#xA;Basistype voor verblijfsobject, standplaats en ligplaats uit de BAG &#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;Adresseerbaar object is het basis object van standplaats, ligplaats en verblijfsobject uit BAG. &lt;br />&#xD;&#xA;VERA bevat hiervoor een aparte klasse, er worden dus niet rechtstreeks de BAG-schema’s gebruikt. Dit is gedaan om VERA onafhankelijk van wijzigingen in BAG te maken zodat een wijziging in de schema’s van de BAG geen impact heeft op VERA. &#xD;&#xA;&#xD;&#xA;">
   <properties
       key="Objecttype"
       value="Klasse"/>
   <properties
-      key="Bron"
-      value="VERA 1.0"/>
-  <properties
-      key="Relatie met CORA"/>
+      key="Code"
+      value="VASOBJ"/>
 </archimate:DataObject>

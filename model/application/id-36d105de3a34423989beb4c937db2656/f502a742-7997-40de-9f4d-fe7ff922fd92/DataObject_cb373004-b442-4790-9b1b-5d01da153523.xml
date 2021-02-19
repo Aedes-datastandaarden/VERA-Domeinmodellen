@@ -2,13 +2,11 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Prijsaanpassing"
     id="cb373004-b442-4790-9b1b-5d01da153523"
-    documentation="&lt;h4>Definitie&lt;/h4>&#xD;&#xA;Korting die wordt verkregen, of toeslag die in rekening wordt gebracht, op een inkoopfactuur.&#xD;&#xA;&#xD;&#xA;&lt;h4>Toelichting&lt;/h4>&#xD;&#xA;Zowel op inkoopfactuur niveau als op inkoopfactuurregel niveau kan een toeslag of een korting van toepassing zijn.&#xD;&#xA;&#xD;&#xA;&lt;h4>Voorbeelden&lt;/h4>&#xD;&#xA;Een leverancier geeft een korting op een inkoopfactuur.">
+    documentation="&#xD;&#xA;====Definitie====&#xD;&#xA;Korting die wordt verkregen, of toeslag die in rekening wordt gebracht, op een inkoopfactuur.&#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;Zowel op inkoopfactuur niveau als op inkoopfactuurregel niveau kan een toeslag of een korting van toepassing zijn.&#xD;&#xA;&#xD;&#xA;====Voorbeelden====&#xD;&#xA;Een leverancier geeft een korting op een inkoopfactuur.">
   <properties
       key="Objecttype"
       value="Klasse"/>
   <properties
-      key="Bron"
-      value="VERA 3.2"/>
-  <properties
-      key="Relatie met CORA"/>
+      key="Code"
+      value="FNPRA"/>
 </archimate:DataObject>

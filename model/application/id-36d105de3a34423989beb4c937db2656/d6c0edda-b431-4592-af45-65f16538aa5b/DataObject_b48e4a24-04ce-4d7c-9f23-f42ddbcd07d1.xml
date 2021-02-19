@@ -2,13 +2,11 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Afspraak"
     id="b48e4a24-04ce-4d7c-9f23-f42ddbcd07d1"
-    documentation="&lt;h4>Definitie&lt;/h4>&#xD;&#xA;Dit zijn de afspraken die gemaakt zijn met relaties. &#xD;&#xA;&#xD;&#xA;&lt;h4>Toelichting&lt;/h4>&#xD;&#xA;Er wordt een afspraak gemaakt tijdens een contactmoment. &#xD;&#xA;&#xD;&#xA;&lt;h4>Voorbeelden&lt;/h4>&#xD;&#xA;De aannemer komt volgende week langs. ">
+    documentation="&#xD;&#xA;====Definitie====&#xD;&#xA;Dit zijn de afspraken die gemaakt zijn met relaties. &#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;Er wordt een afspraak gemaakt tijdens een contactmoment. &#xD;&#xA;&#xD;&#xA;====Voorbeelden====&#xD;&#xA;De aannemer komt volgende week langs. ">
   <properties
       key="Objecttype"
       value="Klasse"/>
   <properties
-      key="Bron"
-      value="VERA 1.0"/>
-  <properties
-      key="Relatie met CORA"/>
+      key="Code"
+      value="RELAFS"/>
 </archimate:DataObject>

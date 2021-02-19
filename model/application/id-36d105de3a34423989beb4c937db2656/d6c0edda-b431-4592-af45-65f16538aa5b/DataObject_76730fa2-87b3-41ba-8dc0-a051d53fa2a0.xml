@@ -2,13 +2,11 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Rechtspersoon"
     id="76730fa2-87b3-41ba-8dc0-a051d53fa2a0"
-    documentation="====Definitie====&#xD;&#xA;Een rechtspersoon is een organisatie die een juridische vorm heeft (B.V., N.V., V.O.F. etc.), die volwaardig en handelingsbekwaam in het rechtsverkeer kan optreden. &#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;Een rechtspersoon is een relatie met extra eigenschappen. Een rechtspersoon kan als relatie worden gekoppeld aan overige klassen. &#xD;&#xA;De rechtspersoon wordt kan door één of meer natuurlijke personen worden vertegenwoordigd. &#xD;&#xA;&#xD;&#xA;====Voorbeelden====&#xD;&#xA;Leverancier of aannemer. ">
+    documentation="&#xD;&#xA;====Definitie====&#xD;&#xA;Een rechtspersoon is een organisatie die een juridische vorm heeft (B.V., N.V., V.O.F. etc.), die volwaardig en handelingsbekwaam in het rechtsverkeer kan optreden. &#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;Een rechtspersoon is een relatie met extra eigenschappen. Een rechtspersoon kan als relatie worden gekoppeld aan overige klassen. &#xD;&#xA;De rechtspersoon wordt kan door één of meer natuurlijke personen worden vertegenwoordigd. &#xD;&#xA;&#xD;&#xA;====Voorbeelden====&#xD;&#xA;Leverancier of aannemer. ">
   <properties
       key="Objecttype"
       value="Klasse"/>
   <properties
-      key="Bron"
-      value="VERA 1.0"/>
-  <properties
-      key="Relatie met CORA"/>
+      key="Code"
+      value="RELREC"/>
 </archimate:DataObject>

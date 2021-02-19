@@ -2,13 +2,11 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="BankafschriftRegel"
     id="4a24bf00-6d06-4177-b8a5-588177ef2949"
-    documentation="====Definitie====&#xD;&#xA;De debet- en creditmutaties op een bankafschrift, de betalingen en ontvangsten.&#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;De bankafschriftregels zijn de details van het bankafschrift. Elke bankafschriftregel is een ontvangst of een betaling. Ook komen er bijzondere bankafschriftregels voor, zoals het bijschrijven van rente.&#xD;&#xA;&#xD;&#xA;====Voorbeelden====&#xD;&#xA;De huurontvangst van een huurder, de betaling van een factuur van een crediteur.">
+    documentation="&#xD;&#xA;====Definitie====&#xD;&#xA;De debet- en creditmutaties op een bankafschrift, de betalingen en ontvangsten.&#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;De bankafschriftregels zijn de details van het bankafschrift. Elke bankafschriftregel is een ontvangst of een betaling. Ook komen er bijzondere bankafschriftregels voor, zoals het bijschrijven van rente.&#xD;&#xA;&#xD;&#xA;====Voorbeelden====&#xD;&#xA;De huurontvangst van een huurder, de betaling van een factuur van een crediteur.">
   <properties
       key="Objecttype"
       value="Klasse"/>
   <properties
-      key="Bron"
-      value="VERA 3.0"/>
-  <properties
-      key="Relatie met CORA"/>
+      key="Code"
+      value="FINBAR"/>
 </archimate:DataObject>

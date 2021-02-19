@@ -2,13 +2,11 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Conditiemeting"
     id="b2f60aae-b6d7-4e0f-9054-ab74325c2c55"
-    documentation="====Definitie====&#xD;&#xA;De berekende score van het gekoppelde cluster naar aanleiding van een uitgevoerde conditiemeting op een bepaalde datum. &#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;Door middel van een objectieve en uniforme meting van de staat van onderhoud worden conditiescores bepaald voor de verschillende bouwkundige elementen en installaties. Deze conditiescores vallen op dit moment buiten de scope van VERA 3.2.  &#xD;&#xA;Deze klasse is geïntroduceerd voor het vastleggen van de gemiddelde scores van alle bouwkundige elementen en installaties binnen een cluster. Deze conditiescore kan dan gebruikt worden voor het invullen van de dVi-eis (percentage eenheden per score).  &#xD;&#xA;De daadwerkelijke score is gekoppeld aan gedefinieerde referentiedata en gaat uit van de NEN 2767-norm.  &#xD;&#xA;&#xD;&#xA;====Voorbeelden====&#xD;&#xA;Voordbeeld 1: Inspecteur Jansen heeft als gecertificeerde inspecteur de conditie gemeten van alle bouwkundige elementen in een cluster op basis van de NEN 2767.  Op basis van deze scores is een gemiddelde conditiescore bepaald van 4 (Matige conditie) voor het cluster. Ten behoeve van de dVi-eis “percentage eenheden per score” wordt voor alle eenheden in dit cluster deze conditiescore gerapporteerd.  ">
+    documentation="&#xD;&#xA;====Definitie====&#xD;&#xA;De berekende score van het gekoppelde cluster naar aanleiding van een uitgevoerde conditiemeting op een bepaalde datum. &#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;Door middel van een objectieve en uniforme meting van de staat van onderhoud worden conditiescores bepaald voor de verschillende bouwkundige elementen en installaties. Deze conditiescores vallen op dit moment buiten de scope van VERA 3.2.  &#xD;&#xA;Deze klasse is geïntroduceerd voor het vastleggen van de gemiddelde scores van alle bouwkundige elementen en installaties binnen een cluster. Deze conditiescore kan dan gebruikt worden voor het invullen van de dVi-eis (percentage eenheden per score).  &#xD;&#xA;De daadwerkelijke score is gekoppeld aan gedefinieerde referentiedata en gaat uit van de NEN 2767-norm.  &#xD;&#xA;&#xD;&#xA;====Voorbeelden====&#xD;&#xA;Voordbeeld 1: Inspecteur Jansen heeft als gecertificeerde inspecteur de conditie gemeten van alle bouwkundige elementen in een cluster op basis van de NEN 2767.  Op basis van deze scores is een gemiddelde conditiescore bepaald van 4 (Matige conditie) voor het cluster. Ten behoeve van de dVi-eis “percentage eenheden per score” wordt voor alle eenheden in dit cluster deze conditiescore gerapporteerd.  ">
   <properties
       key="Objecttype"
       value="Klasse"/>
   <properties
-      key="Bron"
-      value="VERA 1.0"/>
-  <properties
-      key="Relatie met CORA"/>
+      key="Code"
+      value="VASCON"/>
 </archimate:DataObject>

@@ -2,13 +2,11 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="BagWoonplaats"
     id="685c8c0e-ed80-48cd-b355-04903b495a2d"
-    documentation="====Definitie====&#xD;&#xA;De additionele attributen van een woonplaats die een relatie aanduiden met de basisadministratie adressen en gebouwen. &#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;De woonplaats klasse bevat attributen die een woonplaats aanduiden. De attributen in de BagWoonplaats klasse maken het mogelijk om attributen van de BAG klasse woonplaats toe te voegen aan een VERA woonplaats klasse. &#xD;&#xA;&#xD;&#xA;====Voorbeelden====&#xD;&#xA;De woonplaats “Utrecht” heeft een bagWoonplaatsIdentificatie 3295. &#xD;&#xA;&#xD;&#xA;&lt;h4>Toepasbaar voor&lt;/h4>&#xD;&#xA;Woonplaats &#xD;&#xA;&#xD;&#xA;">
+    documentation="&#xD;&#xA;====Definitie====&#xD;&#xA;De additionele attributen van een woonplaats die een relatie aanduiden met de basisadministratie adressen en gebouwen. &#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;De woonplaats klasse bevat attributen die een woonplaats aanduiden. De attributen in de BagWoonplaats klasse maken het mogelijk om attributen van de BAG klasse woonplaats toe te voegen aan een VERA woonplaats klasse. &#xD;&#xA;&#xD;&#xA;====Voorbeelden====&#xD;&#xA;De woonplaats “Utrecht” heeft een bagWoonplaatsIdentificatie 3295. &#xD;&#xA;&#xD;&#xA;&lt;h4>Toepasbaar voor&lt;/h4>&#xD;&#xA;Woonplaats &#xD;&#xA;&#xD;&#xA;">
   <properties
       key="Objecttype"
       value="Klasse"/>
   <properties
-      key="Bron"
-      value="VERA 1.0"/>
-  <properties
-      key="Relatie met CORA"/>
+      key="Code"
+      value="VASWOO"/>
 </archimate:DataObject>

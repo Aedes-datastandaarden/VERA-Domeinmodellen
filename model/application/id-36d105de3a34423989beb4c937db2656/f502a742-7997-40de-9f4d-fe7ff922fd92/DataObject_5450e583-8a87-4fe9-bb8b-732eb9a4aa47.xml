@@ -2,13 +2,11 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="BetalingsregelingTermijn"
     id="5450e583-8a87-4fe9-bb8b-732eb9a4aa47"
-    documentation="====Definitie====&#xD;&#xA;De termijngegevens behorende bij een betalingsregeling.&#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;Bij het aangaan van een betalingsregeling is afgesproken wanneer welk bedrag betaald wordt. In deze klasse is per termijn opgenomen wanneer welk bedrag betaald is of moet worden.&#xD;&#xA;&#xD;&#xA;====Voorbeelden====&#xD;&#xA;Als een huurder een betalingsregeling aangaat wordt er bepaald in hoeveel termijnen het verschuldigde bedrag moet worden afbetaald. Per termijn wordt een bedrag en een vervaldatum afgesproken.&#xD;&#xA;">
+    documentation="&#xD;&#xA;====Definitie====&#xD;&#xA;De termijngegevens behorende bij een betalingsregeling.&#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;Bij het aangaan van een betalingsregeling is afgesproken wanneer welk bedrag betaald wordt. In deze klasse is per termijn opgenomen wanneer welk bedrag betaald is of moet worden.&#xD;&#xA;&#xD;&#xA;====Voorbeelden====&#xD;&#xA;Als een huurder een betalingsregeling aangaat wordt er bepaald in hoeveel termijnen het verschuldigde bedrag moet worden afbetaald. Per termijn wordt een bedrag en een vervaldatum afgesproken.&#xD;&#xA;">
   <properties
       key="Objecttype"
       value="Klasse"/>
   <properties
-      key="Bron"
-      value="VERA 3.0"/>
-  <properties
-      key="Relatie met CORA"/>
+      key="Code"
+      value="FINBET"/>
 </archimate:DataObject>

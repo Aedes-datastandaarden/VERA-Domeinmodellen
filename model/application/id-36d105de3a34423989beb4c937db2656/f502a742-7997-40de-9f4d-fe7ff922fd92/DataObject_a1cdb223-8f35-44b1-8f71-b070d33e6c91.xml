@@ -2,13 +2,11 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Aflettering"
     id="a1cdb223-8f35-44b1-8f71-b070d33e6c91"
-    documentation="====Definitie====&#xD;&#xA;Aflettering is het tegen elkaar wegstrepen van boekingen die bij elkaar horen om inzicht te krijgen in het saldo. &#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;Aflettering is de koppeling van een vordering of deel van een vordering uit de klasse boeking aan een ontvangst of deel van een ontvangst uit de klasse boeking. Een vordering op een debiteur zal op enig moment vereffend worden. Om zowel een factuurstelsel als een rekening courant stelsel te kunnen ondersteunen wordt in deze klasse weergegeven hoe de aflettering of vereffening heeft plaatsgevonden.&#xD;&#xA;&#xD;&#xA;====Voorbeelden====&#xD;&#xA;Indien een ontvangst(A) wordt gekoppeld aan een vordering(B) zal bij het attribuut boeking de verwijzing naar A worden opgenomen en bij het attribuut tegenBoeking de verwijzing naar B.&#xD;&#xA;">
+    documentation="&#xD;&#xA;====Definitie====&#xD;&#xA;Aflettering is het tegen elkaar wegstrepen van boekingen die bij elkaar horen om inzicht te krijgen in het saldo. &#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;Aflettering is de koppeling van een vordering of deel van een vordering uit de klasse boeking aan een ontvangst of deel van een ontvangst uit de klasse boeking. Een vordering op een debiteur zal op enig moment vereffend worden. Om zowel een factuurstelsel als een rekening courant stelsel te kunnen ondersteunen wordt in deze klasse weergegeven hoe de aflettering of vereffening heeft plaatsgevonden.&#xD;&#xA;&#xD;&#xA;====Voorbeelden====&#xD;&#xA;Indien een ontvangst(A) wordt gekoppeld aan een vordering(B) zal bij het attribuut boeking de verwijzing naar A worden opgenomen en bij het attribuut tegenBoeking de verwijzing naar B.&#xD;&#xA;">
   <properties
       key="Objecttype"
       value="Klasse"/>
   <properties
-      key="Bron"
-      value="VERA 3.0"/>
-  <properties
-      key="Relatie met CORA"/>
+      key="Code"
+      value="FINAFL"/>
 </archimate:DataObject>

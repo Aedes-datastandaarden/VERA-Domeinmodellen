@@ -2,13 +2,11 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Gebouw"
     id="c0a0c0e7-137e-4989-ac33-b0d0877680e5"
-    documentation="====Definitie====&#xD;&#xA;Een gebouw is een in de werkelijkheid fysiek begrensd bouwwerk. &#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;De term ‘gebouw’ wordt in het dagelijks taalgebruik gebruikt als synoniem voor pand, maar wordt ook gebruikt om een cluster van aaneengesloten panden (een blok) aan te duiden. Bijvoorbeeld een flatgebouw of een aaneengesloten rij eengezinswoningen. &#xD;&#xA;Een oud pand en een nieuw pand kunnen samen een gebouw vormen. &#xD;&#xA;&#xD;&#xA;">
+    documentation="====Definitie====&#xD;&#xA;Een gebouw is een in de werkelijkheid fysiek begrensd bouwwerk. &#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;De term ‘gebouw’ wordt in het dagelijks taalgebruik gebruikt als synoniem voor pand, maar wordt ook gebruikt om een cluster van aaneengesloten panden (een blok) aan te duiden. Bijvoorbeeld een flatgebouw of een aaneengesloten rij eengezinswoningen.&lt;br /> &#xD;&#xA;Een oud pand en een nieuw pand kunnen samen een gebouw vormen.">
   <properties
       key="Objecttype"
       value="Klasse"/>
   <properties
-      key="Bron"
-      value="VERA 1.0"/>
-  <properties
-      key="Relatie met CORA"/>
+      key="Code"
+      value="VASGEB"/>
 </archimate:DataObject>

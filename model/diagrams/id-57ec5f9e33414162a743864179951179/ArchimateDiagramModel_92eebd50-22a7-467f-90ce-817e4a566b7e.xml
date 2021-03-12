@@ -1,8 +1,9 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Dossier"
-    id="92eebd50-22a7-467f-90ce-817e4a566b7e">
+    name="Domein Dossier"
+    id="92eebd50-22a7-467f-90ce-817e4a566b7e"
+    documentation="Dit domein concentreert zich op zaakgericht werken, processen, de opslag van documenten en andere informatieobjecten in dossiers. Dit domein ondersteunt zowel het zaakgericht werken als het niet-zaakgericht werken en sluit aan bij de gangbare standaarden voor documentmanagement. ">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="05145173-30d0-4e63-b932-e8206d9adf5b"
@@ -1491,6 +1492,25 @@
             xsi:type="archimate:AssociationRelationship"
             href="AssociationRelationship_eeb2603a-d834-4230-af23-b0797281cdb1.xml#eeb2603a-d834-4230-af23-b0797281cdb1"/>
       </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="58ccec7a-0b7d-4493-898c-6fbcad3729a1"
+          source="9a4e99a7-659f-40f1-aa51-d89d1c92a7a0"
+          target="7c86ae73-66b7-491c-9d75-3e5dcff0bf62">
+        <bendpoints
+            startX="-325"
+            startY="58"
+            endX="120"
+            endY="-248"/>
+        <bendpoints
+            startX="-325"
+            startY="274"
+            endX="120"
+            endY="-32"/>
+        <archimateRelationship
+            xsi:type="archimate:AssociationRelationship"
+            href="AssociationRelationship_8a6ed6a2-91ca-484b-89c6-0c29a66d4ed8.xml#8a6ed6a2-91ca-484b-89c6-0c29a66d4ed8"/>
+      </sourceConnections>
       <bounds
           x="432"
           y="114"
@@ -1536,7 +1556,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="7c86ae73-66b7-491c-9d75-3e5dcff0bf62"
-        targetConnections="87150b10-a720-4b19-bcf1-42e5580cb856 e287d291-9604-4f5d-8e9d-4ff311724b28"
+        targetConnections="87150b10-a720-4b19-bcf1-42e5580cb856 e287d291-9604-4f5d-8e9d-4ff311724b28 58ccec7a-0b7d-4493-898c-6fbcad3729a1"
         font="1|Segoe UI|12.0|1|WINDOWS|1|-16|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
         fontColor="#ffffff"
         fillColor="#a0812c"
@@ -1924,4 +1944,10 @@
   <properties
       key="Objecttype"
       value="Gegevensdomein"/>
+  <properties
+      key="Code"
+      value="DOS"/>
+  <properties
+      key="Versies"
+      value="VERA 3.2.1"/>
 </archimate:ArchimateDiagramModel>

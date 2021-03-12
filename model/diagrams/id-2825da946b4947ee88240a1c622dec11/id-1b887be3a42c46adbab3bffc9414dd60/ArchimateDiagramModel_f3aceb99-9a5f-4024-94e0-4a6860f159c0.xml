@@ -1,8 +1,9 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Opvragen woningwaarderinggegevens"
-    id="f3aceb99-9a5f-4024-94e0-4a6860f159c0">
+    name="Woningwaarderinggegevens Opvragen"
+    id="f3aceb99-9a5f-4024-94e0-4a6860f159c0"
+    documentation="====Definitie====&#xD;&#xA;Opvragen van woningwaarderingsgegevens van een eenheid&#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;&#xD;&#xA;====Voorbeelden====&#xD;&#xA;&#xD;&#xA;====Attributen====&#xD;&#xA;* StUF: sleutelgegevens&#xD;&#xA;* Code&#xD;&#xA;* WoningwaarderingResultaat&#xD;&#xA;** StUF: sleutelgegevens&#xD;&#xA;** code&#xD;&#xA;** punten (betreft totaal aantal punten WWS)&#xD;&#xA;** maximaleHuur&#xD;&#xA;** begindatum&#xD;&#xA;** einddatum&#xD;&#xA;** woningwaarderingGroepen: Collectie WoningwaarderingGroepen&#xD;&#xA;*** StUF: sleutelgegevens&#xD;&#xA;*** groep: WoningwaarderingCriteriumGroep&#xD;&#xA;**** code&#xD;&#xA;**** naam&#xD;&#xA;**** omschrijving&#xD;&#xA;**** stelsel met Referentiedata WoningwaarderingStelsel (niet gevuld)&#xD;&#xA;*** punten (betreft totaal aantal punten WWS van de specifieke groep)&#xD;&#xA;*** begindatum&#xD;&#xA;*** einddatum&#xD;&#xA;*** woningwaarderingen: Collectie Woningwaardering&#xD;&#xA;**** code&#xD;&#xA;**** criterium: WoningwaarderingCriterium&#xD;&#xA;***** naam&#xD;&#xA;***** meeteenheid&#xD;&#xA;***** stelsel met Referentiedata WoningwaarderingStelsel (niet gevuld)&#xD;&#xA;**** begindatum&#xD;&#xA;**** einddatum&#xD;&#xA;**** aantal&#xD;&#xA;**** punten (betreft aantal punten van het specifieke element)">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="97fd1c2a-fe9d-45d0-bf5d-1f3b23a3aaa4"
@@ -70,13 +71,14 @@
         xsi:type="archimate:DiagramModelArchimateObject"
         id="3904ed07-5b58-402d-b529-d60b8a14be37"
         targetConnections="9a4536d2-af0b-4210-a548-f3c60c7057f9 dc6f4fa4-b667-464b-996d-7694d87055ea"
-        font="1|Segoe UI|11.25|1|WINDOWS|1|-15|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
+        font="1|Segoe UI|9.0|1|WINDOWS|1|-12|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
         fontColor="#ffffff"
         fillColor="#f18e00"
         textPosition="1">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="e2b3d7ce-0993-45e3-ae94-c10645b8b4bb"
+          font="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|0|3|2|1|34|Segoe UI"
           source="3904ed07-5b58-402d-b529-d60b8a14be37"
           target="22b42316-fa90-48d9-ab36-ae5b52ca5545">
         <archimateRelationship
@@ -96,13 +98,14 @@
         xsi:type="archimate:DiagramModelArchimateObject"
         id="b9bd0fc8-51c3-4f4e-bbe9-474f3ba480f9"
         targetConnections="ccee3647-e2b4-4003-94ab-f003f8c91278"
-        font="1|Segoe UI|11.25|1|WINDOWS|1|-15|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
+        font="1|Segoe UI|9.0|1|WINDOWS|1|-12|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
         fontColor="#ffffff"
         fillColor="#f18e00"
         textPosition="1">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="a940b92d-faec-479e-847b-77eb412498b9"
+          font="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|0|3|2|1|34|Segoe UI"
           source="b9bd0fc8-51c3-4f4e-bbe9-474f3ba480f9"
           target="1c6f6a86-6afa-4d25-ad00-66a8fbd0f07a">
         <archimateRelationship
@@ -122,13 +125,14 @@
         xsi:type="archimate:DiagramModelArchimateObject"
         id="0c4813b7-38c6-4242-9a79-1dd08c1c2ef4"
         targetConnections="bcfe938a-f1a3-4e4a-89ed-955747c98916 0bdc12c8-b5c3-42e0-b877-3604b30ddfbc"
-        font="1|Segoe UI|11.25|1|WINDOWS|1|-15|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
+        font="1|Segoe UI|9.0|1|WINDOWS|1|-12|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
         fontColor="#ffffff"
         fillColor="#f18e00"
         textPosition="1">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="dc6f4fa4-b667-464b-996d-7694d87055ea"
+          font="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|0|3|2|1|34|Segoe UI"
           source="0c4813b7-38c6-4242-9a79-1dd08c1c2ef4"
           target="3904ed07-5b58-402d-b529-d60b8a14be37">
         <archimateRelationship
@@ -138,6 +142,7 @@
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="3e831e23-4e24-49a2-8a84-432bdc792507"
+          font="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|0|3|2|1|34|Segoe UI"
           source="0c4813b7-38c6-4242-9a79-1dd08c1c2ef4"
           target="ba162ae2-3cf0-49c1-b2b1-99d64a9c07ff">
         <archimateRelationship
@@ -157,13 +162,14 @@
         xsi:type="archimate:DiagramModelArchimateObject"
         id="1c6f6a86-6afa-4d25-ad00-66a8fbd0f07a"
         targetConnections="1b2f19c6-0765-49b6-a3e5-1c21107773da a940b92d-faec-479e-847b-77eb412498b9"
-        font="1|Segoe UI|11.25|1|WINDOWS|1|-15|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
+        font="1|Segoe UI|9.0|1|WINDOWS|1|-12|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
         fontColor="#ffffff"
         fillColor="#f18e00"
         textPosition="1">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="0bdc12c8-b5c3-42e0-b877-3604b30ddfbc"
+          font="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|0|3|2|1|34|Segoe UI"
           source="1c6f6a86-6afa-4d25-ad00-66a8fbd0f07a"
           target="0c4813b7-38c6-4242-9a79-1dd08c1c2ef4">
         <archimateRelationship
@@ -183,7 +189,7 @@
         xsi:type="archimate:DiagramModelArchimateObject"
         id="ba162ae2-3cf0-49c1-b2b1-99d64a9c07ff"
         targetConnections="3e831e23-4e24-49a2-8a84-432bdc792507 7d559c11-e2d8-4579-9648-bab9093cb629"
-        font="1|Segoe UI|11.25|1|WINDOWS|1|-15|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
+        font="1|Segoe UI|9.0|1|WINDOWS|1|-12|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
         fontColor="#ffffff"
         fillColor="#f18e00"
         textPosition="1">
@@ -200,7 +206,7 @@
         xsi:type="archimate:DiagramModelArchimateObject"
         id="22b42316-fa90-48d9-ab36-ae5b52ca5545"
         targetConnections="e2b3d7ce-0993-45e3-ae94-c10645b8b4bb 42cd5256-c6f1-4929-a48b-bd1a65c105eb"
-        font="1|Segoe UI|11.25|1|WINDOWS|1|-15|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
+        font="1|Segoe UI|9.0|1|WINDOWS|1|-12|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
         fontColor="#ffffff"
         fillColor="#f18e00"
         textPosition="1">

@@ -1,0 +1,12 @@
+<archimate:DataObject
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="AuditInfo"
+    id="id-2219174c51044aedafb3c3c246297dd2"
+    documentation="====Definitie====&#xD;&#xA;Informatie voor audit trails. &#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;Bevat informatie op basis waarvan audit trails opgesteld kunnen worden. Bijvoorbeeld de datum waarop een wijziging heeft plaatsgevonden. &#xD;&#xA;&#xD;&#xA;====Voorbeelden ====&#xD;&#xA;In een portaal wordt een telefoonnummer aangepast van een huurder. Het veld mutator wordt dan gevuld door de relatie die gebruik gemaakt heeft van het portaal om het telefoonnummer te wijzigen. Daarnaast wordt de datum en tijd van de mutatie ingevuld in het veld mutatiedatum. &#xD;&#xA;* Een huurder voert een reparatieverzoek op in een portaal. In dat geval wordt de creator gevuld met het kenmerk dat de huurder aangeeft, en de creatiedatum bevat een datum waarop het reparatieverzoek is ingediend. ">
+  <properties
+      key="Objecttype"
+      value="Klasse"/>
+  <properties
+      key="Code"
+      value="ALGAUD"/>
+</archimate:DataObject>

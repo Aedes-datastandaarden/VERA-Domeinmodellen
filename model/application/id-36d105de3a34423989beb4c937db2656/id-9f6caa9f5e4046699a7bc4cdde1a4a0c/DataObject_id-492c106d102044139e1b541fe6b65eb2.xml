@@ -1,4 +1,12 @@
 <archimate:DataObject
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Onderzoeksopdracht"
-    id="id-492c106d102044139e1b541fe6b65eb2"/>
+    name="Onderzoeksorder"
+    id="id-492c106d102044139e1b541fe6b65eb2"
+    documentation="&#xD;&#xA;====Definitie====&#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;&#xD;&#xA;====Voorbeelden====">
+  <properties
+      key="Objecttype"
+      value="Klassse"/>
+  <properties
+      key="Code"
+      value="KWA"/>
+</archimate:DataObject>

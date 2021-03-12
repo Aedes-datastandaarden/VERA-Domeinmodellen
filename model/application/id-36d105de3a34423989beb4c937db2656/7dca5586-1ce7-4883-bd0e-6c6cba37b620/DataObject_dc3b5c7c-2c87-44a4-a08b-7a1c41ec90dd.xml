@@ -2,13 +2,11 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Zaakstatus"
     id="dc3b5c7c-2c87-44a4-a08b-7a1c41ec90dd"
-    documentation="====Definitie====&#xD;&#xA;Een aanduiding van de stand van zaken van een zaak op basis van een betekenisvol behaald resultaat voor de initiator van de zaak.&#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;De Zaakstatus maakt het mogelijk de voortgang van de zaak op hoofdlijnen te volgen. Wat de hoofdlijnen zijn wordt vooral bepaald vanuit de belangen van de initiator van de zaak en verplichtingen vanuit wet- en regelgeving. &#xD;&#xA;De initiator is veelal geïnteresseerd in mijlpalen, niet in de diverse stappen die de behandelende organisatie(s) moet(en) zetten om de zaak af te handelen. &#xD;&#xA;Een zaak heeft in de loop van de tijd meerdere statussen: de achtereenvolgens bereikte mijlpalen.&#xD;&#xA;&#xD;&#xA;====Voorbeelden====&#xD;&#xA;* Huuropzegging gecontroleerd&#xD;&#xA;* Oplevering volledig&#xD;&#xA;">
+    documentation="====Definitie====&#xD;&#xA;Een aanduiding van de stand van zaken van een zaak op basis van een betekenisvol behaald resultaat voor de initiator van de zaak.&#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;De Zaakstatus maakt het mogelijk de voortgang van de zaak op hoofdlijnen te volgen. Wat de hoofdlijnen zijn wordt vooral bepaald vanuit de belangen van de initiator van de zaak en verplichtingen vanuit wet- en regelgeving. &#xD;&#xA;De initiator is veelal geïnteresseerd in mijlpalen, niet in de diverse stappen die de behandelende organisatie(s) moet(en) zetten om de zaak af te handelen. &#xD;&#xA;Een zaak heeft in de loop van de tijd meerdere statussen: de achtereenvolgens bereikte mijlpalen.&#xD;&#xA;&#xD;&#xA;====Voorbeelden====&#xD;&#xA;* Huuropzegging gecontroleerd&#xD;&#xA;* Oplevering volledig">
   <properties
       key="Objecttype"
       value="Klasse"/>
   <properties
-      key="Bron"
-      value="VERA 3.0"/>
-  <properties
-      key="Relatie met CORA"/>
+      key="Code"
+      value="DOSZAS"/>
 </archimate:DataObject>

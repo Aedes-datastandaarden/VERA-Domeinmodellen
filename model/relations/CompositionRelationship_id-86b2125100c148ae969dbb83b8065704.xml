@@ -1,13 +1,11 @@
-<archimate:AssociationRelationship
+<archimate:CompositionRelationship
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="teEnqueterenRelatie"
-    id="2ba5f732-b84d-4067-ac5e-4e0759ab63a6"
-    directed="true">
+    id="id-86b2125100c148ae969dbb83b8065704">
   <source
       xsi:type="archimate:DataObject"
-      href="DataObject_id-e77a59f965a244b6b8c74037a0c242e5.xml#id-e77a59f965a244b6b8c74037a0c242e5"/>
+      href="DataObject_id-2ec5fac64bc8468395e3335a56998cb6.xml#id-2ec5fac64bc8468395e3335a56998cb6"/>
   <target
       xsi:type="archimate:DataObject"
       href="DataObject_c741dd31-2b80-4474-8abe-c8832a718069.xml#c741dd31-2b80-4474-8abe-c8832a718069"/>
-</archimate:AssociationRelationship>
+</archimate:CompositionRelationship>

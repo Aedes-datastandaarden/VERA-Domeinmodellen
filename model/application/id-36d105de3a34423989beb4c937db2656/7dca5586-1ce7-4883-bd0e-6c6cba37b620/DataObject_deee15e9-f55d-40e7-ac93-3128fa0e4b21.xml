@@ -2,11 +2,13 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Procesrol"
     id="deee15e9-f55d-40e7-ac93-3128fa0e4b21"
-    documentation="====Definitie====&#xD;&#xA;De rol die een relatie uitvoert ten opzichte van proces(-sen) en processtap(-pen).&#xD;&#xA;&#xD;&#xA;====Voorbeelden====&#xD;&#xA;Behandelaar&#xD;&#xA;">
+    documentation="====Definitie====&#xD;&#xA;De rol die een relatie heeft, in de context van (een) proces(-sen) en processtap(-pen).&#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;&#xD;&#xA;====Voorbeelden====&#xD;&#xA; Behandelaar&#xD;&#xA;">
   <properties
       key="Objecttype"
       value="Klasse"/>
   <properties
-      key="Code"
-      value="DOSPRL"/>
+      key="Bron"
+      value="VERA 3.0"/>
+  <properties
+      key="Relatie met CORA"/>
 </archimate:DataObject>

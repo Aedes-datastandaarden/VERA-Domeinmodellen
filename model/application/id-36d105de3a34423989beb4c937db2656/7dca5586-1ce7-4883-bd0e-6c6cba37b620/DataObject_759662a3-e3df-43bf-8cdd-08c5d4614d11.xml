@@ -2,11 +2,13 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="ZaakRol"
     id="759662a3-e3df-43bf-8cdd-08c5d4614d11"
-    documentation="====Definitie====&#xD;&#xA;De rol die een relatie uitvoert ten opzichte van een zaak(-en).&#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;ZaakRol heeft betrekking op de procesrol, met bijbehorende levensduur, die een relatie uitvoer ten opzichte van een zaak en is daarom als aparte klasse opgenomen.&#xD;&#xA;&#xD;&#xA;====Voorbeelden====&#xD;&#xA;* Initiatior&#xD;&#xA;* Behandelaar&#xD;&#xA;* Belanghebbende">
+    documentation="====Definitie====&#xD;&#xA;De rol die een relatie heeft, in de context van (een) za(a)k(en).&#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;ZaakRol heeft betrekking op de procesrol, met bijbehorende levensduur, die een relatie uitvoer ten opzichte van een zaak en is daarom als aparte klasse opgenomen.&#xD;&#xA;&#xD;&#xA;====Voorbeelden====&#xD;&#xA;* Initiatior&#xD;&#xA;* Behandelaar&#xD;&#xA;* Belanghebbende&#xD;&#xA;">
   <properties
       key="Objecttype"
       value="Klasse"/>
   <properties
-      key="Code"
-      value="DOSZAR"/>
+      key="Bron"
+      value="VERA 3.0"/>
+  <properties
+      key="Relatie met CORA"/>
 </archimate:DataObject>

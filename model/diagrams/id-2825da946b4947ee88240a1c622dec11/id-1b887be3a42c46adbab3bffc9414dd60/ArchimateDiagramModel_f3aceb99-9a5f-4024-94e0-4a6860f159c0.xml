@@ -1,7 +1,7 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Woningwaarderinggegevens Opvragen"
+    name="Woningwaarderinggegevens opvragen"
     id="f3aceb99-9a5f-4024-94e0-4a6860f159c0"
     documentation="====Definitie====&#xD;&#xA;Opvragen van woningwaarderingsgegevens van een eenheid&#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;&#xD;&#xA;====Voorbeelden====&#xD;&#xA;&#xD;&#xA;====Attributen====&#xD;&#xA;* StUF: sleutelgegevens&#xD;&#xA;* Code&#xD;&#xA;* WoningwaarderingResultaat&#xD;&#xA;** StUF: sleutelgegevens&#xD;&#xA;** code&#xD;&#xA;** punten (betreft totaal aantal punten WWS)&#xD;&#xA;** maximaleHuur&#xD;&#xA;** begindatum&#xD;&#xA;** einddatum&#xD;&#xA;** woningwaarderingGroepen: Collectie WoningwaarderingGroepen&#xD;&#xA;*** StUF: sleutelgegevens&#xD;&#xA;*** groep: WoningwaarderingCriteriumGroep&#xD;&#xA;**** code&#xD;&#xA;**** naam&#xD;&#xA;**** omschrijving&#xD;&#xA;**** stelsel met Referentiedata WoningwaarderingStelsel (niet gevuld)&#xD;&#xA;*** punten (betreft totaal aantal punten WWS van de specifieke groep)&#xD;&#xA;*** begindatum&#xD;&#xA;*** einddatum&#xD;&#xA;*** woningwaarderingen: Collectie Woningwaardering&#xD;&#xA;**** code&#xD;&#xA;**** criterium: WoningwaarderingCriterium&#xD;&#xA;***** naam&#xD;&#xA;***** meeteenheid&#xD;&#xA;***** stelsel met Referentiedata WoningwaarderingStelsel (niet gevuld)&#xD;&#xA;**** begindatum&#xD;&#xA;**** einddatum&#xD;&#xA;**** aantal&#xD;&#xA;**** punten (betreft aantal punten van het specifieke element)">
   <children
@@ -16,15 +16,6 @@
       <archimateRelationship
           xsi:type="archimate:CompositionRelationship"
           href="CompositionRelationship_b4ee1500-0961-428d-b1e3-9cfbf4510bbf.xml#b4ee1500-0961-428d-b1e3-9cfbf4510bbf"/>
-    </sourceConnections>
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
-        id="ccee3647-e2b4-4003-94ab-f003f8c91278"
-        source="97fd1c2a-fe9d-45d0-bf5d-1f3b23a3aaa4"
-        target="b9bd0fc8-51c3-4f4e-bbe9-474f3ba480f9">
-      <archimateRelationship
-          xsi:type="archimate:CompositionRelationship"
-          href="CompositionRelationship_5ab65354-f3c0-4d5c-b8c4-b12d820bcf1f.xml#5ab65354-f3c0-4d5c-b8c4-b12d820bcf1f"/>
     </sourceConnections>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
@@ -65,8 +56,8 @@
     <bounds
         x="12"
         y="12"
-        width="733"
-        height="673"/>
+        width="517"
+        height="505"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="3904ed07-5b58-402d-b529-d60b8a14be37"
@@ -87,39 +78,12 @@
       </sourceConnections>
       <bounds
           x="336"
-          y="540"
+          y="408"
           width="144"
           height="72"/>
       <archimateElement
           xsi:type="archimate:DataObject"
           href="DataObject_30128846-73b4-45a0-a857-54dcdbacb1af.xml#30128846-73b4-45a0-a857-54dcdbacb1af"/>
-    </children>
-    <children
-        xsi:type="archimate:DiagramModelArchimateObject"
-        id="b9bd0fc8-51c3-4f4e-bbe9-474f3ba480f9"
-        targetConnections="ccee3647-e2b4-4003-94ab-f003f8c91278"
-        font="1|Segoe UI|9.0|1|WINDOWS|1|-12|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
-        fontColor="#ffffff"
-        fillColor="#f18e00"
-        textPosition="1">
-      <sourceConnections
-          xsi:type="archimate:DiagramModelArchimateConnection"
-          id="a940b92d-faec-479e-847b-77eb412498b9"
-          font="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|0|3|2|1|34|Segoe UI"
-          source="b9bd0fc8-51c3-4f4e-bbe9-474f3ba480f9"
-          target="1c6f6a86-6afa-4d25-ad00-66a8fbd0f07a">
-        <archimateRelationship
-            xsi:type="archimate:AssociationRelationship"
-            href="AssociationRelationship_d9d81bcc-e0ff-4ca1-895d-d2e5a9bc4857.xml#d9d81bcc-e0ff-4ca1-895d-d2e5a9bc4857"/>
-      </sourceConnections>
-      <bounds
-          x="336"
-          y="60"
-          width="144"
-          height="72"/>
-      <archimateElement
-          xsi:type="archimate:DataObject"
-          href="DataObject_f5193cec-61d2-4054-bf0a-d48ad124381b.xml#f5193cec-61d2-4054-bf0a-d48ad124381b"/>
     </children>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
@@ -151,7 +115,7 @@
       </sourceConnections>
       <bounds
           x="336"
-          y="348"
+          y="216"
           width="144"
           height="72"/>
       <archimateElement
@@ -161,7 +125,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="1c6f6a86-6afa-4d25-ad00-66a8fbd0f07a"
-        targetConnections="1b2f19c6-0765-49b6-a3e5-1c21107773da a940b92d-faec-479e-847b-77eb412498b9"
+        targetConnections="1b2f19c6-0765-49b6-a3e5-1c21107773da"
         font="1|Segoe UI|9.0|1|WINDOWS|1|-12|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
         fontColor="#ffffff"
         fillColor="#f18e00"
@@ -178,7 +142,7 @@
       </sourceConnections>
       <bounds
           x="336"
-          y="204"
+          y="72"
           width="144"
           height="72"/>
       <archimateElement
@@ -195,7 +159,7 @@
         textPosition="1">
       <bounds
           x="36"
-          y="348"
+          y="216"
           width="144"
           height="72"/>
       <archimateElement
@@ -212,7 +176,7 @@
         textPosition="1">
       <bounds
           x="36"
-          y="528"
+          y="396"
           width="144"
           height="72"/>
       <archimateElement
@@ -228,7 +192,7 @@
       id="6b863a85-53b7-48f4-81b5-e84a0dc5bc8b"
       textAlignment="1">
     <bounds
-        x="756"
+        x="552"
         y="12"
         width="169"
         height="169"/>

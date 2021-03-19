@@ -1,8 +1,8 @@
 <archimate:DataObject
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="~Budgetregel"
+    name="Budgetregel"
     id="id-eae97ca5653e44f78a6bcb3380f99fda"
-    documentation="&#xD;&#xA;====Definitie====&#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;&#xD;&#xA;====Voorbeelden====">
+    documentation="! NB: binnen een budgetregel zijn verschillende attributen denkbaar voor 'aangevraagd budget' en 'goedgekeurd budget' !&#xD;&#xA;&#xD;&#xA;====Definitie====&#xD;&#xA;Budget (aangevraagd/goedgekeurd) voor een projectfase als geheel, of voor een specifieke project activiteit (projectregel).&#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;Budget kan voor een projectfase als totaal zijn aangevraagd/toegekend, maar in de praktijk zullen budgetten per project-activeit (bijvoorbeeld Architectenhonorarium, Bouwkosten, Vergunningsaanvraag kosten, Algemene Kosten, etc.) worden geadministreerd. Er is dan een relatie tussen een projectregel (activiteit) en een budgetregel. Er wordt ook wel gesproken over *stichtingskostencomponenten* of *kostensoorten*.&#xD;&#xA;Budgetten hebben altijd een relatie met een projectfase: als een projectfase wordt afgesloten 'schuift' het budget als het ware door naar de volgende fase.&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;====Voorbeelden====">
   <properties
       key="Objecttype"
       value="Klasse"/>

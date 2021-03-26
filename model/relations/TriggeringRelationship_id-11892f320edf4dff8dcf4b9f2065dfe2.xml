@@ -4,6 +4,15 @@
     name="Doorgeven Onderhoudsorder"
     id="id-11892f320edf4dff8dcf4b9f2065dfe2"
     documentation="Voor het verlenen van een Onderhoudsorder. &#xD;&#xA;&#xD;&#xA;De onderhoudsfunctie die het onderhoudsverzoek in behandeling heeft genomen zet de onderhoudsorder(s) uit bij één of meerdere (externe) uitvoerders. Bij een enkelvoudig reparatieverzoek zal slechts één onderhoudsorder uitgezet worden. Bij mutatieonderhoud of bij meervoudige reparatieverzoeken is het mogelijk dat er meerdere onderhoudsorders worden aangemaakt en uitgewisseld. &#xD;&#xA;De uitwisseling van de onderhoudsorder vindt altijd plaats naar één (externe) uitvoerder. &#xD;&#xA;">
+  <properties
+      key="Type"
+      value="Trigger"/>
+  <properties
+      key="Code"
+      value="OHDT04 "/>
+  <properties
+      key="Bericht"
+      value="Onderhoudsorder Synchroniseren"/>
   <source
       xsi:type="archimate:BusinessProcess"
       href="BusinessProcess_id-f2c40aed97c34678a4b3f571b564ee0c.xml#id-f2c40aed97c34678a4b3f571b564ee0c"/>

@@ -3,7 +3,16 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Bevestigen Afspraak"
     id="id-c469f17f92af4b95b0bf1d5e9a6cd941"
-    documentation="Voor het bevestigen van een afspraak. ">
+    documentation="Voor het bevestigen van een afspraak. &#xD;&#xA;&#xD;&#xA;Op basis van de beschikbare opties wordt één optie gekozen waarop uitvoerende partij de onderhoudsorder kan gaan uitvoeren. ">
+  <properties
+      key="Type"
+      value="Trigger"/>
+  <properties
+      key="Code"
+      value="OHDT03 "/>
+  <properties
+      key="Bericht"
+      value="Afspraak Synchroniseren"/>
   <source
       xsi:type="archimate:BusinessProcess"
       href="BusinessProcess_id-23d6b40adccf4d4e913762396b974b22.xml#id-23d6b40adccf4d4e913762396b974b22"/>

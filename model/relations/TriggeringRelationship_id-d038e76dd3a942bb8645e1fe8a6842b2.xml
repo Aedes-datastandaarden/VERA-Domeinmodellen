@@ -4,6 +4,15 @@
     name="Doorgeven Factuur voor inspectie"
     id="id-d038e76dd3a942bb8645e1fe8a6842b2"
     documentation="Voor het doorgeven van de factuur van de inspectie. &#xD;&#xA;&#xD;&#xA;Na uitvoering van de inspectie wordt de factuur door bedrijfsproces 'Inspecteren bouwdelen' doorgegeven aan de crediteurenadministratie van ‘Leveren financiële dienstverlening’. ">
+  <properties
+      key="Type"
+      value="Trigger"/>
+  <properties
+      key="Code"
+      value="OHDT11 "/>
+  <properties
+      key="Bericht"
+      value="Factuur Synchroniseren"/>
   <source
       xsi:type="archimate:BusinessProcess"
       href="BusinessProcess_id-b6d649aa2a4b40e2a82a641d439d4acf.xml#id-b6d649aa2a4b40e2a82a641d439d4acf"/>

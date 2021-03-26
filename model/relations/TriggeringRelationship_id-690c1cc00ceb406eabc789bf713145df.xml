@@ -4,6 +4,15 @@
     name="Bijwerken bouwkundige elementen"
     id="id-690c1cc00ceb406eabc789bf713145df"
     documentation="Voor het doorgeven van informatie betreffende Bouwkundige elementen. &#xD;&#xA;&#xD;&#xA;De onderhoudsfunctie geeft een wijziging van bouwkundige elementen door aan de bedrijfsfunctie 'Beheren vastgoedgegevens'.">
+  <properties
+      key="Type"
+      value="Trigger"/>
+  <properties
+      key="Code"
+      value="OHDT09 "/>
+  <properties
+      key="Bericht"
+      value="BouwkundigeElementen Synchroniseren"/>
   <source
       xsi:type="archimate:BusinessProcess"
       href="BusinessProcess_id-56e9a52d941447ff9e171116cdf76077.xml#id-56e9a52d941447ff9e171116cdf76077"/>

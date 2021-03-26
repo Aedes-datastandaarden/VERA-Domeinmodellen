@@ -1,7 +1,7 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Gegevensdomein Projectontwikkeling"
+    name="Projectontwikkeling"
     id="ceccf671-a42a-4a04-a56d-a3a25bbd03d7">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
@@ -1671,6 +1671,18 @@
       <archimateElement
           xsi:type="archimate:DataObject"
           href="DataObject_id-40f099e0238c44bab1b7cba26fe47b14.xml#id-40f099e0238c44bab1b7cba26fe47b14"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelNote"
+        id="d1e55d3b-2635-4b83-a4d1-a69b87d06321"
+        textAlignment="1"
+        fillColor="#ffff80"
+        content="Relatie met onderhoudsorder ihgv Planmatig Onderhoud?">
+      <bounds
+          x="1097"
+          y="635"
+          width="185"
+          height="80"/>
     </children>
     <archimateElement
         xsi:type="archimate:Grouping"

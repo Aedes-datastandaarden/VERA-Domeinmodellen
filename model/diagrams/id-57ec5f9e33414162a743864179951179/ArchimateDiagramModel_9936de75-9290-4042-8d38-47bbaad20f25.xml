@@ -1,7 +1,7 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Domein Financiën"
+    name="Gegevensdomein Financiën"
     id="9936de75-9290-4042-8d38-47bbaad20f25"
     documentation="Het domein Financiën omvat gegevens die betrekking hebben op processen rondom de financiële administratie van de corporatie. Dit domein beschrijft kenmerken van grootboek-, (huur)debiteuren- en crediteurenadministratie inclusief de bijbehorende transacties (journaalposten, memorialen, in- en uitgaande facturen, betalingen, ontvangsten en achterstandsbewaking). &#xD;&#xA;&#xD;&#xA;Ook het proces ‘Incasso’ valt binnen dit domein. &#xD;&#xA;&#xD;&#xA;Gegevens over Incasso hebben betrekking op de financiële status en afhandeling van een contract. Naast de vorderingen, verplichtingen, ontvangsten en uitbetalingen omvat dit domein informatie over afletteringen, betalingsregelingen en externe incasso (incassobureaus en deurwaarders). ">
   <children
@@ -612,7 +612,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="c5830a2a-2588-4590-9e0d-ec5439f29041"
-        targetConnections="ffdbfb6a-2faf-4eec-a44a-4460555d72bd id-ec9906da11ab494c9a8462d30309f68c id-97a4aebe1e24483d87f41d239ecfbd41 dbe633b1-3a3a-4d65-9a5e-c0d19f0ca381 67711274-cae8-4688-b05c-e06cf5db36a0 3b8fd8e7-a9bc-4db9-9962-2b3591d0ff44 20ed8376-20f3-4c8a-ac04-61c77830c147"
+        targetConnections="ffdbfb6a-2faf-4eec-a44a-4460555d72bd id-97a4aebe1e24483d87f41d239ecfbd41 dbe633b1-3a3a-4d65-9a5e-c0d19f0ca381 67711274-cae8-4688-b05c-e06cf5db36a0 3b8fd8e7-a9bc-4db9-9962-2b3591d0ff44 20ed8376-20f3-4c8a-ac04-61c77830c147 id-ec9906da11ab494c9a8462d30309f68c"
         font="1|Segoe UI|12.0|1|WINDOWS|1|-16|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
         fillColor="#fffe66"
         textPosition="1">
@@ -660,21 +660,6 @@
         <archimateRelationship
             xsi:type="archimate:AssociationRelationship"
             href="AssociationRelationship_id-80f1632fec3848b884b65014210ef78b.xml#id-80f1632fec3848b884b65014210ef78b"/>
-      </sourceConnections>
-      <sourceConnections
-          xsi:type="archimate:DiagramModelArchimateConnection"
-          id="d6a0711f-69e8-4082-9918-4d061adebe88"
-          font="1|Segoe UI|11.25|0|WINDOWS|1|-15|0|0|0|400|0|0|0|0|3|2|1|34|Segoe UI"
-          source="c5830a2a-2588-4590-9e0d-ec5439f29041"
-          target="421cdbc1-69ba-4ee2-ac7a-5661b04dffee">
-        <bendpoints
-            startX="-38"
-            startY="-158"
-            endX="-38"
-            endY="88"/>
-        <archimateRelationship
-            xsi:type="archimate:AssociationRelationship"
-            href="AssociationRelationship_bba1ed5b-6a6f-4c87-a9b4-dc2727916434.xml#bba1ed5b-6a6f-4c87-a9b4-dc2727916434"/>
       </sourceConnections>
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
@@ -764,6 +749,21 @@
         <archimateRelationship
             xsi:type="archimate:AssociationRelationship"
             href="AssociationRelationship_id-a35feb325b0c487e9709a984d0eb9d79.xml#id-a35feb325b0c487e9709a984d0eb9d79"/>
+      </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="d6a0711f-69e8-4082-9918-4d061adebe88"
+          font="1|Segoe UI|11.25|0|WINDOWS|1|-15|0|0|0|400|0|0|0|0|3|2|1|34|Segoe UI"
+          source="c5830a2a-2588-4590-9e0d-ec5439f29041"
+          target="421cdbc1-69ba-4ee2-ac7a-5661b04dffee">
+        <bendpoints
+            startX="-38"
+            startY="-158"
+            endX="-38"
+            endY="88"/>
+        <archimateRelationship
+            xsi:type="archimate:AssociationRelationship"
+            href="AssociationRelationship_bba1ed5b-6a6f-4c87-a9b4-dc2727916434.xml#bba1ed5b-6a6f-4c87-a9b4-dc2727916434"/>
       </sourceConnections>
       <bounds
           x="432"
@@ -2598,21 +2598,6 @@
       </sourceConnections>
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
-          id="id-ec9906da11ab494c9a8462d30309f68c"
-          font="1|Segoe UI|11.25|0|WINDOWS|1|-15|0|0|0|400|0|0|0|0|3|2|1|34|Segoe UI"
-          source="421cdbc1-69ba-4ee2-ac7a-5661b04dffee"
-          target="c5830a2a-2588-4590-9e0d-ec5439f29041">
-        <bendpoints
-            startX="-2"
-            startY="148"
-            endX="-2"
-            endY="-98"/>
-        <archimateRelationship
-            xsi:type="archimate:AssociationRelationship"
-            href="AssociationRelationship_id-840b2ec755fd4edda8e7e734be216941.xml#id-840b2ec755fd4edda8e7e734be216941"/>
-      </sourceConnections>
-      <sourceConnections
-          xsi:type="archimate:DiagramModelArchimateConnection"
           id="id-75c9be7b2b0546e5a1c6b94ce8916362"
           font="1|Segoe UI|11.25|0|WINDOWS|1|-15|0|0|0|400|0|0|0|0|3|2|1|34|Segoe UI"
           source="421cdbc1-69ba-4ee2-ac7a-5661b04dffee"
@@ -2680,6 +2665,21 @@
         <archimateRelationship
             xsi:type="archimate:AssociationRelationship"
             href="AssociationRelationship_eca1e184-6879-44a6-a816-1291e3e757ef.xml#eca1e184-6879-44a6-a816-1291e3e757ef"/>
+      </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-ec9906da11ab494c9a8462d30309f68c"
+          font="1|Segoe UI|11.25|0|WINDOWS|1|-15|0|0|0|400|0|0|0|0|3|2|1|34|Segoe UI"
+          source="421cdbc1-69ba-4ee2-ac7a-5661b04dffee"
+          target="c5830a2a-2588-4590-9e0d-ec5439f29041">
+        <bendpoints
+            startX="-2"
+            startY="148"
+            endX="-2"
+            endY="-98"/>
+        <archimateRelationship
+            xsi:type="archimate:AssociationRelationship"
+            href="AssociationRelationship_id-840b2ec755fd4edda8e7e734be216941.xml#id-840b2ec755fd4edda8e7e734be216941"/>
       </sourceConnections>
       <bounds
           x="432"

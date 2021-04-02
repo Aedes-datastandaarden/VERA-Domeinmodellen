@@ -139,9 +139,14 @@
           source="b3abe870-9a58-4dba-9be2-29c07a2c1c0a"
           target="2baf9970-ca82-4721-8de7-d6655e649450">
         <bendpoints
-            startX="1"
-            startY="285"
-            endX="-336"
+            startX="13"
+            startY="213"
+            endX="-324"
+            endY="9"/>
+        <bendpoints
+            startX="241"
+            startY="213"
+            endX="-96"
             endY="9"/>
         <archimateRelationship
             xsi:type="archimate:AssociationRelationship"
@@ -153,24 +158,14 @@
           source="b3abe870-9a58-4dba-9be2-29c07a2c1c0a"
           target="196fa6c9-72ad-42c5-abf6-4fac9710c128">
         <bendpoints
-            startX="49"
-            startY="105"
-            endX="-288"
-            endY="-27"/>
-        <bendpoints
-            startX="49"
-            startY="141"
-            endX="-288"
+            startX="-11"
+            startY="285"
+            endX="-348"
             endY="9"/>
         <bendpoints
-            startX="241"
-            startY="141"
-            endX="-96"
-            endY="9"/>
-        <bendpoints
-            startX="157"
-            startY="141"
-            endX="-180"
+            startX="253"
+            startY="285"
+            endX="-84"
             endY="9"/>
         <archimateRelationship
             xsi:type="archimate:AssociationRelationship"
@@ -201,10 +196,15 @@
           source="b3abe870-9a58-4dba-9be2-29c07a2c1c0a"
           target="5183b77b-ff31-416c-ab9e-8bbaea0d8277">
         <bendpoints
-            startX="25"
-            startY="225"
-            endX="-312"
-            endY="21"/>
+            startX="61"
+            startY="129"
+            endX="-276"
+            endY="-3"/>
+        <bendpoints
+            startX="217"
+            startY="129"
+            endX="-120"
+            endY="-3"/>
         <archimateRelationship
             xsi:type="archimate:AssociationRelationship"
             href="AssociationRelationship_99b58e17-0b1a-45ff-b1be-c013370ced63.xml#99b58e17-0b1a-45ff-b1be-c013370ced63"/>
@@ -259,7 +259,7 @@
         textPosition="1">
       <bounds
           x="360"
-          y="264"
+          y="192"
           width="120"
           height="55"/>
       <archimateElement
@@ -293,7 +293,7 @@
         textPosition="1">
       <bounds
           x="360"
-          y="192"
+          y="336"
           width="120"
           height="55"/>
       <archimateElement
@@ -374,7 +374,7 @@
         textPosition="1">
       <bounds
           x="360"
-          y="336"
+          y="264"
           width="120"
           height="55"/>
       <archimateElement
@@ -390,7 +390,6 @@
         fillColor="#a0812c"
         textPosition="1">
       <bounds
-          x="14"
           y="432"
           width="120"
           height="55"/>

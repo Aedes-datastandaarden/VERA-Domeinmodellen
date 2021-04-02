@@ -3,13 +3,16 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Opvragen Afspraakopties"
     id="id-e782b075dd30441e997089f85e1a04d1"
-    documentation="Voor het ophalen van afspraakverzoekopties. &#xD;&#xA;&#xD;&#xA;">
+    documentation="Voor het ophalen van afspraakverzoekopties. &#xD;&#xA;&#xD;&#xA;Op basis van tijdvakken en benodigde expertise worden de mogelijke afspraak opties opgehaald uit het afsprakensysteem van de uitvoerder.&#xD;&#xA;&#xD;&#xA;">
   <properties
       key="Type"
       value="Trigger"/>
   <properties
       key="Code"
       value="OHDV01 "/>
+  <properties
+      key="Bericht"
+      value="AfspraakOpties Opvragen"/>
   <source
       xsi:type="archimate:BusinessProcess"
       href="BusinessProcess_id-ae01e68e24cf4e0b91e97714520ee8cd.xml#id-ae01e68e24cf4e0b91e97714520ee8cd"/>

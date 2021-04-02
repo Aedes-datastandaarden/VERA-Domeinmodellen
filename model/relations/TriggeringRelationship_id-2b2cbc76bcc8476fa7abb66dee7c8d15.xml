@@ -4,6 +4,15 @@
     name="Doorgeven Statuswijziging Offerte"
     id="id-2b2cbc76bcc8476fa7abb66dee7c8d15"
     documentation="Voor het doorgeven van een statuswijziging van een offerte.&#xD;&#xA;&#xD;&#xA;Het bedrijfsproces 'Regisseren onderhoud' zal in sommige situaties een offerte opvragen voor het geven van de opdracht. Na beoordeling van de offerte wil men doorgeven of de offerte akkoord is of wordt afgewezen.">
+  <properties
+      key="Type"
+      value="Trigger"/>
+  <properties
+      key="Code"
+      value="OHDT15"/>
+  <properties
+      key="Bericht"
+      value="OfferteStatus Synchroniseren"/>
   <source
       xsi:type="archimate:BusinessProcess"
       href="BusinessProcess_id-f2c40aed97c34678a4b3f571b564ee0c.xml#id-f2c40aed97c34678a4b3f571b564ee0c"/>

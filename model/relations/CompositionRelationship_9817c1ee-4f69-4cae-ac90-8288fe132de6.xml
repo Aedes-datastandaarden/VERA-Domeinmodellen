@@ -1,13 +1,11 @@
-<archimate:AssociationRelationship
+<archimate:CompositionRelationship
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="defecten"
-    id="972fb4a3-ccb7-4e8c-b79f-11fa22aab920"
-    directed="true">
+    id="9817c1ee-4f69-4cae-ac90-8288fe132de6">
   <source
       xsi:type="archimate:DataObject"
-      href="DataObject_692acfe1-dcba-4b74-aa49-f7a1bd47a4a6.xml#692acfe1-dcba-4b74-aa49-f7a1bd47a4a6"/>
+      href="DataObject_id-c71cc2ed06e44949bb5fae2edf1e8569.xml#id-c71cc2ed06e44949bb5fae2edf1e8569"/>
   <target
       xsi:type="archimate:DataObject"
       href="DataObject_3bec724b-8ecb-481b-beaa-b23caf62dfbe.xml#3bec724b-8ecb-481b-beaa-b23caf62dfbe"/>
-</archimate:AssociationRelationship>
+</archimate:CompositionRelationship>

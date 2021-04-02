@@ -1,13 +1,11 @@
-<archimate:AssociationRelationship
+<archimate:CompositionRelationship
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="uitvoerende"
-    id="da22b5e2-e85b-4645-8976-ea87c7331fa2"
-    directed="true">
+    id="5f889e40-cb3d-475a-91d6-d3d2464d52df">
   <source
       xsi:type="archimate:DataObject"
-      href="DataObject_692acfe1-dcba-4b74-aa49-f7a1bd47a4a6.xml#692acfe1-dcba-4b74-aa49-f7a1bd47a4a6"/>
+      href="DataObject_d0ad6ad4-5774-4d81-9811-f9c4abea30b5.xml#d0ad6ad4-5774-4d81-9811-f9c4abea30b5"/>
   <target
       xsi:type="archimate:DataObject"
       href="DataObject_c741dd31-2b80-4474-8abe-c8832a718069.xml#c741dd31-2b80-4474-8abe-c8832a718069"/>
-</archimate:AssociationRelationship>
+</archimate:CompositionRelationship>

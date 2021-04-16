@@ -1,13 +1,11 @@
-<archimate:AssociationRelationship
+<archimate:CompositionRelationship
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="voorkeursafspraken"
-    id="59cc395a-ace2-4431-94d8-e88d3320b832"
-    directed="true">
+    id="24cff839-a74b-4825-acd1-085a4a78a6be">
   <source
       xsi:type="archimate:DataObject"
-      href="DataObject_id-56d9b7740d254099be20fa66b6bb1ad6.xml#id-56d9b7740d254099be20fa66b6bb1ad6"/>
+      href="DataObject_e6dc1351-b927-41c0-a4bb-c67272d8ebfe.xml#e6dc1351-b927-41c0-a4bb-c67272d8ebfe"/>
   <target
       xsi:type="archimate:DataObject"
       href="DataObject_b48e4a24-04ce-4d7c-9f23-f42ddbcd07d1.xml#b48e4a24-04ce-4d7c-9f23-f42ddbcd07d1"/>
-</archimate:AssociationRelationship>
+</archimate:CompositionRelationship>

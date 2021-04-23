@@ -2,4 +2,11 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="BRG: NatuurlijkPersoon"
     id="905f2323-f0b0-490a-9b56-333f81e3a82a"
-    documentation="Aanvullingen (RFC):&#xD;&#xA;- NatuurlijkPersoon.Voorkeurstaal"/>
+    documentation="Aanvullingen (RFC):&#xD;&#xA;- NatuurlijkPersoon.Voorkeurstaal">
+  <properties
+      key="Objecttype"
+      value="Bericht"/>
+  <properties
+      key="Code"
+      value="BRGNAT"/>
+</archimate:DataObject>

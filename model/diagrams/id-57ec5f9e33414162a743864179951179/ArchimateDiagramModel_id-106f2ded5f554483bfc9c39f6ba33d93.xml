@@ -91,30 +91,12 @@
     </sourceConnections>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
-        id="30b0249a-17ba-448b-881b-475f4288e06b"
-        source="id-b2774abf1e2e4457b2aef17dbf5e5a57"
-        target="27a4332d-424d-4701-ad14-10f330106a61">
-      <archimateRelationship
-          xsi:type="archimate:CompositionRelationship"
-          href="CompositionRelationship_3e00e408-9008-4393-a487-1932cc285757.xml#3e00e408-9008-4393-a487-1932cc285757"/>
-    </sourceConnections>
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
         id="9a647422-979e-48b8-b671-5ea42af3d55c"
         source="id-b2774abf1e2e4457b2aef17dbf5e5a57"
         target="dfe89f87-f451-49bc-931c-ba53f490a4c9">
       <archimateRelationship
           xsi:type="archimate:CompositionRelationship"
           href="CompositionRelationship_59fecbd7-16af-40b1-9997-18e38bce815a.xml#59fecbd7-16af-40b1-9997-18e38bce815a"/>
-    </sourceConnections>
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
-        id="c62219d6-44d2-4a2e-9c06-54f859ebe54f"
-        source="id-b2774abf1e2e4457b2aef17dbf5e5a57"
-        target="255f4aa9-3103-49e8-82a9-1b27857fcc36">
-      <archimateRelationship
-          xsi:type="archimate:CompositionRelationship"
-          href="CompositionRelationship_89379b0d-baa6-4e5f-a08f-ffc6e286ac13.xml#89379b0d-baa6-4e5f-a08f-ffc6e286ac13"/>
     </sourceConnections>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
@@ -343,7 +325,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="255f4aa9-3103-49e8-82a9-1b27857fcc36"
-        targetConnections="c62219d6-44d2-4a2e-9c06-54f859ebe54f a5491f43-0dfd-4af9-af4d-ffd8e03ea541"
+        targetConnections="a5491f43-0dfd-4af9-af4d-ffd8e03ea541"
         font="1|Segoe UI|9.0|1|WINDOWS|1|-12|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
         fontColor="#ffffff"
         fillColor="#fa7034"
@@ -377,7 +359,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="27a4332d-424d-4701-ad14-10f330106a61"
-        targetConnections="30b0249a-17ba-448b-881b-475f4288e06b 5a1cff33-e0de-4fdd-93ea-3b088aab95fe"
+        targetConnections="5a1cff33-e0de-4fdd-93ea-3b088aab95fe"
         font="1|Segoe UI|9.0|1|WINDOWS|1|-12|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
         fontColor="#ffffff"
         fillColor="#9b3c8c"

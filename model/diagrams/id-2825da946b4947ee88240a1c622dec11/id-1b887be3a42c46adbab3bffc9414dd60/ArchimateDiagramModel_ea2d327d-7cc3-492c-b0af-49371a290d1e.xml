@@ -1,15 +1,15 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Opvragen NatuurlijkPersoon"
+    name="NatuurlijkPersoon opvragen"
     id="ea2d327d-7cc3-492c-b0af-49371a290d1e">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="aaf1ff56-3bf6-43b0-bad5-e63d241dffac"
       textAlignment="1">
     <bounds
-        x="1176"
-        y="24"
+        x="960"
+        y="12"
         width="169"
         height="169"/>
     <children
@@ -225,8 +225,8 @@
     <bounds
         x="12"
         y="12"
-        width="1129"
-        height="613"/>
+        width="937"
+        height="529"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="4aacff37-cdca-4aa0-86c6-d2235ca696b8"
@@ -267,8 +267,8 @@
             href="AssociationRelationship_17e5c8e6-0404-49a6-96aa-52fbc43be90b.xml#17e5c8e6-0404-49a6-96aa-52fbc43be90b"/>
       </sourceConnections>
       <bounds
-          x="684"
-          y="348"
+          x="612"
+          y="300"
           width="120"
           height="55"/>
       <archimateElement
@@ -335,8 +335,8 @@
             href="AssociationRelationship_6bb3c220-50b2-43ba-a55f-33aa7563dbea.xml#6bb3c220-50b2-43ba-a55f-33aa7563dbea"/>
       </sourceConnections>
       <bounds
-          x="647"
-          y="240"
+          x="575"
+          y="192"
           width="193"
           height="55"/>
       <archimateElement
@@ -361,8 +361,8 @@
             href="AssociationRelationship_b60f8985-b2bc-4bea-972d-7945023b90cd.xml#b60f8985-b2bc-4bea-972d-7945023b90cd"/>
       </sourceConnections>
       <bounds
-          x="336"
-          y="96"
+          x="264"
+          y="48"
           width="120"
           height="55"/>
       <archimateElement
@@ -387,8 +387,8 @@
             href="AssociationRelationship_338f00d1-8d0d-4c27-98c5-b85789f4af72.xml#338f00d1-8d0d-4c27-98c5-b85789f4af72"/>
       </sourceConnections>
       <bounds
-          x="336"
-          y="228"
+          x="264"
+          y="180"
           width="120"
           height="55"/>
       <archimateElement
@@ -418,8 +418,8 @@
             href="AssociationRelationship_3cb6e2aa-964c-4c33-87af-12951c8cc22f.xml#3cb6e2aa-964c-4c33-87af-12951c8cc22f"/>
       </sourceConnections>
       <bounds
-          x="108"
-          y="228"
+          x="36"
+          y="180"
           width="120"
           height="55"/>
       <archimateElement
@@ -457,8 +457,8 @@
             href="AssociationRelationship_17d03e47-6176-4107-a284-09df226f9f9c.xml#17d03e47-6176-4107-a284-09df226f9f9c"/>
       </sourceConnections>
       <bounds
-          x="336"
-          y="336"
+          x="264"
+          y="288"
           width="120"
           height="55"/>
       <archimateElement
@@ -474,8 +474,8 @@
         fillColor="#228ba2"
         textPosition="1">
       <bounds
-          x="684"
-          y="456"
+          x="612"
+          y="408"
           width="120"
           height="55"/>
       <archimateElement
@@ -491,8 +491,8 @@
         fillColor="#228ba2"
         textPosition="1">
       <bounds
-          x="864"
-          y="456"
+          x="792"
+          y="408"
           width="120"
           height="55"/>
       <archimateElement
@@ -508,8 +508,8 @@
         fillColor="#fa7034"
         textPosition="1">
       <bounds
-          x="336"
-          y="432"
+          x="264"
+          y="384"
           width="120"
           height="55"/>
       <archimateElement
@@ -534,8 +534,8 @@
             href="SpecializationRelationship_7c3c02a2-e9c6-4f9f-9a0d-6f5c33d77145.xml#7c3c02a2-e9c6-4f9f-9a0d-6f5c33d77145"/>
       </sourceConnections>
       <bounds
-          x="336"
-          y="516"
+          x="264"
+          y="468"
           width="120"
           height="55"/>
       <archimateElement
@@ -551,8 +551,8 @@
         fillColor="#fa7034"
         textPosition="1">
       <bounds
-          x="120"
-          y="432"
+          x="48"
+          y="384"
           width="120"
           height="55"/>
       <archimateElement
@@ -568,8 +568,8 @@
         fillColor="#228ba2"
         textPosition="1">
       <bounds
-          x="516"
-          y="456"
+          x="444"
+          y="408"
           width="120"
           height="55"/>
       <archimateElement
@@ -585,8 +585,8 @@
         fillColor="#228ba2"
         textPosition="1">
       <bounds
-          x="864"
-          y="132"
+          x="792"
+          y="84"
           width="120"
           height="55"/>
       <archimateElement
@@ -597,4 +597,7 @@
         xsi:type="archimate:DataObject"
         href="DataObject_905f2323-f0b0-490a-9b56-333f81e3a82a.xml#905f2323-f0b0-490a-9b56-333f81e3a82a"/>
   </children>
+  <properties
+      key="Objecttype"
+      value="Bericht"/>
 </archimate:ArchimateDiagramModel>

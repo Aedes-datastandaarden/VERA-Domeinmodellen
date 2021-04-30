@@ -1,15 +1,15 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Opvragen NatuurlijkPersoon"
+    name="NatuurlijkPersoon opvragen"
     id="ea2d327d-7cc3-492c-b0af-49371a290d1e">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="aaf1ff56-3bf6-43b0-bad5-e63d241dffac"
       textAlignment="1">
     <bounds
-        x="1176"
-        y="24"
+        x="1152"
+        y="12"
         width="169"
         height="169"/>
     <children
@@ -597,4 +597,7 @@
         xsi:type="archimate:DataObject"
         href="DataObject_905f2323-f0b0-490a-9b56-333f81e3a82a.xml#905f2323-f0b0-490a-9b56-333f81e3a82a"/>
   </children>
+  <properties
+      key="Objecttype"
+      value="Bericht"/>
 </archimate:ArchimateDiagramModel>

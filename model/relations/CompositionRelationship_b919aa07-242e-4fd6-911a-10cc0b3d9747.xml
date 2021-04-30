@@ -1,13 +1,11 @@
-<archimate:AssociationRelationship
+<archimate:CompositionRelationship
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="overeenkomst"
-    id="621dbd9b-1f8e-4869-bb28-733ecb1acbf9"
-    directed="true">
+    id="b919aa07-242e-4fd6-911a-10cc0b3d9747">
   <source
       xsi:type="archimate:DataObject"
-      href="DataObject_36cc7a26-fc98-4ab1-9b7f-b660d82cdc53.xml#36cc7a26-fc98-4ab1-9b7f-b660d82cdc53"/>
+      href="DataObject_c7e2b544-da90-4b6c-80da-4830a6283028.xml#c7e2b544-da90-4b6c-80da-4830a6283028"/>
   <target
       xsi:type="archimate:DataObject"
       href="DataObject_36b3e7a6-d077-44a3-9491-94a32afa2f65.xml#36b3e7a6-d077-44a3-9491-94a32afa2f65"/>
-</archimate:AssociationRelationship>
+</archimate:CompositionRelationship>

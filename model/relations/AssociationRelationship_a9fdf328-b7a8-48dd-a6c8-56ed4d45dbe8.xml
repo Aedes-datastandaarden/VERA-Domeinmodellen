@@ -1,13 +1,13 @@
 <archimate:AssociationRelationship
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="0:n of 1:n"
-    id="0b213253-d48d-48b8-a04f-0f366c21a3dd"
+    name="crediteur"
+    id="a9fdf328-b7a8-48dd-a6c8-56ed4d45dbe8"
     directed="true">
   <source
       xsi:type="archimate:DataObject"
-      href="DataObject_36b3e7a6-d077-44a3-9491-94a32afa2f65.xml#36b3e7a6-d077-44a3-9491-94a32afa2f65"/>
+      href="DataObject_b34800c8-6f17-490b-b0b3-14742982a645.xml#b34800c8-6f17-490b-b0b3-14742982a645"/>
   <target
       xsi:type="archimate:DataObject"
-      href="DataObject_0759b49c-897b-41a0-b30c-0b1cfe8bb236.xml#0759b49c-897b-41a0-b30c-0b1cfe8bb236"/>
+      href="DataObject_76730fa2-87b3-41ba-8dc0-a051d53fa2a0.xml#76730fa2-87b3-41ba-8dc0-a051d53fa2a0"/>
 </archimate:AssociationRelationship>

@@ -53,9 +53,10 @@
           href="CompositionRelationship_0396e642-ddff-437c-b29f-6d11b1ddf60f.xml#0396e642-ddff-437c-b29f-6d11b1ddf60f"/>
     </sourceConnections>
     <bounds
-        x="12"
-        width="673"
-        height="253"/>
+        x="24"
+        y="12"
+        width="745"
+        height="433"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="f1f064c2-a445-4173-a02e-69fe0cf220c9"
@@ -69,10 +70,15 @@
           source="f1f064c2-a445-4173-a02e-69fe0cf220c9"
           target="1a0249e8-29ba-4eee-b273-5a33f6fad27b">
         <bendpoints
-            startX="120"
+            startX="132"
             startY="21"
             endX="-36"
-            endY="-99"/>
+            endY="-207"/>
+        <bendpoints
+            startX="132"
+            startY="189"
+            endX="-36"
+            endY="-39"/>
         <archimateRelationship
             xsi:type="archimate:AssociationRelationship"
             href="AssociationRelationship_id-12fe498b020e404f8e26b173f3583b2e.xml#id-12fe498b020e404f8e26b173f3583b2e"/>
@@ -107,9 +113,9 @@
           target="82dc72d6-f1be-45f0-bfa1-4ed93cc85c32">
         <bendpoints
             startX="-36"
-            startY="57"
-            endX="-36"
-            endY="-63"/>
+            startY="105"
+            endX="-48"
+            endY="-123"/>
         <archimateRelationship
             xsi:type="archimate:AssociationRelationship"
             href="AssociationRelationship_id-c282a42e2ffa42d5bdce08204ec4bcc7.xml#id-c282a42e2ffa42d5bdce08204ec4bcc7"/>
@@ -132,8 +138,8 @@
         fillColor="#228ba2"
         textPosition="1">
       <bounds
-          x="24"
-          y="156"
+          x="36"
+          y="264"
           width="120"
           height="55"/>
       <archimateElement
@@ -188,8 +194,8 @@
         fillColor="#a0812c"
         textPosition="1">
       <bounds
-          x="180"
-          y="156"
+          x="192"
+          y="264"
           width="120"
           height="55"/>
       <archimateElement
@@ -221,8 +227,8 @@
       id="911698f7-537b-44ff-aa82-453c5db8225b"
       textAlignment="1">
     <bounds
-        x="12"
-        y="264"
+        x="456"
+        y="540"
         width="169"
         height="133"/>
     <children

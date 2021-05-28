@@ -54,7 +54,7 @@
     </sourceConnections>
     <bounds
         y="12"
-        width="865"
+        width="745"
         height="241"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
@@ -74,20 +74,20 @@
             endX="-288"
             endY="-45"/>
         <bendpoints
-            startX="264"
+            startX="228"
             startY="33"
-            endX="-288"
-            endY="-21"/>
+            endX="-192"
+            endY="-15"/>
         <bendpoints
-            startX="384"
-            startY="33"
-            endX="-168"
-            endY="-21"/>
+            startX="276"
+            startY="21"
+            endX="-144"
+            endY="-27"/>
         <bendpoints
-            startX="384"
-            startY="69"
-            endX="-168"
-            endY="15"/>
+            startX="276"
+            startY="45"
+            endX="-144"
+            endY="-3"/>
         <archimateRelationship
             xsi:type="archimate:AssociationRelationship"
             href="AssociationRelationship_892e8f7c-ebc6-4156-9997-f2f55d31a362.xml#892e8f7c-ebc6-4156-9997-f2f55d31a362"/>
@@ -98,15 +98,20 @@
           source="8cda5c06-1fa1-4f2c-8451-89574484fc85"
           target="f8b30f11-0d5c-47e0-9622-f24b96273c9b">
         <bendpoints
-            startX="48"
-            startY="45"
-            endX="-324"
+            startX="108"
+            startY="21"
+            endX="-432"
+            endY="-99"/>
+        <bendpoints
+            startX="108"
+            startY="57"
+            endX="-432"
             endY="-63"/>
         <bendpoints
             startX="312"
-            startY="69"
+            startY="57"
             endX="-228"
-            endY="-51"/>
+            endY="-63"/>
         <bendpoints
             startX="312"
             startY="117"
@@ -184,8 +189,8 @@
         fillColor="#ffff66"
         textPosition="1">
       <bounds
-          x="576"
-          y="90"
+          x="444"
+          y="84"
           width="145"
           height="55"/>
       <archimateElement
@@ -266,4 +271,7 @@
   <properties
       key="Objecttype"
       value="Bericht"/>
+  <properties
+      key="Bericht"
+      value="OHDFAC"/>
 </archimate:ArchimateDiagramModel>

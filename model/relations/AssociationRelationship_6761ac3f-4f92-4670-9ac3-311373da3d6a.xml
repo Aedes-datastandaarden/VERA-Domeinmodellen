@@ -1,13 +1,14 @@
 <archimate:AssociationRelationship
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="initieleBudgetregels"
-    id="id-c8d691cee493432588cf0ea36a26a1ee"
+    name="percelen"
+    id="6761ac3f-4f92-4670-9ac3-311373da3d6a"
+    documentation="in het geval bij nieuwbouw"
     directed="true">
   <source
       xsi:type="archimate:DataObject"
       href="DataObject_id-25735162706b44f68240bf4e829a14a1.xml#id-25735162706b44f68240bf4e829a14a1"/>
   <target
       xsi:type="archimate:DataObject"
-      href="DataObject_id-eae97ca5653e44f78a6bcb3380f99fda.xml#id-eae97ca5653e44f78a6bcb3380f99fda"/>
+      href="DataObject_a1260f3c-fbfa-475c-9a21-4888b33590fe.xml#a1260f3c-fbfa-475c-9a21-4888b33590fe"/>
 </archimate:AssociationRelationship>

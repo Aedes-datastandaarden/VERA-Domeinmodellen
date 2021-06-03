@@ -1,6 +1,6 @@
 <archimate:DataObject
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="BVG: Cluster"
+    name="KBD: Cluster"
     id="af6ea2e0-9928-4646-920a-17d9ba8440a5"
     documentation="====Definitie====&#xD;&#xA;In sommige gevallen is het noodzakelijk om de clustergegevens te kunnen synchroniseren. &#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;Betreft een bericht op verzoek van SWEMP.&#xD;&#xA;Bij “wijziging van een cluster entiteit” gaan we ervan uit dat het wijzigingen betreft in velden van de klasse Cluster. Wanneer een nieuwe cluster wordt aangemaakt en eenheden worden “omgehangen” van een cluster naar het nieuwe cluster dan is dit bericht niet afdoende. In dat geval zal een bericht per eenheid gemaakt moeten worden waarin de wijziging van het gekoppelde cluster wordt meegegeven.&#xD;&#xA;&#xD;&#xA;====Voorbeelden====&#xD;&#xA;Voorbeeld: Synchroniseer de gewijzigde clusternamen naar een klantbedieningsysteem waarin deze informatie wordt gebruikt voor identificatie.&#xD;&#xA;&#xD;&#xA;====Attributen====&#xD;&#xA;* code &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;string&#xD;&#xA;* soort &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;referentiedata ClusterSoort&#xD;&#xA;* naam&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;string &#xD;&#xA;* omschrijving&#x9;&#x9;&#x9;&#x9;&#x9;string &#xD;&#xA;* bovenliggendCluster &#xD;&#xA;** code&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;string&#xD;&#xA;** naam&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;string&#xD;&#xA;* begindatum&#x9;&#x9;&#x9;&#x9;&#x9;date &#xD;&#xA;* einddatum&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;date &#xD;&#xA;** Geometrie&#xD;&#xA;** Punt.lengtegraad&#x9;&#x9;&#x9;decimal &#xD;&#xA;** Punt.breedtegraad &#x9;&#x9;decimal">
   <properties
@@ -8,5 +8,5 @@
       value="Bericht"/>
   <properties
       key="Code"
-      value="BVGCLU"/>
+      value="KBDCLU"/>
 </archimate:DataObject>

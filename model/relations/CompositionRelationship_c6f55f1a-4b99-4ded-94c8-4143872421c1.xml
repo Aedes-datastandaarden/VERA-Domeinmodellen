@@ -1,13 +1,11 @@
-<archimate:AssociationRelationship
+<archimate:CompositionRelationship
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="contactmomenten"
-    id="77019c5c-1c38-46f0-bc87-2be5c050adcd"
-    directed="true">
+    id="c6f55f1a-4b99-4ded-94c8-4143872421c1">
   <source
       xsi:type="archimate:DataObject"
-      href="DataObject_c741dd31-2b80-4474-8abe-c8832a718069.xml#c741dd31-2b80-4474-8abe-c8832a718069"/>
+      href="DataObject_88cff54f-096d-4274-b2de-c1cb4cfc7929.xml#88cff54f-096d-4274-b2de-c1cb4cfc7929"/>
   <target
       xsi:type="archimate:DataObject"
       href="DataObject_c48fd93d-30dc-4327-a751-666c641f1e78.xml#c48fd93d-30dc-4327-a751-666c641f1e78"/>
-</archimate:AssociationRelationship>
+</archimate:CompositionRelationship>

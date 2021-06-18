@@ -1,0 +1,12 @@
+<archimate:DataObject
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="BVG: Cluster"
+    id="af6ea2e0-9928-4646-920a-17d9ba8440a5"
+    documentation="====Definitie====&#xD;&#xA;Opvragen van clustergegevens met de eventueel gekoppelde eenheden en/of relaties van de cluster. &#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;Bron: SWEMP met aanvulling vanuit werkgroep Klantportalen: Besloten is om ook de lijst met gekoppelde eenheden van de cluster op te halen én de gekoppelde relaties aan het cluster. Beide gevallen betreffen het uitsluitende de kerngegevens.&#xD;&#xA;&#xD;&#xA;====Voorbeelden====&#xD;&#xA;Voorbeeld 1: Synchroniseer de gewijzigde clusternamen naar een klantbedieningsysteem waarin deze informatie wordt gebruikt voor identificatie.&#xD;&#xA;Voorbeeld 2: Bij het te woord staan van een huurder wil de KCC-medewerker weten wie de huismeester is van het cluster waar de huurder woont zodat de huurder doorverwezen kan worden naar de specifieke persoon.&#xD;&#xA;&#xD;&#xA;====Attributen====&#xD;&#xA;* code &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;string&#xD;&#xA;* soort &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;referentiedata ClusterSoort&#xD;&#xA;* naam&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;string &#xD;&#xA;* omschrijving&#x9;&#x9;&#x9;&#x9;&#x9;string &#xD;&#xA;* bovenliggendCluster &#xD;&#xA;** code&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;string&#xD;&#xA;** naam&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;string&#xD;&#xA;* begindatum&#x9;&#x9;&#x9;&#x9;&#x9;date &#xD;&#xA;* einddatum&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;date &#xD;&#xA;** Geometrie&#xD;&#xA;** Punt.lengtegraad&#x9;&#x9;&#x9;decimal &#xD;&#xA;** Punt.breedtegraad &#x9;&#x9;decimal">
+  <properties
+      key="Objecttype"
+      value="Bericht"/>
+  <properties
+      key="Code"
+      value="BVGCLU"/>
+</archimate:DataObject>

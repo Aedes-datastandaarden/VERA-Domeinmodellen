@@ -1,13 +1,11 @@
-<archimate:AssociationRelationship
+<archimate:CompositionRelationship
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="contactpersonen"
-    id="23b12c9f-5315-4b20-9cda-243777e0a5f2"
-    directed="true">
+    id="4dd55c08-6001-4abd-ae0e-b7722ed37566">
   <source
       xsi:type="archimate:DataObject"
-      href="DataObject_76730fa2-87b3-41ba-8dc0-a051d53fa2a0.xml#76730fa2-87b3-41ba-8dc0-a051d53fa2a0"/>
+      href="DataObject_52903a3e-0cb7-4426-a53e-fbe064b4fbd1.xml#52903a3e-0cb7-4426-a53e-fbe064b4fbd1"/>
   <target
       xsi:type="archimate:DataObject"
       href="DataObject_c741dd31-2b80-4474-8abe-c8832a718069.xml#c741dd31-2b80-4474-8abe-c8832a718069"/>
-</archimate:AssociationRelationship>
+</archimate:CompositionRelationship>

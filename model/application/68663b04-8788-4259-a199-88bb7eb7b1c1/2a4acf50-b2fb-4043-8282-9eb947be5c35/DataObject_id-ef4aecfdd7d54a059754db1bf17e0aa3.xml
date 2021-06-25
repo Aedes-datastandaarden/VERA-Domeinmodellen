@@ -1,0 +1,12 @@
+<archimate:DataObject
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="BFG: Betalingsregeling"
+    id="id-ef4aecfdd7d54a059754db1bf17e0aa3"
+    documentation="====Definitie====&#xD;&#xA;Het ophalen, wijzigen of aanmaken van een betalingsregeling met een relatie.&#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;Bron: SWEMP, wijziging VERA Portalenwerkgroep - concept ter review&#xD;&#xA;&#xD;&#xA;Vanuit klantbediening is het gewenst om de informatie rondom de betalingsregeling en de betaaltermijnen van een specifieke huurder op te vragen. Daarnaast kan vanuit klantbediening een lopende betalingsregeling gewijzigd (of geannulleerd) worden of aangemaakt.&#xD;&#xA;&#xD;&#xA;====Voorbeelden====&#xD;&#xA;Voorbeeld 1: Met een huurder wordt een betalingsregeling afgesproken waar in drie maandelijkse termijnen van € 50,00 de nog te betalen afrekening stook- en servicekosten van het vorige jaar wordt afbetaald.&#xD;&#xA;Voorbeeld 2: De huurder vraagt in het klantportaal zijn financiele status op en kan daarin de aflossing van de lopende betalingsregeling inzien">
+  <properties
+      key="Objecttype"
+      value="Bericht"/>
+  <properties
+      key="Code"
+      value="BFGBET"/>
+</archimate:DataObject>

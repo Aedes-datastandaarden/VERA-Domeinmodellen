@@ -1,0 +1,12 @@
+<archimate:DataObject
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="KBD: Mutatieinspecties"
+    id="9958d5ac-84fa-4629-96fa-e59f097077d8"
+    documentation="====Definitie====&#xD;&#xA;Opvragen van informatie over (lopende) inspecties of het aanmaken van een onderhoudsverzoek voor mutatieinspecties bij het verwerken van de huuropzegging door klantbediening.&#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;Vanuit klantbediening is het gewenst om een (huur)overeenkomst op te zeggen en daarbij de eventueel noodzakelijke inspecties te plannen. Daarvoor wordt een onderhoudsverzoek aangemaakt met als onderhoudsoort &quot;Inspectie&quot; en bijbehorende onderhoudsorders afhandelijk van het aantal uit te voeren inspecties. Of en zo ja welke inspecties (voor-/eind-inspectie) wordt bepaald in een ander bedrijfsproces en zal binnen klantbediening bekend moeten zijn/worden. &#xD;&#xA;&#xD;&#xA;====Voorbeelden====&#xD;&#xA;* Voorbeeld 1: Huurder belt naar de klantenservice en wil weten wanneer de voorinspectie plaatsvindt&#xD;&#xA;* Voorbeeld 2: Huurder belt naar de klantenservice en wil de geplande voorinspectie aanpassen naar een ander moment&#xD;&#xA;* Voorbeeld 3: Huurder heeft de huurovereenkomst opgezegd en wil de voor- en eindinspectie plannen&#xD;&#xA;">
+  <properties
+      key="Objecttype"
+      value="Bericht"/>
+  <properties
+      key="Code"
+      value="KBDMIN"/>
+</archimate:DataObject>

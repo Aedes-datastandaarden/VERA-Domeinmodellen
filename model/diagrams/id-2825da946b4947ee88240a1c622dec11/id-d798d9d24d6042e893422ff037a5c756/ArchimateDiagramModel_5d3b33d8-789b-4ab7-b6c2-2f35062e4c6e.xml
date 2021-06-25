@@ -36,10 +36,10 @@
           href="CompositionRelationship_42a6111e-853d-4053-aa50-38bb57430c15.xml#42a6111e-853d-4053-aa50-38bb57430c15"/>
     </sourceConnections>
     <bounds
-        x="24"
+        x="12"
         y="12"
-        width="529"
-        height="265"/>
+        width="445"
+        height="217"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="699300bb-3fa2-4ad4-8df9-48419d0df5d9"
@@ -49,8 +49,8 @@
         fillColor="#0099cc"
         textPosition="1">
       <bounds
-          x="48"
-          y="180"
+          x="24"
+          y="144"
           width="120"
           height="55"/>
       <archimateElement
@@ -88,7 +88,7 @@
             href="AssociationRelationship_9df909a1-4064-47ca-8c81-f34a16bf4b39.xml#9df909a1-4064-47ca-8c81-f34a16bf4b39"/>
       </sourceConnections>
       <bounds
-          x="48"
+          x="24"
           y="48"
           width="120"
           height="55"/>
@@ -105,7 +105,7 @@
         fillColor="#0099cc"
         textPosition="1">
       <bounds
-          x="324"
+          x="288"
           y="48"
           width="120"
           height="55"/>
@@ -167,10 +167,10 @@
           href="CompositionRelationship_1df83281-91ee-4263-9eaf-fe20b5fc09cb.xml#1df83281-91ee-4263-9eaf-fe20b5fc09cb"/>
     </sourceConnections>
     <bounds
-        x="24"
-        y="288"
-        width="529"
-        height="277"/>
+        x="12"
+        y="240"
+        width="445"
+        height="313"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="23c1a42a-2b73-4849-90d1-aaf0d785b3ba"
@@ -239,9 +239,14 @@
           source="23c1a42a-2b73-4849-90d1-aaf0d785b3ba"
           target="e9310b5c-8caa-4b84-a839-e6823436a508">
         <bendpoints
-            startX="120"
+            startX="132"
+            startY="-15"
+            endX="-132"
+            endY="69"/>
+        <bendpoints
+            startX="132"
             startY="-87"
-            endX="-144"
+            endX="-132"
             endY="-3"/>
         <archimateRelationship
             xsi:type="archimate:AssociationRelationship"
@@ -283,7 +288,7 @@
         textPosition="1">
       <bounds
           x="24"
-          y="48"
+          y="24"
           width="120"
           height="55"/>
       <archimateElement
@@ -300,7 +305,7 @@
         textPosition="1">
       <bounds
           x="24"
-          y="216"
+          y="240"
           width="120"
           height="55"/>
       <archimateElement
@@ -396,10 +401,10 @@
           href="CompositionRelationship_f802ddb7-aad2-4c67-93f7-5b72badc3066.xml#f802ddb7-aad2-4c67-93f7-5b72badc3066"/>
     </sourceConnections>
     <bounds
-        x="24"
-        y="576"
-        width="529"
-        height="337"/>
+        x="12"
+        y="564"
+        width="445"
+        height="277"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="78c7a758-30ea-4303-8795-13df539eb981"
@@ -438,15 +443,15 @@
             endX="-252"
             endY="-111"/>
         <bendpoints
-            startX="84"
-            startY="93"
-            endX="-192"
-            endY="-111"/>
+            startX="96"
+            startY="81"
+            endX="-180"
+            endY="-75"/>
         <bendpoints
-            startX="84"
-            startY="213"
-            endX="-192"
-            endY="9"/>
+            startX="96"
+            startY="177"
+            endX="-180"
+            endY="21"/>
         <archimateRelationship
             xsi:type="archimate:AssociationRelationship"
             href="AssociationRelationship_32350348-426b-4591-a498-fd62958878d9.xml#32350348-426b-4591-a498-fd62958878d9"/>
@@ -505,7 +510,7 @@
         textPosition="1">
       <bounds
           x="300"
-          y="252"
+          y="204"
           width="120"
           height="55"/>
       <archimateElement
@@ -522,7 +527,7 @@
         textPosition="1">
       <bounds
           x="24"
-          y="252"
+          y="204"
           width="120"
           height="55"/>
       <archimateElement
@@ -664,7 +669,7 @@
       id="0b6ea87d-171d-4fd5-aa28-d590bcc7f566"
       textAlignment="1">
     <bounds
-        x="564"
+        x="468"
         y="12"
         width="180"
         height="325"/>

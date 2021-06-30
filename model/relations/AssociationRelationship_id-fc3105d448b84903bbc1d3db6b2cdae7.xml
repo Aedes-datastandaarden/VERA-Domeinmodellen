@@ -3,14 +3,14 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Opvragen dossier"
     id="id-fc3105d448b84903bbc1d3db6b2cdae7"
-    documentation="Het opvragen van een dossier van een relatie.&#xD;&#xA;&#xD;&#xA;====Scenario's====&#xD;&#xA;Primair&#xD;&#xA;&#xD;&#xA;Secundair&#xD;&#xA;"
+    documentation="Opvragen van dossiers behorend bij een relatie&#xD;&#xA;&#xD;&#xA;====Scenario's====&#xD;&#xA;Primair&#xD;&#xA;* Als klantbediening wil ik de informatie over een leefbaarheidsdossier opvragen zodat ik de klant beter te woord kan staan&#xD;&#xA;"
     directed="true">
   <properties
       key="Objecttype"
       value="Trigger"/>
   <properties
       key="Code"
-      value="KBDT02"/>
+      value="KBDV02"/>
   <properties
       key="Bericht"
       value="Dossier opvragen"/>

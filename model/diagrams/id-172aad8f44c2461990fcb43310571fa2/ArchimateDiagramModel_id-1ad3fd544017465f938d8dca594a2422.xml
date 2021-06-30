@@ -3,6 +3,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Beheer Relatiegegevens"
     id="id-1ad3fd544017465f938d8dca594a2422"
+    documentation="Het beheren van relatiegegevens is een belangrijk onderdeel van de administratie binnen een woningcorporatie. Datakwaliteit is een essentieel onderdeel in de bedrijfsvoering van een woningcorporatie waardoor efficiente klantcontacten kunnen plaatsvinden maar ook andere processen goed doorlopen. &#xD;&#xA;&#xD;&#xA;De procesketen van beheer relatiegegevens is erop gericht om de datakwaliteit rondom relatiegegevens te borgen en deze informatie ook beschikbaar te stellen aan overige bedrijfsprocessen zoals Klantbediening. Deze procesketen beschrijft de interactie tussen bedrijfs- en werkprocessen van verschillende rollen en hun betrokken bedrijfsfuncties:&#xD;&#xA;* Klantbedieningsfunctie&#xD;&#xA;* Relatiebeheerfunctie"
     viewpoint="business_process_cooperation">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
@@ -51,7 +52,7 @@
             href="AssociationRelationship_id-9b05c88ec3ec4b26a9929bf8b2e021c1.xml#id-9b05c88ec3ec4b26a9929bf8b2e021c1"/>
       </sourceConnections>
       <bounds
-          x="36"
+          x="12"
           y="36"
           width="229"
           height="169"/>
@@ -79,7 +80,7 @@
             href="AssociationRelationship_id-87257b9c79a84be5b234c99ca1ba7468.xml#id-87257b9c79a84be5b234c99ca1ba7468"/>
       </sourceConnections>
       <bounds
-          x="396"
+          x="432"
           y="36"
           width="229"
           height="169"/>
@@ -99,7 +100,7 @@
         x="708"
         y="12"
         width="252"
-        height="264"/>
+        height="277"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-5b8b8474d1924898bd9ed45c0458b04a"
@@ -235,6 +236,18 @@
       <archimateElement
           xsi:type="archimate:BusinessFunction"
           href="BusinessFunction_id-7468a5cfead04b95b86621d709c086fe.xml#id-7468a5cfead04b95b86621d709c086fe"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="10758d80-095d-4e86-b248-580dda1e3179">
+      <bounds
+          x="12"
+          y="244"
+          width="219"
+          height="23"/>
+      <archimateElement
+          xsi:type="archimate:BusinessFunction"
+          href="BusinessFunction_9183cd47-a87c-42ad-accb-e467fdbd3719.xml#9183cd47-a87c-42ad-accb-e467fdbd3719"/>
     </children>
     <archimateElement
         xsi:type="archimate:Grouping"

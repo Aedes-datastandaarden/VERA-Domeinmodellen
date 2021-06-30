@@ -2,10 +2,17 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Doorgeven eenheidgegevens"
-    id="6e389d8a-5b82-47f4-8d78-5387c8354ddb">
+    id="6e389d8a-5b82-47f4-8d78-5387c8354ddb"
+    documentation="Het doorgeven van nieuwe of gewijzigde eenheidgegevens aan andere processen.&#xD;&#xA;&#xD;&#xA;====Scenario's====&#xD;&#xA;Primair&#xD;&#xA;&#xD;&#xA;Secundair&#xD;&#xA;">
   <properties
       key="Bericht"
       value="Synchroniseren eenheidgegevens"/>
+  <properties
+      key="Code"
+      value="BVGT02"/>
+  <properties
+      key="Objecttype"
+      value="Trigger"/>
   <source
       xsi:type="archimate:BusinessProcess"
       href="BusinessProcess_e3768ba4-6479-43fe-94e7-c28d43d048df.xml#e3768ba4-6479-43fe-94e7-c28d43d048df"/>

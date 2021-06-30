@@ -1,0 +1,22 @@
+<archimate:AssociationRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Synchroniseren zaak"
+    id="id-0282bf47c15e434fbc0c14c0d971d16b"
+    directed="true">
+  <properties
+      key="Objecttype"
+      value="Trigger"/>
+  <properties
+      key="Code"
+      value="KBDT01"/>
+  <properties
+      key="Bericht"
+      value="Zaak synchroniseren"/>
+  <source
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_id-f0ac7436477b4038a078eadd1bd913fe.xml#id-f0ac7436477b4038a078eadd1bd913fe"/>
+  <target
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_id-a6de887b920047a086a65f4076042e55.xml#id-a6de887b920047a086a65f4076042e55"/>
+</archimate:AssociationRelationship>

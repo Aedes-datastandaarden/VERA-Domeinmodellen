@@ -2,10 +2,17 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Doorgeven clustergegevens"
-    id="961684b4-4a9a-4824-a549-481165e5178c">
+    id="961684b4-4a9a-4824-a549-481165e5178c"
+    documentation="Het doorgeven van nieuwe of gewijzigde clustergegevens aan andere processen.&#xD;&#xA;&#xD;&#xA;====Scenario's====&#xD;&#xA;Primair&#xD;&#xA;&#xD;&#xA;Secundair&#xD;&#xA;">
   <properties
       key="Bericht"
       value="Synchroniseren clustergegevens"/>
+  <properties
+      key="Objecttype"
+      value="Trigger"/>
+  <properties
+      key="Code"
+      value="BVGT01"/>
   <source
       xsi:type="archimate:BusinessProcess"
       href="BusinessProcess_de856fdb-9b6c-4cc2-aa12-8253147ff728.xml#de856fdb-9b6c-4cc2-aa12-8253147ff728"/>

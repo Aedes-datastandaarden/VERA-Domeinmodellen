@@ -1,0 +1,13 @@
+<archimate:TriggeringRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Mutatieinspecties opvragen"
+    id="eea5950c-b30f-4249-975b-bb38b5c34feb"
+    documentation="Opvragen van informatie over (lopende) inspecties bij het verwerken van de huuropzegging door klantbediening&#xD;&#xA;&#xD;&#xA;==== Scenario's ====&#xD;&#xA;Primair&#xD;&#xA;*&#x9;Als medewerker klantbediening wil ik de informatie hebben van de lopende inspecties bij een huuropzegging zodat de klant geinformeerd kan worden over de status en vervolg.&#xD;&#xA;&#xD;&#xA;Secundair&#xD;&#xA;*&#x9;Als medewerker klantbediening wil ik de inspectieafspraken naar aanleiding van een huuropzegging weten zodat ik de inspecteur kan informeren over de planning. &#x9;&#xD;&#xA;">
+  <source
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_id-a6de887b920047a086a65f4076042e55.xml#id-a6de887b920047a086a65f4076042e55"/>
+  <target
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_id-2884d518037d4a088794e2e1152283e1.xml#id-2884d518037d4a088794e2e1152283e1"/>
+</archimate:TriggeringRelationship>

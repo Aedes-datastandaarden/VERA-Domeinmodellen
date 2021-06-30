@@ -1,0 +1,22 @@
+<archimate:TriggeringRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Eenheidgegevens opvragen"
+    id="23f3ccbc-8477-4b67-a9b7-08e85cec5cfb"
+    documentation="Het opvragen van eenheidgegevens&#xD;&#xA;&#xD;&#xA;====Scenario's====&#xD;&#xA;Primair&#xD;&#xA;* Als klantbediening wil ik detailinformatie over de eenheid hebben zodat ik deze informatie kan gebruiken in de afhandeling van een klantcontact">
+  <properties
+      key="Bericht"
+      value="Eenheidgegevens opvragen"/>
+  <properties
+      key="Code"
+      value="BVGV01"/>
+  <properties
+      key="Objecttype"
+      value="Trigger"/>
+  <source
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_id-a6de887b920047a086a65f4076042e55.xml#id-a6de887b920047a086a65f4076042e55"/>
+  <target
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_e3768ba4-6479-43fe-94e7-c28d43d048df.xml#e3768ba4-6479-43fe-94e7-c28d43d048df"/>
+</archimate:TriggeringRelationship>

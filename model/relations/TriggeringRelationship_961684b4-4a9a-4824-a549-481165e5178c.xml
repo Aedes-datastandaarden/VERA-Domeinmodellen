@@ -3,10 +3,10 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Doorgeven clustergegevens"
     id="961684b4-4a9a-4824-a549-481165e5178c"
-    documentation="Het doorgeven van nieuwe of gewijzigde clustergegevens aan andere processen.&#xD;&#xA;&#xD;&#xA;====Scenario's====&#xD;&#xA;Primair&#xD;&#xA;&#xD;&#xA;Secundair&#xD;&#xA;">
+    documentation="Het doorgeven van nieuwe of gewijzigde clustergegevens aan andere processen.&#xD;&#xA;&#xD;&#xA;====Scenario's====&#xD;&#xA;Primair&#xD;&#xA;* Als vastgoedgegevensbeheer wil ik de wijzigingen in clusters doorgeven aan klantbediening zodat zij deze kunnen gebruiken bij de uitvoering van de functie&#xD;&#xA;* Als vastgoedgegevensbeheer wil ik de wijzigingen in clusters doorgeven aan regisseren onderhoud zodat zij deze kunnen gebruiken bij het uitvoeren van onderhoud&#xD;&#xA;">
   <properties
       key="Bericht"
-      value="Synchroniseren clustergegevens"/>
+      value="Clustergegevens synchroniseren"/>
   <properties
       key="Objecttype"
       value="Trigger"/>

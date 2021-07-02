@@ -1,0 +1,14 @@
+<archimate:AssociationRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Synchroniseren contactmoment"
+    id="3ec2437a-e85c-4a7d-b4a6-858f41eb4a9e"
+    documentation="Synchroniseren van contactmomenten ter ondersteuning van klantbediening.&#xD;&#xA;&#xD;&#xA;====Scenario's====&#xD;&#xA;Primair&#xD;&#xA;* Als klantbediening wil ik de contactmomenten synchroniseren met het eigen systeem zodat van daaruit de contactmomenten kunnen worden afgehandeld."
+    directed="true">
+  <source
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_id-dc636dbc60ef4675a5bd4b7359a9c537.xml#id-dc636dbc60ef4675a5bd4b7359a9c537"/>
+  <target
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_id-a6de887b920047a086a65f4076042e55.xml#id-a6de887b920047a086a65f4076042e55"/>
+</archimate:AssociationRelationship>

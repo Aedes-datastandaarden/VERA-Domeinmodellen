@@ -213,21 +213,6 @@
       </sourceConnections>
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
-          id="5a1cff33-e0de-4fdd-93ea-3b088aab95fe"
-          font="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|0|3|2|1|34|Segoe UI"
-          source="c035745d-a0c2-4862-9f5f-104808aa0ba0"
-          target="27a4332d-424d-4701-ad14-10f330106a61">
-        <bendpoints
-            startX="-203"
-            startY="-19"
-            endX="216"
-            endY="-19"/>
-        <archimateRelationship
-            xsi:type="archimate:AssociationRelationship"
-            href="AssociationRelationship_3f6ef6c8-9e73-47bc-b4db-13dd773a3bb9.xml#3f6ef6c8-9e73-47bc-b4db-13dd773a3bb9"/>
-      </sourceConnections>
-      <sourceConnections
-          xsi:type="archimate:DiagramModelArchimateConnection"
           id="bfb332d4-57b1-4635-9b65-73a468f7e4f3"
           font="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|0|3|2|1|34|Segoe UI"
           source="c035745d-a0c2-4862-9f5f-104808aa0ba0"
@@ -359,7 +344,6 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="27a4332d-424d-4701-ad14-10f330106a61"
-        targetConnections="5a1cff33-e0de-4fdd-93ea-3b088aab95fe"
         font="1|Segoe UI|9.0|1|WINDOWS|1|-12|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
         fontColor="#ffffff"
         fillColor="#0099cc"

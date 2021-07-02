@@ -1,9 +1,9 @@
 <archimate:TriggeringRelationship
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Bevestigen Afspraak"
-    id="id-c469f17f92af4b95b0bf1d5e9a6cd941"
-    documentation="Voor het bevestigen van een afspraak. &#xD;&#xA;&#xD;&#xA;Op basis van de beschikbare opties wordt één optie gekozen waarop uitvoerende partij de onderhoudsorder kan gaan uitvoeren. ">
+    name="Opvragen Afspraakopties"
+    id="73b80192-3eba-4e6d-83f6-0bcfd6131445"
+    documentation="Voor het ophalen van afspraakverzoekopties. &#xD;&#xA;&#xD;&#xA;Op basis van tijdvakken en benodigde expertise worden de mogelijke afspraak opties opgehaald uit het afsprakensysteem van de uitvoerder.">
   <source
       xsi:type="archimate:BusinessProcess"
       href="BusinessProcess_id-23d6b40adccf4d4e913762396b974b22.xml#id-23d6b40adccf4d4e913762396b974b22"/>

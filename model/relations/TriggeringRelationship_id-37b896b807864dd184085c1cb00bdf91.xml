@@ -4,15 +4,6 @@
     name="Doorgeven factuur voor Uitvoer Onderhoudsorder"
     id="id-37b896b807864dd184085c1cb00bdf91"
     documentation="Voor het doorgeven van de factuur voor het onderhoudsverzoek. &#xD;&#xA;&#xD;&#xA;Na uitvoering van de onderhoudsorder wordt de factuur door bedrijfsproces 'Regisseren onderhoud' doorgegeven aan de crediteurenadministratie binnen ‘Leveren financiële dienstverlening’. ">
-  <properties
-      key="Type"
-      value="Trigger"/>
-  <properties
-      key="Code"
-      value="OHDT12"/>
-  <properties
-      key="Bericht"
-      value="Factuur Synchroniseren"/>
   <source
       xsi:type="archimate:BusinessProcess"
       href="BusinessProcess_id-ba46821064e64d5b8c397e122bcfa6e6.xml#id-ba46821064e64d5b8c397e122bcfa6e6"/>

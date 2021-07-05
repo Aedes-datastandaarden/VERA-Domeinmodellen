@@ -1,0 +1,12 @@
+<archimate:TriggeringRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Synchroniseren huurovereenkomst"
+    id="e04506cc-78c9-4abd-a7f0-bb269ce2e820">
+  <source
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_c4a97439-c575-49ea-aeda-3594ef262430.xml#c4a97439-c575-49ea-aeda-3594ef262430"/>
+  <target
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_id-a6de887b920047a086a65f4076042e55.xml#id-a6de887b920047a086a65f4076042e55"/>
+</archimate:TriggeringRelationship>

@@ -1,0 +1,22 @@
+<archimate:TriggeringRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Opvragen natuurlijkPersoon"
+    id="4ba5af54-36cd-475e-95a2-f4487d1c1106"
+    documentation="Het opvragen van een informatie over een natuurlijk persoon&#xD;&#xA;&#xD;&#xA;====Scenario's====&#xD;&#xA;Primair&#xD;&#xA;* Als medewerker klantbediening wil ik de informatie van een natuurlijk persoon hebben zodat deze beter te woord gestaan kan worden.">
+  <properties
+      key="Objecttype"
+      value="Trigger"/>
+  <properties
+      key="Code"
+      value="BRGV04"/>
+  <properties
+      key="Bericht"
+      value="NatuurlijkPersoon opvragen"/>
+  <source
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_id-a6de887b920047a086a65f4076042e55.xml#id-a6de887b920047a086a65f4076042e55"/>
+  <target
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_c52e9587-62a1-44d4-b080-c027bd57cba8.xml#c52e9587-62a1-44d4-b080-c027bd57cba8"/>
+</archimate:TriggeringRelationship>

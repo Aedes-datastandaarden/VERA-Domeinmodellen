@@ -2,7 +2,8 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Opvragen huurovereenkomst"
-    id="b6e56f24-0223-404e-b3ad-3c7137511a56">
+    id="b6e56f24-0223-404e-b3ad-3c7137511a56"
+    documentation="Het opvragen van de rekening courant van een debiteur.&#xD;&#xA;&#xD;&#xA;Het is gewenst om bij klantcontacten met een relatie te weten wat de debiteurenpositie is en welke posten nog open staan. Op basis daarvan kan met de relatie betaalafspraken gemaakt worden.&#xD;&#xA;&#xD;&#xA;====Scenario's====&#xD;&#xA;Primair&#xD;&#xA;* Als medewerker klantbediening wil ik weten of een huurder een huurachterstand heeft zodat er betaalafspraken gemaakt kunnen worden.&#xD;&#xA;* Als medewerker klantbediening wil ik weten welke posten buiten de betaaltermijn zijn gevallen om op basis daarvan een betalingsregeling aan te bieden.">
   <properties
       key="Objecttype"
       value="Trigger"/>

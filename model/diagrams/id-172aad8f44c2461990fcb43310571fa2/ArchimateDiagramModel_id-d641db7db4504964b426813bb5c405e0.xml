@@ -48,12 +48,12 @@
     <bounds
         x="12"
         y="12"
-        width="721"
+        width="1033"
         height="373"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="870cc542-29e1-403d-bb63-de3cb5d5b832"
-        targetConnections="a7ef6b6e-016c-4570-a819-78afb31c3b05 212a155e-32be-4b7b-a45e-e2750256b00e"
+        targetConnections="a7ef6b6e-016c-4570-a819-78afb31c3b05 212a155e-32be-4b7b-a45e-e2750256b00e 2ba38870-73ef-41cd-be7c-0faeae16dc75"
         fillColor="#ffffff">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
@@ -71,18 +71,18 @@
           source="870cc542-29e1-403d-bb63-de3cb5d5b832"
           target="0abdb7e0-01f8-4f54-8958-35a21c1c45b1">
         <bendpoints
-            startX="-276"
-            startY="102"
-            endX="-150"
-            endY="-96"/>
+            startX="-180"
+            startY="114"
+            endX="-54"
+            endY="-84"/>
         <archimateRelationship
             xsi:type="archimate:TriggeringRelationship"
             href="TriggeringRelationship_dcc4e2aa-7bb7-4083-9634-abc326c4dead.xml#dcc4e2aa-7bb7-4083-9634-abc326c4dead"/>
       </sourceConnections>
       <bounds
-          x="96"
+          x="48"
           y="48"
-          width="601"
+          width="889"
           height="109"/>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
@@ -117,21 +117,21 @@
             source="8c2f50d4-4d7c-4655-a095-52a7bf93b89d"
             target="0abdb7e0-01f8-4f54-8958-35a21c1c45b1">
           <bendpoints
-              startX="-48"
+              startX="-24"
               startY="93"
-              endX="138"
+              endX="306"
               endY="-96"/>
           <bendpoints
-              startX="-240"
+              startX="-264"
               startY="93"
-              endX="-54"
+              endX="66"
               endY="-96"/>
           <archimateRelationship
               xsi:type="archimate:TriggeringRelationship"
               href="TriggeringRelationship_6e389d8a-5b82-47f4-8d78-5387c8354ddb.xml#6e389d8a-5b82-47f4-8d78-5387c8354ddb"/>
         </sourceConnections>
         <bounds
-            x="300"
+            x="588"
             y="36"
             width="120"
             height="55"/>
@@ -156,14 +156,14 @@
           source="0abdb7e0-01f8-4f54-8958-35a21c1c45b1"
           target="8c2f50d4-4d7c-4655-a095-52a7bf93b89d">
         <bendpoints
-            startX="-54"
+            startX="78"
             startY="-72"
-            endX="-180"
+            endX="-252"
             endY="117"/>
         <bendpoints
-            startX="162"
+            startX="318"
             startY="-72"
-            endX="-24"
+            endX="-12"
             endY="117"/>
         <archimateRelationship
             xsi:type="archimate:TriggeringRelationship"
@@ -176,18 +176,33 @@
           source="0abdb7e0-01f8-4f54-8958-35a21c1c45b1"
           target="870cc542-29e1-403d-bb63-de3cb5d5b832">
         <bendpoints
-            startX="-102"
-            startY="-120"
-            endX="-228"
-            endY="78"/>
+            startX="6"
+            startY="-108"
+            endX="-120"
+            endY="90"/>
         <archimateRelationship
             xsi:type="archimate:TriggeringRelationship"
             href="TriggeringRelationship_afd0f32f-03e2-47d3-9f4e-9ac5e4e54037.xml#afd0f32f-03e2-47d3-9f4e-9ac5e4e54037"/>
       </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="2ba38870-73ef-41cd-be7c-0faeae16dc75"
+          font="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|0|3|2|1|34|Segoe UI"
+          source="0abdb7e0-01f8-4f54-8958-35a21c1c45b1"
+          target="870cc542-29e1-403d-bb63-de3cb5d5b832">
+        <bendpoints
+            startX="-246"
+            startY="-72"
+            endX="-372"
+            endY="126"/>
+        <archimateRelationship
+            xsi:type="archimate:TriggeringRelationship"
+            href="TriggeringRelationship_2ff37e59-58cc-402e-8301-2ff3bdfbfe31.xml#2ff37e59-58cc-402e-8301-2ff3bdfbfe31"/>
+      </sourceConnections>
       <bounds
-          x="96"
+          x="48"
           y="264"
-          width="349"
+          width="637"
           height="73"/>
       <archimateElement
           xsi:type="archimate:BusinessProcess"
@@ -220,7 +235,7 @@
             href="TriggeringRelationship_a0f6de9c-5a91-4e1a-84dc-9eac8d37463f.xml#a0f6de9c-5a91-4e1a-84dc-9eac8d37463f"/>
       </sourceConnections>
       <bounds
-          x="468"
+          x="708"
           y="264"
           width="229"
           height="73"/>
@@ -250,7 +265,7 @@
       id="id-1f138e0a4caf43e2a10bdef4ff5cbb22"
       textAlignment="1">
     <bounds
-        x="744"
+        x="1056"
         y="12"
         width="241"
         height="253"/>

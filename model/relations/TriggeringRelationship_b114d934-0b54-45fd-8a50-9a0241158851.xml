@@ -1,17 +1,17 @@
 <archimate:TriggeringRelationship
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Opvragen betaalgegeven"
-    id="372162d4-299b-4039-97ae-faf0cdd2e4d0">
+    name="Opvragen natuurlijkPersoon"
+    id="b114d934-0b54-45fd-8a50-9a0241158851">
   <properties
       key="Objecttype"
       value="Trigger"/>
   <properties
       key="Code"
-      value="BRGV02"/>
+      value="BRGV04"/>
   <properties
       key="Bericht"
-      value="Betaalgegeven opvragen"/>
+      value="NatuurlijkPersoon opvragen"/>
   <source
       xsi:type="archimate:BusinessProcess"
       href="BusinessProcess_id-a6de887b920047a086a65f4076042e55.xml#id-a6de887b920047a086a65f4076042e55"/>

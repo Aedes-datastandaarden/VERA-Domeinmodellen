@@ -1,18 +1,18 @@
 <archimate:TriggeringRelationship
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Synchroniseren rechtspersoon"
-    id="59bf6cbb-788b-4803-8f82-022699cf0c9a"
-    documentation="Het synchroniseren van een rechtspersoon&#xD;&#xA;&#xD;&#xA;====Scenario's====&#xD;&#xA;Primair&#xD;&#xA;* Als medewerker klantbediening wil ik de rechtspersoongegevens hebben van de klant zodat deze beter te woord gestaan kan worden.">
+    name="Synchroniseren natuurlijkPersoon"
+    id="cd9617e6-988d-40dd-95ef-c1fe0444539f"
+    documentation="Het synchroniseren van een natuurlijk persoon&#xD;&#xA;&#xD;&#xA;====Scenario's====&#xD;&#xA;Primair&#xD;&#xA;* Als medewerker klantbediening wil ik de natuurlijke persoongegevens hebben van de klant zodat deze beter te woord gestaan kan worden.">
   <properties
       key="Objecttype"
       value="Trigger"/>
   <properties
       key="Code"
-      value="BRGT03"/>
+      value="BRGT04"/>
   <properties
       key="Bericht"
-      value="Rechtspersoon synchroniseren"/>
+      value="NatuurlijkPersoon synchroniseren"/>
   <source
       xsi:type="archimate:BusinessProcess"
       href="BusinessProcess_c52e9587-62a1-44d4-b080-c027bd57cba8.xml#c52e9587-62a1-44d4-b080-c027bd57cba8"/>

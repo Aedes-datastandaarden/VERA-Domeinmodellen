@@ -39,7 +39,7 @@
         x="12"
         y="12"
         width="901"
-        height="457"/>
+        height="277"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="da7470d5-aa6d-4507-abee-18940097d044"
@@ -52,9 +52,9 @@
           target="c718911d-1ad4-42a6-b2e2-b87e9a9e859e">
         <bendpoints
             startX="-288"
-            startY="-132"
+            startY="30"
             endX="300"
-            endY="-132"/>
+            endY="30"/>
         <archimateRelationship
             xsi:type="archimate:TriggeringRelationship"
             href="TriggeringRelationship_e120abee-dd23-4222-a818-ba54165feab5.xml#e120abee-dd23-4222-a818-ba54165feab5"/>
@@ -63,7 +63,7 @@
           x="624"
           y="60"
           width="241"
-          height="337"/>
+          height="157"/>
       <archimateElement
           xsi:type="archimate:BusinessProcess"
           href="BusinessProcess_bbd8e58b-fadc-4383-8949-f82649f5fb58.xml#bbd8e58b-fadc-4383-8949-f82649f5fb58"/>
@@ -80,9 +80,9 @@
           target="da7470d5-aa6d-4507-abee-18940097d044">
         <bendpoints
             startX="300"
-            startY="-60"
+            startY="-30"
             endX="-288"
-            endY="-60"/>
+            endY="-30"/>
         <archimateRelationship
             xsi:type="archimate:TriggeringRelationship"
             href="TriggeringRelationship_edcbd812-c834-4ab5-9a01-39a4aea6faa5.xml#edcbd812-c834-4ab5-9a01-39a4aea6faa5"/>
@@ -91,7 +91,7 @@
           x="24"
           y="60"
           width="265"
-          height="337"/>
+          height="157"/>
       <archimateElement
           xsi:type="archimate:BusinessProcess"
           href="BusinessProcess_id-a6de887b920047a086a65f4076042e55.xml#id-a6de887b920047a086a65f4076042e55"/>
@@ -266,8 +266,8 @@
       id="0a536509-d124-4488-8ec0-37de267c9cd5"
       targetConnections="c1b2c3eb-2b16-4bab-a527-e8fe13e8a6a2">
     <bounds
-        x="12"
-        y="540"
+        x="24"
+        y="324"
         width="120"
         height="55"/>
     <archimateElement

@@ -9,8 +9,8 @@
       id="40f1f53b-8e06-4483-9c23-aad42183f2c7"
       targetConnections="3ed1ba2c-9795-48a6-98f5-76a377190c48">
     <bounds
-        x="96"
-        y="528"
+        x="48"
+        y="336"
         width="120"
         height="55"/>
     <archimateElement
@@ -52,7 +52,7 @@
         x="12"
         y="12"
         width="757"
-        height="481"/>
+        height="277"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="afc44039-bb6b-4e27-a23f-2e5ae3dd071e"
@@ -64,10 +64,10 @@
           source="afc44039-bb6b-4e27-a23f-2e5ae3dd071e"
           target="f25360c5-e219-4b6b-833e-c89c4aff15e2">
         <bendpoints
-            startX="240"
-            startY="-132"
+            startX="252"
+            startY="-18"
             endX="-246"
-            endY="-132"/>
+            endY="-18"/>
         <archimateRelationship
             xsi:type="archimate:TriggeringRelationship"
             href="TriggeringRelationship_b6e56f24-0223-404e-b3ad-3c7137511a56.xml#b6e56f24-0223-404e-b3ad-3c7137511a56"/>
@@ -76,7 +76,7 @@
           x="24"
           y="36"
           width="217"
-          height="409"/>
+          height="181"/>
       <archimateElement
           xsi:type="archimate:BusinessProcess"
           href="BusinessProcess_id-a6de887b920047a086a65f4076042e55.xml#id-a6de887b920047a086a65f4076042e55"/>
@@ -93,9 +93,9 @@
           target="afc44039-bb6b-4e27-a23f-2e5ae3dd071e">
         <bendpoints
             startX="-246"
-            startY="-72"
-            endX="240"
-            endY="-72"/>
+            startY="42"
+            endX="252"
+            endY="42"/>
         <archimateRelationship
             xsi:type="archimate:TriggeringRelationship"
             href="TriggeringRelationship_e04506cc-78c9-4abd-a7f0-bb269ce2e820.xml#e04506cc-78c9-4abd-a7f0-bb269ce2e820"/>
@@ -104,7 +104,7 @@
           x="516"
           y="36"
           width="229"
-          height="409"/>
+          height="181"/>
       <archimateElement
           xsi:type="archimate:BusinessProcess"
           href="BusinessProcess_c4a97439-c575-49ea-aeda-3594ef262430.xml#c4a97439-c575-49ea-aeda-3594ef262430"/>

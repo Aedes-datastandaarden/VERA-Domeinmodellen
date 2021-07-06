@@ -48,12 +48,12 @@
     <bounds
         x="12"
         y="12"
-        width="553"
+        width="853"
         height="373"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="870cc542-29e1-403d-bb63-de3cb5d5b832"
-        targetConnections="a7ef6b6e-016c-4570-a819-78afb31c3b05"
+        targetConnections="a7ef6b6e-016c-4570-a819-78afb31c3b05 76db7972-2ace-403b-91fb-a44eae9b311e"
         fillColor="#ffffff">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
@@ -65,9 +65,9 @@
             href="CompositionRelationship_2a94033f-4be3-457c-b3e1-675f839faebe.xml#2a94033f-4be3-457c-b3e1-675f839faebe"/>
       </sourceConnections>
       <bounds
-          x="36"
+          x="60"
           y="48"
-          width="469"
+          width="685"
           height="109"/>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
@@ -82,9 +82,9 @@
             source="8c2f50d4-4d7c-4655-a095-52a7bf93b89d"
             target="a101dfce-53fd-410d-b90d-54a92475ee95">
           <bendpoints
-              startX="36"
+              startX="48"
               startY="81"
-              endX="-90"
+              endX="-150"
               endY="-108"/>
           <bendpoints
               startX="216"
@@ -102,21 +102,21 @@
             source="8c2f50d4-4d7c-4655-a095-52a7bf93b89d"
             target="0abdb7e0-01f8-4f54-8958-35a21c1c45b1">
           <bendpoints
-              startX="-48"
+              startX="-36"
               startY="69"
-              endX="78"
+              endX="192"
               endY="-120"/>
           <bendpoints
-              startX="-216"
+              startX="-192"
               startY="69"
-              endX="-90"
+              endX="-66"
               endY="-120"/>
           <archimateRelationship
               xsi:type="archimate:TriggeringRelationship"
               href="TriggeringRelationship_6e389d8a-5b82-47f4-8d78-5387c8354ddb.xml#6e389d8a-5b82-47f4-8d78-5387c8354ddb"/>
         </sourceConnections>
         <bounds
-            x="168"
+            x="384"
             y="36"
             width="120"
             height="55"/>
@@ -141,23 +141,37 @@
           source="0abdb7e0-01f8-4f54-8958-35a21c1c45b1"
           target="8c2f50d4-4d7c-4655-a095-52a7bf93b89d">
         <bendpoints
-            startX="-54"
+            startX="-6"
             startY="-72"
-            endX="-180"
+            endX="-132"
             endY="117"/>
         <bendpoints
-            startX="102"
+            startX="216"
             startY="-72"
-            endX="-24"
+            endX="-12"
             endY="117"/>
         <archimateRelationship
             xsi:type="archimate:TriggeringRelationship"
             href="TriggeringRelationship_23f3ccbc-8477-4b67-a9b7-08e85cec5cfb.xml#23f3ccbc-8477-4b67-a9b7-08e85cec5cfb"/>
       </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="76db7972-2ace-403b-91fb-a44eae9b311e"
+          source="0abdb7e0-01f8-4f54-8958-35a21c1c45b1"
+          target="870cc542-29e1-403d-bb63-de3cb5d5b832">
+        <bendpoints
+            startX="-156"
+            startY="-96"
+            endX="-282"
+            endY="102"/>
+        <archimateRelationship
+            xsi:type="archimate:TriggeringRelationship"
+            href="TriggeringRelationship_a2f6b0f8-a5e8-4992-bd6c-b206f14e3826.xml#a2f6b0f8-a5e8-4992-bd6c-b206f14e3826"/>
+      </sourceConnections>
       <bounds
-          x="24"
+          x="60"
           y="264"
-          width="229"
+          width="433"
           height="73"/>
       <archimateElement
           xsi:type="archimate:BusinessProcess"
@@ -190,7 +204,7 @@
             href="TriggeringRelationship_a0f6de9c-5a91-4e1a-84dc-9eac8d37463f.xml#a0f6de9c-5a91-4e1a-84dc-9eac8d37463f"/>
       </sourceConnections>
       <bounds
-          x="276"
+          x="588"
           y="264"
           width="229"
           height="73"/>
@@ -220,7 +234,7 @@
       id="id-1f138e0a4caf43e2a10bdef4ff5cbb22"
       textAlignment="1">
     <bounds
-        x="576"
+        x="888"
         y="12"
         width="241"
         height="253"/>

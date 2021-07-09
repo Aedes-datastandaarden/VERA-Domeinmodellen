@@ -1484,25 +1484,6 @@
       </sourceConnections>
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
-          id="58ccec7a-0b7d-4493-898c-6fbcad3729a1"
-          source="9a4e99a7-659f-40f1-aa51-d89d1c92a7a0"
-          target="7c86ae73-66b7-491c-9d75-3e5dcff0bf62">
-        <bendpoints
-            startX="-325"
-            startY="58"
-            endX="120"
-            endY="-248"/>
-        <bendpoints
-            startX="-325"
-            startY="274"
-            endX="120"
-            endY="-32"/>
-        <archimateRelationship
-            xsi:type="archimate:AssociationRelationship"
-            href="AssociationRelationship_8a6ed6a2-91ca-484b-89c6-0c29a66d4ed8.xml#8a6ed6a2-91ca-484b-89c6-0c29a66d4ed8"/>
-      </sourceConnections>
-      <sourceConnections
-          xsi:type="archimate:DiagramModelArchimateConnection"
           id="38ce2692-96cd-40d3-bd0a-857ffe9d1408"
           source="9a4e99a7-659f-40f1-aa51-d89d1c92a7a0"
           target="59ba5dd0-ba0f-4ec0-a6da-52f2f21e5fed">
@@ -1524,6 +1505,25 @@
         <archimateRelationship
             xsi:type="archimate:AssociationRelationship"
             href="AssociationRelationship_2e621aef-76ec-4714-ba92-c430cdc6f0ca.xml#2e621aef-76ec-4714-ba92-c430cdc6f0ca"/>
+      </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="58ccec7a-0b7d-4493-898c-6fbcad3729a1"
+          source="9a4e99a7-659f-40f1-aa51-d89d1c92a7a0"
+          target="7c86ae73-66b7-491c-9d75-3e5dcff0bf62">
+        <bendpoints
+            startX="-325"
+            startY="58"
+            endX="120"
+            endY="-248"/>
+        <bendpoints
+            startX="-325"
+            startY="274"
+            endX="120"
+            endY="-32"/>
+        <archimateRelationship
+            xsi:type="archimate:AssociationRelationship"
+            href="AssociationRelationship_8a6ed6a2-91ca-484b-89c6-0c29a66d4ed8.xml#8a6ed6a2-91ca-484b-89c6-0c29a66d4ed8"/>
       </sourceConnections>
       <bounds
           x="444"

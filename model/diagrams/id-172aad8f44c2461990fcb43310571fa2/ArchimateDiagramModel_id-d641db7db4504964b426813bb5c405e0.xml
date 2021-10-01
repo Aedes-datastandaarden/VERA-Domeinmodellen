@@ -53,7 +53,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="870cc542-29e1-403d-bb63-de3cb5d5b832"
-        targetConnections="a7ef6b6e-016c-4570-a819-78afb31c3b05 76db7972-2ace-403b-91fb-a44eae9b311e"
+        targetConnections="a7ef6b6e-016c-4570-a819-78afb31c3b05 76db7972-2ace-403b-91fb-a44eae9b311e f2e31bd7-8830-46ec-bc5f-9fd96411bd2f"
         fillColor="#ffffff">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
@@ -63,6 +63,21 @@
         <archimateRelationship
             xsi:type="archimate:CompositionRelationship"
             href="CompositionRelationship_2a94033f-4be3-457c-b3e1-675f839faebe.xml#2a94033f-4be3-457c-b3e1-675f839faebe"/>
+      </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="2c07e792-f400-4865-8ef1-261482e6718f"
+          font="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|0|3|2|1|34|Segoe UI"
+          source="870cc542-29e1-403d-bb63-de3cb5d5b832"
+          target="0abdb7e0-01f8-4f54-8958-35a21c1c45b1">
+        <bendpoints
+            startX="-330"
+            startY="90"
+            endX="-204"
+            endY="-108"/>
+        <archimateRelationship
+            xsi:type="archimate:AssociationRelationship"
+            href="AssociationRelationship_79982fa8-dad8-49e5-b2a3-ed863d9901d4.xml#79982fa8-dad8-49e5-b2a3-ed863d9901d4"/>
       </sourceConnections>
       <bounds
           x="60"
@@ -109,7 +124,7 @@
           <bendpoints
               startX="-192"
               startY="69"
-              endX="-66"
+              endX="36"
               endY="-120"/>
           <archimateRelationship
               xsi:type="archimate:TriggeringRelationship"
@@ -131,7 +146,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="0abdb7e0-01f8-4f54-8958-35a21c1c45b1"
-        targetConnections="39d68b83-385b-4a37-9f40-08cb81616c00 51267f43-6b01-435a-a943-a35db71dd3d9"
+        targetConnections="39d68b83-385b-4a37-9f40-08cb81616c00 51267f43-6b01-435a-a943-a35db71dd3d9 2c07e792-f400-4865-8ef1-261482e6718f"
         fontColor="#000000"
         fillColor="#ffffff">
       <sourceConnections
@@ -141,9 +156,9 @@
           source="0abdb7e0-01f8-4f54-8958-35a21c1c45b1"
           target="8c2f50d4-4d7c-4655-a095-52a7bf93b89d">
         <bendpoints
-            startX="-6"
+            startX="84"
             startY="-72"
-            endX="-132"
+            endX="-144"
             endY="117"/>
         <bendpoints
             startX="216"
@@ -157,16 +172,32 @@
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="76db7972-2ace-403b-91fb-a44eae9b311e"
+          font="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|0|3|2|1|34|Segoe UI"
           source="0abdb7e0-01f8-4f54-8958-35a21c1c45b1"
           target="870cc542-29e1-403d-bb63-de3cb5d5b832">
         <bendpoints
-            startX="-156"
+            startX="-48"
             startY="-96"
-            endX="-282"
+            endX="-174"
             endY="102"/>
         <archimateRelationship
             xsi:type="archimate:TriggeringRelationship"
             href="TriggeringRelationship_a2f6b0f8-a5e8-4992-bd6c-b206f14e3826.xml#a2f6b0f8-a5e8-4992-bd6c-b206f14e3826"/>
+      </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="f2e31bd7-8830-46ec-bc5f-9fd96411bd2f"
+          font="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|0|3|2|1|34|Segoe UI"
+          source="0abdb7e0-01f8-4f54-8958-35a21c1c45b1"
+          target="870cc542-29e1-403d-bb63-de3cb5d5b832">
+        <bendpoints
+            startX="-132"
+            startY="-72"
+            endX="-258"
+            endY="126"/>
+        <archimateRelationship
+            xsi:type="archimate:AssociationRelationship"
+            href="AssociationRelationship_adde5b05-175e-484e-800c-e329999dce2b.xml#adde5b05-175e-484e-800c-e329999dce2b"/>
       </sourceConnections>
       <bounds
           x="60"

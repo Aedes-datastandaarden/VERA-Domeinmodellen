@@ -1,7 +1,7 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Eenheidgegevens opvragen"
+    name="Eenheid opvragen"
     id="402af7e6-1db8-434b-a5b1-26dfb1430767">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
@@ -169,6 +169,15 @@
           xsi:type="archimate:CompositionRelationship"
           href="CompositionRelationship_30eaf01f-81d0-47cb-9fde-6be79da0b584.xml#30eaf01f-81d0-47cb-9fde-6be79da0b584"/>
     </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="88ebc520-5a6d-4373-ad7e-bf943eee311a"
+        source="99df8100-2e3c-4556-83bf-8f0efc43baff"
+        target="f061e692-ac94-46cd-bf67-bd4848e7dfc5">
+      <archimateRelationship
+          xsi:type="archimate:CompositionRelationship"
+          href="CompositionRelationship_f44ab9d8-3b0f-48f6-aaf3-6711bd36cee7.xml#f44ab9d8-3b0f-48f6-aaf3-6711bd36cee7"/>
+    </sourceConnections>
     <bounds
         x="24"
         y="12"
@@ -296,9 +305,9 @@
           source="689c8b60-dad6-4b7f-a327-d7263a2a9a99"
           target="id-811bb006337f4c2e996f7c9a41286872">
         <bendpoints
-            startX="115"
-            startY="-128"
-            endX="-197"
+            startX="162"
+            startY="-123"
+            endX="-162"
             endY="84"/>
         <bendpoints
             startX="307"
@@ -358,6 +367,20 @@
         <archimateRelationship
             xsi:type="archimate:AssociationRelationship"
             href="AssociationRelationship_d9d81bcc-e0ff-4ca1-895d-d2e5a9bc4857.xml#d9d81bcc-e0ff-4ca1-895d-d2e5a9bc4857"/>
+      </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="87a45c79-3c86-452e-af7f-8f09564066f9"
+          source="689c8b60-dad6-4b7f-a327-d7263a2a9a99"
+          target="f061e692-ac94-46cd-bf67-bd4848e7dfc5">
+        <bendpoints
+            startX="522"
+            startY="-3"
+            endX="6"
+            endY="204"/>
+        <archimateRelationship
+            xsi:type="archimate:AssociationRelationship"
+            href="AssociationRelationship_0e84562b-ae6c-4490-909c-5aa4e39d94d0.xml#0e84562b-ae6c-4490-909c-5aa4e39d94d0"/>
       </sourceConnections>
       <bounds
           x="492"
@@ -661,7 +684,7 @@
         fillColor="#e19900"
         textPosition="1">
       <bounds
-          x="948"
+          x="936"
           y="84"
           width="157"
           height="73"/>
@@ -726,7 +749,7 @@
         font="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|0|3|2|1|34|Segoe UI"
         textAlignment="1"
         fillColor="#ffff66"
-        content="Opmerkingen / Vragen aan Portal-werkgroep:&#xD;&#xA;- ACTIE Architectuurteam: Uitwerken oplossing vastleggen aantal en duur van benodigde inspecties voor een Eenheid. Voorstel hiervoor is nog niet opgenomen. In lijn brengen met voorstel vanuit Huuropzegging (Paul van Velzen)&#xD;&#xA;- Attribuut bedragIncBtw opgenomen in entiteit Prijscomponent&#xD;&#xA;&#xD;&#xA;- Publicatie opnemen?&#xD;&#xA;- Prijscomponent opnemen?&#xD;&#xA;- Vertrek opnemen? ">
+        content="Opmerkingen / Vragen aan Portal-werkgroep:&#xD;&#xA;- Nieuwe entiteit opgenomen voor Afspraakverzoek conform voorstel vanuit Huuropzegging (Paul van Velzen). Deze entiteit ook in dit bericht opgenomen.&#xD;&#xA;- Attribuut bedragIncBtw opgenomen in entiteit Prijscomponent&#xD;&#xA;- Bij Cluster-entiteit is door ZIG een extra attribuut voorgesteld: aantalEenheden. Voorstel is om dit NIET op te nemen omdat dit een berekend veld is.&#xD;&#xA;- Bij Eenheid-entiteit is door ZIG een extra attribuut voorgesteld: maxAantalBewoners. Is dit (nog) relevant om op te nemen?&#xD;&#xA;&#xD;&#xA;Algemene vraag voor werkgroep: &#xD;&#xA;- Publicatie opnemen?&#xD;&#xA;- Prijscomponent opnemen?&#xD;&#xA;- Vertrek opnemen? ">
       <bounds
           x="7"
           y="816"
@@ -749,6 +772,23 @@
       <archimateElement
           xsi:type="archimate:DataObject"
           href="DataObject_9755b2ca-8c0d-432b-9204-bed7a755ac65.xml#9755b2ca-8c0d-432b-9204-bed7a755ac65"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="f061e692-ac94-46cd-bf67-bd4848e7dfc5"
+        targetConnections="87a45c79-3c86-452e-af7f-8f09564066f9 88ebc520-5a6d-4373-ad7e-bf943eee311a"
+        font="1|Segoe UI|9.0|1|WINDOWS|1|-12|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
+        fontColor="#ffffff"
+        fillColor="#e19900"
+        textPosition="1">
+      <bounds
+          x="1128"
+          y="84"
+          width="157"
+          height="73"/>
+      <archimateElement
+          xsi:type="archimate:DataObject"
+          href="DataObject_7081e4f4-5ddb-4aa0-a86b-48ed935ebcef.xml#7081e4f4-5ddb-4aa0-a86b-48ed935ebcef"/>
     </children>
     <archimateElement
         xsi:type="archimate:DataObject"

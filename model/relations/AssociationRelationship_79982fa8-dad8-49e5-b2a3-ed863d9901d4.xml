@@ -1,0 +1,23 @@
+<archimate:AssociationRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Synchroniseren cluster"
+    id="79982fa8-dad8-49e5-b2a3-ed863d9901d4"
+    documentation="Het doorgeven van nieuwe of gewijzigde clustergegevens aan andere processen.&#xD;&#xA;&#xD;&#xA;====Scenario's====&#xD;&#xA;Primair&#xD;&#xA;* Als vastgoedgegevensbeheer wil ik de eenheidgegevens synchroniseren met klantbediening zodat zij vanuit het eigen systeem de clusters kunnen opvragen"
+    directed="true">
+  <properties
+      key="Bericht"
+      value="Cluster synchroniseren"/>
+  <properties
+      key="Code"
+      value="BVGT02"/>
+  <properties
+      key="Objecttype"
+      value="Trigger"/>
+  <source
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_id-c0bacb9667c84941bfe978a60d6ac0dc.xml#id-c0bacb9667c84941bfe978a60d6ac0dc"/>
+  <target
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_id-a6de887b920047a086a65f4076042e55.xml#id-a6de887b920047a086a65f4076042e55"/>
+</archimate:AssociationRelationship>

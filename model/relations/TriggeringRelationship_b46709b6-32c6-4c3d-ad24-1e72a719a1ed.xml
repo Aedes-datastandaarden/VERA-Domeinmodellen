@@ -3,6 +3,15 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Opvragen relatiegroep"
     id="b46709b6-32c6-4c3d-ad24-1e72a719a1ed">
+  <properties
+      key="Objecttype"
+      value="Trigger"/>
+  <properties
+      key="Code"
+      value="BRGV05"/>
+  <properties
+      key="Bericht"
+      value="Relatiegroep opvragen"/>
   <source
       xsi:type="archimate:BusinessProcess"
       href="BusinessProcess_id-a6de887b920047a086a65f4076042e55.xml#id-a6de887b920047a086a65f4076042e55"/>

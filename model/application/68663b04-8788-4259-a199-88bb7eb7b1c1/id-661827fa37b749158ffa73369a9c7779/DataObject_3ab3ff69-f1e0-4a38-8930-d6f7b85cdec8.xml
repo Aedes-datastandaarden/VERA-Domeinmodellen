@@ -1,0 +1,12 @@
+<archimate:DataObject
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="BRG: Rechtspersoon"
+    id="3ab3ff69-f1e0-4a38-8930-d6f7b85cdec8"
+    documentation="====Definitie====&#xD;&#xA;Opvragen en synchroniseren van gegevens rondom een rechtspersoon.&#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;Bron: SWEMP, wijziging VERA Portalenwerkgroep - concept ter review&#xD;&#xA;&#xD;&#xA;Van een rechtspersoon is het wenselijk om de verschillende relatierollen op te kunnen vragen en daarbij de adressen. Ook is het vanuit klantbediening gewenst om de contactgegevens van de rechtspersoon op te vragen. &#xD;&#xA;In dit bericht zijn ook de kerngegevens van de contactpersonen beschikbaar. Om de informatie van de contactpersonen te kunnen tonen (of wijzigen) zal aanvullend NatuurlijkPersoon-berichten moeten worden gebruikt. &#xD;&#xA;&#xD;&#xA;Dit bericht is ook geschikt voor het ophalen van de VVE-gegevens en de contactpersonen daarbinnen.&#xD;&#xA;&#xD;&#xA;====Voorbeelden====&#xD;&#xA;* Opvragen van informatie over de huurder van een bedrijfsonroerend goed en de contactpersonen van die huurder&#xD;&#xA;* Opvragen van de contactpersonen van een VVE&#xD;&#xA;">
+  <properties
+      key="Objecttype"
+      value="Bericht"/>
+  <properties
+      key="Code"
+      value="BRGREC"/>
+</archimate:DataObject>

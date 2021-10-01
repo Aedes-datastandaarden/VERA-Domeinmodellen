@@ -1,0 +1,22 @@
+<archimate:TriggeringRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Synchroniseren huurovereenkomst"
+    id="e04506cc-78c9-4abd-a7f0-bb269ce2e820"
+    documentation="Het synchroniseren van de huurovereenkomst van een huurder&#xD;&#xA;&#xD;&#xA;Om de huurder goed te woord te staan is het gewenst om detailinformatie over de lopende huurovereenkomsten van een huurder op te kunnen vragen.&#xD;&#xA;&#xD;&#xA;====Scenario's====&#xD;&#xA;Primair&#xD;&#xA;* Als medewerker klantbediening wil ik de informatie over de huurovereenkomsten in het systeem van klantbediening hebben zodat we daarop snel ">
+  <properties
+      key="Objecttype"
+      value="Trigger"/>
+  <properties
+      key="Code"
+      value="BOGT01"/>
+  <properties
+      key="Bericht"
+      value="Huurovereenkomst synchroniseren"/>
+  <source
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_c4a97439-c575-49ea-aeda-3594ef262430.xml#c4a97439-c575-49ea-aeda-3594ef262430"/>
+  <target
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_id-a6de887b920047a086a65f4076042e55.xml#id-a6de887b920047a086a65f4076042e55"/>
+</archimate:TriggeringRelationship>

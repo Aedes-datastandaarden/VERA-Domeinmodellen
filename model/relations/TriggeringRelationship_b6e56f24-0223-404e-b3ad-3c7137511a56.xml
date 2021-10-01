@@ -1,0 +1,22 @@
+<archimate:TriggeringRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Opvragen huurovereenkomst"
+    id="b6e56f24-0223-404e-b3ad-3c7137511a56"
+    documentation="Het opvragen van de huurovereenkomst van een huurder&#xD;&#xA;&#xD;&#xA;Om de huurder goed te woord te staan is het gewenst om detailinformatie over de lopende huurovereenkomsten van een huurder op te kunnen vragen.&#xD;&#xA;&#xD;&#xA;====Scenario's====&#xD;&#xA;Primair&#xD;&#xA;* Als medewerker klantbediening wil ik weten wat de einddatum van de huurovereenkomst is.">
+  <properties
+      key="Objecttype"
+      value="Trigger"/>
+  <properties
+      key="Code"
+      value="BOGV01"/>
+  <properties
+      key="Bericht"
+      value="Huurovereenkomst opvragen"/>
+  <source
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_id-a6de887b920047a086a65f4076042e55.xml#id-a6de887b920047a086a65f4076042e55"/>
+  <target
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_c4a97439-c575-49ea-aeda-3594ef262430.xml#c4a97439-c575-49ea-aeda-3594ef262430"/>
+</archimate:TriggeringRelationship>

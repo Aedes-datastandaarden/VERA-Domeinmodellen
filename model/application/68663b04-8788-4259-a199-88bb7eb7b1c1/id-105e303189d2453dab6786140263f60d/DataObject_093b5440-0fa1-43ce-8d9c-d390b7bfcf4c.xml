@@ -1,0 +1,12 @@
+<archimate:DataObject
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="BVG: Cluster"
+    id="093b5440-0fa1-43ce-8d9c-d390b7bfcf4c"
+    documentation="====Definitie====&#xD;&#xA;Opvragen van clustergegevens met de eventueel gekoppelde eenheden en/of relaties van de cluster. &#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;Bron: SWEMP&#xD;&#xA;&#xD;&#xA;Besloten is om ook de lijst met gekoppelde eenheden van de cluster op te halen én de gekoppelde relaties aan het cluster. Beide gevallen betreffen het uitsluitende de kerngegevens.&#xD;&#xA; &#xD;&#xA;Door het gebruik van het attribuut &quot;clustersoort&quot; binnen Cluster is het mogelijk om de VVE's op te halen en tevens de gekoppelde relatierollen (kerngegevens). Informatie over een VVE kan op deze manier in twee berichten Het opgehaald worden: :&#xD;&#xA;•&#x9;Via BVGCLU is het mogelijk om bij een cluster de VVE’s te achterhalen (clustersoort) en de relatierollen die daaraan gekoppeld zijn&#xD;&#xA;•&#x9;Via BRGREC (Rechtspersoon opvagen) is het mogelijk om de details van de rechtspersoon van de VVE op te vragen&#xD;&#xA;&#xD;&#xA;====Voorbeelden====&#xD;&#xA;Voorbeeld 1: Synchroniseer de gewijzigde clusternamen naar een klantbedieningsysteem waarin deze informatie wordt gebruikt voor identificatie.&#xD;&#xA;Voorbeeld 2: Bij het te woord staan van een huurder wil de KCC-medewerker weten wie de huismeester is van het cluster waar de huurder woont zodat de huurder doorverwezen kan worden naar de specifieke persoon.&#xD;&#xA;Voorbeeld 3: Bij het te woord staan van een huurder wil de KCC-medewerker weten of de eenheid onderdeel is van een VVE zodat bepaald kan worden of een reparatieverzoek van collectieve objecten in het cluster door de corporatie uitgevoerd moet worden of door de VVE.&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;">
+  <properties
+      key="Objecttype"
+      value="Bericht"/>
+  <properties
+      key="Code"
+      value="BVGCLU"/>
+</archimate:DataObject>

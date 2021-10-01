@@ -1,0 +1,22 @@
+<archimate:TriggeringRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Opvragen woningwaardering resultaat"
+    id="2ff37e59-58cc-402e-8301-2ff3bdfbfe31"
+    documentation="Het opvragen van de woningwaarderingsgegevens&#xD;&#xA;&#xD;&#xA;====Scenario's====&#xD;&#xA;Primair&#xD;&#xA;* Als klantbediening wil ik detailinformatie over de woningwaardering hebben zodat ik deze informatie kan gebruiken in de afhandeling van een klantcontact">
+  <properties
+      key="Objecttype"
+      value="Trigger"/>
+  <properties
+      key="Code"
+      value="BVGV03"/>
+  <properties
+      key="Bericht"
+      value="Woningwaardering resultaat opvragen"/>
+  <source
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_id-a6de887b920047a086a65f4076042e55.xml#id-a6de887b920047a086a65f4076042e55"/>
+  <target
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_id-c0bacb9667c84941bfe978a60d6ac0dc.xml#id-c0bacb9667c84941bfe978a60d6ac0dc"/>
+</archimate:TriggeringRelationship>

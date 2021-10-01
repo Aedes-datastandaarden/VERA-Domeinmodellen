@@ -33,11 +33,20 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="8d4c4bcc-a338-4d37-a562-bea5c6906ce3"
-        targetConnections="e5cd8666-25f6-463f-afc4-3623604177e8 42910975-3139-47ab-9f10-03a768ee75e1"
+        targetConnections="42910975-3139-47ab-9f10-03a768ee75e1 e5cd8666-25f6-463f-afc4-3623604177e8"
         font="1|Segoe UI|9.0|1|WINDOWS|1|-12|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
         fontColor="#ffffff"
         fillColor="#e19900"
         textPosition="1">
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="d9c41855-2033-41f0-84eb-dd8728f1ab18"
+          source="8d4c4bcc-a338-4d37-a562-bea5c6906ce3"
+          target="224561a2-1261-4207-98b2-42f63422da54">
+        <archimateRelationship
+            xsi:type="archimate:AssociationRelationship"
+            href="AssociationRelationship_e621277d-928e-436a-9f26-2a4c9d77fb22.xml#e621277d-928e-436a-9f26-2a4c9d77fb22"/>
+      </sourceConnections>
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="e5cd8666-25f6-463f-afc4-3623604177e8"
@@ -49,25 +58,16 @@
             endX="-108"
             endY="-3"/>
         <bendpoints
-            startX="-132"
-            startY="-87"
-            endX="-132"
-            endY="-87"/>
+            startX="-108"
+            startY="-51"
+            endX="-108"
+            endY="-51"/>
         <bendpoints
             startY="-51"
             endY="-51"/>
         <archimateRelationship
             xsi:type="archimate:AssociationRelationship"
             href="AssociationRelationship_26213aaa-2eab-4899-b3d4-0061e93a8c6c.xml#26213aaa-2eab-4899-b3d4-0061e93a8c6c"/>
-      </sourceConnections>
-      <sourceConnections
-          xsi:type="archimate:DiagramModelArchimateConnection"
-          id="d9c41855-2033-41f0-84eb-dd8728f1ab18"
-          source="8d4c4bcc-a338-4d37-a562-bea5c6906ce3"
-          target="224561a2-1261-4207-98b2-42f63422da54">
-        <archimateRelationship
-            xsi:type="archimate:AssociationRelationship"
-            href="AssociationRelationship_e621277d-928e-436a-9f26-2a4c9d77fb22.xml#e621277d-928e-436a-9f26-2a4c9d77fb22"/>
       </sourceConnections>
       <bounds
           x="156"

@@ -5,14 +5,14 @@
     id="6e389d8a-5b82-47f4-8d78-5387c8354ddb"
     documentation="Het doorgeven van nieuwe of gewijzigde eenheidgegevens aan andere processen.&#xD;&#xA;&#xD;&#xA;====Scenario's====&#xD;&#xA;Primair&#xD;&#xA;* Als vastgoedgegevensbeheer wil ik de eenheidgegevens synchroniseren met klantbediening zodat zij vanuit het eigen systeem de eenheden kan opvragen">
   <properties
-      key="Objecttype"
-      value="Trigger"/>
+      key="Bericht"
+      value="Eenheidgegevens synchroniseren"/>
   <properties
       key="Code"
       value="BVGT01"/>
   <properties
-      key="Bericht"
-      value="Eenheidgegevens synchroniseren"/>
+      key="Objecttype"
+      value="Trigger"/>
   <source
       xsi:type="archimate:BusinessProcess"
       href="BusinessProcess_e3768ba4-6479-43fe-94e7-c28d43d048df.xml#e3768ba4-6479-43fe-94e7-c28d43d048df"/>

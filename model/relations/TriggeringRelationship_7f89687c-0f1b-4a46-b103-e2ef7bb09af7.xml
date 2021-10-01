@@ -1,0 +1,21 @@
+<archimate:TriggeringRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Synchroniseren natuurlijkPersoon"
+    id="7f89687c-0f1b-4a46-b103-e2ef7bb09af7">
+  <properties
+      key="Objecttype"
+      value="Trigger"/>
+  <properties
+      key="Code"
+      value="BRGT04"/>
+  <properties
+      key="Bericht"
+      value="NatuurlijkPersoon synchroniseren"/>
+  <source
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_c52e9587-62a1-44d4-b080-c027bd57cba8.xml#c52e9587-62a1-44d4-b080-c027bd57cba8"/>
+  <target
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_id-a6de887b920047a086a65f4076042e55.xml#id-a6de887b920047a086a65f4076042e55"/>
+</archimate:TriggeringRelationship>

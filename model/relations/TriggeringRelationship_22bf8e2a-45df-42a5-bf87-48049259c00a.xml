@@ -1,0 +1,21 @@
+<archimate:TriggeringRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Huurovereenkomst opvragen"
+    id="22bf8e2a-45df-42a5-bf87-48049259c00a">
+  <properties
+      key="Objecttype"
+      value="Trigger"/>
+  <properties
+      key="Code"
+      value="BOGV01"/>
+  <properties
+      key="Bericht"
+      value="Opvragen huurovereenkomst"/>
+  <source
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_id-a6de887b920047a086a65f4076042e55.xml#id-a6de887b920047a086a65f4076042e55"/>
+  <target
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_id-2884d518037d4a088794e2e1152283e1.xml#id-2884d518037d4a088794e2e1152283e1"/>
+</archimate:TriggeringRelationship>

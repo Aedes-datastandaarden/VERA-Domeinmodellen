@@ -221,20 +221,6 @@
       </sourceConnections>
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
-          id="id-550e798963ce45ba99118a426754e836"
-          source="689c8b60-dad6-4b7f-a327-d7263a2a9a99"
-          target="id-a21710a55cc74575902f9055a5213ce4">
-        <bendpoints
-            startX="-353"
-            startY="27"
-            endX="7"
-            endY="-192"/>
-        <archimateRelationship
-            xsi:type="archimate:AssociationRelationship"
-            href="AssociationRelationship_fbb05943-0c0e-4194-9758-52943ee1c02b.xml#fbb05943-0c0e-4194-9758-52943ee1c02b"/>
-      </sourceConnections>
-      <sourceConnections
-          xsi:type="archimate:DiagramModelArchimateConnection"
           id="id-c07648b561814a529a7a2e4f3cb24020"
           source="689c8b60-dad6-4b7f-a327-d7263a2a9a99"
           target="id-8924d22dfd864f3b8bf944bba7edb500">
@@ -381,6 +367,20 @@
         <archimateRelationship
             xsi:type="archimate:AssociationRelationship"
             href="AssociationRelationship_0e84562b-ae6c-4490-909c-5aa4e39d94d0.xml#0e84562b-ae6c-4490-909c-5aa4e39d94d0"/>
+      </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-550e798963ce45ba99118a426754e836"
+          source="689c8b60-dad6-4b7f-a327-d7263a2a9a99"
+          target="id-a21710a55cc74575902f9055a5213ce4">
+        <bendpoints
+            startX="-353"
+            startY="27"
+            endX="7"
+            endY="-192"/>
+        <archimateRelationship
+            xsi:type="archimate:AssociationRelationship"
+            href="AssociationRelationship_fbb05943-0c0e-4194-9758-52943ee1c02b.xml#fbb05943-0c0e-4194-9758-52943ee1c02b"/>
       </sourceConnections>
       <bounds
           x="492"
@@ -593,7 +593,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-a21710a55cc74575902f9055a5213ce4"
-        targetConnections="id-550e798963ce45ba99118a426754e836 id-29f6ff72f1de4e3b8d477af6a8e4cabb"
+        targetConnections="id-29f6ff72f1de4e3b8d477af6a8e4cabb id-550e798963ce45ba99118a426754e836"
         font="1|Segoe UI|9.0|1|WINDOWS|1|-12|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
         fontColor="#ffffff"
         fillColor="#cc3399"

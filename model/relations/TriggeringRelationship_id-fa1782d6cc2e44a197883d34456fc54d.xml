@@ -5,14 +5,17 @@
     id="id-fa1782d6cc2e44a197883d34456fc54d"
     documentation="Naar aanleiding van een uitgevoerd onderzoeksopdracht wordt de conclusie teruggegeven aan het bedrijfsproces.&#xD;&#xA;&#xD;&#xA;Het resultaat van het onderzoek is een lijst met antwoorden op de vragenlijst en wordt door het bedrijfsproces Kwaliteitsmeting geanalyseerd en geconcludeerd. Het resultaat daarvan wordt teruggekoppeld aan het bedrijfsproces die het initiele kwaliteitmetingsverzoek heeft gedaan.&#xD;&#xA;&#xD;&#xA;==== Scenario's ====&#xD;&#xA;Primair&#xD;&#xA;*&#x9;Als Kwaliteitsmanagementfunctie wil ik het resultaat naar aanleiding van een kwaliteitmeting van een klantcontact terugkoppelen aan het bedrijfsproces Klantbediening&#xD;&#xA;*  Als Kwaliteitsmanagementfunctie wil ik het Kwaliteitmetingsverzoek afmelden bij het bedrijfsproces zonder het doorgeven van een resultaat in het geval de klant anoniem wilde reageren&#xD;&#xA;*  Als Kwaliteitsmanagementfunctie wil ik het Kwaliteitmetingsverzoek afmelden bij het bedrijfsproces zonder het doorgeven van een resultaat in het geval de klant geen reactie heeft gegeven op het verzoek&#xD;&#xA;*  Als Kwaliteitsmanagementfunctie wil ik het resultaat naar aanleiding van een kwaliteitmeting van een uitgevoerd reparatieverzoek terugkoppelen aan het bedrijfsproces Klantbediening&#xD;&#xA;*  Als Kwaliteitsmanagementfunctie wil ik het resultaat naar aanleiding van een kwaliteitmeting bij de vertrekkende huurder over de huuropzegging terugkoppelen aan het bedrijfsproces Klantbediening &#xD;&#xA;*  Als Kwaliteitsmanagementfunctie wil ik het resultaat naar aanleiding van een kwaliteitmeting bij de nieuwe huurder rondom de nieuwe verhuring terugkoppelen aan het bedrijfsproces Klantbediening&#xD;&#xA;&#xD;&#xA;Secundair&#xD;&#xA;">
   <properties
-      key="Bericht"
-      value="Kwaliteitsmetingsresultaat Synchroniseren"/>
-  <properties
       key="Objecttype"
       value="Trigger"/>
   <properties
       key="Code"
       value="KMTT02"/>
+  <properties
+      key="Bericht"
+      value="Kwaliteitsmetingsresultaat Synchroniseren"/>
+  <properties
+      key="Resource"
+      value="KMT:Kwaliteitsmetingsresultaten"/>
   <source
       xsi:type="archimate:BusinessProcess"
       href="BusinessProcess_id-f4257ac6855e4928869ff1d31aedf4f0.xml#id-f4257ac6855e4928869ff1d31aedf4f0"/>

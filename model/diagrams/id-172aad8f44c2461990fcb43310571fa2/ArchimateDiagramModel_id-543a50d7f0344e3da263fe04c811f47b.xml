@@ -572,34 +572,13 @@
             source="id-f9f67665ba5f4b6a85a98a7762e09750"
             target="id-6c2e7086586f414bbd566c220485c743">
           <bendpoints
-              startX="24"
-              startY="334"
-              endX="-348"
-              endY="70"/>
+              startY="333"
+              endX="-372"
+              endY="69"/>
           <bendpoints
-              startX="360"
-              startY="334"
-              endX="-12"
-              endY="70"/>
-          <archimateRelationship
-              xsi:type="archimate:TriggeringRelationship"
-              href="TriggeringRelationship_id-c469f17f92af4b95b0bf1d5e9a6cd941.xml#id-c469f17f92af4b95b0bf1d5e9a6cd941"/>
-        </sourceConnections>
-        <sourceConnections
-            xsi:type="archimate:DiagramModelArchimateConnection"
-            id="id-45bc400a9a2f4d4f8ebce1a05aff03d9"
-            source="id-f9f67665ba5f4b6a85a98a7762e09750"
-            target="id-6c2e7086586f414bbd566c220485c743">
-          <bendpoints
-              startX="-24"
-              startY="358"
-              endX="-396"
-              endY="94"/>
-          <bendpoints
-              startX="396"
-              startY="358"
-              endX="24"
-              endY="94"/>
+              startX="372"
+              startY="333"
+              endY="69"/>
           <archimateRelationship
               xsi:type="archimate:TriggeringRelationship"
               href="TriggeringRelationship_id-c469f17f92af4b95b0bf1d5e9a6cd941.xml#id-c469f17f92af4b95b0bf1d5e9a6cd941"/>
@@ -923,7 +902,7 @@
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-6c2e7086586f414bbd566c220485c743"
-          targetConnections="id-67489f64b09a4bec8fbdd0c73279c6b1 id-d38ab3e0b3fa4b83a7200c7b8ff1ecad id-45bc400a9a2f4d4f8ebce1a05aff03d9"
+          targetConnections="id-67489f64b09a4bec8fbdd0c73279c6b1 id-d38ab3e0b3fa4b83a7200c7b8ff1ecad"
           fillColor="#c0c0c0">
         <bounds
             x="276"

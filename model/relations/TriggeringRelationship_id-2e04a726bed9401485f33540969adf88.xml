@@ -5,14 +5,17 @@
     id="id-2e04a726bed9401485f33540969adf88"
     documentation="Doorgeven van een onderzoeksopdracht zodat het onderzoek uitgevoerd kan gaan worden&#xD;&#xA;&#xD;&#xA;Het bedrijfsproces Kwaliteitsmeting geeft de opdracht aan het bedrijfsproces Uitvoeren waarin heel specifiek gedefinieerd is wie geenqueteerd moet worden, via welk kanaal en op basis van welke vragen(lijst). &#xD;&#xA;&#xD;&#xA;==== Scenario's ====&#xD;&#xA;Primair&#xD;&#xA;*&#x9;Als Kwaliteitsmanagementfunctie geef ik opdracht om een specifieke vragenlijst voor te leggen bij een relatie om op basis van de antwoorden een analyse te kunnen doen naar de tevredenheid van de relatie&#xD;&#xA;&#xD;&#xA;Secundair&#xD;&#xA;*&#x9;Als functionaris binnen een bedrijfsproces van de corporatie wil ik een onderzoeksopdracht laten uitvoeren met een specifieke vragenlijst om de kwaliteit van de dienstverlening te meten">
   <properties
-      key="Bericht"
-      value="Onderzoeksopdracht Synchroniseren"/>
+      key="Objecttype"
+      value="Trigger"/>
   <properties
       key="Code"
       value="KMTT03"/>
   <properties
-      key="Objecttype"
-      value="Trigger"/>
+      key="Bericht"
+      value="Onderzoeksopdracht Synchroniseren"/>
+  <properties
+      key="Resource"
+      value="KMT:Onderzoeksopdrachten"/>
   <source
       xsi:type="archimate:BusinessProcess"
       href="BusinessProcess_id-05bc62c9600e412c951078ec45f7c54d.xml#id-05bc62c9600e412c951078ec45f7c54d"/>

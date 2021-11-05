@@ -4,6 +4,18 @@
     name="Doorgeven statuswijziging Inspectieopdracht"
     id="id-ffb8333d40ed404cafabbbc8ced2c820"
     documentation="Voor het doorgeven van een statuswijziging van het Inspectieverzoek. &#xD;&#xA;&#xD;&#xA;De inspectiefunctie geeft een wijziging in status van de Opdracht tot inspectie door aan de bedrijfsfunctie 'Regisseren onderhoud'. Mogelijke statussen zijn vastgelegd in de Referentiedata. Daarbij moet vastgesteld worden welke bedrijfsfunctie (opdrachtgevende of opdrachtnemende) actie dient te ondernemen op de Opdracht tot inspectie. Zo kan de inspectiefunctie een verzoek doen om aanvullende informatie aan te leveren om de inspectie uit te kunnen voeren.">
+  <properties
+      key="Objecttype"
+      value="Trigger"/>
+  <properties
+      key="Code"
+      value="OHDT08"/>
+  <properties
+      key="Bericht"
+      value="Inspectierapport Synchroniseren"/>
+  <properties
+      key="Resource"
+      value="OHD:Inspectierapporten"/>
   <source
       xsi:type="archimate:BusinessProcess"
       href="BusinessProcess_id-3210b3bb02fb41d7914eaa7552244ef0.xml#id-3210b3bb02fb41d7914eaa7552244ef0"/>

@@ -73,7 +73,7 @@
     <bounds
         x="12"
         y="12"
-        width="505"
+        width="493"
         height="481"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
@@ -102,7 +102,7 @@
             href="AssociationRelationship_7a4fd771-4539-425f-a088-fff5afeb6ec0.xml#7a4fd771-4539-425f-a088-fff5afeb6ec0"/>
       </sourceConnections>
       <bounds
-          x="168"
+          x="156"
           y="60"
           width="120"
           height="55"/>
@@ -128,7 +128,7 @@
             href="AssociationRelationship_4f4bdb35-7555-4dff-8e90-4928c0ead0f5.xml#4f4bdb35-7555-4dff-8e90-4928c0ead0f5"/>
       </sourceConnections>
       <bounds
-          x="168"
+          x="156"
           y="180"
           width="120"
           height="55"/>
@@ -145,9 +145,9 @@
         fillColor="#0099cc"
         textPosition="1">
       <bounds
-          x="131"
+          x="156"
           y="288"
-          width="193"
+          width="120"
           height="55"/>
       <archimateElement
           xsi:type="archimate:DataObject"
@@ -166,12 +166,20 @@
           id="53e693a6-718a-44e7-9df6-dc795e83ba9c"
           source="b1891b52-d4b8-4cfb-a683-f45aeec47d73"
           target="3a5dc7d0-e84d-46f0-b8ed-11df15f0e69f">
+        <bendpoints
+            startY="-51"
+            endX="-132"
+            endY="69"/>
+        <bendpoints
+            startX="132"
+            startY="-51"
+            endY="69"/>
         <archimateRelationship
             xsi:type="archimate:SpecializationRelationship"
             href="SpecializationRelationship_c5815f1b-34d9-4fb1-bd6d-90dcc682ddbe.xml#c5815f1b-34d9-4fb1-bd6d-90dcc682ddbe"/>
       </sourceConnections>
       <bounds
-          x="36"
+          x="24"
           y="408"
           width="120"
           height="55"/>
@@ -192,17 +200,12 @@
           id="d20b9654-f00e-4f4c-ab81-8510579fab7d"
           source="540eea36-a1a2-4581-9367-00d7591dc735"
           target="3a5dc7d0-e84d-46f0-b8ed-11df15f0e69f">
-        <bendpoints
-            startX="-36"
-            startY="-51"
-            endX="48"
-            endY="69"/>
         <archimateRelationship
             xsi:type="archimate:SpecializationRelationship"
             href="SpecializationRelationship_1f18ebda-3a72-49d4-b019-9a3c0f2db9f9.xml#1f18ebda-3a72-49d4-b019-9a3c0f2db9f9"/>
       </sourceConnections>
       <bounds
-          x="168"
+          x="156"
           y="408"
           width="120"
           height="55"/>
@@ -223,12 +226,20 @@
           id="95c41a76-5883-4cc4-8230-7fd90465ed00"
           source="a72d351f-c213-485d-9389-9dafad525974"
           target="3a5dc7d0-e84d-46f0-b8ed-11df15f0e69f">
+        <bendpoints
+            startY="-51"
+            endX="132"
+            endY="69"/>
+        <bendpoints
+            startX="-132"
+            startY="-51"
+            endY="69"/>
         <archimateRelationship
             xsi:type="archimate:SpecializationRelationship"
             href="SpecializationRelationship_de8a3ecb-cf74-4715-932f-d83ce154e696.xml#de8a3ecb-cf74-4715-932f-d83ce154e696"/>
       </sourceConnections>
       <bounds
-          x="300"
+          x="288"
           y="408"
           width="120"
           height="55"/>
@@ -245,7 +256,7 @@
         fillColor="#b5a845"
         textPosition="1">
       <bounds
-          x="360"
+          x="348"
           y="60"
           width="120"
           height="55"/>
@@ -262,7 +273,7 @@
       id="afbde0a5-336e-46a4-8ded-97ef8f486190"
       textAlignment="1">
     <bounds
-        x="528"
+        x="516"
         y="12"
         width="180"
         height="325"/>

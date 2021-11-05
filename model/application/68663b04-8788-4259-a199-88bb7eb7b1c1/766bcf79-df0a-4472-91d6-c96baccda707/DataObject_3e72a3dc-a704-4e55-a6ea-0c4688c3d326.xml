@@ -1,0 +1,12 @@
+<archimate:DataObject
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="BOG: Huuropzegging"
+    id="3e72a3dc-a704-4e55-a6ea-0c4688c3d326"
+    documentation="====Definitie====&#xD;&#xA;Opvragen van informatie over overeenkomsten ten behoeve van de informatievoorziening bij klantbediening.&#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;Bron: SWEMP met aanvulling vanuit werkgroep Klantportalen: Besloten is om (mutatie)inspecties worden opgevraagd via een apart bericht: Mutatieinspecties synchroniseren en Mutatieinspecties opvragen.&#xD;&#xA;Bij het behandelen van telefonische klantcontacten is het gewenst om informatie te hebben over de afgesloten overeenkomsten met de klant. Dit kan informatie zijn over de huidige huurovereenkomst zoals een lijst met contractanten (hoofdhuurder, medehuurder,..),  betalergegevens of de huuropbouw. Daarnaast is het ook mogelijk dat er een koopovereenkomst of serviceovereenkomst is afgesloten waarover informatie gewenst is. &#xD;&#xA;&#xD;&#xA;====Voorbeelden====&#xD;&#xA;* Voorbeeld 1: Huurder belt naar de klantenservice en de klantenservice wil weten welke huurovereenkomsten er afgesloten zijn met de huurder zodat de huurder goed te woord gestaan kan worden&#xD;&#xA;* Voorbeeld 2: Huurder belt naar de klantenservice en de klantenservice wil weten welke contractanten er op het huurovereenkomst zitten zodat de huurder goed te woord gestaan kan worden&#xD;&#xA;* Voorbeeld 3: Huurder belt naar de klantenservice en de klantenservice wil weten wat de huuropbouw is zodat de huurder goed te woord gestaan kan worden&#xD;&#xA;&#xD;&#xA;">
+  <properties
+      key="Objecttype"
+      value="Bericht"/>
+  <properties
+      key="Code"
+      value="BOGHUU"/>
+</archimate:DataObject>

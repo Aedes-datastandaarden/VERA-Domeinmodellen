@@ -435,7 +435,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="977a45a6-f141-4a5a-951f-9c43e4ba03a4"
-        targetConnections="5044256a-4e4b-43bd-b069-ebae73a64ec7 dd35b0df-c0a9-484c-839b-c7f6416cfc40 ac6d516d-aca4-475b-9440-df798b4ed9e6"
+        targetConnections="dd35b0df-c0a9-484c-839b-c7f6416cfc40 ac6d516d-aca4-475b-9440-df798b4ed9e6 5044256a-4e4b-43bd-b069-ebae73a64ec7"
         font="1|Segoe UI|11.25|1|WINDOWS|1|-15|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
         fontColor="#ffffff"
         fillColor="#0099cc"
@@ -464,6 +464,20 @@
         <archimateRelationship
             xsi:type="archimate:AssociationRelationship"
             href="AssociationRelationship_9175d3ff-9fb8-486a-adc2-5f71c2ef2390.xml#9175d3ff-9fb8-486a-adc2-5f71c2ef2390"/>
+      </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-9bf69f679a6a44a6a27a746f8df5e10c"
+          source="977a45a6-f141-4a5a-951f-9c43e4ba03a4"
+          target="2e4c7f18-b88f-4b8a-b8a2-b11df84253d2">
+        <bendpoints
+            startX="-156"
+            startY="30"
+            endX="156"
+            endY="30"/>
+        <archimateRelationship
+            xsi:type="archimate:AssociationRelationship"
+            href="AssociationRelationship_id-6b50659b70da487eaa9f581ee0feae4b.xml#id-6b50659b70da487eaa9f581ee0feae4b"/>
       </sourceConnections>
       <bounds
           x="936"
@@ -1068,7 +1082,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="2e4c7f18-b88f-4b8a-b8a2-b11df84253d2"
-        targetConnections="59d06686-d56d-437f-b085-7842cac641b1 96e63c6a-0d8c-4516-8326-e9803d2efd07 e5ec9702-a495-4af5-a1b8-c87abab30165 c0a43a8a-cb5b-428d-ba8e-f21bf6dbd5e5"
+        targetConnections="59d06686-d56d-437f-b085-7842cac641b1 96e63c6a-0d8c-4516-8326-e9803d2efd07 e5ec9702-a495-4af5-a1b8-c87abab30165 c0a43a8a-cb5b-428d-ba8e-f21bf6dbd5e5 id-9bf69f679a6a44a6a27a746f8df5e10c"
         font="1|Segoe UI|11.25|1|WINDOWS|1|-15|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
         fontColor="#ffffff"
         fillColor="#0099cc"

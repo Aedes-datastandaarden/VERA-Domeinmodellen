@@ -1,7 +1,7 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Betaalgegevens"
+    name="Betaalgegevens??"
     id="34d0c0d0-87fe-4608-8434-871c0d1128c1">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
@@ -222,15 +222,6 @@
         textPosition="1">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
-          id="id-fa484def77844b9db1126f560c7bdffb"
-          source="f01fd627-27b3-43ba-a872-e5d1ffafd775"
-          target="id-042792b537ac4d5881e775e14a3e2f6f">
-        <archimateRelationship
-            xsi:type="archimate:AssociationRelationship"
-            href="AssociationRelationship_b60f8985-b2bc-4bea-972d-7945023b90cd.xml#b60f8985-b2bc-4bea-972d-7945023b90cd"/>
-      </sourceConnections>
-      <sourceConnections
-          xsi:type="archimate:DiagramModelArchimateConnection"
           id="id-84747007c2e04a11b6d4341c00782bbe"
           source="f01fd627-27b3-43ba-a872-e5d1ffafd775"
           target="id-3f009cc1a2c446a88eb9758203251a08">
@@ -260,6 +251,19 @@
         <archimateRelationship
             xsi:type="archimate:AssociationRelationship"
             href="AssociationRelationship_cd120a8b-233f-4da7-9558-17bdb7232fce.xml#cd120a8b-233f-4da7-9558-17bdb7232fce"/>
+      </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-fa484def77844b9db1126f560c7bdffb"
+          source="f01fd627-27b3-43ba-a872-e5d1ffafd775"
+          target="id-042792b537ac4d5881e775e14a3e2f6f">
+        <bendpoints
+            startX="216"
+            startY="3"
+            endY="105"/>
+        <archimateRelationship
+            xsi:type="archimate:AssociationRelationship"
+            href="AssociationRelationship_b60f8985-b2bc-4bea-972d-7945023b90cd.xml#b60f8985-b2bc-4bea-972d-7945023b90cd"/>
       </sourceConnections>
       <bounds
           x="204"
@@ -324,7 +328,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-042792b537ac4d5881e775e14a3e2f6f"
-        targetConnections="id-fa484def77844b9db1126f560c7bdffb id-9b49353aaaf6401a9dccad9b03fc5d2f id-c9caf5549ddd4a0faa77c6b833799e48"
+        targetConnections="id-9b49353aaaf6401a9dccad9b03fc5d2f id-c9caf5549ddd4a0faa77c6b833799e48 id-fa484def77844b9db1126f560c7bdffb"
         font="1|Segoe UI|9.0|1|WINDOWS|1|-21|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
         fontColor="#ffffff"
         fillColor="#0099cc">

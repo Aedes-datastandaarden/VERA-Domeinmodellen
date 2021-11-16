@@ -25,10 +25,19 @@
           xsi:type="archimate:CompositionRelationship"
           href="CompositionRelationship_id-6bc3b2023023478cb4695d65d910ed92.xml#id-6bc3b2023023478cb4695d65d910ed92"/>
     </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-30ea153619a74c57ad37b4ac49d76093"
+        source="id-f955ca1c37274b3a9fe8bb493c84d66a"
+        target="id-234d1987df324d2b848528ff096bc048">
+      <archimateRelationship
+          xsi:type="archimate:CompositionRelationship"
+          href="CompositionRelationship_id-8e6d75d9c56149d1ae8e98901797a67d.xml#id-8e6d75d9c56149d1ae8e98901797a67d"/>
+    </sourceConnections>
     <bounds
-        y="12"
+        y="-12"
         width="877"
-        height="637"/>
+        height="661"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-39892d8a05ab4c8ba49515729e119590"
@@ -65,7 +74,7 @@
       </sourceConnections>
       <bounds
           x="239"
-          y="36"
+          y="60"
           width="120"
           height="55"/>
       <archimateElement
@@ -81,7 +90,7 @@
         fillColor="#b5a845">
       <bounds
           x="12"
-          y="36"
+          y="60"
           width="120"
           height="55"/>
       <archimateElement
@@ -104,9 +113,33 @@
             xsi:type="archimate:AssociationRelationship"
             href="AssociationRelationship_id-25bc383bc909467e8f44baec90fad5e1.xml#id-25bc383bc909467e8f44baec90fad5e1"/>
       </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-3600b01a80db4883abcd1dd4cbd40911"
+          source="id-690bc01fb69b4977b736c184f2500cc8"
+          target="id-ec365c63fc6b4a2796ca5c9c14f1c0d5">
+        <bendpoints
+            startX="2"
+            startY="-50"
+            endX="278"
+            endY="-296"/>
+        <bendpoints
+            startX="-382"
+            startY="-50"
+            endX="-106"
+            endY="-296"/>
+        <bendpoints
+            startX="-382"
+            startY="250"
+            endX="-106"
+            endY="4"/>
+        <archimateRelationship
+            xsi:type="archimate:AssociationRelationship"
+            href="AssociationRelationship_id-a4b54793ecf2453898370e2219127dfb.xml#id-a4b54793ecf2453898370e2219127dfb"/>
+      </sourceConnections>
       <bounds
           x="515"
-          y="36"
+          y="60"
           width="120"
           height="55"/>
       <archimateElement
@@ -122,7 +155,7 @@
         fillColor="#0099cc">
       <bounds
           x="731"
-          y="36"
+          y="60"
           width="120"
           height="55"/>
       <archimateElement
@@ -138,7 +171,7 @@
         fillColor="#e19900">
       <bounds
           x="515"
-          y="192"
+          y="216"
           width="120"
           height="55"/>
       <archimateElement
@@ -154,7 +187,7 @@
         fillColor="#cc3399">
       <bounds
           x="12"
-          y="161"
+          y="185"
           width="120"
           height="55"/>
       <archimateElement
@@ -170,7 +203,7 @@
         fillColor="#e19900">
       <bounds
           x="515"
-          y="408"
+          y="432"
           width="120"
           height="55"/>
       <archimateElement
@@ -370,7 +403,7 @@
       </sourceConnections>
       <bounds
           x="239"
-          y="120"
+          y="144"
           width="120"
           height="96"/>
       <archimateElement
@@ -394,7 +427,7 @@
       </sourceConnections>
       <bounds
           x="731"
-          y="492"
+          y="516"
           width="120"
           height="55"/>
       <archimateElement
@@ -410,7 +443,7 @@
         fillColor="#e19900">
       <bounds
           x="515"
-          y="480"
+          y="504"
           width="120"
           height="55"/>
       <archimateElement
@@ -426,7 +459,7 @@
         fillColor="#e19900">
       <bounds
           x="515"
-          y="336"
+          y="360"
           width="120"
           height="55"/>
       <archimateElement
@@ -442,7 +475,7 @@
         fillColor="#e19900">
       <bounds
           x="515"
-          y="264"
+          y="288"
           width="120"
           height="55"/>
       <archimateElement
@@ -551,7 +584,7 @@
       </sourceConnections>
       <bounds
           x="515"
-          y="120"
+          y="144"
           width="120"
           height="55"/>
       <archimateElement
@@ -567,7 +600,7 @@
         fillColor="#e19900">
       <bounds
           x="731"
-          y="192"
+          y="216"
           width="120"
           height="55"/>
       <archimateElement
@@ -577,13 +610,13 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-ec365c63fc6b4a2796ca5c9c14f1c0d5"
-        targetConnections="id-53f270a4b1374d9fbbcbd6449d6663ed id-b84f80ea74594283a3a10e5b24d6934a"
+        targetConnections="id-53f270a4b1374d9fbbcbd6449d6663ed id-b84f80ea74594283a3a10e5b24d6934a id-3600b01a80db4883abcd1dd4cbd40911 id-59c86ee4ce994fa9a2d11493ed7d8455"
         font="1|Segoe UI|9.0|1|WINDOWS|1|-12|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
         fontColor="#ffffff"
         fillColor="#0099cc">
       <bounds
           x="239"
-          y="282"
+          y="306"
           width="120"
           height="55"/>
       <archimateElement
@@ -599,7 +632,7 @@
         fillColor="#e19900">
       <bounds
           x="731"
-          y="120"
+          y="144"
           width="120"
           height="55"/>
       <archimateElement
@@ -615,7 +648,7 @@
         fillColor="#e19900">
       <bounds
           x="731"
-          y="264"
+          y="288"
           width="120"
           height="55"/>
       <archimateElement
@@ -631,7 +664,7 @@
         fillColor="#e19900">
       <bounds
           x="731"
-          y="408"
+          y="432"
           width="120"
           height="55"/>
       <archimateElement
@@ -647,7 +680,7 @@
         fillColor="#e19900">
       <bounds
           x="731"
-          y="336"
+          y="360"
           width="120"
           height="55"/>
       <archimateElement
@@ -663,12 +696,37 @@
         fillColor="#e19900">
       <bounds
           x="515"
-          y="552"
+          y="576"
           width="120"
           height="55"/>
       <archimateElement
           xsi:type="archimate:DataObject"
           href="DataObject_6602aee6-882a-42e5-ae49-83ddc063ae4e.xml#6602aee6-882a-42e5-ae49-83ddc063ae4e"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-234d1987df324d2b848528ff096bc048"
+        targetConnections="id-30ea153619a74c57ad37b4ac49d76093"
+        font="1|Segoe UI|9.0|1|WINDOWS|1|-21|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
+        fontColor="#ffffff"
+        fillColor="#0099cc">
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-59c86ee4ce994fa9a2d11493ed7d8455"
+          source="id-234d1987df324d2b848528ff096bc048"
+          target="id-ec365c63fc6b4a2796ca5c9c14f1c0d5">
+        <archimateRelationship
+            xsi:type="archimate:SpecializationRelationship"
+            href="SpecializationRelationship_c5815f1b-34d9-4fb1-bd6d-90dcc682ddbe.xml#c5815f1b-34d9-4fb1-bd6d-90dcc682ddbe"/>
+      </sourceConnections>
+      <bounds
+          x="239"
+          y="408"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:DataObject"
+          href="DataObject_cfd99ced-c35a-4e22-a5af-453c0955cb7d.xml#cfd99ced-c35a-4e22-a5af-453c0955cb7d"/>
     </children>
     <archimateElement
         xsi:type="archimate:DataObject"
@@ -680,7 +738,7 @@
       textAlignment="1">
     <bounds
         x="888"
-        y="12"
+        y="-12"
         width="180"
         height="325"/>
     <children

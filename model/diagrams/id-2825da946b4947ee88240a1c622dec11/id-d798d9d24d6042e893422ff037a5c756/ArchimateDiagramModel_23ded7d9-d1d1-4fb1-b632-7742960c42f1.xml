@@ -124,6 +124,15 @@
           xsi:type="archimate:CompositionRelationship"
           href="CompositionRelationship_905aeed8-e9e6-4bff-8d8f-10d25c395bf7.xml#905aeed8-e9e6-4bff-8d8f-10d25c395bf7"/>
     </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="54b7191c-6f11-49c6-99c6-b77479c67657"
+        source="cf6b7eb7-a968-4d9f-a9aa-6b90bed0d293"
+        target="e4a3e98b-84a0-45f5-a404-137dbe618698">
+      <archimateRelationship
+          xsi:type="archimate:CompositionRelationship"
+          href="CompositionRelationship_b2af2e4c-82ba-477a-9b60-556c550a04a5.xml#b2af2e4c-82ba-477a-9b60-556c550a04a5"/>
+    </sourceConnections>
     <bounds
         x="-156"
         y="-48"
@@ -289,7 +298,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="8cf8ebde-1727-46ac-8ef7-84cf992d2d7a"
-        targetConnections="id-0c7b7b39d5ff498dbd87b59efd8e7845 fbd2a32c-6686-4656-94a9-f754c4755fc7"
+        targetConnections="id-0c7b7b39d5ff498dbd87b59efd8e7845 fbd2a32c-6686-4656-94a9-f754c4755fc7 fb79e257-362c-4685-92e8-a6855e63f485"
         font="1|Segoe UI|9.0|1|WINDOWS|1|-12|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
         fontColor="#ffffff"
         fillColor="#0099cc"
@@ -359,6 +368,7 @@
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="id-214f785849a1499fb90a231a092de79a"
+          lineColor="#ff0000"
           source="fe64dba5-47a2-4a2d-a237-9d1fe5ae7c65"
           target="869b8241-7de4-4008-b361-a2e292c3dce4">
         <bendpoints
@@ -577,6 +587,32 @@
       <archimateElement
           xsi:type="archimate:DataObject"
           href="DataObject_4565a43a-e08d-48d5-ae27-e08080733594.xml#4565a43a-e08d-48d5-ae27-e08080733594"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="e4a3e98b-84a0-45f5-a404-137dbe618698"
+        targetConnections="54b7191c-6f11-49c6-99c6-b77479c67657"
+        font="1|Segoe UI|9.0|1|WINDOWS|1|-12|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
+        fontColor="#ffffff"
+        fillColor="#0099cc"
+        textPosition="1">
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="fb79e257-362c-4685-92e8-a6855e63f485"
+          source="e4a3e98b-84a0-45f5-a404-137dbe618698"
+          target="8cf8ebde-1727-46ac-8ef7-84cf992d2d7a">
+        <archimateRelationship
+            xsi:type="archimate:SpecializationRelationship"
+            href="SpecializationRelationship_2253efd0-1214-4871-b1ab-5b8c620f1684.xml#2253efd0-1214-4871-b1ab-5b8c620f1684"/>
+      </sourceConnections>
+      <bounds
+          x="936"
+          y="288"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:DataObject"
+          href="DataObject_5b083497-fe9d-41dc-b326-fc0ca74ed6dd.xml#5b083497-fe9d-41dc-b326-fc0ca74ed6dd"/>
     </children>
     <archimateElement
         xsi:type="archimate:DataObject"

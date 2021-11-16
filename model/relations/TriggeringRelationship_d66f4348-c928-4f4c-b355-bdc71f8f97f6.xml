@@ -1,7 +1,7 @@
 <archimate:TriggeringRelationship
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Opvragen debiteurboekinggegevens"
+    name="Opvragen boeking"
     id="d66f4348-c928-4f4c-b355-bdc71f8f97f6"
     documentation="Het opvragen van de rekening courant van een debiteur.&#xD;&#xA;&#xD;&#xA;Het is gewenst om bij klantcontacten met een relatie te weten wat de debiteurenpositie is en welke posten nog open staan. Op basis daarvan kan met de relatie betaalafspraken gemaakt worden.&#xD;&#xA;&#xD;&#xA;====Scenario's====&#xD;&#xA;Primair&#xD;&#xA;* Als medewerker klantbediening wil ik weten of een huurder een huurachterstand heeft zodat er betaalafspraken gemaakt kunnen worden.&#xD;&#xA;* Als medewerker klantbediening wil ik weten welke posten buiten de betaaltermijn zijn gevallen om op basis daarvan een betalingsregeling aan te bieden.&#xD;&#xA;">
   <properties
@@ -13,6 +13,9 @@
   <properties
       key="Bericht"
       value="Debiteurboekinggegevens opvragen"/>
+  <properties
+      key="Resource"
+      value="BFG:Boekingen"/>
   <source
       xsi:type="archimate:BusinessProcess"
       href="BusinessProcess_id-a6de887b920047a086a65f4076042e55.xml#id-a6de887b920047a086a65f4076042e55"/>

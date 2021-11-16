@@ -1,20 +1,20 @@
 <archimate:TriggeringRelationship
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Opvragen betaalgegeven"
-    id="372162d4-299b-4039-97ae-faf0cdd2e4d0">
+    name="Doorgeven contactgegevens"
+    id="id-99b51f45264d4cdebdf033e91a67deec">
   <properties
       key="Objecttype"
       value="Trigger"/>
   <properties
       key="Code"
-      value="BRGV02"/>
+      value="BRGT04"/>
   <properties
       key="Bericht"
-      value="Betaalgegeven opvragen"/>
+      value="Contactmomenten synchroniseren"/>
   <properties
       key="Resource"
-      value="BRG_Betaalgegevens"/>
+      value="BRG:Contactmomenten"/>
   <source
       xsi:type="archimate:BusinessProcess"
       href="BusinessProcess_id-a6de887b920047a086a65f4076042e55.xml#id-a6de887b920047a086a65f4076042e55"/>

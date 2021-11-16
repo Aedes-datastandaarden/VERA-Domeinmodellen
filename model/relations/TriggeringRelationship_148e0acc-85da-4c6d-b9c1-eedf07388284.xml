@@ -1,17 +1,20 @@
 <archimate:TriggeringRelationship
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Synchroniseren relatiegroep"
+    name="Doorgeven relatie"
     id="148e0acc-85da-4c6d-b9c1-eedf07388284">
   <properties
       key="Objecttype"
       value="Trigger"/>
   <properties
       key="Code"
-      value="BRGT05"/>
+      value="BRGT03"/>
+  <properties
+      key="Resource"
+      value="BRG:Relaties"/>
   <properties
       key="Bericht"
-      value="Relatiegroep synchroniseren"/>
+      value="Relatie synchroniseren"/>
   <source
       xsi:type="archimate:BusinessProcess"
       href="BusinessProcess_c52e9587-62a1-44d4-b080-c027bd57cba8.xml#c52e9587-62a1-44d4-b080-c027bd57cba8"/>

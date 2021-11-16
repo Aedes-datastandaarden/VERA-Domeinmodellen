@@ -1,7 +1,7 @@
 <archimate:AssociationRelationship
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Synchroniseren dossier"
+    name="Doorgeven dossier"
     id="id-a9364263bb374c85b90527d4f1d4110d"
     documentation="Synchroniseren van de dossiers behorend bij een relatie&#xD;&#xA;&#xD;&#xA;====Scenario's====&#xD;&#xA;Primair&#xD;&#xA;* Als klantbediening wil ik de dossiers synchroniseren met het eigen systeem zodat van daaruit dossiers kunnen worden behandeld&#xD;&#xA;"
     directed="true">
@@ -14,6 +14,9 @@
   <properties
       key="Bericht"
       value="Dossier synchroniseren"/>
+  <properties
+      key="Resource"
+      value="KBD:Dossiers"/>
   <source
       xsi:type="archimate:BusinessProcess"
       href="BusinessProcess_id-dc636dbc60ef4675a5bd4b7359a9c537.xml#id-dc636dbc60ef4675a5bd4b7359a9c537"/>

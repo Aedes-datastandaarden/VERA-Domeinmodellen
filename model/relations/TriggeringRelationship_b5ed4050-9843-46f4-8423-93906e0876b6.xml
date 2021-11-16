@@ -1,8 +1,20 @@
 <archimate:TriggeringRelationship
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Huuropzegging starten"
+    name="Doorgeven Huuropzegging"
     id="b5ed4050-9843-46f4-8423-93906e0876b6">
+  <properties
+      key="Objecttype"
+      value="Trigger"/>
+  <properties
+      key="Code"
+      value="BOGT02"/>
+  <properties
+      key="Bericht"
+      value="Huuropzegging synchroniseren"/>
+  <properties
+      key="Resource"
+      value="BOG:Huuropzeggingen"/>
   <source
       xsi:type="archimate:BusinessProcess"
       href="BusinessProcess_id-a6de887b920047a086a65f4076042e55.xml#id-a6de887b920047a086a65f4076042e55"/>

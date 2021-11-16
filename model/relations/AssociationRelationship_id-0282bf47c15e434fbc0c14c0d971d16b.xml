@@ -1,7 +1,7 @@
 <archimate:AssociationRelationship
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Synchroniseren zaak"
+    name="Doorgeven zaak"
     id="id-0282bf47c15e434fbc0c14c0d971d16b"
     documentation="Synchroniseren van zaken bij een eenheid, huurovereenkomst of relatie ter ondersteuning van klantbediening in het geval van zaakgericht werken. &#xD;&#xA;&#xD;&#xA;====Scenario's====&#xD;&#xA;Primair&#xD;&#xA;* Als klantbediening wil ik de zaken synchroniseren met het eigen systeem zodat van daaruit de zaken kunnen worden behandeld."
     directed="true">
@@ -14,6 +14,9 @@
   <properties
       key="Bericht"
       value="Zaak synchroniseren"/>
+  <properties
+      key="Resource"
+      value="KBD:Zaken"/>
   <source
       xsi:type="archimate:BusinessProcess"
       href="BusinessProcess_id-f0ac7436477b4038a078eadd1bd913fe.xml#id-f0ac7436477b4038a078eadd1bd913fe"/>

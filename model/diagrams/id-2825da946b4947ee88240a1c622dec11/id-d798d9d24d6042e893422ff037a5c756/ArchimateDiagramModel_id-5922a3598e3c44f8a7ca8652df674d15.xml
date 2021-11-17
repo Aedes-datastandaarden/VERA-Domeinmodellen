@@ -157,7 +157,7 @@
           href="CompositionRelationship_09f21f9a-75e3-417c-b3ad-7dc4acc9e6b1.xml#09f21f9a-75e3-417c-b3ad-7dc4acc9e6b1"/>
     </sourceConnections>
     <bounds
-        x="-96"
+        x="-120"
         y="-120"
         width="1045"
         height="565"/>
@@ -459,7 +459,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="cb146a7d-f9d3-491e-9d0d-93805635f4b0"
-        targetConnections="de753ba7-2169-45d2-b139-5e72c6c0016c 9894e21a-3005-4b49-899f-93e8dbcc3784 id-2425bc5292d247249d836a402b687e40"
+        targetConnections="de753ba7-2169-45d2-b139-5e72c6c0016c 9894e21a-3005-4b49-899f-93e8dbcc3784"
         font="1|Segoe UI|9.0|1|WINDOWS|1|-12|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
         fontColor="#ffffff"
         fillColor="#0099cc"
@@ -503,30 +503,6 @@
         <archimateRelationship
             xsi:type="archimate:AssociationRelationship"
             href="AssociationRelationship_0cd93768-824b-4fe7-8ee6-73e951384814.xml#0cd93768-824b-4fe7-8ee6-73e951384814"/>
-      </sourceConnections>
-      <sourceConnections
-          xsi:type="archimate:DiagramModelArchimateConnection"
-          id="id-2425bc5292d247249d836a402b687e40"
-          source="id-c2b2c9e78b4d4145a700c9f0b633cf62"
-          target="cb146a7d-f9d3-491e-9d0d-93805635f4b0">
-        <bendpoints
-            startX="48"
-            startY="-62"
-            endX="-432"
-            endY="106"/>
-        <bendpoints
-            startX="348"
-            startY="-63"
-            endX="-132"
-            endY="105"/>
-        <bendpoints
-            startX="348"
-            startY="-147"
-            endX="-132"
-            endY="21"/>
-        <archimateRelationship
-            xsi:type="archimate:AssociationRelationship"
-            href="AssociationRelationship_3bc1ebb5-9dfb-4832-916a-de122bfca73f.xml#3bc1ebb5-9dfb-4832-916a-de122bfca73f"/>
       </sourceConnections>
       <bounds
           x="252"
@@ -744,7 +720,7 @@
       id="f6e2f0a6-a024-4051-b2ed-0b772e22b708"
       textAlignment="1">
     <bounds
-        x="960"
+        x="936"
         y="-120"
         width="180"
         height="325"/>

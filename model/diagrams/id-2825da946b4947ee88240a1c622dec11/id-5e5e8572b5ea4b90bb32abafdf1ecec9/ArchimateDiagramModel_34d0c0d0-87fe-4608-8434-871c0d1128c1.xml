@@ -132,6 +132,16 @@
           id="id-0fffa299691b4ca8b50a6af25e3bb391"
           source="4d77f589-34b3-40d6-be1f-5e6d566b3130"
           target="id-fac5edec835449aebb771232ceeb5342">
+        <bendpoints
+            startX="108"
+            startY="21"
+            endX="-108"
+            endY="-75"/>
+        <bendpoints
+            startX="108"
+            startY="93"
+            endX="-108"
+            endY="-3"/>
         <archimateRelationship
             xsi:type="archimate:AssociationRelationship"
             href="AssociationRelationship_id-9c633e330b5f4f78b673481bebd2f68c.xml#id-9c633e330b5f4f78b673481bebd2f68c"/>
@@ -247,7 +257,7 @@
       id="4622a9ec-9c11-4236-8916-a299c538565a"
       textAlignment="1">
     <bounds
-        x="744"
+        x="564"
         y="12"
         width="180"
         height="325"/>

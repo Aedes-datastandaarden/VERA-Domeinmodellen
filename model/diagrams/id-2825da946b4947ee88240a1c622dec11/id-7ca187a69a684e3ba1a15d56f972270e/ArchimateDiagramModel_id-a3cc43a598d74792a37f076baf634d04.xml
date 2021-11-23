@@ -118,7 +118,7 @@
       textAlignment="1">
     <bounds
         x="264"
-        y="24"
+        y="12"
         width="180"
         height="325"/>
     <children
@@ -330,5 +330,8 @@
       value="Bericht"/>
   <properties
       key="Resource"
-      value="KMT:Onderzoeksresultaten"/>
+      value="KMT:Onderzoeksresultaten-Onderzoeksresultaat"/>
+  <properties
+      key="Procesketen"
+      value="Kwaliteitsmanagement"/>
 </archimate:ArchimateDiagramModel>

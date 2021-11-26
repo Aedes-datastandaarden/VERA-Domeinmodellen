@@ -3,7 +3,18 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Doorgeven eenheid"
     id="29e01d20-6d24-466e-b119-acc1be9aec41">
-  <properties/>
+  <properties
+      key="Bericht"
+      value="Eenheidgegevens synchroniseren"/>
+  <properties
+      key="Code"
+      value="BVGT04"/>
+  <properties
+      key="Objecttype"
+      value="Trigger"/>
+  <properties
+      key="Resource"
+      value="BVG:Eenheden"/>
   <source
       xsi:type="archimate:BusinessProcess"
       href="BusinessProcess_e3768ba4-6479-43fe-94e7-c28d43d048df.xml#e3768ba4-6479-43fe-94e7-c28d43d048df"/>

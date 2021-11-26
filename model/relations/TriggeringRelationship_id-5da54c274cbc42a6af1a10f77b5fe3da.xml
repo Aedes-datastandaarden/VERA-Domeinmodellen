@@ -1,0 +1,24 @@
+<archimate:TriggeringRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Doorgeven debiteur"
+    id="id-5da54c274cbc42a6af1a10f77b5fe3da">
+  <properties
+      key="Objecttype"
+      value="Bericht"/>
+  <properties
+      key="Code"
+      value="BFGT03"/>
+  <properties
+      key="Bericht"
+      value="Debiteurgegevens synchroniseren"/>
+  <properties
+      key="Resource"
+      value="BFG:Debiteuren"/>
+  <source
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_00312b09-1d77-4831-965b-cdfd0860f411.xml#00312b09-1d77-4831-965b-cdfd0860f411"/>
+  <target
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_id-a6de887b920047a086a65f4076042e55.xml#id-a6de887b920047a086a65f4076042e55"/>
+</archimate:TriggeringRelationship>

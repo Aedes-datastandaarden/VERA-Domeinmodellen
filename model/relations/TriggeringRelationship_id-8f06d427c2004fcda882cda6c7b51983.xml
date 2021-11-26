@@ -1,7 +1,7 @@
 <archimate:TriggeringRelationship
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Opvragen contactgegevens"
+    name="Opvragen contactmomenten"
     id="id-8f06d427c2004fcda882cda6c7b51983">
   <properties
       key="Objecttype"
@@ -11,10 +11,10 @@
       value="BRGV04"/>
   <properties
       key="Bericht"
-      value="Contactgegevens opvragen"/>
+      value="Contactmomenten opvragen"/>
   <properties
       key="Resource"
-      value="BRG:Contactgegevens"/>
+      value="BRG:Contactmomenten"/>
   <source
       xsi:type="archimate:BusinessProcess"
       href="BusinessProcess_c52e9587-62a1-44d4-b080-c027bd57cba8.xml#c52e9587-62a1-44d4-b080-c027bd57cba8"/>

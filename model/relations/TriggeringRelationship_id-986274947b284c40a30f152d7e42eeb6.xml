@@ -4,18 +4,6 @@
     name="Bevestigen Afspraak "
     id="id-986274947b284c40a30f152d7e42eeb6"
     documentation="Voor het bevestigen van een afspraak. &#xD;&#xA;&#xD;&#xA;Op basis van de beschikbare opties wordt één optie gekozen waarop uitvoerende partij de onderhoudsorder kan gaan uitvoeren. &#xD;&#xA;&#xD;&#xA;">
-  <properties
-      key="Type"
-      value="Trigger"/>
-  <properties
-      key="Code"
-      value="OHDT03"/>
-  <properties
-      key="Bericht"
-      value="Afspraak Synchroniseren"/>
-  <properties
-      key="Resource"
-      value="OHD:Afspraak"/>
   <source
       xsi:type="archimate:BusinessProcess"
       href="BusinessProcess_id-23d6b40adccf4d4e913762396b974b22.xml#id-23d6b40adccf4d4e913762396b974b22"/>

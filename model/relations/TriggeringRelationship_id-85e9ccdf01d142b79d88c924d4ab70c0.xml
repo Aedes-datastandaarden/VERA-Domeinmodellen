@@ -1,0 +1,19 @@
+<archimate:TriggeringRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Doorgeven gebeurtenissen"
+    id="id-85e9ccdf01d142b79d88c924d4ab70c0"
+    documentation="Het doorgeven van gebeurtenissen die invloed hebben op de puntenopbouw van een woningzoekende.&#xD;&#xA;&#xD;&#xA;Indien een regionaal samenwerkingsverband werkt met een puntensysteem zijn een aantal gebeurtenissen relevant voor het opbouwen van punten maar ook de afbouw en sancties. &#xD;&#xA;* Reactie&#x9;&#xD;&#xA;* Intrekken Reactie&#xD;&#xA;* WeigeringHA&#xD;&#xA;* WeigeringNH&#x9;&#xD;&#xA;* Intrekken WeigeringHA&#xD;&#xA;* Intrekken WeigeringNH&#xD;&#xA;* NoShow&#xD;&#xA;* Intrekken NoShow&#xD;&#xA;* Toewijzing&#xD;&#xA;* Begin Situatiepunten&#xD;&#xA;* Begin Startpunten&#xD;&#xA;* Nieuwe Inschrijving&#xD;&#xA;* Wijzigen Inschrijving&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;">
+  <properties
+      key="Objecttype"
+      value="Trigger"/>
+  <properties
+      key="Resource"
+      value="WRV:Gebeurtenissen"/>
+  <source
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_id-46230945af7947a1b842dcb5fa05d2d4.xml#id-46230945af7947a1b842dcb5fa05d2d4"/>
+  <target
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_id-15cb97ce244945ac80d282ca69e92511.xml#id-15cb97ce244945ac80d282ca69e92511"/>
+</archimate:TriggeringRelationship>

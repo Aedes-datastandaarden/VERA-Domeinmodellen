@@ -4,14 +4,14 @@
     name="Opvragen eenheid"
     id="a0f6de9c-5a91-4e1a-84dc-9eac8d37463f">
   <properties
-      key="Bericht"
-      value="Eenheidgegevens opvragen"/>
-  <properties
-      key="Code"
-      value="BVGV04"/>
-  <properties
       key="Objecttype"
       value="Trigger"/>
+  <properties
+      key="Code"
+      value="BVGV01"/>
+  <properties
+      key="Bericht"
+      value="Eenheidgegevens opvragen"/>
   <properties
       key="Resource"
       value="BVG:Eenheden"/>

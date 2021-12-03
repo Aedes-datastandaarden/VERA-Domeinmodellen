@@ -1,24 +1,24 @@
 <archimate:TriggeringRelationship
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Doorgeven relatie"
-    id="148e0acc-85da-4c6d-b9c1-eedf07388284">
+    name="Opvragen Rechtspersoon"
+    id="id-c5a5a96adc184a33bf886b4d1bb7432a">
   <properties
       key="Objecttype"
       value="Trigger"/>
   <properties
       key="Code"
-      value="BRGT03"/>
+      value="BRGV06"/>
   <properties
       key="Bericht"
-      value="Relatie synchroniseren"/>
+      value="Rechtspersoon opvragen"/>
   <properties
       key="Resource"
-      value="BRG:Relaties"/>
+      value="BRG:Rechtspersonen"/>
   <source
       xsi:type="archimate:BusinessProcess"
-      href="BusinessProcess_c52e9587-62a1-44d4-b080-c027bd57cba8.xml#c52e9587-62a1-44d4-b080-c027bd57cba8"/>
+      href="BusinessProcess_id-a6de887b920047a086a65f4076042e55.xml#id-a6de887b920047a086a65f4076042e55"/>
   <target
       xsi:type="archimate:BusinessProcess"
-      href="BusinessProcess_id-a6de887b920047a086a65f4076042e55.xml#id-a6de887b920047a086a65f4076042e55"/>
+      href="BusinessProcess_c52e9587-62a1-44d4-b080-c027bd57cba8.xml#c52e9587-62a1-44d4-b080-c027bd57cba8"/>
 </archimate:TriggeringRelationship>

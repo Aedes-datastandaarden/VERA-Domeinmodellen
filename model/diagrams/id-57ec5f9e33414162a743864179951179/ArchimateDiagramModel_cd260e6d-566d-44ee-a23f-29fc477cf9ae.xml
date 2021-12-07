@@ -648,26 +648,6 @@
         textPosition="1">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
-          id="d9a5a323-b14b-401d-8c90-1a3e95ee4db2"
-          font="1|Segoe UI|11.25|0|WINDOWS|1|-15|0|0|0|400|0|0|0|0|3|2|1|34|Segoe UI"
-          source="29f19477-7568-4491-97ac-1e259be83a67"
-          target="e05f9a8f-d68b-4ec2-9479-1a353a40623e">
-        <bendpoints
-            startX="285"
-            startY="18"
-            endX="-147"
-            endY="-129"/>
-        <bendpoints
-            startX="286"
-            startY="163"
-            endX="-146"
-            endY="4"/>
-        <archimateRelationship
-            xsi:type="archimate:AssociationRelationship"
-            href="AssociationRelationship_323c6313-23d8-4f42-9731-d30e1686c019.xml#323c6313-23d8-4f42-9731-d30e1686c019"/>
-      </sourceConnections>
-      <sourceConnections
-          xsi:type="archimate:DiagramModelArchimateConnection"
           id="d1426df6-5adf-4e9a-8348-f7706b72eeb5"
           font="1|Segoe UI|11.25|0|WINDOWS|1|-15|0|0|0|400|0|0|0|0|3|2|1|34|Segoe UI"
           source="29f19477-7568-4491-97ac-1e259be83a67"
@@ -760,6 +740,26 @@
         <archimateRelationship
             xsi:type="archimate:AssociationRelationship"
             href="AssociationRelationship_040f6fd0-9f34-4452-8744-0f6c5d653604.xml#040f6fd0-9f34-4452-8744-0f6c5d653604"/>
+      </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="d9a5a323-b14b-401d-8c90-1a3e95ee4db2"
+          font="1|Segoe UI|11.25|0|WINDOWS|1|-15|0|0|0|400|0|0|0|0|3|2|1|34|Segoe UI"
+          source="29f19477-7568-4491-97ac-1e259be83a67"
+          target="e05f9a8f-d68b-4ec2-9479-1a353a40623e">
+        <bendpoints
+            startX="285"
+            startY="18"
+            endX="-147"
+            endY="-129"/>
+        <bendpoints
+            startX="286"
+            startY="163"
+            endX="-146"
+            endY="4"/>
+        <archimateRelationship
+            xsi:type="archimate:AssociationRelationship"
+            href="AssociationRelationship_323c6313-23d8-4f42-9731-d30e1686c019.xml#323c6313-23d8-4f42-9731-d30e1686c019"/>
       </sourceConnections>
       <bounds
           x="1356"

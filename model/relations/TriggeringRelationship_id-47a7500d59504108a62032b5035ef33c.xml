@@ -3,13 +3,13 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Doorgeven Inschrijving"
     id="id-47a7500d59504108a62032b5035ef33c"
-    documentation="Voor het doorgeven van een inschrijving aan de overeenkomst administratie.&#xD;&#xA;&#xD;&#xA;Om in aanmerking te komen voor een woning moeten woningzoekenden zich inschrijven bij een regionaal samenwerkingsverband. Voor deze inschrijving kunnen inschrijfkosten en verleningskosten worden gevraagd. De inschrijving is een serviceovereenkomst tussen de woningzoekende en het regionale samenwerkingsverband. Het woonruimteverdeelproces faciliteerd deze inschrijvingen en betalingen.&#xD;&#xA;&#xD;&#xA;==== Scenario's ====&#xD;&#xA;Primair&#xD;&#xA;* Een woningzoekende schrijft zich in om in aanmerking te komen voor een woning.&#xD;&#xA;* Een woningzoekende schrijft zich in om in aanmerking te komen voor een urgentie.&#xD;&#xA;* Een woningzoekende schrijft zich in om inschrijfduur op te bouwen.&#xD;&#xA;">
+    documentation="Voor het doorgeven van een inschrijving aan de overeenkomst administratie.&#xD;&#xA;&#xD;&#xA;==== Toelichting ====&#xD;&#xA;Om in aanmerking te komen voor een woning moeten woningzoekenden zich inschrijven bij een regionaal samenwerkingsverband. Voor deze inschrijving kunnen inschrijfkosten en verleningskosten worden gevraagd. De inschrijving is een serviceovereenkomst tussen de woningzoekende en het regionale samenwerkingsverband. Het woonruimteverdeelproces faciliteerd deze inschrijvingen en betalingen.&#xD;&#xA;&#xD;&#xA;==== Scenario's ====&#xD;&#xA;Primair&#xD;&#xA;* Een woningzoekende schrijft zich in om in aanmerking te komen voor een woning.&#xD;&#xA;* Een woningzoekende schrijft zich in om in aanmerking te komen voor een urgentie.&#xD;&#xA;* Een woningzoekende schrijft zich in om inschrijfduur op te bouwen.&#xD;&#xA;">
   <properties
       key="Objecttype"
       value="Trigger"/>
   <properties
       key="Resource"
-      value="WRV:Inschrijvingen"/>
+      value="WRV:Overeenkomsten"/>
   <source
       xsi:type="archimate:BusinessProcess"
       href="BusinessProcess_id-46230945af7947a1b842dcb5fa05d2d4.xml#id-46230945af7947a1b842dcb5fa05d2d4"/>

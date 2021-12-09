@@ -1,4 +1,15 @@
 <archimate:DataObject
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Puntenmutatie"
-    id="id-8f44a0089a944982a33f2b5cd06cf8b3"/>
+    id="id-8f44a0089a944982a33f2b5cd06cf8b3"
+    documentation="====Definitie====&#xD;&#xA;Op basis van gebeurtenissen worden mutaties op de puntenopbouw doorgevoerd.&#xD;&#xA;&#xD;&#xA;==== Toelichting====&#xD;&#xA;Door het actief woningzoeken bouwt men zoekpunten op. Deze kan men weer kwijtraken door sancties. Ook kan men situatiepunten, startpunten en wachtpunten opbouwen. Deze matuaties worden vastgelegd als auditeerbare gegevens.">
+  <properties
+      key="Objecttype"
+      value="Klasse"/>
+  <properties
+      key="Code"
+      value="WWPUM"/>
+  <properties
+      key="Domein"
+      value="Woonruimteverdeling"/>
+</archimate:DataObject>

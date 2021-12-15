@@ -3,13 +3,13 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Inschrijving gekoppeld"
     id="id-74ec0f7f6bd74751b7bbd3010d75bacb"
-    documentation="Doorgeven dat de inschrijving is gekoppeld.&#xD;&#xA;">
+    documentation="Doorgeven dat de inschrijving is gekoppeld.&#xD;&#xA;&#xD;&#xA;==== Toelichting ====&#xD;&#xA;Nadat een koppelingsverzoek is verwerkt kan dit worden gemeld aan het woonruimteverdeelsysteem waarvan de inschrijving is gekoppeld. Door het vastleggen van deze koppeling kan men relevante mutaties op de inschrijvingen doorgeven aan elkaa.&#xD;&#xA;">
   <properties
       key="Objecttype"
       value="Trigger"/>
   <properties
       key="Resource"
-      value="WRV:Inschrijvingen"/>
+      value="WRV:Overeenkomsten"/>
   <source
       xsi:type="archimate:BusinessProcess"
       href="BusinessProcess_id-dc69ffb6c0f7468eae826eef9df60365.xml#id-dc69ffb6c0f7468eae826eef9df60365"/>

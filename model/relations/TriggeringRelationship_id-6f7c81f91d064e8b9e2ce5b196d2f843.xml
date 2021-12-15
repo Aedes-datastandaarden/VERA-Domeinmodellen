@@ -3,13 +3,13 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Koppelen inschrijvingen"
     id="id-6f7c81f91d064e8b9e2ce5b196d2f843"
-    documentation="Doorgeven van een koppeling tussen twee inschrijvingen.&#xD;&#xA;&#xD;&#xA;In de tijd kan het voorkomen dat mensen gaan samenwonen of scheiden. In deze gevallen kan men de inschrijving samenvoegen of splitsen. Er zijn regionale verschillen voor het al dan niet meenemen van de (eerder) opgebouwde rechten. Voor inschriiving in verschillende woonruimteverdeelsystemen of regionale samenwerkingsverbanden is het mogelijk om de inschrijvingen aan elkaar te koppelen. &#xD;&#xA;&#xD;&#xA;==== Scenario's====&#xD;&#xA;Primair&#xD;&#xA;* Twee woningzoekenden met een eigen inschrijving die willen samenwonen kunnen hun inschrijvingen samenvoegen.&#xD;&#xA;* Partners met een gezamelijke inschriving kunnen deze splitsen als ze niet meer willen samenwonen.&#xD;&#xA;* Een woningzoekende kan een inschrijving koppelen aan een eigen andere inschrijving bij een andere woonruimteverdeler.&#xD;&#xA;* Een woningzoekende kan een inschrijving koppelen aan een eigen andere inschrijving bij een ander regionaal samenwerkingsverband..&#xD;&#xA;">
+    documentation="Doorgeven van een koppeling tussen twee inschrijvingen.&#xD;&#xA;&#xD;&#xA;==== Toelichting ====&#xD;&#xA;In de tijd kan het voorkomen dat mensen gaan samenwonen of scheiden. In deze gevallen kan men de inschrijving samenvoegen of splitsen. Er zijn regionale verschillen voor het al dan niet meenemen van de (eerder) opgebouwde rechten. Voor inschriiving in verschillende woonruimteverdeelsystemen of regionale samenwerkingsverbanden is het mogelijk om de inschrijvingen aan elkaar te koppelen. &#xD;&#xA;&#xD;&#xA;==== Scenario's====&#xD;&#xA;Primair&#xD;&#xA;* Twee woningzoekenden met een eigen inschrijving die willen samenwonen kunnen hun inschrijvingen samenvoegen.&#xD;&#xA;* Partners met een gezamelijke inschriving kunnen deze splitsen als ze niet meer willen samenwonen.&#xD;&#xA;* Een woningzoekende kan een inschrijving koppelen aan een eigen andere inschrijving bij een andere woonruimteverdeler.&#xD;&#xA;* Een woningzoekende kan een inschrijving koppelen aan een eigen andere inschrijving bij een ander regionaal samenwerkingsverband..&#xD;&#xA;">
   <properties
       key="Objecttype"
       value="Trigger"/>
   <properties
       key="Resource"
-      value="WRV:Inschrijvingen"/>
+      value="WRV:Overeenkomsten"/>
   <source
       xsi:type="archimate:BusinessProcess"
       href="BusinessProcess_id-46230945af7947a1b842dcb5fa05d2d4.xml#id-46230945af7947a1b842dcb5fa05d2d4"/>

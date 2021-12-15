@@ -2,4 +2,11 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="BVG: CollectiefObjecten"
     id="id-e7e898aeeaf44f8eabdd800b4850bfb1"
-    documentation="====Definitie====&#xD;&#xA;Opvragen/synchroniseren van collectieve object-gegevens&#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;Bron: VERA Portalenwerkgroep - concept ter review&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;====Voorbeelden====&#xD;&#xA;* Voorbeeld 1: &#xD;&#xA;"/>
+    documentation="====Definitie====&#xD;&#xA;Opvragen/synchroniseren van collectieve object-gegevens&#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;Bron: VERA Portalenwerkgroep - concept ter review&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;====Voorbeelden====&#xD;&#xA;* Voorbeeld 1: &#xD;&#xA;">
+  <properties
+      key="Objecttype"
+      value="Bericht"/>
+  <properties
+      key="Code"
+      value="BVGCOL"/>
+</archimate:DataObject>

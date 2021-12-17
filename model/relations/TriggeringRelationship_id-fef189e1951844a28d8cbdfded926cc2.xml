@@ -1,15 +1,14 @@
 <archimate:TriggeringRelationship
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Opvragen Huuropzegging"
-    id="id-75ab12a7c43845b69f8e68efb0344cfa"
-    documentation="Het opvragen van dde huuropzegging.&#xD;&#xA;&#xD;&#xA;==== Toelichting ====&#xD;&#xA;Een huurder kan een eerder gedane huuropzegging opvragen om de voortgang te zien.">
+    name="Opvragen huurder cluster"
+    id="id-fef189e1951844a28d8cbdfded926cc2">
   <properties
       key="Objecttype"
       value="Trigger"/>
   <properties
       key="Resource"
-      value="VHE:Huuropzeggingen"/>
+      value="VHE:Clusters"/>
   <source
       xsi:type="archimate:BusinessProcess"
       href="BusinessProcess_id-a6de887b920047a086a65f4076042e55.xml#id-a6de887b920047a086a65f4076042e55"/>

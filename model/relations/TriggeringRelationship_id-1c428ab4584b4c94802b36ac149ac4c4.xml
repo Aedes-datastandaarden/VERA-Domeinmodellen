@@ -1,13 +1,12 @@
-<archimate:AssociationRelationship
+<archimate:TriggeringRelationship
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Opvragen huurovereenkomst"
-    id="id-5b9501883bb44473b5818424a23ac563"
-    directed="true">
+    name="Opvragen Huurovereenkomst"
+    id="id-1c428ab4584b4c94802b36ac149ac4c4">
   <source
       xsi:type="archimate:BusinessProcess"
       href="BusinessProcess_id-357696c944f346bc9b43b488e5b0d6bc.xml#id-357696c944f346bc9b43b488e5b0d6bc"/>
   <target
       xsi:type="archimate:BusinessProcess"
       href="BusinessProcess_id-61dff2dec9a04afdb6b25ce159f85ce0.xml#id-61dff2dec9a04afdb6b25ce159f85ce0"/>
-</archimate:AssociationRelationship>
+</archimate:TriggeringRelationship>

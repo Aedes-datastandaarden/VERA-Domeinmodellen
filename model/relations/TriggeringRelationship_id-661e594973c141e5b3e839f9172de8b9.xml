@@ -1,18 +1,18 @@
 <archimate:TriggeringRelationship
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Doorgeven Overeenkomst"
-    id="id-b4008cd3224c420b84ef17f4f460f22a">
+    name="Doorgeven betalingsregeling"
+    id="id-661e594973c141e5b3e839f9172de8b9">
   <properties
       key="Objecttype"
       value="Trigger"/>
   <properties
       key="Resource"
-      value="BOG:Overeenkomsten"/>
+      value="INC:Betalingsregelingen"/>
   <source
       xsi:type="archimate:BusinessProcess"
-      href="BusinessProcess_id-2884d518037d4a088794e2e1152283e1.xml#id-2884d518037d4a088794e2e1152283e1"/>
+      href="BusinessProcess_id-ab75c49b84554155bd5c60e5c3992171.xml#id-ab75c49b84554155bd5c60e5c3992171"/>
   <target
       xsi:type="archimate:BusinessProcess"
-      href="BusinessProcess_id-a6de887b920047a086a65f4076042e55.xml#id-a6de887b920047a086a65f4076042e55"/>
+      href="BusinessProcess_id-d288fe6adcc34ed8a228ab21991ef4f0.xml#id-d288fe6adcc34ed8a228ab21991ef4f0"/>
 </archimate:TriggeringRelationship>

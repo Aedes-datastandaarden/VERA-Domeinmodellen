@@ -1,0 +1,12 @@
+<archimate:TriggeringRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Doorgeven Incasso"
+    id="id-f60e4eed29a14d0dbb2b6771d5077983">
+  <source
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_id-2d44c325e63c49a6b3b905be4c882f9a.xml#id-2d44c325e63c49a6b3b905be4c882f9a"/>
+  <target
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_id-42c798127c224b4eb0d7e263b42a6847.xml#id-42c798127c224b4eb0d7e263b42a6847"/>
+</archimate:TriggeringRelationship>

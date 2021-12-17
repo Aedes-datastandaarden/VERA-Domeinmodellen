@@ -1,13 +1,12 @@
-<archimate:AssociationRelationship
+<archimate:TriggeringRelationship
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Doorgeven Eenheid"
-    id="id-0351b76cb96144e7b32d1f3ff75a61ba"
-    directed="true">
+    id="id-63478107702b41ea8a1fc5885200bf2a">
   <source
       xsi:type="archimate:BusinessProcess"
       href="BusinessProcess_id-c0bacb9667c84941bfe978a60d6ac0dc.xml#id-c0bacb9667c84941bfe978a60d6ac0dc"/>
   <target
       xsi:type="archimate:BusinessProcess"
       href="BusinessProcess_id-2884d518037d4a088794e2e1152283e1.xml#id-2884d518037d4a088794e2e1152283e1"/>
-</archimate:AssociationRelationship>
+</archimate:TriggeringRelationship>

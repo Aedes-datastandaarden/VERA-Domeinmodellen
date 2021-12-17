@@ -1,0 +1,19 @@
+<archimate:TriggeringRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Doorgeven Huuropzegging"
+    id="id-4b4440004fec407981da83c066275c26"
+    documentation="Het doorgeven van de huuropzegging vanuit een melding van de klant.&#xD;&#xA;&#xD;&#xA;==== Toelichting ====&#xD;&#xA;Via het huurdersportaal kan een klant de eigen huurovereenkomst opzeggen. Bij het afhandelen wordt de huurovereenkomst beindigd en start de voorbereiding voor nieuwe verhuur. Er vinden 1 of meer inspecties plaats. Tijdens de inspectie gevonden defecten worden verholpen. Indien de woning gereed is zal deze beschikbaar worden gemeld aan het woonruimteverdeelproces. Na de afgehandelde huuropzegging kan een kwaliteitsmeting worden gedaan.">
+  <properties
+      key="Objecttype"
+      value="Trigger"/>
+  <properties
+      key="Resource"
+      value="VHE:Huuropzeggingen"/>
+  <source
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_id-cd5e4e020c5b449e8b78226befbfc019.xml#id-cd5e4e020c5b449e8b78226befbfc019"/>
+  <target
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_id-086dc9cf2af04227bc7aa206a8843313.xml#id-086dc9cf2af04227bc7aa206a8843313"/>
+</archimate:TriggeringRelationship>

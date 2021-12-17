@@ -1,20 +1,14 @@
 <archimate:TriggeringRelationship
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Doorgeven Huuropzegging"
-    id="b5ed4050-9843-46f4-8423-93906e0876b6">
+    name="Doorgeven Clusters"
+    id="id-e9fbccf0aa3a40b580b9c13614980ec2">
   <properties
       key="Objecttype"
       value="Trigger"/>
   <properties
-      key="Code"
-      value="BOGT02"/>
-  <properties
-      key="Bericht"
-      value="Huuropzegging synchroniseren"/>
-  <properties
       key="Resource"
-      value="BOG:Huuropzeggingen"/>
+      value="VHE:Clusters"/>
   <source
       xsi:type="archimate:BusinessProcess"
       href="BusinessProcess_id-2884d518037d4a088794e2e1152283e1.xml#id-2884d518037d4a088794e2e1152283e1"/>

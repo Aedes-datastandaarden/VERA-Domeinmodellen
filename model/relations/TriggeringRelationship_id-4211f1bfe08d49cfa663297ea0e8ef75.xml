@@ -1,19 +1,18 @@
-<archimate:AssociationRelationship
+<archimate:TriggeringRelationship
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Opvragen huurder clusters"
-    id="id-b392164d3d7c452faf7ceb097876c3f9"
-    directed="true">
+    name="Opvragen Verhuurde eenheid"
+    id="id-4211f1bfe08d49cfa663297ea0e8ef75">
   <properties
       key="Objecttype"
       value="Trigger"/>
   <properties
       key="Resource"
-      value="VHE:Clusters"/>
+      value="VHE:Eenheden"/>
   <source
       xsi:type="archimate:BusinessProcess"
       href="BusinessProcess_id-a6de887b920047a086a65f4076042e55.xml#id-a6de887b920047a086a65f4076042e55"/>
   <target
       xsi:type="archimate:BusinessProcess"
       href="BusinessProcess_id-2884d518037d4a088794e2e1152283e1.xml#id-2884d518037d4a088794e2e1152283e1"/>
-</archimate:AssociationRelationship>
+</archimate:TriggeringRelationship>

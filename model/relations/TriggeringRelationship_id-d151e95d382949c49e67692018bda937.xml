@@ -1,13 +1,12 @@
-<archimate:AssociationRelationship
+<archimate:TriggeringRelationship
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Beschikbaar melden eenheid"
-    id="id-abfc18ada3d44ca383b123c978ccda7f"
-    directed="true">
+    name="Doorgeven Onderhoudsverzoek"
+    id="id-d151e95d382949c49e67692018bda937">
   <source
       xsi:type="archimate:BusinessProcess"
       href="BusinessProcess_id-dc48dfff2af143b99c7acb32ba76e18e.xml#id-dc48dfff2af143b99c7acb32ba76e18e"/>
   <target
       xsi:type="archimate:BusinessProcess"
-      href="BusinessProcess_id-c88f9d2852a449c383e77840cfa4ee68.xml#id-c88f9d2852a449c383e77840cfa4ee68"/>
-</archimate:AssociationRelationship>
+      href="BusinessProcess_id-6932b3ea7af6465582d82da9182dd97c.xml#id-6932b3ea7af6465582d82da9182dd97c"/>
+</archimate:TriggeringRelationship>

@@ -1,13 +1,12 @@
-<archimate:AssociationRelationship
+<archimate:TriggeringRelationship
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Doorgeven Inspectierapport"
-    id="id-5eb73b5d6a234d43876ba8198bc37209"
-    directed="true">
+    id="id-5ee271cccc89473f8f4e9c3fc4caf336">
   <source
       xsi:type="archimate:BusinessProcess"
       href="BusinessProcess_id-6932b3ea7af6465582d82da9182dd97c.xml#id-6932b3ea7af6465582d82da9182dd97c"/>
   <target
       xsi:type="archimate:BusinessProcess"
       href="BusinessProcess_id-dc48dfff2af143b99c7acb32ba76e18e.xml#id-dc48dfff2af143b99c7acb32ba76e18e"/>
-</archimate:AssociationRelationship>
+</archimate:TriggeringRelationship>

@@ -1,13 +1,12 @@
-<archimate:AssociationRelationship
+<archimate:TriggeringRelationship
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Doorgeven huurovereenkomst"
-    id="id-eec5aa25e0954508a5aa677f2433679f"
-    directed="true">
+    name="Doorgeven Huurovereenkomst"
+    id="id-13e7e16dc54e405bbd51ba0a824710c5">
   <source
       xsi:type="archimate:BusinessProcess"
       href="BusinessProcess_id-61dff2dec9a04afdb6b25ce159f85ce0.xml#id-61dff2dec9a04afdb6b25ce159f85ce0"/>
   <target
       xsi:type="archimate:BusinessProcess"
       href="BusinessProcess_id-357696c944f346bc9b43b488e5b0d6bc.xml#id-357696c944f346bc9b43b488e5b0d6bc"/>
-</archimate:AssociationRelationship>
+</archimate:TriggeringRelationship>

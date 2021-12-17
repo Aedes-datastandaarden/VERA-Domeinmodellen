@@ -1,0 +1,13 @@
+<archimate:AssociationRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Doorgeven huurovereenkomst"
+    id="id-dd139c02bc9b42b5b8a2bb6c2f7ce0ec"
+    directed="true">
+  <source
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_id-086dc9cf2af04227bc7aa206a8843313.xml#id-086dc9cf2af04227bc7aa206a8843313"/>
+  <target
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_id-357696c944f346bc9b43b488e5b0d6bc.xml#id-357696c944f346bc9b43b488e5b0d6bc"/>
+</archimate:AssociationRelationship>

@@ -2,16 +2,14 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Opvragen Huuropzegging"
-    id="id-75ab12a7c43845b69f8e68efb0344cfa">
+    id="id-75ab12a7c43845b69f8e68efb0344cfa"
+    documentation="Het opvragen van dde huuropzegging.&#xD;&#xA;&#xD;&#xA;==== Toelichting ====&#xD;&#xA;Een huurder kan een eerder gedane huuropzegging opvragen om de voortgang te zien.">
   <properties
       key="Objecttype"
       value="Trigger"/>
   <properties
-      key="Bericht"
-      value="Huuropzegging opvragen"/>
-  <properties
       key="Resource"
-      value="BOG:Huuropzeggingen"/>
+      value="VHE:Huuropzeggingen"/>
   <source
       xsi:type="archimate:BusinessProcess"
       href="BusinessProcess_id-2884d518037d4a088794e2e1152283e1.xml#id-2884d518037d4a088794e2e1152283e1"/>

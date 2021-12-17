@@ -293,15 +293,6 @@
         fontColor="#ffffff"
         fillColor="#e19900"
         textPosition="1">
-      <sourceConnections
-          xsi:type="archimate:DiagramModelArchimateConnection"
-          id="91ea3009-4187-4c34-999d-8b085c6bbff1"
-          source="bc001da7-5c90-4dcb-afd7-756ee71e84d0"
-          target="5fd6604e-e41f-4195-b79d-73b1a95bb80e">
-        <archimateRelationship
-            xsi:type="archimate:AssociationRelationship"
-            href="AssociationRelationship_17d03e47-6176-4107-a284-09df226f9f9c.xml#17d03e47-6176-4107-a284-09df226f9f9c"/>
-      </sourceConnections>
       <bounds
           x="24"
           y="276"
@@ -348,7 +339,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="5fd6604e-e41f-4195-b79d-73b1a95bb80e"
-        targetConnections="91ea3009-4187-4c34-999d-8b085c6bbff1 50b1fd8b-639d-4eaa-889f-0fec8a86c96a id-d23ce0b965884a318d8cbdc7232f5481"
+        targetConnections="50b1fd8b-639d-4eaa-889f-0fec8a86c96a id-d23ce0b965884a318d8cbdc7232f5481"
         font="1|Segoe UI|9.0|1|WINDOWS|1|-21|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
         fontColor="#ffffff"
         fillColor="#e19900"

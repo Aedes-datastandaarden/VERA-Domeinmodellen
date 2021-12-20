@@ -1,6 +1,6 @@
 <archimate:DataObject
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="KBD: Dossiers"
+    name="BDO: Dossiers"
     id="52903a3e-0cb7-4426-a53e-fbe064b4fbd1"
     documentation="====Definitie====&#xD;&#xA;Opvragen van dossiers van een relatie inclusief de gekoppelde relatierollen. &#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;Bij het opvragen van een deurwaarderdossier van een specifieke relatie moet het mogelijk zijn om ook de gekoppelde relatiegegevens van de deurwaarder op te halen. Door het toevoegen van een associatie van de klasse Dossier naar RelatieRol in het verticale model is het mogelijk om aan een dossier meerdere relaties met eigen rollen te definieren. &#xD;&#xA;&#xD;&#xA;====Voorbeelden====&#xD;&#xA;*Vraag het deurwaarderdossier op van huurder Jansen met daarbij gekoppelde .&#xD;&#xA;*Bij het te woord staan van een huurder wil de KCC-medewerker weten wie de huismeester is van het cluster waar de huurder woont zodat de huurder doorverwezen kan worden naar de specifieke persoon.">
   <properties

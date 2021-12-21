@@ -2,7 +2,8 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Doorgeven betalingsregeling"
-    id="id-661e594973c141e5b3e839f9172de8b9">
+    id="id-661e594973c141e5b3e839f9172de8b9"
+    documentation="Synchroniseren van nieuwe betalingsregelingen.&#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;Een betalingsregeling is een afspraak met een debiteur om een achterstand in betaling in termijnen te betalen. Er worden afspraken gemaakt over het aantal termijnen,  het te betalen bedrag per termijn en de wijze waarop betaald zal worden.&#xD;&#xA;&#xD;&#xA;====Scenario's====&#xD;&#xA;*Als medewerker wil ik wijziging op een betalingsregeling kunnen doorvoeren. ">
   <properties
       key="Objecttype"
       value="Trigger"/>

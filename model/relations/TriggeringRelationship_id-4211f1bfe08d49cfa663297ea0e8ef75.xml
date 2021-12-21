@@ -2,7 +2,8 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Opvragen Verhuurde eenheid"
-    id="id-4211f1bfe08d49cfa663297ea0e8ef75">
+    id="id-4211f1bfe08d49cfa663297ea0e8ef75"
+    documentation="Het ophalen van informatie betreffende een verhuurde eenheid.&#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;De informatie mbt de eenheid omvat naast alle fysieke kenmerken van de eenheid ook informatie over het type eenheid, adresgegevens, prijscomponenten, informatieobjecten (foto's, plattegronden enz), afspraakopties (bijv voor mutatieinspecties) , voorwaarden voor verhuur van de eenheid enz.&#xD;&#xA;&#xD;&#xA;====Scenario's====&#xD;&#xA;* Als corporatie wil ik dat de huurder bij een online huuropzegging de juiste afspraken voor voor- en eindinspectie kan maken.&#xD;&#xA;* Als huurder wil ik infomatie over de gehuurde eenheid kunnen inzien&#xD;&#xA;* Als huurder wil ik weten wie de contactpersonen zijn van de eenheid die ik huur: gebouwbeheerder, huismeester, technischebeheerder, etc.">
   <properties
       key="Objecttype"
       value="Trigger"/>

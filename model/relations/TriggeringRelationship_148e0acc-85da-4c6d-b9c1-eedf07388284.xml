@@ -2,7 +2,8 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Doorgeven relatie"
-    id="148e0acc-85da-4c6d-b9c1-eedf07388284">
+    id="148e0acc-85da-4c6d-b9c1-eedf07388284"
+    documentation="Doorgeven of wijzigen van de gegevens van een relatie.&#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;Met deze koppeling worden de gegevens van zowel natuurlijke personen, rechtspersonen als Relatiegroepen opgehaald. &#xD;&#xA;* Een natuurlijk persoon is een soort relatie, een mens van vlees en bloed, met een identiteit (naam en voornamen), afstamming (al dan niet bekend of puur  juridisch), geboorteplaats en –datum.&#xD;&#xA;* Een rechtspersoon is een organisatie die een juridische vorm heeft (B.V., N.V., V.O.F. etc.), die volwaardig en handelingsbekwaam in het rechtsverkeer kan optreden.&#xD;&#xA;* Een relatiegroep is een groep relaties die weer een als relatie wordt gezien. Bijvoorbeeld: een huishouden. &#xD;&#xA;&#xD;&#xA;Een relatie kan bevatten: persoonlijke gegevens (NP) , bedrijfsgegeven (RP),  adresgegevens, contactgegevens, opleidingsgegevens en rollen. Bepaalde gegevens kunnen door de relatie worden gewijzigd.&#xD;&#xA;&#xD;&#xA;====Scenario's====&#xD;&#xA;* Als huurder of woningzoekende wil ik mijn persoonlijke gegevens en/of bedrijfsgegevens online kunnen beheren zodat ik wijzigingen op een door mij gewenst tijdstip kan doorgeven.&#xD;&#xA;* Als huurder wil ik de persoonlijke gegevens van mijzelf wijzigen.&#xD;&#xA;* Als huurder wil ik mijn contactgegevens wijzigen.&#xD;&#xA;* Als huurder wil ik mijn postadres wijzigen.&#xD;&#xA;* Als huurder wil ik de contactgegevens wijzigen van van de huishoudens waartoe ik behoor.&#xD;&#xA;* Als huurder wil ik het postadres wijzigen van van de huishoudens waartoe ik behoor.&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;">
   <properties
       key="Objecttype"
       value="Trigger"/>

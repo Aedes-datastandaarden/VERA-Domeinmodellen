@@ -1,15 +1,14 @@
 <archimate:TriggeringRelationship
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Doorgeven Verhuurde Eenheid"
-    id="id-13c505be693f4df781aa3fad0fa135e0"
-    documentation="Het doorgeven van informatie betreffende een verhuurde eenheid.&#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;De informatie mbt de eenheid omvat naast alle fysieke kenmerken van de eenheid ook informatie over het type eenheid, adresgegevens, prijscomponenten, informatieobjecten (foto's, plattegronden enz), afspraakopties (bijv voor mutatieinspecties) , voorwaarden voor verhuur van de eenheid enz.&#xD;&#xA;">
+    name="Doorgeven Onderhoudsovereenkomst"
+    id="id-a6f58f994f5c4d39bb1d689780017593">
   <properties
       key="Objecttype"
       value="Trigger"/>
   <properties
       key="Resource"
-      value="VHE:Eenheden"/>
+      value="BOG:Overeenkomsten"/>
   <source
       xsi:type="archimate:BusinessProcess"
       href="BusinessProcess_id-2884d518037d4a088794e2e1152283e1.xml#id-2884d518037d4a088794e2e1152283e1"/>

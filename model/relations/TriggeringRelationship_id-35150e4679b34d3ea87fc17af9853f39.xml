@@ -4,18 +4,6 @@
     name="Doorgeven cluster"
     id="id-35150e4679b34d3ea87fc17af9853f39"
     documentation="Het doorgeven van nieuwe of gewijzigde clustergegevens aan andere processen.&#xD;&#xA;&#xD;&#xA;====Scenario's====&#xD;&#xA;Primair&#xD;&#xA;* Als vastgoedgegevensbeheer wil ik de eenheidgegevens synchroniseren met klantbediening zodat zij vanuit het eigen systeem de clusters kunnen opvragen">
-  <properties
-      key="Bericht"
-      value="Cluster synchroniseren"/>
-  <properties
-      key="Code"
-      value="BVGT02"/>
-  <properties
-      key="Objecttype"
-      value="Trigger"/>
-  <properties
-      key="Resource"
-      value="BVG:Clusters"/>
   <source
       xsi:type="archimate:BusinessProcess"
       href="BusinessProcess_id-c0bacb9667c84941bfe978a60d6ac0dc.xml#id-c0bacb9667c84941bfe978a60d6ac0dc"/>

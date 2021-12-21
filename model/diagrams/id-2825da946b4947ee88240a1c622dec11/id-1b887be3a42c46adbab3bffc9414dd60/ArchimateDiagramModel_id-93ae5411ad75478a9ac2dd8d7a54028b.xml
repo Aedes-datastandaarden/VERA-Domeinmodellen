@@ -2,7 +2,8 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Informatieobjecten"
-    id="id-93ae5411ad75478a9ac2dd8d7a54028b">
+    id="id-93ae5411ad75478a9ac2dd8d7a54028b"
+    viewpoint="information_structure">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-74c0d4cf68b44c61a59b325f3e84f403"
@@ -229,11 +230,20 @@
           xsi:type="archimate:CompositionRelationship"
           href="CompositionRelationship_id-d3eb4a119d944ce487ea39abd3e57fa9.xml#id-d3eb4a119d944ce487ea39abd3e57fa9"/>
     </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-640411cf525d46baa5c1ea4184b339a5"
+        source="id-d891b8c3fa4b40c3b396f6983e1cf450"
+        target="id-38a4e9311ab0410ca76ebea1df7d9be5">
+      <archimateRelationship
+          xsi:type="archimate:CompositionRelationship"
+          href="CompositionRelationship_id-7a8bd9c542dd43929cab9c7b5ea7dcd7.xml#id-7a8bd9c542dd43929cab9c7b5ea7dcd7"/>
+    </sourceConnections>
     <bounds
         x="12"
         y="12"
         width="493"
-        height="337"/>
+        height="325"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-243032590a534ca9948d83489d69a6fc"
@@ -242,14 +252,40 @@
         fontColor="#400040"
         fillColor="#b5a845"
         textPosition="1">
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-f5c2ba37df934498ad890015defa2b74"
+          source="id-243032590a534ca9948d83489d69a6fc"
+          target="id-38a4e9311ab0410ca76ebea1df7d9be5">
+        <archimateRelationship
+            xsi:type="archimate:AssociationRelationship"
+            href="AssociationRelationship_id-8ceab064c7d549c8a8ee628e5dbefaa3.xml#id-8ceab064c7d549c8a8ee628e5dbefaa3"/>
+      </sourceConnections>
       <bounds
-          x="168"
-          y="84"
+          x="192"
+          y="48"
           width="120"
           height="55"/>
       <archimateElement
           xsi:type="archimate:DataObject"
           href="DataObject_9bafe80e-8e9e-4a00-a8ac-98eec717a4e2.xml#9bafe80e-8e9e-4a00-a8ac-98eec717a4e2"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-38a4e9311ab0410ca76ebea1df7d9be5"
+        targetConnections="id-640411cf525d46baa5c1ea4184b339a5 id-f5c2ba37df934498ad890015defa2b74"
+        font="1|Segoe UI|9.0|1|WINDOWS|1|-21|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
+        fontColor="#ffffff"
+        fillColor="#0099cc"
+        textPosition="1">
+      <bounds
+          x="192"
+          y="156"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:DataObject"
+          href="DataObject_c48fd93d-30dc-4327-a751-666c641f1e78.xml#c48fd93d-30dc-4327-a751-666c641f1e78"/>
     </children>
     <archimateElement
         xsi:type="archimate:DataObject"
@@ -263,7 +299,7 @@
       fillColor="#ffff66"
       content="Opmerking werkgroep&#xD;&#xA;* Bericht nog niet volledig uitgewerkt">
     <bounds
-        x="516"
+        x="12"
         y="348"
         width="185"
         height="80"/>

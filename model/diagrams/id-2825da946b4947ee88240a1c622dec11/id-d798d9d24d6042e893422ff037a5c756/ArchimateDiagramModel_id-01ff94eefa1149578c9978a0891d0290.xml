@@ -2,7 +2,8 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="CollectiefObjecten"
-    id="id-01ff94eefa1149578c9978a0891d0290">
+    id="id-01ff94eefa1149578c9978a0891d0290"
+    viewpoint="information_structure">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-6a4c224f7c2749c5a485efb838fbf61f"
@@ -55,7 +56,7 @@
     <bounds
         x="12"
         y="12"
-        width="601"
+        width="493"
         height="325"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
@@ -67,7 +68,7 @@
         textPosition="1">
       <bounds
           x="216"
-          y="180"
+          y="156"
           width="120"
           height="55"/>
       <archimateElement
@@ -128,7 +129,7 @@
         textPosition="1">
       <bounds
           x="360"
-          y="180"
+          y="156"
           width="120"
           height="55"/>
       <archimateElement
@@ -138,7 +139,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-b435e53d058649c7ace8afecd6583b2b"
-        targetConnections="id-a7c37d03a07d45f1ae7dd42f539eb205 id-a4e7aa5888ed40ee99cd6910c374bef2"
+        targetConnections="id-a7c37d03a07d45f1ae7dd42f539eb205 id-a4e7aa5888ed40ee99cd6910c374bef2 id-1c565c2d77e54759b6bcc1ae5eff66c2"
         font="1|Segoe UI|9.0|1|WINDOWS|1|-21|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
         fontColor="#ffffff"
         fillColor="#e19900"
@@ -155,19 +156,53 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-5659fa51c149439695b8ef6338e6cb34"
-        targetConnections="id-869a4ac370f54f9c9db500e360031864"
+        targetConnections="id-869a4ac370f54f9c9db500e360031864 id-a328974d73a74207849b941337d54419"
         font="1|Segoe UI|9.0|1|WINDOWS|1|-21|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
         fontColor="#ffffff"
         fillColor="#e19900"
         textPosition="1">
       <bounds
           x="24"
-          y="180"
+          y="252"
           width="120"
           height="55"/>
       <archimateElement
           xsi:type="archimate:DataObject"
           href="DataObject_4565a43a-e08d-48d5-ae27-e08080733594.xml#4565a43a-e08d-48d5-ae27-e08080733594"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-e56cfffaf6bc442b9685ed17d75fc12c"
+        font="1|Segoe UI|9.0|1|WINDOWS|1|-21|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
+        fontColor="#ffffff"
+        fillColor="#e19900"
+        textPosition="1">
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-1c565c2d77e54759b6bcc1ae5eff66c2"
+          source="id-e56cfffaf6bc442b9685ed17d75fc12c"
+          target="id-b435e53d058649c7ace8afecd6583b2b">
+        <archimateRelationship
+            xsi:type="archimate:SpecializationRelationship"
+            href="SpecializationRelationship_id-6c1135c378994c6a9e52aa1928c5adcf.xml#id-6c1135c378994c6a9e52aa1928c5adcf"/>
+      </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-a328974d73a74207849b941337d54419"
+          source="id-e56cfffaf6bc442b9685ed17d75fc12c"
+          target="id-5659fa51c149439695b8ef6338e6cb34">
+        <archimateRelationship
+            xsi:type="archimate:AssociationRelationship"
+            href="AssociationRelationship_17d03e47-6176-4107-a284-09df226f9f9c.xml#17d03e47-6176-4107-a284-09df226f9f9c"/>
+      </sourceConnections>
+      <bounds
+          x="24"
+          y="156"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:DataObject"
+          href="DataObject_id-6631b3bcf2db421ba1e7027533d6fc80.xml#id-6631b3bcf2db421ba1e7027533d6fc80"/>
     </children>
     <archimateElement
         xsi:type="archimate:DataObject"
@@ -178,7 +213,7 @@
       id="id-f3285ab1ab2b4a0b81ef4bc139650147"
       textAlignment="1">
     <bounds
-        x="624"
+        x="516"
         y="12"
         width="180"
         height="325"/>

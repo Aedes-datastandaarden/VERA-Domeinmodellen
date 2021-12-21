@@ -2,7 +2,8 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Relaties"
-    id="ea2d327d-7cc3-492c-b0af-49371a290d1e">
+    id="ea2d327d-7cc3-492c-b0af-49371a290d1e"
+    viewpoint="information_structure">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="f356267a-33c1-4686-9f04-ddc05d97c6e3"
@@ -861,7 +862,7 @@
       content="Opmerkingen werkgroep&#xD;&#xA;* Resource Relatie is de overkoepelende resource waarin zowel NatuurlijkPersoon, Rechtspersoon als Relatiegroep is opgenomen">
     <bounds
         x="12"
-        y="528"
+        y="492"
         width="254"
         height="103"/>
   </children>

@@ -2,7 +2,8 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Contactmomenten"
-    id="aeaa7af2-d4f8-41a0-9792-349dbb477b97">
+    id="aeaa7af2-d4f8-41a0-9792-349dbb477b97"
+    viewpoint="information_structure">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="23528798-1116-4146-ac72-d5885292cea3"
@@ -19,7 +20,7 @@
     <bounds
         x="12"
         y="12"
-        width="169"
+        width="289"
         height="325"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
@@ -30,7 +31,7 @@
         fillColor="#0099cc"
         textPosition="1">
       <bounds
-          x="24"
+          x="84"
           y="48"
           width="120"
           height="55"/>

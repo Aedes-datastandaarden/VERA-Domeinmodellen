@@ -1,0 +1,18 @@
+<archimate:TriggeringRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Opvragen Relatiegegevens"
+    id="id-000cc825cbc24d78ae06943fcd23aefd">
+  <properties
+      key="Objecttype"
+      value="Trigger"/>
+  <properties
+      key="Resource"
+      value="WRV:Relaties"/>
+  <source
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_c52e9587-62a1-44d4-b080-c027bd57cba8.xml#c52e9587-62a1-44d4-b080-c027bd57cba8"/>
+  <target
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_id-c88f9d2852a449c383e77840cfa4ee68.xml#id-c88f9d2852a449c383e77840cfa4ee68"/>
+</archimate:TriggeringRelationship>

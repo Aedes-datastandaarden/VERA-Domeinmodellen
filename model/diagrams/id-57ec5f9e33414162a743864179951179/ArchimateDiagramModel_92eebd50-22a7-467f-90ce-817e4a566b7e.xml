@@ -406,9 +406,10 @@
           source="0dd0d421-8968-40bc-ae6e-82b2ea8f3346"
           target="b02eb9a7-bcb1-4191-99a4-92d0440ae81e">
         <bendpoints
-            startY="196"
-            endX="-886"
-            endY="12"/>
+            startX="12"
+            startY="150"
+            endX="-874"
+            endY="-10"/>
         <archimateRelationship
             xsi:type="archimate:AssociationRelationship"
             href="AssociationRelationship_0cb34eb8-3e05-4f6a-9077-9e008533cdc9.xml#0cb34eb8-3e05-4f6a-9077-9e008533cdc9"/>
@@ -583,10 +584,10 @@
           source="cceb5e35-af2e-4b91-aa70-52b9a9aec1ba"
           target="b02eb9a7-bcb1-4191-99a4-92d0440ae81e">
         <bendpoints
-            startX="130"
-            startY="-140"
-            endX="-310"
-            endY="60"/>
+            startX="154"
+            startY="-186"
+            endX="-286"
+            endY="38"/>
         <archimateRelationship
             xsi:type="archimate:AssociationRelationship"
             href="AssociationRelationship_f439ce9b-ccf0-4418-bfab-25c1c6f2509d.xml#f439ce9b-ccf0-4418-bfab-25c1c6f2509d"/>
@@ -1142,10 +1143,9 @@
           source="d3b3df4e-9340-44ba-9f3f-a2ae79be8906"
           target="b02eb9a7-bcb1-4191-99a4-92d0440ae81e">
         <bendpoints
-            startX="24"
-            startY="-66"
-            endX="-912"
-            endY="12"/>
+            startY="-150"
+            endX="-886"
+            endY="14"/>
         <archimateRelationship
             xsi:type="archimate:AssociationRelationship"
             href="AssociationRelationship_c9e89ae8-7cff-40cf-a462-27cfa925823b.xml#c9e89ae8-7cff-40cf-a462-27cfa925823b"/>
@@ -1571,9 +1571,9 @@
             endY="-504"/>
         <bendpoints
             startX="168"
-            startY="486"
-            endX="-720"
-            endY="-36"/>
+            startY="402"
+            endX="-718"
+            endY="-34"/>
         <archimateRelationship
             xsi:type="archimate:AssociationRelationship"
             href="AssociationRelationship_bd72c13e-6eb3-4e49-bbbc-58d5870c71ca.xml#bd72c13e-6eb3-4e49-bbbc-58d5870c71ca"/>
@@ -1698,7 +1698,7 @@
           x="995"
           y="969"
           width="192"
-          height="145"/>
+          height="101"/>
       <archimateElement
           xsi:type="archimate:DataObject"
           href="DataObject_c741dd31-2b80-4474-8abe-c8832a718069.xml#c741dd31-2b80-4474-8abe-c8832a718069"/>

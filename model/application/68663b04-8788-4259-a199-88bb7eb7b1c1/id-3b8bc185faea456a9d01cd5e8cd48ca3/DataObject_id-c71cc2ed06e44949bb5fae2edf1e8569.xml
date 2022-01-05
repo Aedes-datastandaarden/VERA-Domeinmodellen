@@ -1,11 +1,7 @@
 <archimate:DataObject
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="OHD: Onderhoudsorders"
-    id="id-c71cc2ed06e44949bb5fae2edf1e8569"
-    documentation="====Definitie====&#xD;&#xA;Doorgeven van een onderhoudsorder ter kennisgeving. &#xD;&#xA;Dit kan zowel de volledige onderhoudsorder als een onderhoudsorder statusmutatie betreffen.&#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;De onderhoudsfunctie die het onderhoudsverzoek in behandeling heeft genomen zet de onderhoudsorder(s) uit bij één of meerdere (externe) uitvoerders. Bij een enkelvoudig reparatieverzoek zal slechts één onderhoudsorder uitgezet worden. Bij mutatieonderhoud of bij meervoudige reparatieverzoeken is het mogelijk dat er meerdere onderhoudsorders worden aangemaakt en uitgewisseld. &#xD;&#xA;De uitwisseling van de onderhoudsorder vindt altijd plaats naar één (externe) uitvoerder. &#xD;&#xA;&#xD;&#xA;====Voorbeelden====&#xD;&#xA;Primair&#xD;&#xA;#&#x9;Scenario&#x9;Operatie&#xD;&#xA;*&#x9;Als onderhoudsfunctie wil ik een onderhoudsorder met taken en ingeplande afspraken doorgeven aan de eigen technische uitvoerder zodat deze de order kan uitvoeren.&#x9;&#xD;&#xA;*&#x9;Als onderhoudsfunctie wil ik een onderhoudsorder met taken doorgeven aan de externe technische uitvoerder zodat deze de taken kan inplannen.&#xD;&#xA;*&#x9;Als onderhoudsfunctie wil ik een onderhoudsorder met taken en planning doorgeven aan de externe technische uitvoerder.&#xD;&#xA;&#xD;&#xA;Secundair&#xD;&#xA;#&#x9;Scenario&#x9;Operatie&#xD;&#xA;*&#x9;Als medewerker onderhoud wil ik aanvullende informatie (foto’s, bijlagen, klantcontacten) bij een onderhoudsorder doorgeven aan de technisch uitvoerder zodat deze een volledig beeld heeft van de lopende onderhoudsorder.&#x9;&#xD;&#xA;*&#x9;Als technisch uitvoerder wil ik aanvullende informatie (foto’s, bijlagen, klantcontacten) bij een onderhoudsorder doorgeven aan de onderhoudsfunctie zodat deze een volledig beeld heeft van de lopende onderhoudsorder.">
-  <properties
-      key="Objecttype"
-      value="Bericht"/>
+    id="id-c71cc2ed06e44949bb5fae2edf1e8569">
   <properties
       key="Code"
       value="OHDORD"/>

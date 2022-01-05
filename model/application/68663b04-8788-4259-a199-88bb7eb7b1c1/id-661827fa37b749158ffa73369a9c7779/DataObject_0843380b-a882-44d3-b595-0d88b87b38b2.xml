@@ -1,11 +1,7 @@
 <archimate:DataObject
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="BRG: Signaleringen"
-    id="0843380b-a882-44d3-b595-0d88b87b38b2"
-    documentation="====Definitie====&#xD;&#xA;Opvragen of synchroniseren van signaleringen aan de hand van een relatie. &#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;Het is gewenst om bij klantcontacten met een relatie te weten of er een signalering van toepassing is. Een signalering kan zijn het feit dat de klant in een overlastzaak betrokken is of bijvoorbeeld een deurwaarderzaak. Het bericht geeft geen informatie over de deurwaarder of de specifieke overlast. Om deze informatie op te halen zijn aanvullende berichten noodzakelijk zoals het opvragen van een zaak of dossier rondom overlast.&#xD;&#xA;&#xD;&#xA;====Voorbeelden====&#xD;&#xA;*Bij het klantcontact met de huurder wordt een signalering getoond waarin duidelijk is dat er een deurwaarderzaak loopt.&#xD;&#xA;*Bij het klantcontact met de huurder wordt een signalering getoond waarin duidelijk is dat de huurder betrokken is bij een overlast.">
-  <properties
-      key="Objecttype"
-      value="Bericht"/>
+    id="0843380b-a882-44d3-b595-0d88b87b38b2">
   <properties
       key="Bericht"
       value="BRGSIG"/>

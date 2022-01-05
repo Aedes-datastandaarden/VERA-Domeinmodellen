@@ -1,11 +1,7 @@
 <archimate:DataObject
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="OHD: Inkoopfacturen"
-    id="f57eea16-a877-4b3d-bf30-ced5b79f7cac"
-    documentation="====Definitie====&#xD;&#xA;Doorgeven van een factuur ter kennisgeving. &#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;Na uitvoering van de inspectie wordt de factuur door bedrijfsproces 'Inspecteren bouwdelen' doorgegeven aan de crediteurenadministratie van ‘Leveren financiële dienstverlening’. &#xD;&#xA;Na uitvoering van de onderhoudsorder wordt de factuur door bedrijfsproces 'Regisseren onderhoud' doorgegeven aan de crediteurenadministratie binnen ‘Leveren financiële dienstverlening’. &#xD;&#xA;&#xD;&#xA;====Voorbeelden====&#xD;&#xA;* Na uitvoering van de inspectie wordt de factuur door de debiteurenadministratie klant van de inspectiefunctie doorgegeven aan de crediteurenadministratie van de opdrachtgever van de onderhoudsorder.&#xD;&#xA;* Na uitvoering van de onderhoudsorder wordt de factuur door de debiteurenadministratie van de technisch uitvoerder doorgegeven aan de crediteurenadministratie van de opdrachtgever van de onderhoudsorder.&#xD;&#xA;* Na uitvoering van de onderhoudsorder wordt de factuur door de debiteurenfunctie binnen ‘Leveren financiële dienstverlening’ doorgegeven aan Klantbediening zodat deze aan de huurder kan worden doorgegeven.">
-  <properties
-      key="Objecttype"
-      value="Bericht"/>
+    id="f57eea16-a877-4b3d-bf30-ced5b79f7cac">
   <properties
       key="Code"
       value="OHDFAC"/>

@@ -5,7 +5,7 @@
     id="id-11892f320edf4dff8dcf4b9f2065dfe2"
     documentation="Voor het verlenen of wijzigen van een Onderhoudsorder. &#xD;&#xA;&#xD;&#xA;De onderhoudsfunctie die het onderhoudsverzoek in behandeling heeft genomen zet de onderhoudsorder(s) uit bij één of meerdere (externe) uitvoerders. Bij een enkelvoudig reparatieverzoek zal slechts één onderhoudsorder uitgezet worden. Bij mutatieonderhoud of bij meervoudige reparatieverzoeken is het mogelijk dat er meerdere onderhoudsorders worden aangemaakt en uitgewisseld. &#xD;&#xA;De uitwisseling van de onderhoudsorder vindt altijd plaats naar één (externe) uitvoerder. &#xD;&#xA;&#xD;&#xA;====Scenario's====&#xD;&#xA;Primair&#xD;&#xA;* Als onderhoudsfunctie wil ik een onderhoudsorder met taken en ingeplande afspraken doorgeven aan de eigen technische uitvoerder zodat deze de order kan uitvoeren.&#x9;&#xD;&#xA;* Als onderhoudsfunctie wil ik een onderhoudsorder met taken doorgeven aan de externe technische uitvoerder zodat deze de taken kan inplannen.&#xD;&#xA;* Als onderhoudsfunctie wil ik een onderhoudsorder met taken en planning doorgeven aan de externe technische uitvoerder.&#xD;&#xA;&#xD;&#xA;Secundair&#xD;&#xA;* Als medewerker onderhoud wil ik aanvullende informatie (foto’s, bijlagen, klantcontacten) bij een onderhoudsorder doorgeven aan de technisch uitvoerder zodat deze een volledig beeld heeft van de lopende onderhoudsorder.&#x9;&#xD;&#xA;* Als technisch uitvoerder wil ik aanvullende informatie (foto’s, bijlagen, klantcontacten) bij een onderhoudsorder doorgeven aan de onderhoudsfunctie zodat deze een volledig beeld heeft van de lopende onderhoudsorder.&#xD;&#xA;">
   <properties
-      key="Type"
+      key="Objecttype"
       value="Trigger"/>
   <properties
       key="Bericht"

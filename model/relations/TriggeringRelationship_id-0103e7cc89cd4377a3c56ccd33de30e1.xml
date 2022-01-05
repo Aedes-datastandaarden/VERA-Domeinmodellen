@@ -1,0 +1,19 @@
+<archimate:TriggeringRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Ophalen Publicaties"
+    id="id-0103e7cc89cd4377a3c56ccd33de30e1"
+    documentation="Het ophalen van gepubliceerde woningen en ander vastgoed voor het tonen op portalen.&#xD;&#xA;&#xD;&#xA;Periodiek worden woningen en ander vastgoed gepubliceerd op diverse kanalen. Naast het totaal aan beschikbaar vastgoed kan deze ook gepersonaliseerd worden opgehaald. &#xD;&#xA;Tijdens deze personalisatie wordt gekeken welke publicaties men op mag reageren en eventueel welke kans iemand heeft om de woning te krijgen.&#xD;&#xA;&#xD;&#xA;==== Scenario's ====&#xD;&#xA;Primair&#xD;&#xA;* Als portaalleverancier wil ik de publicaties ophalen om te tonen op mijn portalen&#xD;&#xA;* Als woningzoekende wil ik publicaties zien van woningen waarop ik mag reageren.">
+  <properties
+      key="Objecttype"
+      value="Trigger"/>
+  <properties
+      key="Resources"
+      value="WRV:Publiceren"/>
+  <source
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_id-aab36da7a4d441838cceed85d8d056ab.xml#id-aab36da7a4d441838cceed85d8d056ab"/>
+  <target
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_id-a6de887b920047a086a65f4076042e55.xml#id-a6de887b920047a086a65f4076042e55"/>
+</archimate:TriggeringRelationship>

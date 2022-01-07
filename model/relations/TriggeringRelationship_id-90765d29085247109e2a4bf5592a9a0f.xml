@@ -3,13 +3,16 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Opvragen Zaak"
     id="id-90765d29085247109e2a4bf5592a9a0f"
-    documentation="Opvragen van zaken behorend bij een eenheid, huurovereenkomst of relatie ter ondersteuning van klantbediening in het geval van zaakgericht werken. &#xD;&#xA;&#xD;&#xA;====Scenario's====&#xD;&#xA;Primair&#xD;&#xA;* Als klantbediening wil ik de informatie over een leefbaarheidszaak opvragen zodat ik de klant beter te woord kan staan&#xD;&#xA;&#xD;&#xA;Secundair&#xD;&#xA;* Als klantbediening wil ik de informatie over een uitstaande klantvraag als zaak opvragen zodat hier een vervolg op gegeven kan worden.">
+    documentation="Opvragen zaakgegevens&#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;Opvragen van zaken behorend bij een eenheid, huurovereenkomst of relatie ter ondersteuning van klantbediening in het geval van zaakgericht werken. &#xD;&#xA;&#xD;&#xA;====Scenario's====&#xD;&#xA;* Als klantbediening wil ik de informatie over een leefbaarheidszaak opvragen zodat ik de klant beter te woord kan staan&#xD;&#xA;* Als klantbediening wil ik de informatie over een uitstaande klantvraag als zaak opvragen zodat hier een vervolg op gegeven kan worden.">
   <properties
       key="Objecttype"
       value="Trigger"/>
   <properties
       key="Resource"
       value="BDO:Zaken"/>
+  <properties
+      key="Bericht"
+      value="Zaak opvragen"/>
   <source
       xsi:type="archimate:BusinessProcess"
       href="BusinessProcess_id-a6de887b920047a086a65f4076042e55.xml#id-a6de887b920047a086a65f4076042e55"/>

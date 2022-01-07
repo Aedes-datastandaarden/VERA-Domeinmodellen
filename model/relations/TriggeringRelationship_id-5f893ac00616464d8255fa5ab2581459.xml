@@ -1,0 +1,22 @@
+<archimate:TriggeringRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Doorgeven reactie offerte"
+    id="id-5f893ac00616464d8255fa5ab2581459"
+    documentation="Reactie op uitgebrachte offerte&#xD;&#xA;&#xD;&#xA;==== Toelichting ====&#xD;&#xA;Wanneer de uitgebrachte offerte beoordeeld is door het Regisseren Onderhoud en het blijkt dat er (nog) geen akkoord gegeven kan worden op de offerte zal dit teruggekoppeld worden aan het bedrijfsproces Uitvoeren onderhoudsorder. Dit kan betekenen dat de offerte wordt ingetrokken of dat er nog wijzigingen op de offerte gewenst zijn. &#xD;&#xA;&#xD;&#xA;====Scenario's====&#xD;&#xA;Primair&#xD;&#xA;* Als onderhoudsfunctie wil ik gewenste wijzigingen in de uitgebrachte offerte doorgeven aan Uitvoeren onderhoudsorder zodat de opdracht gegeven kan worden.&#xD;&#xA;* Als onderhoudsfunctie wil ik een uitgebrachte offerte afkeuren en terugtrekken zodat de werkzaamheden door een andere onderhoudspartner kan worden uitgevoerd.">
+  <properties
+      key="Bericht"
+      value="Reactie offerte doorgeven"/>
+  <properties
+      key="Objecttype"
+      value="Trigger"/>
+  <properties
+      key="Resource"
+      value="OHD:Offertes"/>
+  <source
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_id-6932b3ea7af6465582d82da9182dd97c.xml#id-6932b3ea7af6465582d82da9182dd97c"/>
+  <target
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_id-af678edf80c544ffa7c88e6dc891609d.xml#id-af678edf80c544ffa7c88e6dc891609d"/>
+</archimate:TriggeringRelationship>

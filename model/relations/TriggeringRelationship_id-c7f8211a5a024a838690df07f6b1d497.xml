@@ -1,0 +1,22 @@
+<archimate:TriggeringRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Doorgeven Relatie"
+    id="id-c7f8211a5a024a838690df07f6b1d497"
+    documentation="Wijzigen of aanmaken van een relatie.&#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;Met deze koppeling kunnen gegevens van zowel natuurlijke personen, rechtspersonen als relatiegroepen worden gemuteerd of aangemaakt in het relatiebeheersysteem.&#xD;&#xA;&#xD;&#xA;====Scenario's====&#xD;&#xA;* Als huurder of woningzoekende wil ik de contactgegevens zoals bijvoorbeeld telefoonnummer en email adres wijzigen.&#xD;&#xA;* Als medewerker klantbediening wil ik persoonsgegevens van de relatie zoals bijvoorbeeld geboortedatum en geslacht wijzigen.&#xD;&#xA;* Als medewerker klantbediening wil ik de rol(len) van een relatie wijzigen.&#xD;&#xA;* Als medewerker klantbediening wil ik contactadresgegevens van een relatie aanpassen.&#xD;&#xA;* Als student wil ik de opleidingsgegevens aanpassen zodat de corporatie geinformeerd is over de gevolgde opleiding.&#xD;&#xA;* Als klant wil ik de accountgegevens wijzigen waarmee ingelogd kan worden op het klantportaal&#xD;&#xA;">
+  <properties
+      key="Bericht"
+      value="Relatie doorgeven"/>
+  <properties
+      key="Objecttype"
+      value="Trigger"/>
+  <properties
+      key="Resource"
+      value="BRG:Relaties"/>
+  <source
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_id-a6de887b920047a086a65f4076042e55.xml#id-a6de887b920047a086a65f4076042e55"/>
+  <target
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_c52e9587-62a1-44d4-b080-c027bd57cba8.xml#c52e9587-62a1-44d4-b080-c027bd57cba8"/>
+</archimate:TriggeringRelationship>

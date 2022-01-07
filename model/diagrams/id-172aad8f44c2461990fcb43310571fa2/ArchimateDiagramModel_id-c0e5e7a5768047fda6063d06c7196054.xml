@@ -1,7 +1,7 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Beheer Overenkomstgegevens"
+    name="Beheer Overeenkomstgegevens"
     id="id-c0e5e7a5768047fda6063d06c7196054"
     documentation="Het beheer van de overeenkomstgegevens omvat de handelingen die nodig zijn om de datakwaliteit te borgen van de overeenkomstgegevens zoals het vastleggen en wijzigen van huurovereenkomsten maar ook de gegevens van onderhouds-, koop- en serviceovereenkomsten.&#xD;&#xA;&#xD;&#xA;Deze procesketen beschrijft de interactie tussen bedrijfs- en werkprocessen van verschillende rollen en hun betrokken bedrijfsfuncties:&#xD;&#xA;* Klantbedieningsfunctie&#xD;&#xA;* Overeenkomstbeheerfunctie&#xD;&#xA;* Onderhoudscontrolefunctie&#xD;&#xA;* Onderhoudsfunctie">
   <children
@@ -66,9 +66,9 @@
           target="id-3f715c90bdd64d23bdf4d13b864230b3">
         <bendpoints
             startX="276"
-            startY="-42"
+            startY="-78"
             endX="-288"
-            endY="-42"/>
+            endY="-78"/>
         <archimateRelationship
             xsi:type="archimate:TriggeringRelationship"
             href="TriggeringRelationship_22bf8e2a-45df-42a5-bf87-48049259c00a.xml#22bf8e2a-45df-42a5-bf87-48049259c00a"/>
@@ -136,9 +136,9 @@
           target="id-81d10a5aa0c9404e996103a2c5c85c48">
         <bendpoints
             startX="-288"
-            startY="-18"
+            startY="-42"
             endX="276"
-            endY="-18"/>
+            endY="-42"/>
         <archimateRelationship
             xsi:type="archimate:TriggeringRelationship"
             href="TriggeringRelationship_bf6546da-4d3d-4775-898b-549a0d2e73aa.xml#bf6546da-4d3d-4775-898b-549a0d2e73aa"/>
@@ -219,7 +219,7 @@
     <bounds
         x="888"
         y="12"
-        width="252"
+        width="241"
         height="264"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"

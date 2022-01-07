@@ -1,15 +1,18 @@
 <archimate:TriggeringRelationship
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Doorgeven Dossier"
+    name="Synchroniseren Dossier"
     id="id-ea2062efcb1d4e69b811d55941fbb4bb"
-    documentation="Synchroniseren van de dossiers behorend bij een relatie&#xD;&#xA;&#xD;&#xA;====Scenario's====&#xD;&#xA;Primair&#xD;&#xA;* Als klantbediening wil ik de dossiers synchroniseren met het eigen systeem zodat van daaruit dossiers kunnen worden behandeld&#xD;&#xA;">
+    documentation="Synchroniseren van de dossiers behorend bij een relatie&#xD;&#xA;&#xD;&#xA;====Scenario's====&#xD;&#xA;* Als klantbediening wil ik de dossiers synchroniseren met het eigen systeem zodat van daaruit dossiers kunnen worden behandeld&#xD;&#xA;">
   <properties
       key="Objecttype"
       value="Trigger"/>
   <properties
       key="Resource"
       value="BDO:Dossiers"/>
+  <properties
+      key="Bericht"
+      value="Dossier synchroniseren"/>
   <source
       xsi:type="archimate:BusinessProcess"
       href="BusinessProcess_id-dc636dbc60ef4675a5bd4b7359a9c537.xml#id-dc636dbc60ef4675a5bd4b7359a9c537"/>

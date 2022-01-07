@@ -1,15 +1,18 @@
 <archimate:TriggeringRelationship
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Doorgeven Zaak"
+    name="Synchroniseren Zaak"
     id="id-7dbafb3c8e544f7a80f5550fca22fb01"
-    documentation="Synchroniseren van zaken bij een eenheid, huurovereenkomst of relatie ter ondersteuning van klantbediening in het geval van zaakgericht werken. &#xD;&#xA;&#xD;&#xA;====Scenario's====&#xD;&#xA;Primair&#xD;&#xA;* Als klantbediening wil ik de zaken synchroniseren met het eigen systeem zodat van daaruit de zaken kunnen worden behandeld.">
+    documentation="Synchroniseren van zaken bij een eenheid, huurovereenkomst of relatie ter ondersteuning van klantbediening in het geval van zaakgericht werken. &#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;In bepaalde gevallen is het gewenst om de zaken te synchroniseren met het klantbedieningsysteem. &#xD;&#xA;&#xD;&#xA;====Scenario's====&#xD;&#xA;* Als klantbediening wil ik de zaken synchroniseren met het eigen systeem zodat van daaruit de zaken kunnen worden behandeld.">
   <properties
       key="Objecttype"
       value="Trigger"/>
   <properties
       key="Resource"
       value="BDO:Zaken"/>
+  <properties
+      key="Bericht"
+      value="Zaak synchroniseren"/>
   <source
       xsi:type="archimate:BusinessProcess"
       href="BusinessProcess_id-f0ac7436477b4038a078eadd1bd913fe.xml#id-f0ac7436477b4038a078eadd1bd913fe"/>

@@ -3,9 +3,18 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Doorgeven Onderhoudsverzoek mutatie"
     id="id-70afc76ae1924171ad8932e4a4404b97">
+  <properties
+      key="Bericht"
+      value="Onderhoudsverzoek mutatie doorgeven"/>
+  <properties
+      key="Objecttype"
+      value="Trigger"/>
+  <properties
+      key="Resource"
+      value="OHD:Onderhoudsorderverzoek"/>
   <source
       xsi:type="archimate:BusinessProcess"
-      href="BusinessProcess_id-dc48dfff2af143b99c7acb32ba76e18e.xml#id-dc48dfff2af143b99c7acb32ba76e18e"/>
+      href="BusinessProcess_id-2884d518037d4a088794e2e1152283e1.xml#id-2884d518037d4a088794e2e1152283e1"/>
   <target
       xsi:type="archimate:BusinessProcess"
       href="BusinessProcess_id-98f9cdd23c324ff983f74e7f4991f01d.xml#id-98f9cdd23c324ff983f74e7f4991f01d"/>

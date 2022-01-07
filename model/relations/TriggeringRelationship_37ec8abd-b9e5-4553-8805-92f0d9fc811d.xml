@@ -1,9 +1,9 @@
 <archimate:TriggeringRelationship
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Doorgeven signalering "
+    name="Synchroniseren Signalering "
     id="37ec8abd-b9e5-4553-8805-92f0d9fc811d"
-    documentation="Het doorgeven van een nieuwe of gewijzigde signalering aan de klantbediening.&#xD;&#xA;&#xD;&#xA;Het is gewenst om bij klantcontacten met een relatie te weten of er een signalering van toepassing is. Een signalering kan zijn het feit dat de klant in een overlastzaak betrokken is of bijvoorbeeld een deurwaarderzaak. Het bericht geeft geen informatie over de deurwaarder of de specifieke overlast. Om deze informatie op te halen zijn aanvullende berichten noodzakelijk zoals het opvragen van een zaak of dossier rondom overlast.&#xD;&#xA;&#xD;&#xA;====Scenario's====&#xD;&#xA;Primair&#xD;&#xA;* Als klantbediening wil ik alle signaleringen synchroniseren in het eigen systeem zodat de signaleringen via het eigen systeem opgevraagd kan worden.">
+    documentation="Het doorgeven van een nieuwe of gewijzigde signalering aan de klantbediening.&#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;Het is gewenst om bij klantcontacten met een relatie te weten of er een signalering van toepassing is. Een signalering kan zijn het feit dat de klant in een overlastzaak betrokken is of bijvoorbeeld een deurwaarderzaak. Het bericht geeft geen informatie over de deurwaarder of de specifieke overlast. Om deze informatie op te halen zijn aanvullende berichten noodzakelijk zoals het opvragen van een zaak of dossier rondom overlast.&#xD;&#xA;&#xD;&#xA;====Scenario's====&#xD;&#xA;Primair&#xD;&#xA;* Als klantbediening wil ik alle signaleringen synchroniseren in het eigen systeem zodat de signaleringen via het eigen systeem opgevraagd kan worden.">
   <properties
       key="Objecttype"
       value="Trigger"/>

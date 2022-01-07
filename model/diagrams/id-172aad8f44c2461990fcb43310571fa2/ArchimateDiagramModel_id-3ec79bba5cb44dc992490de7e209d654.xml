@@ -3,7 +3,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Beheer Financiele gegevens"
     id="id-3ec79bba5cb44dc992490de7e209d654"
-    documentation="Het beheer van de financiele gegevens heeft betrekking op het borgen van de datakwaliteit van deze gegevens en het beschikbaar stellen aan andere procesketens. Zo verzorgt dit proces de vastlegging en informatievoorziening van onder andere financiele boekingen en betalingsregelingen.&#xD;&#xA;&#xD;&#xA;Deze procesketen beschrijft de interactie tussen bedrijfs- en werkprocessen van verschillende rollen en hun betrokken bedrijfsfuncties:&#xD;&#xA;* Klantbedieningsfunctie&#xD;&#xA;* Debiteurbeheerfunctie">
+    documentation="Het beheer van de financiele gegevens heeft betrekking op het borgen van de datakwaliteit van deze gegevens en het beschikbaar stellen aan andere bedrijfsprocessen. De uitwerking van dit ketenproces richt zich op dit moment op de berichten die gewenst zijn voor het bedrijfsproces Klantbediening. Zo verzorgt dit proces de vastlegging en informatievoorziening van onder andere financiele (debiteur-)boekingen en betalingsregelingen.&#xD;&#xA;&#xD;&#xA;Deze procesketen beschrijft de interactie tussen bedrijfs- en werkprocessen van verschillende rollen en hun betrokken bedrijfsfuncties:&#xD;&#xA;* Klantbedieningsfunctie&#xD;&#xA;* Debiteurbeheerfunctie">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-76c168e0a3ea4d98b77b92e69826ea3c"
@@ -44,9 +44,9 @@
           target="499c6198-0dcb-4bad-a33e-27aace0b7894">
         <bendpoints
             startX="240"
-            startY="-36"
+            startY="-66"
             endX="-234"
-            endY="-54"/>
+            endY="-66"/>
         <archimateRelationship
             xsi:type="archimate:TriggeringRelationship"
             href="TriggeringRelationship_d66f4348-c928-4f4c-b355-bdc71f8f97f6.xml#d66f4348-c928-4f4c-b355-bdc71f8f97f6"/>
@@ -57,10 +57,10 @@
           source="f4ee96f5-b284-40ba-a6eb-e17cf5baa3f5"
           target="499c6198-0dcb-4bad-a33e-27aace0b7894">
         <bendpoints
-            startX="228"
-            startY="96"
-            endX="-246"
-            endY="78"/>
+            startX="240"
+            startY="30"
+            endX="-234"
+            endY="30"/>
         <archimateRelationship
             xsi:type="archimate:TriggeringRelationship"
             href="TriggeringRelationship_id-36154164bf3645c38cf29ed4c2219eda.xml#id-36154164bf3645c38cf29ed4c2219eda"/>
@@ -86,9 +86,9 @@
           target="f4ee96f5-b284-40ba-a6eb-e17cf5baa3f5">
         <bendpoints
             startX="-234"
-            startY="-78"
+            startY="-30"
             endX="240"
-            endY="-60"/>
+            endY="-30"/>
         <archimateRelationship
             xsi:type="archimate:TriggeringRelationship"
             href="TriggeringRelationship_6b2788a7-c678-4fb9-9d82-649c96fc350f.xml#6b2788a7-c678-4fb9-9d82-649c96fc350f"/>

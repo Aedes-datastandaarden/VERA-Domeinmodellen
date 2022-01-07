@@ -1,9 +1,9 @@
 <archimate:TriggeringRelationship
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Doorgeven boeking"
+    name="Synchroniseren Boeking"
     id="6b2788a7-c678-4fb9-9d82-649c96fc350f"
-    documentation="Het synchroniseren van de rekening courant van een debiteur.&#xD;&#xA;&#xD;&#xA;Het is gewenst om bij klantcontacten met een relatie te weten wat de debiteurenpositie is en welke posten nog open staan. Op basis daarvan kan met de relatie betaalafspraken gemaakt worden. Voor creditmanagement-toepassingen kan het gewenst zijn om deze informatie te synchroniseren met de eigen applicatie,&#xD;&#xA;&#xD;&#xA;====Scenario's====&#xD;&#xA;Primair&#xD;&#xA;* Als medewerker klantbediening wil ik weten of een huurder een huurachterstand heeft zodat er betaalafspraken gemaakt kunnen worden.&#xD;&#xA;* Als medewerker klantbediening wil ik weten welke posten buiten de betaaltermijn zijn gevallen om op basis daarvan een betalingsregeling aan te bieden.&#xD;&#xA;">
+    documentation="Het synchroniseren van de rekening courant van een debiteur.&#xD;&#xA;&#xD;&#xA;==== Toelichting ====&#xD;&#xA;Voor creditmanagement-toepassingen kan het gewenst zijn om de boekinggegevens te synchroniseren met de eigen applicatie zodat een beter beheer van de rekening courant kan plaatsvinden. &#xD;&#xA;&#xD;&#xA;====Scenario's====&#xD;&#xA;Primair&#xD;&#xA;* Als Klantbedieningsysteem wil ik de boekinggegevens vanuit het financiele systeem synchroniseren zodat een optimale ondersteuning kan worden geleverd in het klantbedieningsproces.&#xD;&#xA;">
   <properties
       key="Objecttype"
       value="Trigger"/>

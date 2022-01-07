@@ -3,13 +3,13 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Doorgeven offerte"
     id="id-efb69e189cc24f068e22ce80103f90ec"
-    documentation="Voor het offreren van de onderhoudsopdracht. &#xD;&#xA;&#xD;&#xA;Het bedrijfsproces 'Regisseren onderhoud' zal in sommige situaties een offerte opvragen voor het geven van de opdracht. Vanuit 'Regisseren onderhoud' wil ik de offerte van de technisch uitvoerder ontvangen.">
+    documentation="Doorgeven van een nieuwe of gewijzigde offerte&#xD;&#xA;&#xD;&#xA;==== Toelichting ====&#xD;&#xA;Op basis van een offerteaanvraag van het bedrijfsproces Regisseren Onderhoud zal een offerte opgesteld worden door de technische uitvoerfunctie. De offerte zal daarbij aangeboden worden aan het bedrijfsproces Regisseren onderhoud.&#xD;&#xA;&#xD;&#xA;====Scenario's====&#xD;&#xA;Primair&#xD;&#xA;* Als technische uitvoerfunctie wil ik een offerte aanbieden aan Regisseren Onderhoud zodat duidelijk is wat de kosten zijn voor de uit te voeren werkzaamheden&#xD;&#xA;&#xD;&#xA;Secundair&#xD;&#xA;* Als technische uitvoerfunctie wil een aangepaste offerte opnieuw aanbieden aan Regisseren Onderhoud zodat hierover een nieuw besluit genomen kan worden.">
   <properties
       key="Objecttype"
-      value="Bericht"/>
+      value="Trigger"/>
   <properties
       key="Bericht"
-      value="Offerte Synchroniseren"/>
+      value="Offerte doorgeven"/>
   <properties
       key="Resource"
       value="OHD:Offertes"/>
@@ -18,5 +18,5 @@
       href="BusinessProcess_id-af678edf80c544ffa7c88e6dc891609d.xml#id-af678edf80c544ffa7c88e6dc891609d"/>
   <target
       xsi:type="archimate:BusinessProcess"
-      href="BusinessProcess_id-f2c40aed97c34678a4b3f571b564ee0c.xml#id-f2c40aed97c34678a4b3f571b564ee0c"/>
+      href="BusinessProcess_id-6932b3ea7af6465582d82da9182dd97c.xml#id-6932b3ea7af6465582d82da9182dd97c"/>
 </archimate:TriggeringRelationship>

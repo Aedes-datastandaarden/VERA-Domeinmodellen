@@ -1,0 +1,22 @@
+<archimate:TriggeringRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Opvragen Onderhoudsverzoek"
+    id="id-19765c7aad4f40c88251f289c0f21d19"
+    documentation="Opvragen van een onderhoudsverzoek&#xD;&#xA;&#xD;&#xA;==== Toelichting ====&#xD;&#xA;In het bedrijfsproces Bediening Klant is het gewenst om de onderhoudsverzoeken op te vragen om de klant te kunnen informeren.&#xD;&#xA;&#xD;&#xA;====Scenario's====&#xD;&#xA;Primair&#xD;&#xA;* Als medewerker klantbediening wil ik de lopende onderhoudsverzoeken opvragen waarvan de klant de melder is zodat ik de klant kan informeren over de status en uitvoering.&#xD;&#xA;* Als klant wil ik op het klantportaal de lopende onderhoudsverzoeken opvragen van mijn woning en eventuele gekoppelde collectieve objecten">
+  <properties
+      key="Bericht"
+      value="Onderhoudsverzoek opvragen"/>
+  <properties
+      key="Objecttype"
+      value="Trigger"/>
+  <properties
+      key="Resource"
+      value="OHD:Onderhoudsverzoeken"/>
+  <source
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_id-a6de887b920047a086a65f4076042e55.xml#id-a6de887b920047a086a65f4076042e55"/>
+  <target
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_id-6932b3ea7af6465582d82da9182dd97c.xml#id-6932b3ea7af6465582d82da9182dd97c"/>
+</archimate:TriggeringRelationship>

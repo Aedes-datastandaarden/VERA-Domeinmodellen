@@ -1,9 +1,9 @@
 <archimate:TriggeringRelationship
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Doorgeven betaalgegeven"
+    name="Synchroniseren Betaalgegeven"
     id="c8c6d69a-8753-428b-87da-bd4e59907791"
-    documentation="Aanmaken en wijzigen van betaalgegevens&#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;Betaalgegevens bevatten een specificatie van de incassowijze, bankrekening en - indien van toepassing - machtiging voor automatische incasso.&#xD;&#xA;&#xD;&#xA;====Scneario's====&#xD;&#xA;* Als huurder wil ik mijn betaalgegevens doorgeven of wijzigen, zoals bankrekening.&#xD;&#xA;">
+    documentation="Doorgeven van nieuwe of gewijzigde betaalgegevens van een relatie.&#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;De betaalgegevens worden beheerd in het relatiebeheersysteem en kan vanuit diverse processen worden gemuteerd. In bepaalde gevallen is het gewenst om de nieuwe en gewijzigde betaalgegevens te synchyroniseren met andere systemen zoals het klantbedieningsysteem.&#xD;&#xA;&#xD;&#xA;====Scenario's====&#xD;&#xA;* Als Klantbedieningsysteem wil ik de betaalgegevens vanuit het relatiebeheersysteem synchroniseren zodat een optimale ondersteuning kan worden geleverd in het klantbedieningsproces.">
   <properties
       key="Objecttype"
       value="Trigger"/>

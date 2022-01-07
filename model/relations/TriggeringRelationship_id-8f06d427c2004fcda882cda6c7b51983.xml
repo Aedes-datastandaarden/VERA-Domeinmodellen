@@ -1,14 +1,15 @@
 <archimate:TriggeringRelationship
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Opvragen contactmomenten"
-    id="id-8f06d427c2004fcda882cda6c7b51983">
+    name="Opvragen Contactmoment"
+    id="id-8f06d427c2004fcda882cda6c7b51983"
+    documentation="Opvragen van contactmomenten.&#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;Vanuit een zaaksysteem is het mogelijk gewenst om contactmomenten van een klant op te halen uit het klantbedieningsysteem.&#xD;&#xA;&#xD;&#xA;====Scneario's====&#xD;&#xA;* Als medewerker relatiebeheer wil ik de klantcontacten opvragen bij de afhandeling van zaken.&#xD;&#xA;&#xD;&#xA;">
   <properties
       key="Objecttype"
       value="Trigger"/>
   <properties
       key="Bericht"
-      value="Contactmomenten opvragen"/>
+      value="Contactmoment opvragen"/>
   <properties
       key="Resource"
       value="BRG:Contactmomenten"/>

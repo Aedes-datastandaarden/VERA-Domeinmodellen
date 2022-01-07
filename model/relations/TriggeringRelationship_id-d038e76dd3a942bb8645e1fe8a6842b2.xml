@@ -3,13 +3,13 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Doorgeven Factuur voor inspectie"
     id="id-d038e76dd3a942bb8645e1fe8a6842b2"
-    documentation="Voor het doorgeven van de factuur van de inspectie. &#xD;&#xA;&#xD;&#xA;Na uitvoering van de inspectie wordt de factuur door bedrijfsproces 'Inspecteren bouwdelen' doorgegeven aan de crediteurenadministratie van ‘Leveren financiële dienstverlening’. ">
+    documentation="Doorgeven van de factuur van de inspectie. &#xD;&#xA;&#xD;&#xA;==== Toelichting ====&#xD;&#xA;Na uitvoering van de inspectie wordt de factuur door bedrijfsproces 'Inspecteren bouwdelen' doorgegeven aan de crediteurenadministratie van ‘Leveren financiële dienstverlening’. &#xD;&#xA;&#xD;&#xA;====Scenario's====&#xD;&#xA;">
   <properties
       key="Objecttype"
       value="Trigger"/>
   <properties
       key="Bericht"
-      value="Inkoopfactuur Synchroniseren"/>
+      value="Inkoopfactuur doorgeven"/>
   <properties
       key="Resource"
       value="OHD:Inkoopfacturen"/>

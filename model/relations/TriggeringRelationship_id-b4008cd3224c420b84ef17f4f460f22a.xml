@@ -1,15 +1,18 @@
 <archimate:TriggeringRelationship
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Doorgeven Overeenkomst"
+    name="Synchroniseren Overeenkomst"
     id="id-b4008cd3224c420b84ef17f4f460f22a"
-    documentation="Het doorgeven van overeenkomsten&#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;Een overeenkomst is een generieke verzameling van huurovereenkomsten, onderhoudsovereenkomsten, koopovereenkomsten en serviceovereenkomsten. &#xD;&#xA;Een overeenkomst is een juridische afspraak met huurders of leveranciers.">
+    documentation="Het doorgeven van gewijzigde en nieuwe overeenkomsten.&#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;De overeenkomstgegeven worden vanuit het proces Verhuren eenheden beschikbaar gesteld zodat andere processen deze informatie kunnen gebruiken voor de uitvoering van de processen. Voor overeenkomstgegevens is het wenselijk om deze informatie ook te kunnen synchroniseren met andere systemen.&#xD;&#xA;&#xD;&#xA;====Scenario's====&#xD;&#xA;* Als klantbedieningsysteem wil ik de overeenkomstgegevens synchroniseren met het eigen systeem zodat ik een optimale ondersteuning kan leverenin het klantbedieningsproces.&#xD;&#xA;">
   <properties
       key="Objecttype"
       value="Trigger"/>
   <properties
       key="Resource"
       value="BOG:Overeenkomsten"/>
+  <properties
+      key="Bericht"
+      value="Overeenkomst synchroniseren"/>
   <source
       xsi:type="archimate:BusinessProcess"
       href="BusinessProcess_id-2884d518037d4a088794e2e1152283e1.xml#id-2884d518037d4a088794e2e1152283e1"/>

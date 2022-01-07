@@ -5,7 +5,7 @@
     id="id-e782b075dd30441e997089f85e1a04d1"
     documentation="Ophalen van beschikbare tijdsperioden.&#xD;&#xA;&#xD;&#xA;====Toelichting ====&#xD;&#xA;Een afspraakoptie wordt opgevraagd voor een periode tussen twee data, voor een bepaalde duur, voor een bepaald specialisme en eventueel voor een bepaalde eenheid. &#xD;&#xA;Het afspraaksysteem retourneert de beschikbare afspraaktijdsperioden die voldoen aan de opgegeven criteria. &#xD;&#xA;&#xD;&#xA;====Scenario's====&#xD;&#xA;* Als klantportaal wil ik weten wat de beschikbare afspraaktijdsperioden tussen twee verschillende data, met een bepaalde medewerker of een medewerker met een bepaald specialisme, bijvoorbeeld voor een inspectie of reparatie.&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;">
   <properties
-      key="Type"
+      key="Objecttype"
       value="Trigger"/>
   <properties
       key="Bericht"

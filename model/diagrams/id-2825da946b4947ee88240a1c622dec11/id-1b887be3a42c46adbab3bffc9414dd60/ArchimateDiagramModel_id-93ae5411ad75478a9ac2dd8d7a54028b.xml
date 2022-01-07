@@ -3,6 +3,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Informatieobjecten"
     id="id-93ae5411ad75478a9ac2dd8d7a54028b"
+    documentation="====Definitie====&#xD;&#xA;Ophalen van informatieobjecten.&#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;Een informatieobject is een generiekere term voor het veelgebruikte begrip document dat beperkter van reikwijdte is. Een informatieobject kan van alles zijn, ongeacht aard en vorm: een tekstverwerkingsdocument, een papieren &#xD;&#xA;brief, een webpagina, een landkaart, een foto, een geluidsopname, een dataset, een blog, etc.&#xD;&#xA;Voor deze koppeling hebben we het over informatieobjecten die digitaal verstuurd kunnen worden.&#xD;&#xA;&#xD;&#xA;In bijna elk proces is het gewenst om informatieobjecten op te kunnen vragen die gerelateerd zijn aan relaties, overeenkomsten, onderhoudsverzoeken, etc. &#xD;&#xA;&#xD;&#xA;====Voorbeelden====&#xD;&#xA;*Vraag de huurovereenkomsten op van een huurder voor tonen op het klantenportaal.&#xD;&#xA;*Als huurder of woningzoekende wil ik foto's en plattegronden van woningen kunnen zien zodat ik een goed beeld krijg van de betreffende woning.&#xD;&#xA;*Als huurder of woningzoekende wil ik alle correspondentie die ik met de corporatie heb gehad kunnen inzien via het portaal zodat ik een compleet overzicht heb.&#xD;&#xA;*Als corporatie wil ik dat door de huurder geuploade documenten in een DMS worden opgeslagen"
     viewpoint="information_structure">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
@@ -239,6 +240,24 @@
           xsi:type="archimate:CompositionRelationship"
           href="CompositionRelationship_id-7a8bd9c542dd43929cab9c7b5ea7dcd7.xml#id-7a8bd9c542dd43929cab9c7b5ea7dcd7"/>
     </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-1d7d3453fdb541e096c273ed26340c97"
+        source="id-d891b8c3fa4b40c3b396f6983e1cf450"
+        target="id-2e0e4a5994e8462285ae36395c936305">
+      <archimateRelationship
+          xsi:type="archimate:CompositionRelationship"
+          href="CompositionRelationship_id-c6876ba17eea496c96e0806ba084f212.xml#id-c6876ba17eea496c96e0806ba084f212"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-7e4dfe709fd74abdb27b451b46a44797"
+        source="id-d891b8c3fa4b40c3b396f6983e1cf450"
+        target="id-c00a582894014765825aa7d37c65a8e4">
+      <archimateRelationship
+          xsi:type="archimate:CompositionRelationship"
+          href="CompositionRelationship_id-e9802eb483104ebca835e54d9aa36b9b.xml#id-e9802eb483104ebca835e54d9aa36b9b"/>
+    </sourceConnections>
     <bounds
         x="12"
         y="12"
@@ -248,8 +267,8 @@
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-243032590a534ca9948d83489d69a6fc"
         targetConnections="id-58e228b82f8c4e1d829963686fc41ddc"
-        font="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|0|3|2|1|34|Segoe UI"
-        fontColor="#400040"
+        font="1|Segoe UI|9.0|1|WINDOWS|1|-21|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
+        fontColor="#ffffff"
         fillColor="#b5a845"
         textPosition="1">
       <sourceConnections
@@ -262,7 +281,7 @@
             href="AssociationRelationship_id-8ceab064c7d549c8a8ee628e5dbefaa3.xml#id-8ceab064c7d549c8a8ee628e5dbefaa3"/>
       </sourceConnections>
       <bounds
-          x="192"
+          x="72"
           y="48"
           width="120"
           height="55"/>
@@ -278,14 +297,66 @@
         fontColor="#ffffff"
         fillColor="#0099cc"
         textPosition="1">
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-0e9b5beb7cae4e65be3c2276ac891756"
+          source="id-38a4e9311ab0410ca76ebea1df7d9be5"
+          target="id-2e0e4a5994e8462285ae36395c936305">
+        <archimateRelationship
+            xsi:type="archimate:AssociationRelationship"
+            href="AssociationRelationship_f9b4c401-8a45-4081-8e76-251878944454.xml#f9b4c401-8a45-4081-8e76-251878944454"/>
+      </sourceConnections>
       <bounds
-          x="192"
+          x="72"
           y="156"
           width="120"
           height="55"/>
       <archimateElement
           xsi:type="archimate:DataObject"
           href="DataObject_c48fd93d-30dc-4327-a751-666c641f1e78.xml#c48fd93d-30dc-4327-a751-666c641f1e78"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-2e0e4a5994e8462285ae36395c936305"
+        targetConnections="id-1d7d3453fdb541e096c273ed26340c97 id-0e9b5beb7cae4e65be3c2276ac891756"
+        font="1|Segoe UI|9.0|1|WINDOWS|1|-12|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
+        fontColor="#ffffff"
+        fillColor="#0099cc"
+        textPosition="1">
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-250fcf758c48462a8461109ede17279e"
+          source="id-2e0e4a5994e8462285ae36395c936305"
+          target="id-c00a582894014765825aa7d37c65a8e4">
+        <archimateRelationship
+            xsi:type="archimate:AssociationRelationship"
+            href="AssociationRelationship_7d17eefa-b8fd-478f-94e3-bd9691d4ae84.xml#7d17eefa-b8fd-478f-94e3-bd9691d4ae84"/>
+      </sourceConnections>
+      <bounds
+          x="72"
+          y="252"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:DataObject"
+          href="DataObject_c741dd31-2b80-4474-8abe-c8832a718069.xml#c741dd31-2b80-4474-8abe-c8832a718069"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-c00a582894014765825aa7d37c65a8e4"
+        targetConnections="id-7e4dfe709fd74abdb27b451b46a44797 id-250fcf758c48462a8461109ede17279e"
+        font="1|Segoe UI|9.0|1|WINDOWS|1|-12|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
+        fontColor="#ffffff"
+        fillColor="#0099cc"
+        textPosition="1">
+      <bounds
+          x="300"
+          y="252"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:DataObject"
+          href="DataObject_94e308a8-acdf-4ae0-9755-0c61340b907f.xml#94e308a8-acdf-4ae0-9755-0c61340b907f"/>
     </children>
     <archimateElement
         xsi:type="archimate:DataObject"

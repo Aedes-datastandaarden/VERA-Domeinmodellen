@@ -3,6 +3,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Offertes"
     id="801ee3bc-ea35-456b-9909-54bd5ef4a820"
+    documentation="====Definitie====&#xD;&#xA;Doorgeven van een Offerte ter kennisgeving. &#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;Het bedrijfsproces 'Regisseren onderhoud' zal in sommige situaties een offerte opvragen voor het geven van de opdracht. Vanuit 'Regisseren onderhoud' wil ik de offerte van de technisch uitvoerder ontvangen.&#xD;&#xA;====Voorbeelden====&#xD;&#xA;Primair&#xD;&#xA;#&#x9;Scenario&#x9;Operatie&#xD;&#xA;*&#x9;Als technisch uitvoerder wil ik een offerte voor de uitvoer van een onderhoudsopdracht doorgeven aan de onderhoudsfunctie zodat men de offerte kan beoordelen."
     viewpoint="information_structure">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
@@ -53,10 +54,19 @@
           xsi:type="archimate:CompositionRelationship"
           href="CompositionRelationship_id-be6031d016a64bd78aee0a874abc158a.xml#id-be6031d016a64bd78aee0a874abc158a"/>
     </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-0e4043cac6ef42b88d406646b019cca3"
+        source="2f85865a-be5e-46bf-9026-f27c60aa01f6"
+        target="id-77cc9772df844b89b10bba892b35e155">
+      <archimateRelationship
+          xsi:type="archimate:CompositionRelationship"
+          href="CompositionRelationship_id-e8e35648ad0240b5b69f995ea12a0f3e.xml#id-e8e35648ad0240b5b69f995ea12a0f3e"/>
+    </sourceConnections>
     <bounds
         x="12"
         y="12"
-        width="601"
+        width="565"
         height="325"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
@@ -81,28 +91,9 @@
       </sourceConnections>
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
-          id="828d7f56-8cc4-4940-ba6a-3ec467fc4f8d"
-          source="f1f064c2-a445-4173-a02e-69fe0cf220c9"
-          target="82dc72d6-f1be-45f0-bfa1-4ed93cc85c32">
-        <bendpoints
-            startX="-108"
-            startY="9"
-            endX="108"
-            endY="9"/>
-        <archimateRelationship
-            xsi:type="archimate:AssociationRelationship"
-            href="AssociationRelationship_id-f7662c8b01a5463fbc096c6c6cc0d24d.xml#id-f7662c8b01a5463fbc096c6c6cc0d24d"/>
-      </sourceConnections>
-      <sourceConnections
-          xsi:type="archimate:DiagramModelArchimateConnection"
           id="f63d2c67-098e-460f-9827-94373e623064"
           source="f1f064c2-a445-4173-a02e-69fe0cf220c9"
           target="82dc72d6-f1be-45f0-bfa1-4ed93cc85c32">
-        <bendpoints
-            startX="-108"
-            startY="-15"
-            endX="108"
-            endY="-15"/>
         <archimateRelationship
             xsi:type="archimate:AssociationRelationship"
             href="AssociationRelationship_id-c282a42e2ffa42d5bdce08204ec4bcc7.xml#id-c282a42e2ffa42d5bdce08204ec4bcc7"/>
@@ -136,7 +127,7 @@
             href="AssociationRelationship_id-532b053d6f2044d0b51933f703a758a2.xml#id-532b053d6f2044d0b51933f703a758a2"/>
       </sourceConnections>
       <bounds
-          x="264"
+          x="240"
           y="36"
           width="120"
           height="55"/>
@@ -147,11 +138,20 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="82dc72d6-f1be-45f0-bfa1-4ed93cc85c32"
-        targetConnections="4ff7e58b-3041-472a-8679-e32e14234ac4 828d7f56-8cc4-4940-ba6a-3ec467fc4f8d f63d2c67-098e-460f-9827-94373e623064"
+        targetConnections="4ff7e58b-3041-472a-8679-e32e14234ac4 f63d2c67-098e-460f-9827-94373e623064"
         font="1|Segoe UI|9.0|1|WINDOWS|1|-12|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
         fontColor="#ffffff"
         fillColor="#0099cc"
         textPosition="1">
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-2c7b380281d6408ea0355177add4ae7a"
+          source="82dc72d6-f1be-45f0-bfa1-4ed93cc85c32"
+          target="id-77cc9772df844b89b10bba892b35e155">
+        <archimateRelationship
+            xsi:type="archimate:AssociationRelationship"
+            href="AssociationRelationship_7d17eefa-b8fd-478f-94e3-bd9691d4ae84.xml#7d17eefa-b8fd-478f-94e3-bd9691d4ae84"/>
+      </sourceConnections>
       <bounds
           x="24"
           y="36"
@@ -206,7 +206,7 @@
             href="AssociationRelationship_983bbf72-bece-44f4-b7c9-03718928ebed.xml#983bbf72-bece-44f4-b7c9-03718928ebed"/>
       </sourceConnections>
       <bounds
-          x="264"
+          x="240"
           y="144"
           width="120"
           height="55"/>
@@ -222,7 +222,7 @@
         fillColor="#ffff66"
         textPosition="1">
       <bounds
-          x="456"
+          x="420"
           y="90"
           width="120"
           height="55"/>
@@ -237,13 +237,30 @@
         font="1|Segoe UI|9.0|1|WINDOWS|1|-21|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
         fillColor="#ffff66">
       <bounds
-          x="264"
+          x="240"
           y="240"
           width="120"
           height="55"/>
       <archimateElement
           xsi:type="archimate:DataObject"
           href="DataObject_4589668c-11f6-466d-a96a-a116bc802389.xml#4589668c-11f6-466d-a96a-a116bc802389"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-77cc9772df844b89b10bba892b35e155"
+        targetConnections="id-0e4043cac6ef42b88d406646b019cca3 id-2c7b380281d6408ea0355177add4ae7a"
+        font="1|Segoe UI|9.0|1|WINDOWS|1|-21|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
+        fontColor="#ffffff"
+        fillColor="#0099cc"
+        textPosition="1">
+      <bounds
+          x="24"
+          y="144"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:DataObject"
+          href="DataObject_94e308a8-acdf-4ae0-9755-0c61340b907f.xml#94e308a8-acdf-4ae0-9755-0c61340b907f"/>
     </children>
     <archimateElement
         xsi:type="archimate:DataObject"
@@ -254,7 +271,7 @@
       id="32bc0d9b-6ac4-4ec8-b5e8-87d23251fd86"
       textAlignment="1">
     <bounds
-        x="624"
+        x="588"
         y="12"
         width="180"
         height="325"/>

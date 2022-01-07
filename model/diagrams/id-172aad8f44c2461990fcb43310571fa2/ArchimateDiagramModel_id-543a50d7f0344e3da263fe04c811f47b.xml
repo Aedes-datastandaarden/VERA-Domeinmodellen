@@ -3,7 +3,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Onderhouden Eenheden"
     id="id-543a50d7f0344e3da263fe04c811f47b"
-    documentation="‘Onderhoud’ omvat de inspanningen die worden verricht om het bezit van de corporatie of het bezit van derden waar een overeenkomst over is afgesloten, zowel op lange als korte termijn op peil te houden conform de gestelde kwaliteitseisen. &#xD;&#xA;&#xD;&#xA;De procesketen van onderhoud beschrijft de interactie tussen bedrijfs- en werkprocessen van verschillende rollen en hun betrokken bedrijfsfuncties:&#xD;&#xA;* Onderhoudsbedrijf&#xD;&#xA;** Onderhoudsfunctie&#xD;&#xA;** Onderhoudscontrole functie&#xD;&#xA;** Inspectiefunctie&#xD;&#xA;* Technisch uitvoerder&#xD;&#xA;** Technische uitvoer functie&#xD;&#xA;** Technische uitvoer controle functie&#xD;&#xA;* Klantbediening&#xD;&#xA;** Klantbedieningsfunctie&#xD;&#xA;* Finaniceelbeheer&#xD;&#xA;** Debiteurenfunctie&#xD;&#xA;** Crediteuren functie&#xD;&#xA;*&#x9;Vastgoedaanbieder (woningcorporatie of tussenpartij)&#xD;&#xA;** Vastgoedgegevensbeheerfunctie&#xD;&#xA;** Wooningwaarderingsfunctie&#xD;&#xA;&#xD;&#xA;'''Binnen de procesketen voor onderhoud is het de procesketen vanuit de corporatie uitgewerkt. Voor koppelingen tussen applicaties van de corporatie biedt VERA API specificaties. Voor integratie met systemen van aannamers wordt de [https://ketenstandaard.nl/standaard/dico DICO standaard] gebruikt van Ketenstandaard. DICO gebruikt hetzelfde logische model en procesketen model als VERA. Wij werken nauw samen met Ketenstandaard om beide standaarden te ontwikkelen.'''"
+    documentation="‘Onderhoud’ omvat de inspanningen die worden verricht om het bezit van de corporatie of het bezit van derden waar een overeenkomst over is afgesloten, zowel op lange als korte termijn op peil te houden conform de gestelde kwaliteitseisen. &#xD;&#xA;&#xD;&#xA;De procesketen van onderhoud beschrijft de interactie tussen bedrijfs- en werkprocessen van verschillende rollen en hun betrokken bedrijfsfuncties:&#xD;&#xA;* Onderhoudsbedrijf&#xD;&#xA;** Onderhoudsfunctie&#xD;&#xA;** Onderhoudscontrole functie&#xD;&#xA;** Inspectiefunctie&#xD;&#xA;* Technisch uitvoerder&#xD;&#xA;** Technische uitvoer functie&#xD;&#xA;** Technische uitvoer controle functie&#xD;&#xA;* Klantbediening&#xD;&#xA;** Klantbedieningsfunctie&#xD;&#xA;* Finaniceelbeheer&#xD;&#xA;** Debiteurenfunctie&#xD;&#xA;** Crediteuren functie&#xD;&#xA;*&#x9;Vastgoedaanbieder (woningcorporatie of tussenpartij)&#xD;&#xA;** Vastgoedgegevensbeheerfunctie&#xD;&#xA;** Wooningwaarderingsfunctie&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;Binnen de procesketen voor onderhoud is het de procesketen vanuit de corporatie uitgewerkt. Voor koppelingen tussen applicaties van de corporatie biedt VERA API specificaties. Voor integratie met systemen van aannamers wordt de [https://ketenstandaard.nl/standaard/dico DICO standaard] gebruikt van Ketenstandaard. DICO gebruikt hetzelfde logische model en procesketen model als VERA. Wij werken nauw samen met Ketenstandaard om beide standaarden te ontwikkelen."
     viewpoint="business_process_cooperation">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
@@ -90,7 +90,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-918d7d467e1b4073bdad464c0f52dc1d"
-        targetConnections="id-b7ad2c9f725e4f2d9b601fa98d5cbe24 id-4394686cb5684b28a42e56f0340b5f3b"
+        targetConnections="id-b7ad2c9f725e4f2d9b601fa98d5cbe24 id-51fb374534b84365b4726a88f57fde3b"
         alpha="0">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
@@ -1248,26 +1248,27 @@
       </sourceConnections>
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
-          id="id-4394686cb5684b28a42e56f0340b5f3b"
+          id="id-51fb374534b84365b4726a88f57fde3b"
           source="id-3ed2e8e849ea424297c8a1bf63b1bb3d"
           target="id-918d7d467e1b4073bdad464c0f52dc1d">
         <bendpoints
-            startX="-905"
-            endX="60"
-            endY="528"/>
+            startX="-930"
+            startY="12"
+            endX="36"
+            endY="540"/>
         <bendpoints
-            startX="-905"
-            startY="-264"
-            endX="60"
-            endY="264"/>
+            startX="-930"
+            startY="-252"
+            endX="36"
+            endY="276"/>
         <bendpoints
-            startX="-1085"
-            startY="-264"
-            endX="-120"
-            endY="264"/>
+            startX="-1098"
+            startY="-252"
+            endX="-132"
+            endY="276"/>
         <archimateRelationship
-            xsi:type="archimate:AssociationRelationship"
-            href="AssociationRelationship_id-307f5839e1f9416390becabf800eddc9.xml#id-307f5839e1f9416390becabf800eddc9"/>
+            xsi:type="archimate:TriggeringRelationship"
+            href="TriggeringRelationship_id-c68cd06592834bc999f59ae126a5baa3.xml#id-c68cd06592834bc999f59ae126a5baa3"/>
       </sourceConnections>
       <bounds
           x="1188"

@@ -2,7 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="WoningwaarderingResultaat"
     id="9755b2ca-8c0d-432b-9204-bed7a755ac65"
-    documentation="====Definitie====&#xD;&#xA;Het resultaat van een woningwaardering dat is gegeven van een eenheid. &#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;Een adviseur waardeert een eenheid op een gegeven moment. De klasse bevat informatie van de woningwaardering met betrekking tot de eenheid. &#xD;&#xA;&#xD;&#xA;====Toepasbaar voor====&#xD;&#xA;WWS. ">
+    documentation="====Definitie====&#xD;&#xA;Het eindresultaat van een woningwaardering, volgens de criteria die van toepassing zijn op het voor de eenheid geldende woningwaarderingstelsel.&#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;De klasse bevat het puntentotaal van de woningwaardering voor de eenheid, na eindsaldering, afgerond op hele punten. De klasse bevat daarnaast de van het puntentotaal afgeleide maximale huurprijs voor de eenheid.&#xD;&#xA;Let op: De business logica die wordt toegepast om het eindtotaal in deze klasse te bepalen (op basis van de subtotalen van de onderliggende woningwaarderinggroepen) wordt in het aanleverende systeem toegepast. Het is niet zondermeer mogelijk om het puntentotaal zelf uit te rekenen door de punten van de afzonderlijke gerelateerde WoningwaarderingGroepen te salderen.&#xD;&#xA;&#xD;&#xA;====Toepasbaar voor====&#xD;&#xA;Het opvragen van het eindresultaat van de woningwaardering en de daarbij behorende maximale huurprijs.">
   <properties
       key="Objecttype"
       value="Klasse"/>

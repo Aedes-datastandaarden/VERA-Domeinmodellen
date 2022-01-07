@@ -3,6 +3,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Overeenkomsten"
     id="174c6319-6fc0-4851-a463-a3261886bf6c"
+    documentation="====Definitie====&#xD;&#xA;Opvragen van informatie over overeenkomsten ten behoeve van de informatievoorziening bij klantbediening.&#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;Een huurovereenkomst is een type overeenkomst waarmee de woningcorporatie tot wederopzegging, het recht aan één huurder (klant) geeft om één eenheid te gebruiken en waarmee een huurder zich verplicht tot een (periodieke) betaling.&#xD;&#xA;Bij het behandelen van telefonische klantcontacten is het gewenst om informatie te hebben over de afgesloten overeenkomsten met de klant. Dit kan informatie zijn over de huidige huurovereenkomst zoals een lijst met contractanten (hoofdhuurder, medehuurder,..),  betalergegevens of de huuropbouw. Daarnaast is het ook mogelijk dat er een koopovereenkomst of serviceovereenkomst is afgesloten waarover informatie gewenst is. &#xD;&#xA;&#xD;&#xA;====Voorbeelden====&#xD;&#xA;*Huurder belt naar de klantenservice en de klantenservice wil weten welke huurovereenkomsten er afgesloten zijn met de huurder zodat de huurder goed te woord gestaan kan worden&#xD;&#xA;*Huurder belt naar de klantenservice en de klantenservice wil weten welke contractanten er op het huurovereenkomst zitten zodat de huurder goed te woord gestaan kan worden&#xD;&#xA;*Huurder belt naar de klantenservice en de klantenservice wil weten wat de huuropbouw is zodat de huurder goed te woord gestaan kan worden&#xD;&#xA;*Als huurder wil ik de basisgegevens van mijn huurovereenkomsten - zoals begindatum, eenheid, opzegtermijn en betaalgegeven - raadplegen. &#xD;&#xA;*Als huurder wil ik per huurovereenkomst de prijscomponenten van die overeenkomst raadplegen. &#xD;&#xA;*Als huurder wil ik per huurovereenkomst weten wie de contractanten van die overeenkomst zijn. "
     viewpoint="information_structure">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
@@ -80,9 +81,18 @@
           xsi:type="archimate:CompositionRelationship"
           href="CompositionRelationship_id-8cb9ba6a249043df9072d9a4ed00775d.xml#id-8cb9ba6a249043df9072d9a4ed00775d"/>
     </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-6321923562a84e3da8c6f26c5722f0b1"
+        source="1cc4bd51-f7dc-4e87-ad50-4249f6ac8435"
+        target="id-2f386ace65bb4fe0939aacfcdd5c82b2">
+      <archimateRelationship
+          xsi:type="archimate:CompositionRelationship"
+          href="CompositionRelationship_bdb53bab-bd28-4142-a590-5b28c47b6805.xml#bdb53bab-bd28-4142-a590-5b28c47b6805"/>
+    </sourceConnections>
     <bounds
         x="12"
-        width="661"
+        width="793"
         height="325"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
@@ -108,6 +118,29 @@
         <archimateRelationship
             xsi:type="archimate:SpecializationRelationship"
             href="SpecializationRelationship_34801035-ee0d-4789-bf4f-140f752b85da.xml#34801035-ee0d-4789-bf4f-140f752b85da"/>
+      </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-affa09cdb7954c419f6c50ebacae46cb"
+          source="47da203e-04b3-49dd-9d3b-55f92dedfce8"
+          target="id-2f386ace65bb4fe0939aacfcdd5c82b2">
+        <bendpoints
+            startY="46"
+            endX="-588"
+            endY="103"/>
+        <bendpoints
+            startX="492"
+            startY="46"
+            endX="-96"
+            endY="103"/>
+        <bendpoints
+            startX="492"
+            startY="-50"
+            endX="-96"
+            endY="7"/>
+        <archimateRelationship
+            xsi:type="archimate:AssociationRelationship"
+            href="AssociationRelationship_id-1ef5528858db4555b7c68575bd148960.xml#id-1ef5528858db4555b7c68575bd148960"/>
       </sourceConnections>
       <bounds
           x="36"
@@ -146,19 +179,19 @@
       </sourceConnections>
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
-          id="id-1e0e5895c40843f3a0acdba024639e01"
+          id="id-bcd7bba5937b40dab4aa0a5f0b182d50"
           source="812df387-a904-4e80-8abb-4fce653001a9"
-          target="id-921298c7f08d412fabd026a71b3e26c9">
+          target="id-2f386ace65bb4fe0939aacfcdd5c82b2">
         <bendpoints
-            startX="168"
-            startY="21"
-            endX="-108"
-            endY="-39"/>
+            startX="288"
+            startY="9"
+            endX="-96"
+            endY="-66"/>
         <bendpoints
-            startX="168"
-            startY="57"
-            endX="-108"
-            endY="-3"/>
+            startX="288"
+            startY="69"
+            endX="-96"
+            endY="-6"/>
         <archimateRelationship
             xsi:type="archimate:AssociationRelationship"
             href="AssociationRelationship_cd5b864b-a251-45bc-a7bf-2828055e0ed2.xml#cd5b864b-a251-45bc-a7bf-2828055e0ed2"/>
@@ -198,8 +231,8 @@
         fillColor="#0099cc"
         textPosition="1">
       <bounds
-          x="516"
-          y="60"
+          x="624"
+          y="48"
           width="120"
           height="55"/>
       <archimateElement
@@ -209,14 +242,14 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-921298c7f08d412fabd026a71b3e26c9"
-        targetConnections="id-1e0e5895c40843f3a0acdba024639e01 id-4f83509cb29444408b66d6455b4d4535"
+        targetConnections="id-4f83509cb29444408b66d6455b4d4535 id-553ed9d2e7ca45ea8c0718fd8db9c6a3"
         font="1|Segoe UI|9.0|1|WINDOWS|1|-12|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
         fontColor="#ffffff"
         fillColor="#0099cc"
         textPosition="1">
       <bounds
-          x="516"
-          y="120"
+          x="624"
+          y="228"
           width="120"
           height="55"/>
       <archimateElement
@@ -325,6 +358,32 @@
           xsi:type="archimate:DataObject"
           href="DataObject_97c47dc0-cf84-47d9-b6b8-b074b6f4e696.xml#97c47dc0-cf84-47d9-b6b8-b074b6f4e696"/>
     </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-2f386ace65bb4fe0939aacfcdd5c82b2"
+        targetConnections="id-6321923562a84e3da8c6f26c5722f0b1 id-bcd7bba5937b40dab4aa0a5f0b182d50 id-affa09cdb7954c419f6c50ebacae46cb"
+        font="1|Segoe UI|9.0|1|WINDOWS|1|-21|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
+        fontColor="#ffffff"
+        fillColor="#0099cc"
+        textPosition="1">
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-553ed9d2e7ca45ea8c0718fd8db9c6a3"
+          source="id-2f386ace65bb4fe0939aacfcdd5c82b2"
+          target="id-921298c7f08d412fabd026a71b3e26c9">
+        <archimateRelationship
+            xsi:type="archimate:AssociationRelationship"
+            href="AssociationRelationship_7d17eefa-b8fd-478f-94e3-bd9691d4ae84.xml#7d17eefa-b8fd-478f-94e3-bd9691d4ae84"/>
+      </sourceConnections>
+      <bounds
+          x="624"
+          y="135"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:DataObject"
+          href="DataObject_c741dd31-2b80-4474-8abe-c8832a718069.xml#c741dd31-2b80-4474-8abe-c8832a718069"/>
+    </children>
     <archimateElement
         xsi:type="archimate:DataObject"
         href="DataObject_c7e2b544-da90-4b6c-80da-4830a6283028.xml#c7e2b544-da90-4b6c-80da-4830a6283028"/>
@@ -334,7 +393,7 @@
       id="id-fe3c57d28aa446cc9fb697dc88fce956"
       textAlignment="1">
     <bounds
-        x="684"
+        x="816"
         width="180"
         height="325"/>
     <children
@@ -549,7 +608,7 @@
       fillColor="#ffff66"
       content="Opmerkingen werkgroep&#xD;&#xA;* resourcenaam is Overeenkomst en wordt later uitgebreid met andere subentiteteiten (oa. onderhoudsovereenkomst)&#xD;&#xA;* Embrace: voorgesteld attribuut &quot;benodigdeInspecties&quot; is opgenomen bij resource Eenheid&#xD;&#xA;* ZIG: attribuut &quot;opties&quot; wordt niet opgenomen in de resource&#xD;&#xA;* Architectuurteam: attribuut &quot;voorlopigeEinddatum&quot; is toegevoegd aan procesketen, niet in horizontaal model?&#xD;&#xA;* Werkgroep: attribuut subsidieSoort is als referentiedata toegevoegd: PRIJSCOMPONENTSUBSIDIESOORT&#xD;&#xA;* ZIG: attribuut &quot;doelgroep&quot; is niet opgenomen in de resource&#xD;&#xA;* Werkgroep: volgende attributen zijn NIET opgenomen: &#xD;&#xA;**attribuut &quot;Huurderskeuze&quot; is gewenst om onderscheidt te maken tussen verplichte en facultatieve prijscomponenten.&#xD;&#xA;**Attribuut &quot;BedragAanpasbaar&quot; is gewenst om duidelijk te maken dat de huurder een afwijkend bedrag mag kiezen. Dit is bijvoorbeeld het geval bij voorschotten. ">
     <bounds
-        x="20"
+        x="12"
         y="336"
         width="645"
         height="187"/>

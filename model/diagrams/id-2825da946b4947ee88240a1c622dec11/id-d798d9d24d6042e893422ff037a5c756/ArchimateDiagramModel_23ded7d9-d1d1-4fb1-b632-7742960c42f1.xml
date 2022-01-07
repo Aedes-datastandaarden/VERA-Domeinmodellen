@@ -3,6 +3,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Onderhoudsorders"
     id="23ded7d9-d1d1-4fb1-b632-7742960c42f1"
+    documentation="====Definitie====&#xD;&#xA;Doorgeven van een onderhoudsorder ter kennisgeving. &#xD;&#xA;Dit kan zowel de volledige onderhoudsorder als een onderhoudsorder statusmutatie betreffen.&#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;De onderhoudsfunctie die het onderhoudsverzoek in behandeling heeft genomen zet de onderhoudsorder(s) uit bij één of meerdere (externe) uitvoerders. Bij een enkelvoudig reparatieverzoek zal slechts één onderhoudsorder uitgezet worden. Bij mutatieonderhoud of bij meervoudige reparatieverzoeken is het mogelijk dat er meerdere onderhoudsorders worden aangemaakt en uitgewisseld. &#xD;&#xA;De uitwisseling van de onderhoudsorder vindt altijd plaats naar één (externe) uitvoerder. &#xD;&#xA;&#xD;&#xA;====Voorbeelden====&#xD;&#xA;Primair&#xD;&#xA;#&#x9;Scenario&#x9;Operatie&#xD;&#xA;*&#x9;Als onderhoudsfunctie wil ik een onderhoudsorder met taken en ingeplande afspraken doorgeven aan de eigen technische uitvoerder zodat deze de order kan uitvoeren.&#x9;&#xD;&#xA;*&#x9;Als onderhoudsfunctie wil ik een onderhoudsorder met taken doorgeven aan de externe technische uitvoerder zodat deze de taken kan inplannen.&#xD;&#xA;*&#x9;Als onderhoudsfunctie wil ik een onderhoudsorder met taken en planning doorgeven aan de externe technische uitvoerder.&#xD;&#xA;&#xD;&#xA;Secundair&#xD;&#xA;#&#x9;Scenario&#x9;Operatie&#xD;&#xA;*&#x9;Als medewerker onderhoud wil ik aanvullende informatie (foto’s, bijlagen, klantcontacten) bij een onderhoudsorder doorgeven aan de technisch uitvoerder zodat deze een volledig beeld heeft van de lopende onderhoudsorder.&#x9;&#xD;&#xA;*&#x9;Als technisch uitvoerder wil ik aanvullende informatie (foto’s, bijlagen, klantcontacten) bij een onderhoudsorder doorgeven aan de onderhoudsfunctie zodat deze een volledig beeld heeft van de lopende onderhoudsorder."
     viewpoint="information_structure">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
@@ -125,11 +126,20 @@
           xsi:type="archimate:CompositionRelationship"
           href="CompositionRelationship_b2af2e4c-82ba-477a-9b60-556c550a04a5.xml#b2af2e4c-82ba-477a-9b60-556c550a04a5"/>
     </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-4d19a0cc9ae8400da783f5aed4dbc857"
+        source="cf6b7eb7-a968-4d9f-a9aa-6b90bed0d293"
+        target="id-7ca40fc19fd44d54876f26d7fb11595f">
+      <archimateRelationship
+          xsi:type="archimate:CompositionRelationship"
+          href="CompositionRelationship_id-933b5c25bd9742fba3ba89df15817308.xml#id-933b5c25bd9742fba3ba89df15817308"/>
+    </sourceConnections>
     <bounds
-        x="-228"
+        x="-204"
         y="-48"
-        width="937"
-        height="481"/>
+        width="949"
+        height="457"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="1786f4df-c5f3-4b14-8254-9fbf14ecc835"
@@ -180,8 +190,8 @@
             href="AssociationRelationship_213c1823-5f87-457c-900c-ddabfac35832.xml#213c1823-5f87-457c-900c-ddabfac35832"/>
       </sourceConnections>
       <bounds
-          x="372"
-          y="96"
+          x="408"
+          y="72"
           width="120"
           height="55"/>
       <archimateElement
@@ -206,8 +216,8 @@
             href="AssociationRelationship_d07838a4-df44-489b-bb3a-e702a5490f09.xml#d07838a4-df44-489b-bb3a-e702a5490f09"/>
       </sourceConnections>
       <bounds
-          x="168"
-          y="96"
+          x="204"
+          y="72"
           width="120"
           height="55"/>
       <archimateElement
@@ -228,16 +238,31 @@
           source="13397bd2-8e50-43fb-9f38-da9e0e0b00db"
           target="8cf8ebde-1727-46ac-8ef7-84cf992d2d7a">
         <bendpoints
-            startX="-144"
-            startY="-3"
-            endY="-99"/>
+            startX="-96"
+            startY="21"
+            endX="96"
+            endY="-75"/>
+        <bendpoints
+            startX="-96"
+            startY="69"
+            endX="96"
+            endY="-3"/>
         <archimateRelationship
             xsi:type="archimate:AssociationRelationship"
             href="AssociationRelationship_9a1dd97a-276a-4b6a-9123-cee4e00e811a.xml#9a1dd97a-276a-4b6a-9123-cee4e00e811a"/>
       </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-29705e496ec24b14a237c72d71b5bd55"
+          source="13397bd2-8e50-43fb-9f38-da9e0e0b00db"
+          target="id-7ca40fc19fd44d54876f26d7fb11595f">
+        <archimateRelationship
+            xsi:type="archimate:AssociationRelationship"
+            href="AssociationRelationship_7d17eefa-b8fd-478f-94e3-bd9691d4ae84.xml#7d17eefa-b8fd-478f-94e3-bd9691d4ae84"/>
+      </sourceConnections>
       <bounds
-          x="168"
-          y="204"
+          x="204"
+          y="180"
           width="120"
           height="55"/>
       <archimateElement
@@ -253,8 +278,8 @@
         fillColor="#0099cc"
         textPosition="1">
       <bounds
-          x="24"
-          y="300"
+          x="12"
+          y="276"
           width="120"
           height="55"/>
       <archimateElement
@@ -321,8 +346,8 @@
             href="AssociationRelationship_08366760-5959-4bf4-aa7f-70ecc7a1b452.xml#08366760-5959-4bf4-aa7f-70ecc7a1b452"/>
       </sourceConnections>
       <bounds
-          x="372"
-          y="300"
+          x="408"
+          y="276"
           width="120"
           height="55"/>
       <archimateElement
@@ -347,8 +372,8 @@
             href="AssociationRelationship_f676d1b1-a8ab-47e1-bf29-a58609dc49a8.xml#f676d1b1-a8ab-47e1-bf29-a58609dc49a8"/>
       </sourceConnections>
       <bounds
-          x="588"
-          y="300"
+          x="624"
+          y="276"
           width="120"
           height="55"/>
       <archimateElement
@@ -396,8 +421,8 @@
             href="AssociationRelationship_0cd93768-824b-4fe7-8ee6-73e951384814.xml#0cd93768-824b-4fe7-8ee6-73e951384814"/>
       </sourceConnections>
       <bounds
-          x="588"
-          y="96"
+          x="624"
+          y="72"
           width="120"
           height="55"/>
       <archimateElement
@@ -413,8 +438,8 @@
         fillColor="#e19900"
         textPosition="1">
       <bounds
-          x="780"
-          y="96"
+          x="816"
+          y="72"
           width="120"
           height="55"/>
       <archimateElement
@@ -429,8 +454,8 @@
         fontColor="#ffffff"
         fillColor="#6c9200">
       <bounds
-          x="372"
-          y="396"
+          x="408"
+          y="372"
           width="120"
           height="55"/>
       <archimateElement
@@ -445,8 +470,8 @@
         fontColor="#ffffff"
         fillColor="#6c9200">
       <bounds
-          x="588"
-          y="396"
+          x="624"
+          y="372"
           width="120"
           height="55"/>
       <archimateElement
@@ -470,8 +495,8 @@
             href="SpecializationRelationship_c5815f1b-34d9-4fb1-bd6d-90dcc682ddbe.xml#c5815f1b-34d9-4fb1-bd6d-90dcc682ddbe"/>
       </sourceConnections>
       <bounds
-          x="168"
-          y="300"
+          x="204"
+          y="276"
           width="120"
           height="55"/>
       <archimateElement
@@ -487,8 +512,8 @@
         fillColor="#e19900"
         textPosition="1">
       <bounds
-          x="780"
-          y="300"
+          x="816"
+          y="276"
           width="120"
           height="55"/>
       <archimateElement
@@ -513,8 +538,8 @@
             href="SpecializationRelationship_2253efd0-1214-4871-b1ab-5b8c620f1684.xml#2253efd0-1214-4871-b1ab-5b8c620f1684"/>
       </sourceConnections>
       <bounds
-          x="24"
-          y="396"
+          x="12"
+          y="372"
           width="120"
           height="55"/>
       <archimateElement
@@ -547,13 +572,30 @@
             href="AssociationRelationship_17d03e47-6176-4107-a284-09df226f9f9c.xml#17d03e47-6176-4107-a284-09df226f9f9c"/>
       </sourceConnections>
       <bounds
-          x="780"
-          y="204"
+          x="816"
+          y="180"
           width="120"
           height="55"/>
       <archimateElement
           xsi:type="archimate:DataObject"
           href="DataObject_id-6631b3bcf2db421ba1e7027533d6fc80.xml#id-6631b3bcf2db421ba1e7027533d6fc80"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-7ca40fc19fd44d54876f26d7fb11595f"
+        targetConnections="id-4d19a0cc9ae8400da783f5aed4dbc857 id-29705e496ec24b14a237c72d71b5bd55"
+        font="1|Segoe UI|9.0|1|WINDOWS|1|-21|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
+        fontColor="#ffffff"
+        fillColor="#0099cc"
+        textPosition="1">
+      <bounds
+          x="12"
+          y="180"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:DataObject"
+          href="DataObject_94e308a8-acdf-4ae0-9755-0c61340b907f.xml#94e308a8-acdf-4ae0-9755-0c61340b907f"/>
     </children>
     <archimateElement
         xsi:type="archimate:DataObject"
@@ -564,7 +606,7 @@
       id="f6a53c8b-f218-4f5a-963b-968e823827b7"
       textAlignment="1">
     <bounds
-        x="720"
+        x="756"
         y="-48"
         width="180"
         height="325"/>

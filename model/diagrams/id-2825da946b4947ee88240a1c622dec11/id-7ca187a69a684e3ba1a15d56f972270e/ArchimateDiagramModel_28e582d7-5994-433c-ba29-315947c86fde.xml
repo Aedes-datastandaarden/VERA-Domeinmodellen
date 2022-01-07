@@ -3,6 +3,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Kwaliteitsmetingsverzoeken"
     id="28e582d7-5994-433c-ba29-315947c86fde"
+    documentation="====Definitie====&#xD;&#xA;Doorgeven van een kwaliteitsmetingverzoek aan Kwaliteitsmeting&#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;Vanuit diverse bedrijfsprocessen kan een verzoek gedaan worden om een kwaliteitsmeting uit te voeren bij een relatie. Dit bericht bevat de informatie die nodig is om verwerkt te worden door het bedrijfsproces Kwaliteitsmeting. Het bedrijfsproces Kwaliteitsmeting bepaald aan de hand van business logica of en zo ja welke enquete wordt afgenomen bij de relatie.  &#xD;&#xA; &#xD;&#xA;====Voorbeelden====&#xD;&#xA;Voorbeeld 1: Tijdens de uitvoering van een onderhoudsverzoek heeft de timmerman de klemmende deur gerepareerd. Bij het technisch gereedmelden van het onderhoudsverzoek doet de corporatie een kwaliteitsmetingsverzoek om bij de betreffende huurder de ervaring op te halen over de uitvoering van de technische werkzaamheden&#xD;&#xA;Voorbeeld 2: In het verhuurmutatieproces wordt bij de afwikkeling een kwaliteitsmetingverzoek gedaan om bij de vertrekkende huurder de ervaring op te halen over de afhandeling van de verhuurmutatie&#xD;&#xA;Voorbeeld 3: In het verhuurmutatieproces wordt bij de afwikkeling een kwaliteistmetingverzoek gedaan om bij de nieuwe huurder  de ervaring op te halen van de oplevering van de woning&#xD;&#xA;Voorbeeld 4:  Binnen het domein Projectontwikkeling kunnen -afhankelijk van het type project- op meerdere momenten metingen worden gedaan naar de mening van bewoners/huurders/belanghebbenden."
     viewpoint="information_structure">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
@@ -176,21 +177,6 @@
         textPosition="1">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
-          id="id-f03386ba5bcc4df3906a69435e271d72"
-          font="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|0|3|2|1|34|Segoe UI"
-          source="id-b531ea8abe604df5bf3e9867bcc5245a"
-          target="id-fd1d25fe40a946779d2228d19db39091">
-        <bendpoints
-            startX="327"
-            startY="-14"
-            endX="3"
-            endY="-122"/>
-        <archimateRelationship
-            xsi:type="archimate:AssociationRelationship"
-            href="AssociationRelationship_id-0dc2cb32e10a40ac85f60d9747caa89f.xml#id-0dc2cb32e10a40ac85f60d9747caa89f"/>
-      </sourceConnections>
-      <sourceConnections
-          xsi:type="archimate:DiagramModelArchimateConnection"
           id="0e68dc0b-f20c-4b5d-a14d-130487aceb72"
           font="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|0|3|2|1|34|Segoe UI"
           source="id-b531ea8abe604df5bf3e9867bcc5245a"
@@ -279,6 +265,21 @@
             xsi:type="archimate:AssociationRelationship"
             href="AssociationRelationship_2ba5f732-b84d-4067-ac5e-4e0759ab63a6.xml#2ba5f732-b84d-4067-ac5e-4e0759ab63a6"/>
       </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-f03386ba5bcc4df3906a69435e271d72"
+          font="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|0|3|2|1|34|Segoe UI"
+          source="id-b531ea8abe604df5bf3e9867bcc5245a"
+          target="id-d5700a6c263240f79ad8826b3932365c">
+        <bendpoints
+            startX="326"
+            startY="-15"
+            endX="2"
+            endY="-219"/>
+        <archimateRelationship
+            xsi:type="archimate:AssociationRelationship"
+            href="AssociationRelationship_id-0dc2cb32e10a40ac85f60d9747caa89f.xml#id-0dc2cb32e10a40ac85f60d9747caa89f"/>
+      </sourceConnections>
       <bounds
           x="360"
           y="48"
@@ -291,23 +292,13 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-fd1d25fe40a946779d2228d19db39091"
-        targetConnections="id-25d7128cdd894b3091c53e0e6d686c78 id-f03386ba5bcc4df3906a69435e271d72"
+        targetConnections="id-25d7128cdd894b3091c53e0e6d686c78 id-84453b505c004b8a82313263d97cc9f0"
         font="1|Segoe UI|9.0|1|WINDOWS|1|-12|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
         fontColor="#ffffff"
         fillColor="#0099cc"
         textPosition="1">
-      <sourceConnections
-          xsi:type="archimate:DiagramModelArchimateConnection"
-          id="id-20eddf65fa3b478cbab4acbe258c105a"
-          font="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|0|3|2|1|34|Segoe UI"
-          source="id-fd1d25fe40a946779d2228d19db39091"
-          target="id-d5700a6c263240f79ad8826b3932365c">
-        <archimateRelationship
-            xsi:type="archimate:AssociationRelationship"
-            href="AssociationRelationship_cd120a8b-233f-4da7-9558-17bdb7232fce.xml#cd120a8b-233f-4da7-9558-17bdb7232fce"/>
-      </sourceConnections>
       <bounds
-          x="684"
+          x="900"
           y="156"
           width="120"
           height="55"/>
@@ -318,7 +309,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-d5700a6c263240f79ad8826b3932365c"
-        targetConnections="id-20eddf65fa3b478cbab4acbe258c105a id-e20b6e79770f4b22872846caaa8540d0 15d7991d-9d8c-4775-9a05-5704d9f4644f c5b63335-4ab1-4c1e-aff2-181d96c0aea9 fd2899d8-f19d-4e88-882b-768e881e913a"
+        targetConnections="id-e20b6e79770f4b22872846caaa8540d0 15d7991d-9d8c-4775-9a05-5704d9f4644f c5b63335-4ab1-4c1e-aff2-181d96c0aea9 fd2899d8-f19d-4e88-882b-768e881e913a id-f03386ba5bcc4df3906a69435e271d72"
         font="1|Segoe UI|9.0|1|WINDOWS|1|-12|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
         fontColor="#ffffff"
         fillColor="#0099cc"
@@ -332,6 +323,20 @@
         <archimateRelationship
             xsi:type="archimate:AssociationRelationship"
             href="AssociationRelationship_9a1dd97a-276a-4b6a-9123-cee4e00e811a.xml#9a1dd97a-276a-4b6a-9123-cee4e00e811a"/>
+      </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-84453b505c004b8a82313263d97cc9f0"
+          source="id-d5700a6c263240f79ad8826b3932365c"
+          target="id-fd1d25fe40a946779d2228d19db39091">
+        <bendpoints
+            startX="38"
+            startY="-87"
+            endX="-178"
+            endY="9"/>
+        <archimateRelationship
+            xsi:type="archimate:AssociationRelationship"
+            href="AssociationRelationship_7d17eefa-b8fd-478f-94e3-bd9691d4ae84.xml#7d17eefa-b8fd-478f-94e3-bd9691d4ae84"/>
       </sourceConnections>
       <bounds
           x="684"

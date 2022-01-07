@@ -1,11 +1,7 @@
 <archimate:DataObject
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="OHD: BouwkundigElementen"
-    id="0aa3c934-1a11-49fe-a67c-12bf54ee83fa"
-    documentation="====Definitie====&#xD;&#xA;Doorgeven van een bouwkundige element ter kennisgeving.&#xD;&#xA;Dit kan zowel de volledige onderhoudsorder als een onderhoudsorder statusmutatie betreffen.&#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;De onderhoudsfunctie geeft een wijziging van bouwkundige elementen door aan de bedrijfsfunctie 'Beheren vastgoedgegevens'.&#xD;&#xA;&#xD;&#xA;====Voorbeelden====&#xD;&#xA;#&#x9;Scenario&#xD;&#xA;*&#x9;Als onderhoudsfunctie wil ik bedrijfsfunctie 'Beheren vastgoedgegevens' op de hoogte stellen van gewijzigde elementen als gevolg van het uitvoeren van de onderhoudsorder.">
-  <properties
-      key="Objecttype"
-      value="Bericht"/>
+    id="0aa3c934-1a11-49fe-a67c-12bf54ee83fa">
   <properties
       key="Code"
       value="OHDBOU"/>

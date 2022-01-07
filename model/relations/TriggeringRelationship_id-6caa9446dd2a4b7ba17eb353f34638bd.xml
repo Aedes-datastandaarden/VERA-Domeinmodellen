@@ -4,6 +4,12 @@
     name="Synchroniseren CollectieveObjecten"
     id="id-6caa9446dd2a4b7ba17eb353f34638bd"
     documentation="Ophalen van collectieve objecten &#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;Een het klantbedieningsysteem kan het gewenst zijn om de collectief objecten te synchroniseren met de eigen applicatie. Met dit synchronisatiebericht kunnen wijzigingen en nieuwe collectieve objecten door het bedrijfsproces Beheren Vastgoedgegevens aangeboden worden.&#xD;&#xA;&#xD;&#xA;====Scenario's====&#xD;&#xA;Primair&#xD;&#xA;* Als Klantbedieningsysteem wil ik de collectieve objecten synchroniseren zodat een optimale ondersteuning kan worden geleverd in het klantbedieningsproces.">
+  <properties
+      key="Objecttype"
+      value="Trigger"/>
+  <properties
+      key="Resource"
+      value="OHD:CollectiefObjecten"/>
   <source
       xsi:type="archimate:BusinessProcess"
       href="BusinessProcess_id-c0bacb9667c84941bfe978a60d6ac0dc.xml#id-c0bacb9667c84941bfe978a60d6ac0dc"/>

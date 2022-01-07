@@ -4,6 +4,9 @@
     name="Doorgeven factuur voor huurder"
     id="id-628de785a0d3494c95abb7beb98f23a9"
     documentation="Voor het doorgeven van de factuur bij kosten die doorbelast worden aan de huurder. &#xD;&#xA;&#xD;&#xA;Na uitvoering van de onderhoudsorder wordt de factuur door de debiteurenfunctie binnen bedrijfsproces ‘Leveren financiële dienstverlening’ doorgegeven aan Klantbediening. ">
+  <properties
+      key="Objecttype"
+      value="Trigger"/>
   <source
       xsi:type="archimate:BusinessProcess"
       href="BusinessProcess_id-de458e35ead34c6398d22ca240e5384f.xml#id-de458e35ead34c6398d22ca240e5384f"/>

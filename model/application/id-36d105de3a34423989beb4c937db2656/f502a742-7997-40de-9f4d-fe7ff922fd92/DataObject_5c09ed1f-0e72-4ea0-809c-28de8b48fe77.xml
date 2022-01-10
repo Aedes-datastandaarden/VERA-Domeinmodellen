@@ -1,6 +1,6 @@
 <archimate:DataObject
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="BoekingDetail"
+    name="Boekingdetail"
     id="5c09ed1f-0e72-4ea0-809c-28de8b48fe77"
     documentation="====Definitie====&#xD;&#xA;De detaillering van een financieel feit in verschillende detailregels.&#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;Een vordering of ontvangst  kan worden uitgesplitst naar een of meerdere detailregels, die samen het totaal van de boeking vormen.&#xD;&#xA;&#xD;&#xA;====Voorbeelden====&#xD;&#xA;Uren en materialen in het kader van mutatieonderhoud.">
   <properties
@@ -12,4 +12,7 @@
   <properties
       key="Domein"
       value="Financiën"/>
+  <properties
+      key="Resource"
+      value="VERA:Boekingdetails"/>
 </archimate:DataObject>

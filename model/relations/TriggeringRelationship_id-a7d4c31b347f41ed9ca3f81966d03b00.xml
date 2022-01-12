@@ -1,0 +1,12 @@
+<archimate:TriggeringRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Doorgeven fasedocument"
+    id="id-a7d4c31b347f41ed9ca3f81966d03b00">
+  <source
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_id-e04093b17c6747769a668f7e9af84278.xml#id-e04093b17c6747769a668f7e9af84278"/>
+  <target
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_id-5fd33b7c34714d188678b907949977fa.xml#id-5fd33b7c34714d188678b907949977fa"/>
+</archimate:TriggeringRelationship>

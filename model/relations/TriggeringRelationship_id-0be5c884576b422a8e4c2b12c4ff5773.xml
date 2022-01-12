@@ -1,0 +1,12 @@
+<archimate:TriggeringRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="In exploitatie nemen vastgoed"
+    id="id-0be5c884576b422a8e4c2b12c4ff5773">
+  <source
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_id-c0bacb9667c84941bfe978a60d6ac0dc.xml#id-c0bacb9667c84941bfe978a60d6ac0dc"/>
+  <target
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_id-c88f9d2852a449c383e77840cfa4ee68.xml#id-c88f9d2852a449c383e77840cfa4ee68"/>
+</archimate:TriggeringRelationship>

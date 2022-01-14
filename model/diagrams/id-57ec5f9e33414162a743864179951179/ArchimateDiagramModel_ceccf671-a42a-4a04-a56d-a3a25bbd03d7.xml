@@ -297,7 +297,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-8715cd5e986c40458e2b4e7536c96814"
-        targetConnections="id-5198c125066f452b8e76fa8a87758045 id-519ef9ed62e541af978ea4617d1773b6 id-f11ba69600184ea5a008ad55a27ac269 id-0081173a9b304466bd779e277211ec52 id-71e46714f54343e28f70611e98ebd747 id-11f6f626b16e4486afea935ef88aaa1c"
+        targetConnections="id-5198c125066f452b8e76fa8a87758045 id-519ef9ed62e541af978ea4617d1773b6 id-f11ba69600184ea5a008ad55a27ac269 id-0081173a9b304466bd779e277211ec52 id-71e46714f54343e28f70611e98ebd747 id-11f6f626b16e4486afea935ef88aaa1c id-93746067b5ac451086d955c54147c113"
         font="1|Segoe UI|12.0|1|WINDOWS|1|-16|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
         fontColor="#ffffff"
         fillColor="#7a7c79"
@@ -392,6 +392,11 @@
           id="id-f01c5096c0c746ff9bb4cdd5d4a869f9"
           source="id-8715cd5e986c40458e2b4e7536c96814"
           target="id-0183053c23a74edf8088cde45c182002">
+        <bendpoints
+            startX="284"
+            startY="-60"
+            endX="-176"
+            endY="28"/>
         <archimateRelationship
             xsi:type="archimate:AssociationRelationship"
             href="AssociationRelationship_id-0cf748cf2ef64466bd0d537869bc2f47.xml#id-0cf748cf2ef64466bd0d537869bc2f47"/>
@@ -1334,6 +1339,15 @@
         <archimateRelationship
             xsi:type="archimate:AssociationRelationship"
             href="AssociationRelationship_id-d80d8a549c8b4fa89010bcd5cc46349f.xml#id-d80d8a549c8b4fa89010bcd5cc46349f"/>
+      </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-93746067b5ac451086d955c54147c113"
+          source="id-0183053c23a74edf8088cde45c182002"
+          target="id-8715cd5e986c40458e2b4e7536c96814">
+        <archimateRelationship
+            xsi:type="archimate:AssociationRelationship"
+            href="AssociationRelationship_id-dfdf03c7fdec4ad8b86bbcd7a604a003.xml#id-dfdf03c7fdec4ad8b86bbcd7a604a003"/>
       </sourceConnections>
       <bounds
           x="1290"

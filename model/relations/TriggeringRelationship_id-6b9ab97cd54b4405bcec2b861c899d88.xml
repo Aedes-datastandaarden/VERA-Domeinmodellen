@@ -1,18 +1,18 @@
 <archimate:TriggeringRelationship
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Doorgeven Offerteverzoek"
+    name="Doorgeven Offerte"
     id="id-6b9ab97cd54b4405bcec2b861c899d88"
-    documentation="Voor het doorgeven van het offerteverzoek.&#xD;&#xA;&#xD;&#xA;Het bedrijfsproces 'Regisseren onderhoud' zal in sommige situaties een offerte opvragen voor het geven van de opdracht. Vanuit ‘Regisseren onderhoud’ wil ik de offerte van de onderhoudsfunctie als prijsopgave doorgeven aan ‘Leveren financiële dienstverlening’, zodat deze aan Klantbediening overlegd kan worden waarop de klant akkoord op de reparatie kan geven.">
+    documentation="Doorgeven van de offerte voor de huurder &#xD;&#xA;&#xD;&#xA;==== Toelichting ====&#xD;&#xA;Het bedrijfsproces 'Regisseren onderhoud' zal in sommige situaties een offerte opvragen voor het geven van de opdracht. Daarnaast kunnen ook kosten in rekening gebracht worden bij de huurder omdat de huurder zelf verantwoordelijk is voor een gemeld defect. Deze kosten moeten via het bedrijfsproces Leveren Financiele Diensten voorgelegd worden aan de huurder door het bedrijfsproces Bediening Klant.&#xD;&#xA;&#xD;&#xA;====Scenario's====&#xD;&#xA;Primair&#xD;&#xA;* Als onderhoudsfunctie wil ik een offerte als prijsopgave doorgeven aan ‘Leveren financiële dienstverlening’ zodat deze aan Klantbediening overlegd kan worden waarop de klant akkoord op de reparatie kan geven.">
   <properties
-      key="Type"
+      key="Objecttype"
       value="Trigger"/>
   <properties
-      key="Code"
-      value="OHDT10 "/>
-  <properties
       key="Bericht"
-      value="Offerte Synchroniseren"/>
+      value="Offerte doorgeven"/>
+  <properties
+      key="Resource"
+      value="OHD:Offertes"/>
   <source
       xsi:type="archimate:BusinessProcess"
       href="BusinessProcess_id-2494a6faa7d64f3ebea009da00882b5e.xml#id-2494a6faa7d64f3ebea009da00882b5e"/>

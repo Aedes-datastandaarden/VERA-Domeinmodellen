@@ -1,0 +1,22 @@
+<archimate:TriggeringRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Opvragen Debiteur"
+    id="id-36154164bf3645c38cf29ed4c2219eda"
+    documentation="Het opvragen van de debiteurgegevens.&#xD;&#xA;&#xD;&#xA;==== Toelichting ====&#xD;&#xA;Het is gewenst om bij klantcontacten met een relatie de debiteurgegevens van de klant beschikbaar te hebben om bijvoorbeeld de openstaande posten op te halen of een incassomachtiging op te voeren..&#xD;&#xA;&#xD;&#xA;====Scenario's====&#xD;&#xA;Primair&#xD;&#xA;* Als medewerker klantbediening wil ik de debiteurgegevens opvragen om op basis daarvan andere financiele informatie van de klant op te vragen.&#xD;&#xA;">
+  <properties
+      key="Objecttype"
+      value="Trigger"/>
+  <properties
+      key="Bericht"
+      value="Opvragen debiteurgegegevens"/>
+  <properties
+      key="Resource"
+      value="BFG:Debiteuren"/>
+  <source
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_id-a6de887b920047a086a65f4076042e55.xml#id-a6de887b920047a086a65f4076042e55"/>
+  <target
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_00312b09-1d77-4831-965b-cdfd0860f411.xml#00312b09-1d77-4831-965b-cdfd0860f411"/>
+</archimate:TriggeringRelationship>

@@ -3,16 +3,16 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Doorgeven Inspectierapport"
     id="id-653f5f97d924422298012686342bb9ca"
-    documentation="Voor het doorgeven van het opgestelde inspectierapport.&#xD;&#xA;&#xD;&#xA;De inspectiefunctie geeft het resultaat van het inspectieverzoek door aan de bedrijfsfunctie 'Regisseren onderhoud'.">
+    documentation="Doorgeven van een nieuw of gewijzigd inspectierapport&#xD;&#xA;&#xD;&#xA;==== Toelichting ====&#xD;&#xA;Nadat de inspectie is afgerond geeft de inspectiefunctie het resultaat van het inspectieverzoek door aan de bedrijfsfunctie 'Regisseren onderhoud'. Ook is het mogelijk om een gewijzigd inspectierapport aan te bieden aan Regisseren Onderhoud na bijvoorbeeld gevraagde aanpassingen door de onderhoudsfunctie.&#xD;&#xA;&#xD;&#xA;====Scenario's====&#xD;&#xA;Primair&#xD;&#xA;* Als onderhoudscontrole functie wil ik het resultaat van een mutatieinspectie doorgeven aan het bedrijfsproces Regisseren Onderhoud zodat op basis daarvan vervolgacties kunnen worden gepland.&#xD;&#xA;* Als onderhoudscontrole functie wil ik het resultaat van een inspectie voor een reparatieverzoek doorgeven aan het bedrijfsproces Regisseren Onderhoud zodat op basis daarvan vervolgacties kunnen worden gepland.&#xD;&#xA;* Als onderhoudscontrole functie wil ik het resultaat van een steekproef doorgeven aan het bedrijfsproces Regisseren Onderhoud zodat op basis daarvan vervolgacties kunnen worden gepland.&#xD;&#xA;&#xD;&#xA;Secundair&#xD;&#xA;* Als onderhoudscontrole functie wil ik de wijzigingen in het inspectierapport in zijn geheel opnieuw aanbieden aan het bedrijfsproces Regisseren Onderhoud zodat op basis daarvan vervolgacties kunnen worden gepland.">
   <properties
-      key="Type"
+      key="Objecttype"
       value="Trigger"/>
   <properties
-      key="Code"
-      value="OHDT08 "/>
-  <properties
       key="Bericht"
-      value="Inspectierapport Synchroniseren"/>
+      value="Inspectierapport doorgeven"/>
+  <properties
+      key="Resource"
+      value="OHD:Inspectierapporten"/>
   <source
       xsi:type="archimate:BusinessProcess"
       href="BusinessProcess_id-c1400309529f44d09b586b594ea80691.xml#id-c1400309529f44d09b586b594ea80691"/>

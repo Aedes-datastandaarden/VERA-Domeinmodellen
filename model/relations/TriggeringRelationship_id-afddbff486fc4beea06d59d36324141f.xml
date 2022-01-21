@@ -1,0 +1,22 @@
+<archimate:TriggeringRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Doorgeven Informatieobject"
+    id="id-afddbff486fc4beea06d59d36324141f"
+    documentation="Doorgeven van nieuwe of gewijzigde informatieobjecten.&#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;In het proces Bediening Klant is het gewenst om documenten of ander informatieobjecten door te geven (uploaden) aan het document management systeem. &#xD;&#xA;&#xD;&#xA;====Scenario's====&#xD;&#xA;* Als corporatie wil ik dat door de huurder geuploade documenten in een DMS worden opgeslagen.">
+  <properties
+      key="Bericht"
+      value="Informatieobject doorgeven"/>
+  <properties
+      key="Objecttype"
+      value="Trigger"/>
+  <properties
+      key="Resource"
+      value="BDO:Informatieobjecten"/>
+  <source
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_id-a6de887b920047a086a65f4076042e55.xml#id-a6de887b920047a086a65f4076042e55"/>
+  <target
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_id-dc636dbc60ef4675a5bd4b7359a9c537.xml#id-dc636dbc60ef4675a5bd4b7359a9c537"/>
+</archimate:TriggeringRelationship>

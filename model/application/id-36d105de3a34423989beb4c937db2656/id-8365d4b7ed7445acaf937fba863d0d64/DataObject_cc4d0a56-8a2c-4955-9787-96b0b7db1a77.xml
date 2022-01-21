@@ -2,14 +2,14 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Projectbesteding"
     id="cc4d0a56-8a2c-4955-9787-96b0b7db1a77"
-    documentation="====Definitie====&#xD;&#xA;Bestedingen in uren en/of geld, vergelijkbaar met bestedingen in het onderhoudsdomein.&#xD;&#xA;">
+    documentation="====Definitie====&#xD;&#xA;Een projectbesteding geeft informatie over de besteding van middelen en tijd betreffende de uitvoering van een projecttaak.&#xD;&#xA;Het betreft de registratie van het verbruikte middel (materiaal, materieel, diensten) in 'fysieke' termen van aantallen en hoeveelheden. De financiële vertaling van een besteding (financiële realisatie) is een grootboekmutatie en zit in het domein Financiën.&#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;Projectbestedingen worden vastgelegd door de uitvoerende(n) van de taken c.q. de werkzaamheden. Proejctbestedingen kunnen reistijd en werktijd zijn alsmede de kosten van ver-/gebruikte materialen bij de uitvoering van de onderhoudstaak. Als taken uitgevoerd worden door een externe partij dan zal altijd een projectorder (i.e. een inkoopopdracht) gegeven worden.&#xD;&#xA;&#xD;&#xA;====Voorbeelden====&#xD;&#xA;Voorbeeld: De (intern) projectleider heeft 4 uur werktijd geboekt op het project, betreffende coördinerende werkzaamheden. &#xD;&#xA;">
   <properties
       key="Objecttype"
       value="Klasse"/>
   <properties
-      key="Mnenomic"
-      value="PROBST"/>
-  <properties
       key="Domein"
       value="Projectontwikkeling"/>
+  <properties
+      key="Resource"
+      value="VERA:Projectbestedingen"/>
 </archimate:DataObject>

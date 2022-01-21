@@ -1,0 +1,22 @@
+<archimate:TriggeringRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Doorgeven Zaak"
+    id="id-fa5a960c8a454a7894f872650cdd5332"
+    documentation="Doorgeven van een zaak&#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;Bij de afhandeling van klantcontacten ontstaan zaken die afgehandeld moeten worden vanuit het proces Beheren Caseload. Zo kan een zaak ontstaan tijdens een telefoongesprek en afgehandeld worden door een medewerker die verantwoordelijk is voor het afhandelen van sociale klachten.&#xD;&#xA;&#xD;&#xA;====Scenario's====&#xD;&#xA;* Als klantbediening wil ik een zaak aanmaken voor een sociale klacht van de klant zodat deze intern verder opgepakt kan worden. &#xD;&#xA;* Als klantbediening wil ik informatie toevoegen aan een zaak waarin een uitstaande klantvraag wordt afgehandeld zodat hier het juiste vervolg op gegeven kan worden.">
+  <properties
+      key="Bericht"
+      value="Zaak doorgeven"/>
+  <properties
+      key="Objecttype"
+      value="Trigger"/>
+  <properties
+      key="Resource"
+      value="BDO:Zaken"/>
+  <source
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_id-a6de887b920047a086a65f4076042e55.xml#id-a6de887b920047a086a65f4076042e55"/>
+  <target
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_id-f0ac7436477b4038a078eadd1bd913fe.xml#id-f0ac7436477b4038a078eadd1bd913fe"/>
+</archimate:TriggeringRelationship>

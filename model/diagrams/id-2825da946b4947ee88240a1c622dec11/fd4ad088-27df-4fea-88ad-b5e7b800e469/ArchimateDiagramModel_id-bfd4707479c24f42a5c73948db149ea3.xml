@@ -1,8 +1,10 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Debiteurgegevens opvragen - versie 4.0"
-    id="id-bfd4707479c24f42a5c73948db149ea3">
+    name="Debiteuren"
+    id="id-bfd4707479c24f42a5c73948db149ea3"
+    documentation="====Definitie====&#xD;&#xA;Opvragen van debiteurgegeven en het aanmaken / wijzigen van een incassomachtiging.&#xD;&#xA;"
+    viewpoint="information_structure">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-6cb223d5924a40bc9c744eaec9de4456"
@@ -28,7 +30,7 @@
     <bounds
         x="12"
         y="12"
-        width="289"
+        width="205"
         height="325"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
@@ -47,8 +49,8 @@
             href="AssociationRelationship_id-06daf684ba774c868e8bcd050da90a5d.xml#id-06daf684ba774c868e8bcd050da90a5d"/>
       </sourceConnections>
       <bounds
-          x="72"
-          y="60"
+          x="36"
+          y="48"
           width="120"
           height="55"/>
       <archimateElement
@@ -63,8 +65,8 @@
         fillColor="#ffff66"
         textPosition="1">
       <bounds
-          x="72"
-          y="198"
+          x="36"
+          y="186"
           width="120"
           height="55"/>
       <archimateElement
@@ -80,7 +82,7 @@
       id="id-7adf975c85f647f8a60eb569da9bfbfd"
       textAlignment="1">
     <bounds
-        x="312"
+        x="228"
         y="12"
         width="180"
         height="325"/>
@@ -291,4 +293,10 @@
   <properties
       key="Objecttype"
       value="Bericht"/>
+  <properties
+      key="Resource"
+      value="BFG:Debiteuren"/>
+  <properties
+      key="Procesketen"
+      value="Beheer Financiele gegevens"/>
 </archimate:ArchimateDiagramModel>

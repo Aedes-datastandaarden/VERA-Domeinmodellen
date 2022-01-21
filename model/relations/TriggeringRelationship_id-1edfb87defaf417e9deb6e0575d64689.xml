@@ -3,16 +3,16 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Kandidaat afgewezen"
     id="id-1edfb87defaf417e9deb6e0575d64689"
-    documentation="Voor het doorgeven van een afwijzing van een kandidaat voor een toewijzing van een eenheid.&#xD;&#xA;&#xD;&#xA;Aangezien bij ondertekening van de huurovereenkomst het alsnog kan mis gaan wordt in dit scenario het woonruimteverdeelsysteem direct geïnformeerd over de afwijzing van de kandidaat (huurder) door het vastgoedsysteem.&#xD;&#xA;Het woonruimte verdeelsysteem kan hiermee het woonruimte verdeelproces door laten gaan met een eventueel volgende kandidaat of wachten tot een toegewezen kandidaat wordt ontvangen. &#xD;&#xA;Bijvoorbeeld: Huurder heeft de huurovereenkomst getekend en de sleutels ontvangen. Na het ontvangen van de eerste huurpenningen wordt de toewijzing definitief en de 'zaak' afgesloten. Deze afsluiting wordt doorgegeven aan het woonruimteverdeelsysteem. &#xD;&#xA;&#xD;&#xA;==== Scenario's ====&#xD;&#xA;Primair&#xD;&#xA;*&#x9;Als vastgoedaanbieder wil ik een afgewezen kandidaat aan het woonruimteverdeelsysteem doorgeven zodat de woonruimteverdeler indien gewenst nieuwe kandidaten kan leveren.&#x9;&#xD;&#xA;&#xD;&#xA;">
+    documentation="Voor het doorgeven van een afwijzing van een kandidaat voor een toewijzing van een eenheid.&#xD;&#xA;&#xD;&#xA;==== Toelichting ====&#xD;&#xA;Aangezien bij ondertekening van de huurovereenkomst het alsnog kan mis gaan wordt in dit scenario het woonruimteverdeelsysteem direct geïnformeerd over de afwijzing van de kandidaat (huurder) door het vastgoedsysteem.&#xD;&#xA;Het woonruimte verdeelsysteem kan hiermee het woonruimte verdeelproces door laten gaan met een eventueel volgende kandidaat of wachten tot een toegewezen kandidaat wordt ontvangen. &#xD;&#xA;Bijvoorbeeld: Huurder heeft de huurovereenkomst getekend en de sleutels ontvangen. Na het ontvangen van de eerste huurpenningen wordt de toewijzing definitief en de 'zaak' afgesloten. Deze afsluiting wordt doorgegeven aan het woonruimteverdeelsysteem. &#xD;&#xA;&#xD;&#xA;==== Scenario's ====&#xD;&#xA;Primair&#xD;&#xA;*&#x9;Als vastgoedaanbieder wil ik een afgewezen kandidaat aan het woonruimteverdeelsysteem doorgeven zodat de woonruimteverdeler indien gewenst nieuwe kandidaten kan leveren.&#x9;&#xD;&#xA;&#xD;&#xA;">
   <properties
       key="Objecttype"
       value="Trigger"/>
   <properties
-      key="Code"
-      value="WRVT07"/>
-  <properties
       key="Bericht"
       value="Kandidaten synchroniseren"/>
+  <properties
+      key="Resource"
+      value="WRV:Kandidaten"/>
   <source
       xsi:type="archimate:BusinessProcess"
       href="BusinessProcess_id-7aa2f305e5d44ec58e6e88b757396ce6.xml#id-7aa2f305e5d44ec58e6e88b757396ce6"/>

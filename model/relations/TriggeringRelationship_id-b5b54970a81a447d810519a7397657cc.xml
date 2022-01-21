@@ -1,0 +1,22 @@
+<archimate:TriggeringRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Opvragen Informatieobject"
+    id="id-b5b54970a81a447d810519a7397657cc"
+    documentation="Opvragen van informatieobjecten.&#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;In het proces Bediening Klant is het gewenst om digitale documenten of (index)kenmerken van deze documenten beschikbaar te hebben voor de uitvoering. Hierbij kan het gaan om digitale documenten als een huurovereenkomst maar ook om documenten als garantiecertificaten, facturen maar ook om vastgelegde notities en foto's bij een onderhoudsverzoek.&#xD;&#xA;&#xD;&#xA;====Scenario's====&#xD;&#xA;* Als huurder of woningzoekende wil ik foto's en plattegronden van woningen kunnen zien zodat ik een goed beeld krijg van de betreffende woning.&#xD;&#xA;* Als huurder of woningzoekende wil ik alle correspondentie die ik met de corporatie heb gehad kunnen inzien via het portaal zodat ik een compleet overzicht heb.&#xD;&#xA;">
+  <properties
+      key="Objecttype"
+      value="Trigger"/>
+  <properties
+      key="Resource"
+      value="BDO:Informatieobjecten"/>
+  <properties
+      key="Bericht"
+      value="Informatieobject opvragen"/>
+  <source
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_id-a6de887b920047a086a65f4076042e55.xml#id-a6de887b920047a086a65f4076042e55"/>
+  <target
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_id-dc636dbc60ef4675a5bd4b7359a9c537.xml#id-dc636dbc60ef4675a5bd4b7359a9c537"/>
+</archimate:TriggeringRelationship>

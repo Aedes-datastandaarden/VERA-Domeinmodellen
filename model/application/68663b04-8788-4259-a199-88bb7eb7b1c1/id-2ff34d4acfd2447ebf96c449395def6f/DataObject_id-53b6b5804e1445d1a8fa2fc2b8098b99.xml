@@ -1,11 +1,7 @@
 <archimate:DataObject
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="KMT: Kwaliteitsmetingsresultaat"
-    id="id-53b6b5804e1445d1a8fa2fc2b8098b99"
-    documentation="====Definitie====&#xD;&#xA;Doorgeven van de resultaten van de uitgevoere kwaliteitsmeting na analyse. &#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;Op basis van het kwaliteitsmetingverzoek is een vragenlijst vastgesteld/gekozen die voorgelegd is aan de relatie waar de kwaliteitsmeting gewenst was. De antwoorden van de relatie zijn verwerkt en geanalyseerd in het bedrijfsproces Kwaliteitsmeting. De resultaten van deze analyse is vastgelegd in het kwaliteitsmetingResultaat en kan door het bedrijfsproces die de kwaliteitsmeting heeft aangevraagd verder opgepakt worden.&#xD;&#xA;Naar aanleiding van deze analyse kan het bijvoorbeeld zijn dat er contact opgenomen moet worden met de relatie voor eventueel nazorg of herstelwerkzaamheden.&#xD;&#xA;&#xD;&#xA;====Voorbeelden====&#xD;&#xA;Voorbeeld 1: Naar aanleiding van een contactmoment is een vragenlijst aan huurder Jansen verstuurd. Het resultaat van deze enquete is teruggemeld bij het bedrijfsproces Klantbediening waarbij de huurder aangaf niet tevreden te zijn over het contact en graag hierover teruggebeld wordt&#xD;&#xA;Voorbeeld 2: Huurder Pietersen heeft aangegeven dat zijn antwoorden anoniem moeten worden behandeld. In de terugkoppeling naar het bedrijfsproces die de aanvraag deed moet het resultaat leeg blijven alsof de huurder niet heeft gereageerd.&#xD;&#xA;&#xD;&#xA;====Attributen====&#xD;&#xA;* code&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;string&#xD;&#xA;* omschrijving&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;string&#xD;&#xA;* kwaliteitsmetingsverzoek&#x9;&#x9;Link type Kwaliteitmetingsverzoek&#xD;&#xA;* onderzoeksopdracht&#x9;&#x9;&#x9;&#x9;Link type Onderzoeksopdracht&#xD;&#xA;* datumReactie&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;date&#xD;&#xA;* resultaatReactie&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;Referentiedata ResultaatReactie&#xD;&#xA;* beoordelingsSchaal&#x9;&#x9;&#x9;&#x9;Referentiedata BeoordelingsSchaal&#xD;&#xA;* beoordelingsWaarde&#x9;&#x9;&#x9;&#x9;string&#xD;&#xA;* toelichtingBeoordeling&#x9;&#x9;&#x9;string&#xD;&#xA;&#xD;&#xA;">
-  <properties
-      key="Objecttype"
-      value="Bericht"/>
+    name="KMT: Kwaliteitsmetingsresultaten"
+    id="id-53b6b5804e1445d1a8fa2fc2b8098b99">
   <properties
       key="Code"
       value="KMTKRE"/>

@@ -2,7 +2,17 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Omzetten plan naar Onderhoudsorders"
-    id="id-7cab9d38002d461aaab7820f5bb7f59d">
+    id="id-7cab9d38002d461aaab7820f5bb7f59d"
+    documentation="Doorgeven van nieuwe of gewijzigde onderhoudsorders voor uitvoering planmatig onderhoud. &#xD;&#xA;&#xD;&#xA;==== Toelichting ====&#xD;&#xA;Vanuit het bedrijfsproces Coordineren Project worden de jaarlijkse onderhoudsplannen (obv de MJOB) uitgewerkt in onderhoudsorders die uitgevoerd moeten worden door Regisseren onderhoud. &#xD;&#xA;&#xD;&#xA;====Scenario's====&#xD;&#xA;Primair&#xD;&#xA;* Als corporatie wil ik voor elk plan een onderhoudsorder doorgeven aan het bedrijfsproces Regisseren onderhoud zodat zij de uitvoering regisseren&#x9;">
+  <properties
+      key="Bericht"
+      value="Doorgeven onderhoudsorders"/>
+  <properties
+      key="Objecttype"
+      value="Trigger"/>
+  <properties
+      key="Resource"
+      value="OHD:Onderhoudsorders"/>
   <source
       xsi:type="archimate:BusinessProcess"
       href="BusinessProcess_id-bbdac381d01749d3b163827cf96afcec.xml#id-bbdac381d01749d3b163827cf96afcec"/>

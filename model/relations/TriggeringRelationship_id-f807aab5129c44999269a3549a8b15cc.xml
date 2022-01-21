@@ -3,20 +3,20 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Doorgeven statuswijziging Onderhoudsorder"
     id="id-f807aab5129c44999269a3549a8b15cc"
-    documentation="Voor het doorgeven van een statuswijziging aan de opdrachtgever van de Onderhoudsorder. &#xD;&#xA;&#xD;&#xA;De technisch uitvoerder van de onderhoudsorder geeft een wijziging door aan de onderhoudsfunctie en vice-versa. Mogelijke statussen zijn vastgesteld in de Referentiedata. Daarbij moet vastgesteld worden welke bedrijfsfunctie (opdrachtgevende of opdrachtnemende) actie dient te ondernemen op de onderhoudsorder. Zo kan de technisch uitvoerder een verzoek doen om de afrekenwijze aan te passen waarbij de onderhoudsfunctie hierover een besluit moet nemen.">
+    documentation="Doorgeven van een statuswijziging van een onderhoudsorder.&#xD;&#xA;&#xD;&#xA;==== Toelichting ====&#xD;&#xA;In het proces Uitvoeren onderhoudsorder wordt uitvoering gegeven aan de onderhoudsorder. De informatie over de uitvoering van de onderhoudsorder worden doorgegeven aan het Regisseren onderhoudsysteem. De technisch uitvoerder van de onderhoudsorder geeft een wijziging door aan de onderhoudsfunctie. Mogelijke statussen zijn vastgesteld in de Referentiedata. Daarbij moet vastgesteld worden welke bedrijfsfunctie (opdrachtgevende of opdrachtnemende) actie dient te ondernemen op de onderhoudsorder. Zo kan de technisch uitvoerder een verzoek doen om de afrekenwijze aan te passen waarbij de onderhoudsfunctie hierover een besluit moet nemen.&#xD;&#xA;&#xD;&#xA;====Scenario's====&#xD;&#xA;Primair&#xD;&#xA;* Als uitvoerder van de onderhoudsorder wil ik de aangeboden onderhoudsorder accepteren zodat het bedrijfsproces Regisseren Onderhoud weet dat de onderhoudsorder in uitvoering genomen wordt.&#xD;&#xA;* Als uitvoerder van de onderhoudsorder wil vastgelegde foto's en bevindingen (informatieobjecten) bij de uitvoering doorgeven aan het bedrijfsproces Regisseren Onderhoud zodat zij geinformeerd zijn over de laatste stand van zaken rondom de uitvoering. &#xD;&#xA;">
   <properties
-      key="Type"
+      key="Objecttype"
       value="Trigger"/>
   <properties
-      key="Code"
-      value="OHDT05 "/>
-  <properties
       key="Bericht"
-      value="Onderhoudsorder Synchroniseren"/>
+      value="Onderhoudsorder doorgeven"/>
+  <properties
+      key="Resource"
+      value="OHD:Onderhoudsorders"/>
   <source
       xsi:type="archimate:BusinessProcess"
       href="BusinessProcess_id-dd59a6fe350c4c7ab4dfadcc93ac9e23.xml#id-dd59a6fe350c4c7ab4dfadcc93ac9e23"/>
   <target
       xsi:type="archimate:BusinessProcess"
-      href="BusinessProcess_id-f2c40aed97c34678a4b3f571b564ee0c.xml#id-f2c40aed97c34678a4b3f571b564ee0c"/>
+      href="BusinessProcess_id-6932b3ea7af6465582d82da9182dd97c.xml#id-6932b3ea7af6465582d82da9182dd97c"/>
 </archimate:TriggeringRelationship>

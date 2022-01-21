@@ -1,8 +1,10 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Debiteurboekinggegevens synchroniseren - versie 4.0"
-    id="1674d971-eed9-48d1-828d-de660230571b">
+    name="Boekingen"
+    id="1674d971-eed9-48d1-828d-de660230571b"
+    documentation="====Definitie====&#xD;&#xA;Opvragen of synchroniseren van boekinggegevens van de debiteur en gekoppelde relatie. &#x9;&#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;In de procescontext gaan we ervan uit dat een KCC-medewerker contact heeft met een huurder voor het betalen van een betalingsachterstand. Een andere variant is dat een huurder via een self service-omgeving zijn openstaande posten ophaalt. Hiervoor is het gewenst om de boekingen en afletteringen op te vragen zodat bepaald kan worden welke posten nog (deels) betaald moeten worden. &#xD;&#xA;&#xD;&#xA;Binnen VERA is een debiteur een andere entiteit dan relatie. Een debiteur is een relatie maar andersom hoeft een relatie geen debiteur te zijn. In de uitwerking van dit bericht zijn ook de kerngegevens opgenomen van de gekoppelde relatie én de eventuele overeenkomst waar de boeking betrekking op heeft. &#xD;&#xA;&#xD;&#xA;====Voorbeelden====&#xD;&#xA;*Huurder Jansen bekijkt zijn openstaand posten in het klantportaal om te zien of de huur van de lopende maand al afgeschreven is.&#xD;&#xA;*De KCC-medewerker opent de rekening courant van de huurder Jansen en selecteert een aantal posten die opgenomen worden bij het aanmaken van een betalingsregeling."
+    viewpoint="information_structure">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="d1539318-f4ea-4e63-96da-48c657a77759"
@@ -61,10 +63,19 @@
           xsi:type="archimate:CompositionRelationship"
           href="CompositionRelationship_id-2860ca589aa64ea1b40acfedde5c7c53.xml#id-2860ca589aa64ea1b40acfedde5c7c53"/>
     </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-3314b773cac64942827d71bdb7701cf7"
+        source="d1539318-f4ea-4e63-96da-48c657a77759"
+        target="id-99dfea30bfda4ac4bd3dc223c95e20a2">
+      <archimateRelationship
+          xsi:type="archimate:CompositionRelationship"
+          href="CompositionRelationship_id-bef15b25358b481dabbf979719ee4528.xml#id-bef15b25358b481dabbf979719ee4528"/>
+    </sourceConnections>
     <bounds
         x="12"
         y="12"
-        width="697"
+        width="637"
         height="325"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
@@ -76,7 +87,7 @@
         textPosition="1">
       <bounds
           x="492"
-          y="60"
+          y="48"
           width="120"
           height="55"/>
       <archimateElement
@@ -110,15 +121,14 @@
           source="aa0d16e2-ff2d-4f4e-98ea-d2ebab1f3c25"
           target="e936e515-16e7-4e2f-9d4c-dfa47dd43a46">
         <bendpoints
-            startX="-48"
-            startY="57"
-            endX="96"
-            endY="-99"/>
+            startX="-36"
+            startY="45"
+            endX="132"
+            endY="-63"/>
         <bendpoints
-            startX="-156"
-            startY="57"
-            endX="-12"
-            endY="-99"/>
+            startX="-168"
+            startY="45"
+            endY="-63"/>
         <archimateRelationship
             xsi:type="archimate:AssociationRelationship"
             href="AssociationRelationship_0b254641-2dc8-4cb3-b862-49821c741afb.xml#0b254641-2dc8-4cb3-b862-49821c741afb"/>
@@ -128,6 +138,15 @@
           id="5709edd0-bef9-4b4d-9495-02e276893364"
           source="aa0d16e2-ff2d-4f4e-98ea-d2ebab1f3c25"
           target="d1c66171-a324-4ac7-8444-14e79a64f7d3">
+        <bendpoints
+            startX="24"
+            startY="45"
+            endX="-144"
+            endY="-63"/>
+        <bendpoints
+            startX="168"
+            startY="45"
+            endY="-63"/>
         <archimateRelationship
             xsi:type="archimate:AssociationRelationship"
             href="AssociationRelationship_eedd83bd-7236-4f5e-b5f2-5fe0d166b8b3.xml#eedd83bd-7236-4f5e-b5f2-5fe0d166b8b3"/>
@@ -137,16 +156,6 @@
           id="b3e6324d-d9f8-488e-8d3a-5393405e0a71"
           source="aa0d16e2-ff2d-4f4e-98ea-d2ebab1f3c25"
           target="bba6a41e-2622-4aa5-a17e-04383083e257">
-        <bendpoints
-            startX="48"
-            startY="57"
-            endX="-156"
-            endY="-99"/>
-        <bendpoints
-            startX="168"
-            startY="57"
-            endX="12"
-            endY="-99"/>
         <archimateRelationship
             xsi:type="archimate:AssociationRelationship"
             href="AssociationRelationship_5b38e32a-7eb4-4d2a-afe4-faf3b3cfce7a.xml#5b38e32a-7eb4-4d2a-afe4-faf3b3cfce7a"/>
@@ -161,8 +170,8 @@
             href="AssociationRelationship_b07ea338-7c87-482d-960e-f80badf52012.xml#b07ea338-7c87-482d-960e-f80badf52012"/>
       </sourceConnections>
       <bounds
-          x="276"
-          y="60"
+          x="300"
+          y="48"
           width="120"
           height="55"/>
       <archimateElement
@@ -178,7 +187,7 @@
         textPosition="1">
       <bounds
           x="132"
-          y="216"
+          y="156"
           width="120"
           height="55"/>
       <archimateElement
@@ -192,9 +201,18 @@
         font="1|Segoe UI|9.0|1|WINDOWS|1|-18|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
         fillColor="#fffe66"
         textPosition="1">
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-2273dc2c91fe4dedaf7496187431112d"
+          source="d1c66171-a324-4ac7-8444-14e79a64f7d3"
+          target="id-99dfea30bfda4ac4bd3dc223c95e20a2">
+        <archimateRelationship
+            xsi:type="archimate:AssociationRelationship"
+            href="AssociationRelationship_b0c25b65-fbc7-4e8d-b8d8-ba1115796162.xml#b0c25b65-fbc7-4e8d-b8d8-ba1115796162"/>
+      </sourceConnections>
       <bounds
-          x="276"
-          y="216"
+          x="468"
+          y="156"
           width="120"
           height="55"/>
       <archimateElement
@@ -209,8 +227,8 @@
         fillColor="#fffe66"
         textPosition="1">
       <bounds
-          x="432"
-          y="216"
+          x="300"
+          y="156"
           width="120"
           height="55"/>
       <archimateElement
@@ -227,12 +245,27 @@
         textPosition="1">
       <bounds
           x="24"
-          y="60"
+          y="48"
           width="120"
           height="55"/>
       <archimateElement
           xsi:type="archimate:DataObject"
           href="DataObject_81d9e79a-2e8a-41a7-a004-6c7ac1dc42ad.xml#81d9e79a-2e8a-41a7-a004-6c7ac1dc42ad"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-99dfea30bfda4ac4bd3dc223c95e20a2"
+        targetConnections="id-2273dc2c91fe4dedaf7496187431112d id-3314b773cac64942827d71bdb7701cf7"
+        font="1|Segoe UI|9.0|1|WINDOWS|1|-21|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
+        fillColor="#ffff66">
+      <bounds
+          x="468"
+          y="252"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:DataObject"
+          href="DataObject_4589668c-11f6-466d-a96a-a116bc802389.xml#4589668c-11f6-466d-a96a-a116bc802389"/>
     </children>
     <archimateElement
         xsi:type="archimate:DataObject"
@@ -243,7 +276,7 @@
       id="e898aac3-6776-4532-aa81-b2393049965f"
       textAlignment="1">
     <bounds
-        x="720"
+        x="660"
         y="12"
         width="180"
         height="325"/>
@@ -454,4 +487,10 @@
   <properties
       key="Objecttype"
       value="Bericht"/>
+  <properties
+      key="Resource"
+      value="BFG:Boekingen"/>
+  <properties
+      key="Procesketen"
+      value="Beheer Financiele gegevens"/>
 </archimate:ArchimateDiagramModel>

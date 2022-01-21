@@ -1,8 +1,10 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Signalering opvragen"
-    id="939f5ebb-6688-4304-96c1-5490d5260ab4">
+    name="Signaleringen"
+    id="939f5ebb-6688-4304-96c1-5490d5260ab4"
+    documentation="====Definitie====&#xD;&#xA;Opvragen of synchroniseren van signaleringen aan de hand van een relatie. &#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;Het is gewenst om bij klantcontacten met een relatie te weten of er een signalering van toepassing is. Een signalering kan zijn het feit dat de klant in een overlastzaak betrokken is of bijvoorbeeld een deurwaarderzaak. Het bericht geeft geen informatie over de deurwaarder of de specifieke overlast. Om deze informatie op te halen zijn aanvullende berichten noodzakelijk zoals het opvragen van een zaak of dossier rondom overlast.&#xD;&#xA;&#xD;&#xA;====Voorbeelden====&#xD;&#xA;*Bij het klantcontact met de huurder wordt een signalering getoond waarin duidelijk is dat er een deurwaarderzaak loopt.&#xD;&#xA;*Bij het klantcontact met de huurder wordt een signalering getoond waarin duidelijk is dat de huurder betrokken is bij een overlast."
+    viewpoint="information_structure">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="3bbd8567-2864-49c9-a7fa-4e99dbbc9ac7"
@@ -28,8 +30,8 @@
     <bounds
         x="12"
         y="12"
-        width="493"
-        height="337"/>
+        width="169"
+        height="325"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="5a86dfd0-7492-4691-90de-d6bd49980f95"
@@ -48,8 +50,8 @@
             href="AssociationRelationship_6c18720d-16a3-4e91-b11f-1f0a2fc5fdc7.xml#6c18720d-16a3-4e91-b11f-1f0a2fc5fdc7"/>
       </sourceConnections>
       <bounds
-          x="84"
-          y="144"
+          x="24"
+          y="36"
           width="120"
           height="55"/>
       <archimateElement
@@ -65,8 +67,8 @@
         fillColor="#0099cc"
         textPosition="1">
       <bounds
-          x="288"
-          y="144"
+          x="24"
+          y="132"
           width="120"
           height="55"/>
       <archimateElement
@@ -82,7 +84,7 @@
       id="dcfff4ea-dd1b-4515-bfb8-f55c50562651"
       textAlignment="1">
     <bounds
-        x="516"
+        x="192"
         y="12"
         width="180"
         height="325"/>
@@ -293,4 +295,10 @@
   <properties
       key="Objecttype"
       value="Bericht"/>
+  <properties
+      key="Resource"
+      value="BRG:Signaleringen"/>
+  <properties
+      key="Procesketen"
+      value="Beheer Relatiegegevens"/>
 </archimate:ArchimateDiagramModel>

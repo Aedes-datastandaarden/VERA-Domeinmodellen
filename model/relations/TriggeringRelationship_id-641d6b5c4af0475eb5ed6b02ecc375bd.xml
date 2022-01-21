@@ -1,0 +1,12 @@
+<archimate:TriggeringRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Doorgeven onderhoudsopdrachten"
+    id="id-641d6b5c4af0475eb5ed6b02ecc375bd">
+  <source
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_id-127d7d644f604905af5a9d9f3140d178.xml#id-127d7d644f604905af5a9d9f3140d178"/>
+  <target
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_id-6932b3ea7af6465582d82da9182dd97c.xml#id-6932b3ea7af6465582d82da9182dd97c"/>
+</archimate:TriggeringRelationship>

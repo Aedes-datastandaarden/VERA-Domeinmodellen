@@ -1,0 +1,22 @@
+<archimate:TriggeringRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Synchroniseren Betaalgegeven"
+    id="c8c6d69a-8753-428b-87da-bd4e59907791"
+    documentation="Doorgeven van nieuwe of gewijzigde betaalgegevens van een relatie.&#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;De betaalgegevens worden beheerd in het relatiebeheersysteem en kan vanuit diverse processen worden gemuteerd. In bepaalde gevallen is het gewenst om de nieuwe en gewijzigde betaalgegevens te synchyroniseren met andere systemen zoals het klantbedieningsysteem.&#xD;&#xA;&#xD;&#xA;====Scenario's====&#xD;&#xA;* Als Klantbedieningsysteem wil ik de betaalgegevens vanuit het relatiebeheersysteem synchroniseren zodat een optimale ondersteuning kan worden geleverd in het klantbedieningsproces.">
+  <properties
+      key="Objecttype"
+      value="Trigger"/>
+  <properties
+      key="Bericht"
+      value="Betaalgegeven synchroniseren"/>
+  <properties
+      key="Resource"
+      value="BRG:Betaalgegevens"/>
+  <source
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_c52e9587-62a1-44d4-b080-c027bd57cba8.xml#c52e9587-62a1-44d4-b080-c027bd57cba8"/>
+  <target
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_id-a6de887b920047a086a65f4076042e55.xml#id-a6de887b920047a086a65f4076042e55"/>
+</archimate:TriggeringRelationship>

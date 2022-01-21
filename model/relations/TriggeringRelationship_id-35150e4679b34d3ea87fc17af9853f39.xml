@@ -1,0 +1,13 @@
+<archimate:TriggeringRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Doorgeven cluster"
+    id="id-35150e4679b34d3ea87fc17af9853f39"
+    documentation="Het doorgeven van nieuwe of gewijzigde clustergegevens aan andere processen.&#xD;&#xA;&#xD;&#xA;====Scenario's====&#xD;&#xA;Primair&#xD;&#xA;* Als vastgoedgegevensbeheer wil ik de eenheidgegevens synchroniseren met klantbediening zodat zij vanuit het eigen systeem de clusters kunnen opvragen">
+  <source
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_id-c0bacb9667c84941bfe978a60d6ac0dc.xml#id-c0bacb9667c84941bfe978a60d6ac0dc"/>
+  <target
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_id-2884d518037d4a088794e2e1152283e1.xml#id-2884d518037d4a088794e2e1152283e1"/>
+</archimate:TriggeringRelationship>

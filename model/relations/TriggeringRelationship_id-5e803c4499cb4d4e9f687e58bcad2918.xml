@@ -1,0 +1,18 @@
+<archimate:TriggeringRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Synchroniseren Serviceovereenkomst"
+    id="id-5e803c4499cb4d4e9f687e58bcad2918">
+  <properties
+      key="Objecttype"
+      value="Trigger"/>
+  <properties
+      key="Resource"
+      value="BOG:Overeenkomsten"/>
+  <source
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_id-2884d518037d4a088794e2e1152283e1.xml#id-2884d518037d4a088794e2e1152283e1"/>
+  <target
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_id-a6de887b920047a086a65f4076042e55.xml#id-a6de887b920047a086a65f4076042e55"/>
+</archimate:TriggeringRelationship>

@@ -1,0 +1,22 @@
+<archimate:TriggeringRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Opvragen Afspraakopties"
+    id="id-b3761a9528264e5887ebcf748aa676fe"
+    documentation="Opvragen van een afspraak. &#xD;&#xA;&#xD;&#xA;==== Toelichting ====&#xD;&#xA;Aan de hand van de discipline, verwachte duur van de werkzaamheden en de locatie van het onderhoud worden afspraakopties opgevraagd bij het bedrijfsproces Uitvoeren Onderhoudsorder zodat een keuze gemaakt kan worden in de gewenste afspraakdatum en tijdstip / tijdsblok.&#xD;&#xA;&#xD;&#xA;====Scenario's====&#xD;&#xA;Primair&#xD;&#xA;">
+  <properties
+      key="Bericht"
+      value="AfspraaktOpties opvragen"/>
+  <properties
+      key="Objecttype"
+      value="Trigger"/>
+  <properties
+      key="Resource"
+      value="OHD:AfspraakOpties"/>
+  <source
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_id-23d6b40adccf4d4e913762396b974b22.xml#id-23d6b40adccf4d4e913762396b974b22"/>
+  <target
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_id-171323dc66ba48b19ab99f78bd8c34ed.xml#id-171323dc66ba48b19ab99f78bd8c34ed"/>
+</archimate:TriggeringRelationship>

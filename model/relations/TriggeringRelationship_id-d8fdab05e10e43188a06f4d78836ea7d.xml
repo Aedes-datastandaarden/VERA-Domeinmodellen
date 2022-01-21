@@ -1,18 +1,18 @@
 <archimate:TriggeringRelationship
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Opdracht tot inspectie"
+    name="Doorgeven Inspectieorder"
     id="id-d8fdab05e10e43188a06f4d78836ea7d"
-    documentation="Voor het doen van een verzoek tot Inspectie. &#xD;&#xA;&#xD;&#xA;Bij de afhandeling van een onderhoudsverzoek voor mutatieonderhoud zet de onderhoudsfunctie een inspectieorder (onderhoudsverzoek met onderhoudsoort Inspectie) uit bij de inspectiefunctie. Daarnaast kan de onderhoudsfunctie ook bij reparatieonderhoud een verzoek doen voor het uitvoeren van een inspectie door de inspectiefunctie. ">
+    documentation="Doorgeven van een nieuw of gewijzigde onderhoudsorder voor de uitvoering van een inspectie. &#xD;&#xA;&#xD;&#xA;==== Toelichting ====&#xD;&#xA;Bij de afhandeling van een onderhoudsverzoek voor mutatieonderhoud zet de onderhoudsfunctie een inspectieorder (onderhoudsverzoek met onderhoudsoort Inspectie) uit bij de inspectiefunctie. Daarnaast kan de onderhoudsfunctie ook bij reparatieonderhoud een verzoek doen voor het uitvoeren van een inspectie door de inspectiefunctie. Daarnaast kunnen wijzigingen ontstaan in de onderhoudsorder voor de uitvoering van de inspectie zoals de status (annuleren) maar ook het toevoegen van aanvullende informatie die gewenst zijn voor de uitvoering van de inspectie zoals het toevoegen van een inventarislijst.&#xD;&#xA;&#xD;&#xA;====Scenario's====&#xD;&#xA;Primair&#xD;&#xA;* Als onderhoudsfunctie wil ik een opdracht geven voor het uitvoeren van een inspectie voor het verhuurmutatieproces.&#x9;&#xD;&#xA;* Als onderhoudsfunctie wil ik een opdracht geven voor het uitvoeren van een inspectie van een reparatieverzoek zodat bepaald kan worden welke (herstel)werkzaamheden moeten worden uitgevoerd. &#x9;&#xD;&#xA;* Als onderhoudsfunctie wil ik opdracht geven voor het uitvoeren van een steekproef bij een reeds uitgevoerde onderhoudsorder zodat bepaald kan worden of de werkzaamheden correct zijn uitgevoerd.&#x9;&#xD;&#xA;&#xD;&#xA;Secundair&#xD;&#xA;* Als onderhoudsfunctie wil ik aanvullende informatie (foto’s, bijlagen, klantcontacten) bij een inspectie doorgeven aan de onderhoudscontrolefunctie zodat deze een volledig beeld heeft van de lopende inspectie.">
   <properties
-      key="Type"
+      key="Objecttype"
       value="Trigger"/>
   <properties
-      key="Code"
-      value="OHDT06"/>
-  <properties
       key="Bericht"
-      value="Onderhoudsverzoek Synchroniseren"/>
+      value="Onderhoudsorder doorgeven"/>
+  <properties
+      key="Resource"
+      value="OHD:Onderhoudsorders"/>
   <source
       xsi:type="archimate:BusinessProcess"
       href="BusinessProcess_id-7d241972100848b0be219a4afae78d9d.xml#id-7d241972100848b0be219a4afae78d9d"/>

@@ -1,0 +1,22 @@
+<archimate:TriggeringRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Opvragen Dossier"
+    id="id-87bc4d48d1ec426e9c53541588674677"
+    documentation="Opvragen van dossiers behorend bij een relatie&#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;Dossiers kunnen een associatie hebben met relaties en zaken. In het Klantbedieningsproces kunnen dossiers opgevraagd worden die nodig zijn voor een optimale bediening van de klant.&#xD;&#xA;&#xD;&#xA;====Scenario's====&#xD;&#xA;* Als klantbediening wil ik de informatie over een leefbaarheidsdossier opvragen zodat ik de klant beter te woord kan staan.">
+  <properties
+      key="Objecttype"
+      value="Trigger"/>
+  <properties
+      key="Resource"
+      value="BDO:Dossiers"/>
+  <properties
+      key="Bericht"
+      value="Dossier opvragen"/>
+  <source
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_id-a6de887b920047a086a65f4076042e55.xml#id-a6de887b920047a086a65f4076042e55"/>
+  <target
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_id-dc636dbc60ef4675a5bd4b7359a9c537.xml#id-dc636dbc60ef4675a5bd4b7359a9c537"/>
+</archimate:TriggeringRelationship>

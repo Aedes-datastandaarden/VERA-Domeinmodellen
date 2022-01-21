@@ -3,7 +3,8 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Algemeen"
     id="id-eb2da389d7fa4e26b54a9e69618edcdd"
-    documentation="Dit gegevensdomein bevat generieke klassen die gebruikt worden als typen in andere klassen.">
+    documentation="Dit gegevensdomein bevat generieke klassen die gebruikt worden als typen in andere klassen."
+    viewpoint="information_structure">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-a4501520dd1f4fcd92d9b9310bec2b26"
@@ -34,15 +35,6 @@
       <archimateRelationship
           xsi:type="archimate:CompositionRelationship"
           href="CompositionRelationship_id-c779d5e31a64496e8320cf6632e9a190.xml#id-c779d5e31a64496e8320cf6632e9a190"/>
-    </sourceConnections>
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-373815e416474b9b8b7b1262750c1609"
-        source="id-a4501520dd1f4fcd92d9b9310bec2b26"
-        target="id-e56eb09fbae04f958867b87876c28b46">
-      <archimateRelationship
-          xsi:type="archimate:CompositionRelationship"
-          href="CompositionRelationship_id-aa726ca0ad4245a59bb5610a04b7d730.xml#id-aa726ca0ad4245a59bb5610a04b7d730"/>
     </sourceConnections>
     <bounds
         x="24"
@@ -90,20 +82,6 @@
       <archimateElement
           xsi:type="archimate:DataObject"
           href="DataObject_id-a5101138804e4feda76230643698d67c.xml#id-a5101138804e4feda76230643698d67c"/>
-    </children>
-    <children
-        xsi:type="archimate:DiagramModelArchimateObject"
-        id="id-e56eb09fbae04f958867b87876c28b46"
-        targetConnections="id-373815e416474b9b8b7b1262750c1609"
-        fillColor="#dcebeb">
-      <bounds
-          x="480"
-          y="81"
-          width="120"
-          height="55"/>
-      <archimateElement
-          xsi:type="archimate:DataObject"
-          href="DataObject_id-a0d06f81591c4a8687f04545134c4f47.xml#id-a0d06f81591c4a8687f04545134c4f47"/>
     </children>
     <archimateElement
         xsi:type="archimate:Grouping"
@@ -327,7 +305,4 @@
   <properties
       key="Code"
       value="ALG"/>
-  <properties
-      key="Versies"
-      value="VERA 3.2.1"/>
 </archimate:ArchimateDiagramModel>

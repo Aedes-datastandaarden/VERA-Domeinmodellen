@@ -1,6 +1,6 @@
 <archimate:DataObject
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="GrootboekMutatie"
+    name="Grootboekmutatie"
     id="7569b16d-0e25-4548-95ac-e3f7eb61f0f4"
     documentation="====Definitie====&#xD;&#xA;De uit verschillende financiële boekingsgangen aangemaakte verantwoording naar het grootboek, uitgesplist naar grootboekrekening al of niet met debiteur.&#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;Uit elke boeking met financiële gevolgen ontstaat een verantwoording naar het grootboek. &#xD;&#xA;&#xD;&#xA;====Voorbeelden====&#xD;&#xA;Uit de prolongatie van de huren worden er grootboekmutaties aangemaakt voor onder andere huurdebiteuren, huuropbrengsten en leegstand.">
   <properties
@@ -12,4 +12,7 @@
   <properties
       key="Domein"
       value="Financiën"/>
+  <properties
+      key="Resource"
+      value="VERA:Grootboekmutaties"/>
 </archimate:DataObject>

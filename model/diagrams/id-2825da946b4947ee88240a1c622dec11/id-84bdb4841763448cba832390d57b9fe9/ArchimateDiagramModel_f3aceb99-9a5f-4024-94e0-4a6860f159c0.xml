@@ -1,8 +1,10 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Woningwaardering opvragen - versie 4.0"
-    id="f3aceb99-9a5f-4024-94e0-4a6860f159c0">
+    name="WoningwaarderingResultaten"
+    id="f3aceb99-9a5f-4024-94e0-4a6860f159c0"
+    documentation="====Definitie====&#xD;&#xA;Het ophalen van de woningwaarderingsresultaten van een eenheid met een peildatum.&#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;Op basis van de kwaliteit van de woning mag de maximale kale huurprijs worden berekend. Het woningwaarderingsresultaat is de uitdrukking van de kwaliteit van de woning in punten.&#xD;&#xA;Bij het behandelen van telefonische klantcontacten is het gewenst om de huidige woningwaardering van een specifieke eenheid op te vragen om vragen van een klant te kunnen beantwoorden. Daarnaast is het ook wenselijk om de woningwaardering van verschillende periodes op te vragen voor het maken van een vergelijking tussen de huidige woningwaardering en de voorgaande, of de huidige en de toekomstige woningwaardering.&#xD;&#xA;&#xD;&#xA;====Voorbeelden====&#xD;&#xA;*Huurder belt naar de klantenservice en wil weten wat de reden is van de tussentijdse huuraanpassing. Uit de analyse van de huidige en voorgaande woningwaardering wordt vastgesteld dat het aantal kamers is gewijzigd&#xD;&#xA;*Als huurder wil ik het woningwaarderingsresultaat van de door mij gehuurde woning online kunnen raadplegen.&#xD;&#xA;"
+    viewpoint="information_structure">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="97fd1c2a-fe9d-45d0-bf5d-1f3b23a3aaa4"
@@ -55,8 +57,8 @@
     <bounds
         x="12"
         y="12"
-        width="505"
-        height="409"/>
+        width="493"
+        height="385"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="3904ed07-5b58-402d-b529-d60b8a14be37"
@@ -76,8 +78,8 @@
             href="AssociationRelationship_7c6754d5-d516-4b51-b989-09583902f58a.xml#7c6754d5-d516-4b51-b989-09583902f58a"/>
       </sourceConnections>
       <bounds
-          x="300"
-          y="324"
+          x="288"
+          y="300"
           width="180"
           height="72"/>
       <archimateElement
@@ -113,8 +115,8 @@
             href="AssociationRelationship_8aaf28f3-0a0b-4328-bd1f-593a41ff843b.xml#8aaf28f3-0a0b-4328-bd1f-593a41ff843b"/>
       </sourceConnections>
       <bounds
-          x="300"
-          y="192"
+          x="288"
+          y="168"
           width="180"
           height="72"/>
       <archimateElement
@@ -140,8 +142,8 @@
             href="AssociationRelationship_c9036884-e98d-45e9-a3b0-4b134f1dbba4.xml#c9036884-e98d-45e9-a3b0-4b134f1dbba4"/>
       </sourceConnections>
       <bounds
-          x="300"
-          y="72"
+          x="288"
+          y="48"
           width="180"
           height="72"/>
       <archimateElement
@@ -157,8 +159,8 @@
         fillColor="#e19900"
         textPosition="1">
       <bounds
-          x="36"
-          y="192"
+          x="12"
+          y="168"
           width="180"
           height="72"/>
       <archimateElement
@@ -174,8 +176,8 @@
         fillColor="#e19900"
         textPosition="1">
       <bounds
-          x="36"
-          y="324"
+          x="12"
+          y="300"
           width="180"
           height="72"/>
       <archimateElement
@@ -191,7 +193,7 @@
       id="id-b78da492c31b4002acdbdb693e0f24a3"
       textAlignment="1">
     <bounds
-        x="528"
+        x="516"
         y="12"
         width="180"
         height="325"/>
@@ -402,4 +404,10 @@
   <properties
       key="Objecttype"
       value="Bericht"/>
+  <properties
+      key="Resource"
+      value="BVG:WoningwaarderingResultaten"/>
+  <properties
+      key="Procesketen"
+      value="Beheer Vastgoedgegevens"/>
 </archimate:ArchimateDiagramModel>

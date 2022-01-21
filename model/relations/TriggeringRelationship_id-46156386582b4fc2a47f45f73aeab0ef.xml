@@ -1,0 +1,22 @@
+<archimate:TriggeringRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Opvragen Overeenkomst"
+    id="id-46156386582b4fc2a47f45f73aeab0ef"
+    documentation="Het opvragen van overeenkomsten.&#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;Binnen het klantbedieningsproces is het gewenst om informatie over overeenkomsten van een relatie op te vragen. Dit zijn voornamelijk huurovereenkomsten maar in het geval van een leverancier kunnen ook onderhoudsovereenkomsten opgevraagd worden.  Een overeenkomst is een generieke verzameling van huurovereenkomsten, onderhoudsovereenkomsten, koopovereenkomsten en serviceovereenkomsten. &#xD;&#xA;&#xD;&#xA;====Scenario's====&#xD;&#xA;* Als huurder wil ik de informatie opvragen van de lopende huurovereenkomsten waarvan ik de huurder ben&#xD;&#xA;* Als medewerker klantbediening wil ik een overzicht hebben van de medecontractanten van een specifiek huurovereenkomst&#xD;&#xA;* Als medewerker klantbediening wil ik de betaalmethode van een overeenkomst opvragen zodat ik deze eventueel kan wijzigen.">
+  <properties
+      key="Objecttype"
+      value="Trigger"/>
+  <properties
+      key="Resource"
+      value="BOG:Overeenkomsten"/>
+  <properties
+      key="Bericht"
+      value="Overeenkomst opvragen"/>
+  <source
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_id-a6de887b920047a086a65f4076042e55.xml#id-a6de887b920047a086a65f4076042e55"/>
+  <target
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_id-2884d518037d4a088794e2e1152283e1.xml#id-2884d518037d4a088794e2e1152283e1"/>
+</archimate:TriggeringRelationship>

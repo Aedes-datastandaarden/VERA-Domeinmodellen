@@ -1,22 +1,22 @@
 <archimate:TriggeringRelationship
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Doorgeven Statuswijziging Onderhoudsverzoek "
+    name="Synchroniseren Onderhoudsverzoek "
     id="id-ccaa49c798d94cb0a32de60e8c1e01ce"
-    documentation="Voor het doorgeven van statuswijzigingen om de melder van het verzoek te kunnen informeren. &#xD;&#xA;&#xD;&#xA;Nadat de bedrijfsfunctie Klantbediening de intake heeft uitgevoerd wordt een onderhoudsverzoek naar 'Regisseren onderhoud' gestuurd. 'Regisseren onderhoud' neemt het onderhoudsverzoek in behandeling, registreert statuswijzigingen en geeft deze door aan Klantbediening. ">
-  <properties
-      key="Type"
-      value="Trigger"/>
-  <properties
-      key="Code"
-      value="OHDT02 "/>
+    documentation="Doorgeven van een gewijzigd onderhoudsverzoek&#xD;&#xA;&#xD;&#xA;==== Toelichting ====&#xD;&#xA;Onderhoudsverzoeken worden beheerd door het bedrijfsproces Onderhoud Eenheden en kunnen opgevraagd worden door andere bedrijfsprocessen / procesketens. In bepaalde gevallen is het gewenst om de onderhoudsverzoeken te synchroniseren met het Klantbedieningsproces.&#xD;&#xA;De In de siVoor het doorgeven van statuswijzigingen om de melder van het verzoek te kunnen informeren. &#xD;&#xA;Nadat de bedrijfsfunctie Klantbediening de intake heeft uitgevoerd wordt een onderhoudsverzoek naar 'Regisseren onderhoud' gestuurd. 'Regisseren onderhoud' neemt het onderhoudsverzoek in behandeling, registreert statuswijzigingen en geeft deze door aan Klantbediening. &#xD;&#xA;&#xD;&#xA;====Scenario's====&#xD;&#xA;Primair&#xD;&#xA;* Als medewerker klantbediening wil ik een onderhoudsverzoek doen voor een gemeld defect zodat door het proces Regisseren Onderhoud bepaalt kan worden wat de vervolgactie moet zijn.">
   <properties
       key="Bericht"
-      value="Onderhoudsverzoek Synchroniseren"/>
+      value="Onderhoudsverzoek synchroniseren"/>
+  <properties
+      key="Objecttype"
+      value="Trigger"/>
+  <properties
+      key="Resource"
+      value="OHD:Onderhoudsverzoeken"/>
   <source
       xsi:type="archimate:BusinessProcess"
       href="BusinessProcess_id-6932b3ea7af6465582d82da9182dd97c.xml#id-6932b3ea7af6465582d82da9182dd97c"/>
   <target
       xsi:type="archimate:BusinessProcess"
-      href="BusinessProcess_id-2fb958672aeb4adea5f6f72119aa5782.xml#id-2fb958672aeb4adea5f6f72119aa5782"/>
+      href="BusinessProcess_id-a6de887b920047a086a65f4076042e55.xml#id-a6de887b920047a086a65f4076042e55"/>
 </archimate:TriggeringRelationship>

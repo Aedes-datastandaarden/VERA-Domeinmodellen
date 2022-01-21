@@ -1,0 +1,22 @@
+<archimate:TriggeringRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Synchroniseren Huurovereenkomst"
+    id="bf6546da-4d3d-4775-898b-549a0d2e73aa"
+    documentation="Het doorgeven van huurovereenkomsten&#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;Een huurovereenkomst is een type overeenkomst waarmee de woningcorporatie tot wederopzegging, het recht aan één huurder (klant) geeft om één eenheid te gebruiken en waarmee een huurder zich verplicht tot een (periodieke) betaling.&#xD;&#xA;&#xD;&#xA;====Scenario's====&#xD;&#xA;* Als medewerker klantbediening wil ik de huurovereenkomst van een huurder raadplegen.&#xD;&#xA;">
+  <properties
+      key="Objecttype"
+      value="Trigger"/>
+  <properties
+      key="Bericht"
+      value="Huurovereenkomst Synchroniseren"/>
+  <properties
+      key="Resource"
+      value="BOG:Overeenkomsten"/>
+  <source
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_id-2884d518037d4a088794e2e1152283e1.xml#id-2884d518037d4a088794e2e1152283e1"/>
+  <target
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_id-a6de887b920047a086a65f4076042e55.xml#id-a6de887b920047a086a65f4076042e55"/>
+</archimate:TriggeringRelationship>

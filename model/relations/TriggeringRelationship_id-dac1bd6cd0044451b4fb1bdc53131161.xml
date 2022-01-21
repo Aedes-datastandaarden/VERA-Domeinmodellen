@@ -1,0 +1,19 @@
+<archimate:TriggeringRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Opvragen puntenmutatie opbouw"
+    id="id-dac1bd6cd0044451b4fb1bdc53131161"
+    documentation="Voor de opbouw van de punten kunnen de puntenmutaties worden opgehaald zodat de woningzoekende en medewerker van een corporatie kan zien hoe de punten tot stand zijn gekomen.&#xD;&#xA;&#xD;&#xA;==== Toelichting ====&#xD;&#xA;Het woonruimteverdeelstelsel is complex en leidt tot veel vragen van woningzoekenden. Om de woningzoekende te helpen is het mogelijk om de opbouw van de punten te kunnen ophalen. Per puntenmutatie wordt in duidelijke tekst toegelicht wat de mutatie was en waarom.">
+  <properties
+      key="Objecttype"
+      value="Trigger"/>
+  <properties
+      key="Resource"
+      value="WRV:Puntenberekeningen"/>
+  <source
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_id-15cb97ce244945ac80d282ca69e92511.xml#id-15cb97ce244945ac80d282ca69e92511"/>
+  <target
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_id-5b6f8b4f25b348319083d9082b4650e5.xml#id-5b6f8b4f25b348319083d9082b4650e5"/>
+</archimate:TriggeringRelationship>

@@ -1,18 +1,18 @@
 <archimate:TriggeringRelationship
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Doorgeven factuur voor Uitvoer Onderhoudsorder"
+    name="Doorgeven Factuur voor uitvoer"
     id="id-37b896b807864dd184085c1cb00bdf91"
-    documentation="Voor het doorgeven van de factuur voor het onderhoudsverzoek. &#xD;&#xA;&#xD;&#xA;Na uitvoering van de onderhoudsorder wordt de factuur door bedrijfsproces 'Regisseren onderhoud' doorgegeven aan de crediteurenadministratie binnen ‘Leveren financiële dienstverlening’. ">
+    documentation="Doorgeven van de factuur voor de onderhoudsorder. &#xD;&#xA;&#xD;&#xA;==== Toelichting ====&#xD;&#xA;Na uitvoering van de onderhoudsorder wordt de factuur door bedrijfsproces 'Regisseren onderhoud' doorgegeven aan de crediteurenadministratie binnen ‘Leveren financiële dienstverlening’. &#xD;&#xA;&#xD;&#xA;====Scenario's====&#xD;&#xA;">
   <properties
-      key="Type"
+      key="Objecttype"
       value="Trigger"/>
   <properties
-      key="Code"
-      value="OHDT12"/>
-  <properties
       key="Bericht"
-      value="Factuur Synchroniseren"/>
+      value="Inkoopfactuur Synchroniseren"/>
+  <properties
+      key="Resource"
+      value="OHD:Inkoopfacturen"/>
   <source
       xsi:type="archimate:BusinessProcess"
       href="BusinessProcess_id-ba46821064e64d5b8c397e122bcfa6e6.xml#id-ba46821064e64d5b8c397e122bcfa6e6"/>

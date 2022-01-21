@@ -1,0 +1,19 @@
+<archimate:TriggeringRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Synchroniseren Verhuurde Eenheid"
+    id="id-13c505be693f4df781aa3fad0fa135e0"
+    documentation="Het doorgeven van informatie betreffende een verhuurde eenheid.&#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;De informatie mbt de eenheid omvat naast alle fysieke kenmerken van de eenheid ook informatie over het type eenheid, adresgegevens, prijscomponenten, informatieobjecten (foto's, plattegronden enz), afspraakopties (bijv voor mutatieinspecties) , voorwaarden voor verhuur van de eenheid enz.&#xD;&#xA;">
+  <properties
+      key="Objecttype"
+      value="Trigger"/>
+  <properties
+      key="Resource"
+      value="VHE:Eenheden"/>
+  <source
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_id-2884d518037d4a088794e2e1152283e1.xml#id-2884d518037d4a088794e2e1152283e1"/>
+  <target
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_id-a6de887b920047a086a65f4076042e55.xml#id-a6de887b920047a086a65f4076042e55"/>
+</archimate:TriggeringRelationship>

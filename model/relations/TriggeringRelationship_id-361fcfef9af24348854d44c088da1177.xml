@@ -3,16 +3,16 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Doorgeven onderzoeksresultaat"
     id="id-361fcfef9af24348854d44c088da1177"
-    documentation="Doorgeven van de antwoorden op de vragenlijst.&#xD;&#xA;&#xD;&#xA;De antwoorden van de relatie worden verzameld door bedrijfsproces Uitvoeren onderzoek en teruggekoppeld aan het bedrijfsproces Kwaliteitsmeting om te laten analyseren. Wanneer er geen reactie is van de relatie op de uitgevoerde enquete zal dit na een bepaalde tijd ook teruggekoppeld worden aan het bedrijfsproces Kwaliteitsmeting.&#xD;&#xA;&#xD;&#xA;==== Scenario's ====&#xD;&#xA;Primair&#xD;&#xA;*&#x9;Als Onderzoeksfunctie geef ik de antwoorden op de uitgevoerde vragenlijst aan bij het bedrijfsproces Kwaliteitmeting zodat deze de analyse kan uitvoeren&#xD;&#xA;*  Als Onderzoeksfunctie geef ik de antwoorden op de uitgevoerde vragenlijst met de opmerking dat de antwoorden anoniem moeten blijven aan bij het bedrijfsproces Kwaliteitmeting zodat deze de analyse kan uitvoeren&#xD;&#xA;*  Als Onderzoeksfunctie geef ik aan het bedrijfsproces Kwaliteitmeting door dat er geen reactie is geweest van de relatie op de uitgestuurde vragenlijst zodat de kwaliteitsmanagementfunctie dit kan terugkoppelen aan het bedrijfsproces&#xD;&#xA;&#xD;&#xA;Secundair&#xD;&#xA;*">
+    documentation="Doorgeven van de antwoorden op de vragenlijst.&#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;De antwoorden van de relatie worden verzameld door bedrijfsproces Uitvoeren onderzoek en teruggekoppeld aan het bedrijfsproces Kwaliteitsmeting om te laten analyseren. Wanneer er geen reactie is van de relatie op de uitgevoerde enquete zal dit na een bepaalde tijd ook teruggekoppeld worden aan het bedrijfsproces Kwaliteitsmeting.&#xD;&#xA;&#xD;&#xA;==== Scenario's ====&#xD;&#xA;*&#x9;Als Onderzoeksfunctie geef ik de antwoorden op de uitgevoerde vragenlijst aan bij het bedrijfsproces Kwaliteitmeting zodat deze de analyse kan uitvoeren&#xD;&#xA;*  Als Onderzoeksfunctie geef ik de antwoorden op de uitgevoerde vragenlijst met de opmerking dat de antwoorden anoniem moeten blijven aan bij het bedrijfsproces Kwaliteitmeting zodat deze de analyse kan uitvoeren&#xD;&#xA;*  Als Onderzoeksfunctie geef ik aan het bedrijfsproces Kwaliteitmeting door dat er geen reactie is geweest van de relatie op de uitgestuurde vragenlijst zodat de kwaliteitsmanagementfunctie dit kan terugkoppelen aan het bedrijfsproces">
+  <properties
+      key="Objecttype"
+      value="Trigger"/>
   <properties
       key="Bericht"
       value="Onderzoeksresultaat Synchroniseren "/>
   <properties
-      key="Code"
-      value="KMTT04"/>
-  <properties
-      key="Objecttype"
-      value="Trigger"/>
+      key="Resource"
+      value="KMT:Onderzoeksresultaten"/>
   <source
       xsi:type="archimate:BusinessProcess"
       href="BusinessProcess_id-a090897cc81948a8bbcd3fd7ede875fb.xml#id-a090897cc81948a8bbcd3fd7ede875fb"/>

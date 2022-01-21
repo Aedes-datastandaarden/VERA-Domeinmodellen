@@ -1,21 +1,21 @@
 <archimate:TriggeringRelationship
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Doorgeven Statuswijziging Offerte"
+    name="Doorgeven Offerteaanvraag"
     id="id-2b2cbc76bcc8476fa7abb66dee7c8d15"
-    documentation="Voor het doorgeven van een statuswijziging van een offerte.&#xD;&#xA;&#xD;&#xA;Het bedrijfsproces 'Regisseren onderhoud' zal in sommige situaties een offerte opvragen voor het geven van de opdracht. Na beoordeling van de offerte wil men doorgeven of de offerte akkoord is of wordt afgewezen.">
+    documentation="Doorgeven van een aanvraag voor een offerte&#xD;&#xA;&#xD;&#xA;==== Toelichting ====&#xD;&#xA;Het bedrijfsproces Regisseren Onderhoud zal in sommige situaties een offerte opvragen voordat een onderhoudsorder uitgezet kan worden bij een (externe) onderhoudspartner. In veel gevallen zal het echter ook voorkomen dat er reeds een onderhoudsorder is doorgegeven aan een onderhoudspartner maar dat na de intake door de onderhoudspartner meer of andere werkzaamheden verricht moeten worden die niet gedekt worden door de onderhoudsorder. &#xD;&#xA;&#xD;&#xA;====Scenario's====&#xD;&#xA;Primair&#xD;&#xA;* Als onderhoudsfunctie wil ik een offerte aanvragen voor de uitvoering van werkzaamheden zodat ik een besluit kan nemen hierover&#xD;&#xA;* Als onderhoudsfunctie wil ik, naar aanleiding van de uitvoering van een bestaande onderhoudsorder, een offerte aanvragen voor aanvullende werkzaamheden zodat ik een besluit kan nemen hierover.">
   <properties
-      key="Type"
+      key="Objecttype"
       value="Trigger"/>
   <properties
-      key="Code"
-      value="OHDT15"/>
-  <properties
       key="Bericht"
-      value="Offerte Synchroniseren"/>
+      value="Offerteaanvraag doorgeven"/>
+  <properties
+      key="Resource"
+      value="OHD:Offertes"/>
   <source
       xsi:type="archimate:BusinessProcess"
-      href="BusinessProcess_id-f2c40aed97c34678a4b3f571b564ee0c.xml#id-f2c40aed97c34678a4b3f571b564ee0c"/>
+      href="BusinessProcess_id-6932b3ea7af6465582d82da9182dd97c.xml#id-6932b3ea7af6465582d82da9182dd97c"/>
   <target
       xsi:type="archimate:BusinessProcess"
       href="BusinessProcess_id-af678edf80c544ffa7c88e6dc891609d.xml#id-af678edf80c544ffa7c88e6dc891609d"/>

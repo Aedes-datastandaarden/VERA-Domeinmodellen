@@ -3,20 +3,20 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Doorgeven onderhoudsverzoek"
     id="id-ba9e5769013a44afbb65c41380864da6"
-    documentation="Voor het doorgeven van een vastgelegd onderhoudsverzoek naar aanleiding van een Klantmelding. &#xD;&#xA;&#xD;&#xA;Meldingen voor onderhoudsverzoeken worden door de bedrijfsfunctie Klantbediening geregistreerd en doorgegeven aan 'Regisseren onderhoud’. In de bedrijfsfunctie Klantbediening is alle benodigde informatie beschikbaar om de eenheid en de huurder te identificeren. In het geval van reparatieverzoek of klachtenonderhoud is de melder van het onderhoudsverzoek vaak de gebruiker van de woning (de huurder of bewoner), een derde (buurvrouw, kennis) of de afdeling binnen de woningcorporatie die verantwoordelijk is voor de verhuur van de woning (verhuur-/bewonerszaken). &#xD;&#xA;&#xD;&#xA;Het verzoek bevat de LEDO-informatie of een volledig onderhoudsorder. LEDO staat in dit kader voor locatie, element, defect en oorzaak. Daarmee is het (in de meeste gevallen) mogelijk om eenduidig het defect te bepalen. &#xD;&#xA;&#xD;&#xA;Als binnen het bedrijfsproces Klantbediening gedetecteerd is dat er al een melding is voor dezelfde klacht, zal er geen nieuw onderhoudsverzoek doorgegeven worden. ">
-  <properties
-      key="Type"
-      value="Trigger"/>
-  <properties
-      key="Code"
-      value="OHDT01 "/>
+    documentation="Doorgeven van een nieuw of gewijzigd onderhoudsverzoek &#xD;&#xA;&#xD;&#xA;==== Toelichting ====&#xD;&#xA;Meldingen voor onderhoudsverzoeken worden door de bedrijfsfunctie Klantbediening geregistreerd en doorgegeven aan 'Regisseren onderhoud’. In de bedrijfsfunctie Klantbediening is alle benodigde informatie beschikbaar om de eenheid en de huurder te identificeren. In het geval van reparatieverzoek of klachtenonderhoud is de melder van het onderhoudsverzoek vaak de gebruiker van de woning (de huurder of bewoner), een derde (buurvrouw, kennis) of de afdeling binnen de woningcorporatie die verantwoordelijk is voor de verhuur van de woning (verhuur-/bewonerszaken). Het verzoek bevat de LEDO-informatie (locatie, element, defect en oorzaak) zoals vastgelegd in een Defect. Bij een onderhoudsverzoek kunnen meerdere defecten worden vastgelegd.&#xD;&#xA;&#xD;&#xA;Als binnen het bedrijfsproces Klantbediening gedetecteerd is dat er al een melding is voor dezelfde klacht, zal er geen nieuw onderhoudsverzoek doorgegeven worden. &#xD;&#xA;&#xD;&#xA;====Scenario's====&#xD;&#xA;Primair&#xD;&#xA;* Als medewerker klantbediening wil ik een onderhoudsverzoek doen voor een gemeld defect zodat door het proces Regisseren Onderhoud bepaalt kan worden wat de vervolgactie moet zijn.">
   <properties
       key="Bericht"
-      value="Onderhoudsverzoek Synchroniseren"/>
+      value="Onderhoudsverzoek Doorgeven"/>
+  <properties
+      key="Objecttype"
+      value="Trigger"/>
+  <properties
+      key="Resource"
+      value="OHD:Onderhoudsverzoeken"/>
   <source
       xsi:type="archimate:BusinessProcess"
-      href="BusinessProcess_id-2fb958672aeb4adea5f6f72119aa5782.xml#id-2fb958672aeb4adea5f6f72119aa5782"/>
+      href="BusinessProcess_id-a6de887b920047a086a65f4076042e55.xml#id-a6de887b920047a086a65f4076042e55"/>
   <target
       xsi:type="archimate:BusinessProcess"
-      href="BusinessProcess_id-98f9cdd23c324ff983f74e7f4991f01d.xml#id-98f9cdd23c324ff983f74e7f4991f01d"/>
+      href="BusinessProcess_id-6932b3ea7af6465582d82da9182dd97c.xml#id-6932b3ea7af6465582d82da9182dd97c"/>
 </archimate:TriggeringRelationship>

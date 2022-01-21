@@ -2,14 +2,14 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Projectorder"
     id="id-6a8074956aaf48fab7cc548d7fdd676f"
-    documentation="Verbinding naar de inkoopopdrachten van een project">
+    documentation="====Definitie====&#xD;&#xA;Verwijzing naar de inkoopopdrachten van een project, binnen het gegevensdomein Financiën.&#xD;&#xA;">
   <properties
       key="Objecttype"
       value="Klasse"/>
   <properties
-      key="Mnenomic"
-      value="PROORD"/>
-  <properties
       key="Domein"
       value="Projectontwikkeling"/>
+  <properties
+      key="Resource"
+      value="VERA:Projectorders"/>
 </archimate:DataObject>

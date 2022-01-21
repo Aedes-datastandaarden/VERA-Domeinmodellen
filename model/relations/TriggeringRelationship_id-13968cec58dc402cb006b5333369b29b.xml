@@ -1,0 +1,22 @@
+<archimate:TriggeringRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Synchroniseren Informatieobject"
+    id="id-13968cec58dc402cb006b5333369b29b"
+    documentation="Ophalen en opslaan van informatieobjecten.&#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;Bij de afhandeling van klantcontacten kan het wenselijk zijn om de informatieobjecten (of een link naar de informatieobjecten) in de tijdlijn op te nemen. Daarvoor is het nodig om de informatieobjecten te synchroniseren vanuit het systeem van beheren dossiers.&#xD;&#xA;&#xD;&#xA;====Scenario's====&#xD;&#xA;* Als corporatie wil ik op de tijdlijn bij de contactmomenten van de klant ook de informatieobjecten weergeven zodat bekend is welke documenten er in de tijd zijn gemaakt.">
+  <properties
+      key="Objecttype"
+      value="Trigger"/>
+  <properties
+      key="Resource"
+      value="BDO:Informatieobjecten"/>
+  <properties
+      key="Bericht"
+      value="Informatieobjecten synchroniseren"/>
+  <source
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_id-dc636dbc60ef4675a5bd4b7359a9c537.xml#id-dc636dbc60ef4675a5bd4b7359a9c537"/>
+  <target
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_id-a6de887b920047a086a65f4076042e55.xml#id-a6de887b920047a086a65f4076042e55"/>
+</archimate:TriggeringRelationship>

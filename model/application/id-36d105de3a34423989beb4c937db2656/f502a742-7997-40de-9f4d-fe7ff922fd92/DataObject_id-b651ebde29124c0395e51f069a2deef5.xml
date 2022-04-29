@@ -1,0 +1,15 @@
+<archimate:DataObject
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Betaalwijze"
+    id="id-b651ebde29124c0395e51f069a2deef5"
+    documentation="====Definitie====&#xD;&#xA;De afgesproken betaalwijze voor de afgenomen dienst.&#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;De betaalwijze is de verzameling van de benodigde gegevens om een betaling uit te voeren. Er worden verschillende soorten betaalwijzen geboden. Via incasso of handmatige overboeking. Daarnaas kan het betaalgegevens worden vastgelegd. Indien het een incasso bestreft kan ook de machtiging en het moment worden vastgelegd.&#xD;&#xA;">
+  <properties
+      key="Objecttype"
+      value="Klasse"/>
+  <properties
+      key="Domein"
+      value="Financiën"/>
+  <properties
+      key="Resource"
+      value="FIN:Betaalwijzen"/>
+</archimate:DataObject>

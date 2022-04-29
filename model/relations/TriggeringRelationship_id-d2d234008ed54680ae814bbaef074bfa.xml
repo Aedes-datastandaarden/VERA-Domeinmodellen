@@ -1,0 +1,13 @@
+<archimate:TriggeringRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Opvragen ExterneIncasso"
+    id="id-d2d234008ed54680ae814bbaef074bfa"
+    documentation="Ophalen van externe incasso-dossiers&#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;Ten behoeve van de afhandeling van klantcontacten is het gewenst om informatie over lopende of reeds afgesloten deurwaarderdossiers bij een debiteur op te vragen. Aan de hand van die informatie kan Klantbediening de juiste diensten aanbieden aan de klant.&#xD;&#xA;&#xD;&#xA;====Scenario's====&#xD;&#xA;*Als medewerker wil ik weten of er een lopende deurwaarderszaak is zodat ik de juiste diensten kan aanbieden">
+  <source
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_id-a6de887b920047a086a65f4076042e55.xml#id-a6de887b920047a086a65f4076042e55"/>
+  <target
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_id-3c53d74fb63c4dca829b76b01e469d2a.xml#id-3c53d74fb63c4dca829b76b01e469d2a"/>
+</archimate:TriggeringRelationship>

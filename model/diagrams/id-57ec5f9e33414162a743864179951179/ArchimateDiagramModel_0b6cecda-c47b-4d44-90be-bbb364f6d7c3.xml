@@ -246,6 +246,15 @@
           xsi:type="archimate:CompositionRelationship"
           href="CompositionRelationship_id-c7a01879fe81480eb4d1ac1aded469bf.xml#id-c7a01879fe81480eb4d1ac1aded469bf"/>
     </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-54807b8c53fc4c468a652f725990057e"
+        source="1d4bf437-1808-456f-b17b-0b3e6b67f55d"
+        target="id-f479e086ef9946b9b465a6273de88083">
+      <archimateRelationship
+          xsi:type="archimate:CompositionRelationship"
+          href="CompositionRelationship_id-db6b3b168d694efb9117c479080cac47.xml#id-db6b3b168d694efb9117c479080cac47"/>
+    </sourceConnections>
     <bounds
         x="12"
         width="1813"
@@ -305,7 +314,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="b2e12685-273e-4bbf-b2d0-fdbb5b4454b8"
-        targetConnections="9b4f8802-567e-45ac-a5e4-d34183505f08"
+        targetConnections="9b4f8802-567e-45ac-a5e4-d34183505f08 id-26f8b893c58e4f5da8e6d06971f9a09f"
         font="1|Segoe UI|11.25|1|WINDOWS|1|-15|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
         fontColor="#ffffff"
         fillColor="#0099cc"
@@ -1489,6 +1498,32 @@
       <archimateElement
           xsi:type="archimate:DataObject"
           href="DataObject_cfd99ced-c35a-4e22-a5af-453c0955cb7d.xml#cfd99ced-c35a-4e22-a5af-453c0955cb7d"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-f479e086ef9946b9b465a6273de88083"
+        targetConnections="id-54807b8c53fc4c468a652f725990057e"
+        font="1|Segoe UI|12.0|1|WINDOWS|1|-28|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
+        fontColor="#ffffff"
+        fillColor="#56a8d8"
+        textPosition="1">
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-26f8b893c58e4f5da8e6d06971f9a09f"
+          source="id-f479e086ef9946b9b465a6273de88083"
+          target="b2e12685-273e-4bbf-b2d0-fdbb5b4454b8">
+        <archimateRelationship
+            xsi:type="archimate:SpecializationRelationship"
+            href="SpecializationRelationship_id-7c90bd5dcd19447d981c83b0abbf77f0.xml#id-7c90bd5dcd19447d981c83b0abbf77f0"/>
+      </sourceConnections>
+      <bounds
+          x="276"
+          y="828"
+          width="192"
+          height="84"/>
+      <archimateElement
+          xsi:type="archimate:DataObject"
+          href="DataObject_id-85f8ddb586f84af2ad86d07ad7320fac.xml#id-85f8ddb586f84af2ad86d07ad7320fac"/>
     </children>
     <archimateElement
         xsi:type="archimate:Grouping"

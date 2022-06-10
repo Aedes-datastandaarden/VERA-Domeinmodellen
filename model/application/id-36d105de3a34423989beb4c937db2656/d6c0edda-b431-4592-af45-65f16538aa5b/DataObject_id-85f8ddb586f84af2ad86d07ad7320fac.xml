@@ -1,0 +1,18 @@
+<archimate:DataObject
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Onderhoudsleverancier"
+    id="id-85f8ddb586f84af2ad86d07ad7320fac"
+    documentation="====Definitie====&#xD;&#xA;Een rechtspersoon is een organisatie die een juridische vorm heeft (B.V., N.V., V.O.F. etc.), die volwaardig en handelingsbekwaam in het rechtsverkeer kan optreden. &#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;Een rechtspersoon is een relatie met extra eigenschappen. Een rechtspersoon kan als relatie worden gekoppeld aan overige klassen. &lt;br />&#xD;&#xA;De rechtspersoon wordt kan door één of meer natuurlijke personen worden vertegenwoordigd. &#xD;&#xA;&#xD;&#xA;====Voorbeelden====&#xD;&#xA;Leverancier of aannemer. ">
+  <properties
+      key="Objecttype"
+      value="Klasse"/>
+  <properties
+      key="Code"
+      value="RELREC"/>
+  <properties
+      key="Domein"
+      value="Relaties"/>
+  <properties
+      key="Resource"
+      value="VERA:Rechtspersonen"/>
+</archimate:DataObject>

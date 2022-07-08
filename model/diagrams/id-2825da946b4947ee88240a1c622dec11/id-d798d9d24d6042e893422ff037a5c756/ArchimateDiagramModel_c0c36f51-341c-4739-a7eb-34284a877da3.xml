@@ -71,7 +71,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="f4cf37f6-8cbe-4678-9b41-f1da88c5ce41"
-        targetConnections="71754017-a33d-4a8e-b4fa-05ffc7dd2429 a86a8452-e096-4b5f-87e4-31f8ba3d8c5c 565f6c8e-8e26-4c5d-afae-cf67ce31bf82 id-3078cccaeffe433da6af5189574d30be id-c927c9b7873d4f36beedff3d9b714109"
+        targetConnections="565f6c8e-8e26-4c5d-afae-cf67ce31bf82 id-3078cccaeffe433da6af5189574d30be id-c927c9b7873d4f36beedff3d9b714109"
         font="1|Segoe UI|9.0|1|WINDOWS|1|-12|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
         fillColor="#ffff66"
         textPosition="1">
@@ -202,34 +202,6 @@
         font="1|Segoe UI|9.0|1|WINDOWS|1|-12|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
         fillColor="#ffff66"
         textPosition="1">
-      <sourceConnections
-          xsi:type="archimate:DiagramModelArchimateConnection"
-          id="71754017-a33d-4a8e-b4fa-05ffc7dd2429"
-          source="8cda5c06-1fa1-4f2c-8451-89574484fc85"
-          target="f4cf37f6-8cbe-4678-9b41-f1da88c5ce41">
-        <bendpoints
-            startX="156"
-            startY="10"
-            endX="-24"
-            endY="-62"/>
-        <archimateRelationship
-            xsi:type="archimate:AssociationRelationship"
-            href="AssociationRelationship_id-bf0ec9121e73418f8010c7eb4f554026.xml#id-bf0ec9121e73418f8010c7eb4f554026"/>
-      </sourceConnections>
-      <sourceConnections
-          xsi:type="archimate:DiagramModelArchimateConnection"
-          id="a86a8452-e096-4b5f-87e4-31f8ba3d8c5c"
-          source="8cda5c06-1fa1-4f2c-8451-89574484fc85"
-          target="f4cf37f6-8cbe-4678-9b41-f1da88c5ce41">
-        <bendpoints
-            startX="204"
-            startY="-2"
-            endX="24"
-            endY="-74"/>
-        <archimateRelationship
-            xsi:type="archimate:AssociationRelationship"
-            href="AssociationRelationship_id-e7d74ddb76f948e4a8f88b1a1bd1acb8.xml#id-e7d74ddb76f948e4a8f88b1a1bd1acb8"/>
-      </sourceConnections>
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="df9d265b-91ba-4af5-84c7-c0d2108a3c41"

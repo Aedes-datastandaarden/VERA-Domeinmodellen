@@ -1,6 +1,6 @@
 <archimate:DataObject
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="InkoopfactuurRegel"
+    name="Inkoopfactuurregel"
     id="2315a39c-fb1c-4c1a-80e1-9d39e7daf953"
     documentation="====Definitie====&#xD;&#xA;De uitsplitsing van een inkoopfactuur in de verschillende onderdelen die op de inkoopfactuur in rekening worden gebracht.&#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;Het totaal van een inkoopfactuur is doorgaans verbijzonderd naar een of meerdere geleverde producten of diensten. Met de inkoopfactuurregel kan deze verbijzondering worden geregistreerd.&#xD;&#xA;&#xD;&#xA;====Voorbeelden====&#xD;&#xA;Bestede uren en materiaal voor een onderhoudsopdracht zullen doorgaans als aparte inkoopfactuurregels worden vermeld.">
   <properties
@@ -14,5 +14,5 @@
       value="Financiën"/>
   <properties
       key="Resource"
-      value="VERA:InkoopfactuurRegels"/>
+      value="VERA:Inkoopfactuurregels"/>
 </archimate:DataObject>

@@ -1,8 +1,8 @@
 <archimate:DataObject
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="InkoopfactuurBetaling"
+    name="Factuurbetaling"
     id="c7d6a83d-d21b-4628-bb5a-a33801fe3095"
-    documentation="====Definitie====&#xD;&#xA;De (deel)betaling die heeft plaatsgevonden op een inkoopfactuur.&#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;Als een factuur wordt ingeboekt ontstaat een schuld bij de crediteur. Door de factuur te betalen wordt deze schuld vereffend. In de inkoopfactuurbetaling wordt de (toekomstige) betaling van de factuur geregistreerd.&#xD;&#xA;&#xD;&#xA;====Voorbeelden====&#xD;&#xA;* De toekomstige betalingen die in een betaalopdracht zijn opgenomen.&#xD;&#xA;* De betalingen die vanaf een bankafschrift op een inkoopfactuur worden geboekt.&#xD;&#xA;">
+    documentation="====Definitie====&#xD;&#xA;De (deel)betaling die heeft plaatsgevonden op een factuur.&#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;Als een factuur wordt ingeboekt ontstaat een schuld bij de crediteur. Door de factuur te betalen wordt deze schuld vereffend. In de inkoopfactuurbetaling wordt de (toekomstige) betaling van de factuur geregistreerd.&#xD;&#xA;&#xD;&#xA;====Voorbeelden====&#xD;&#xA;* De toekomstige betalingen die in een betaalopdracht zijn opgenomen.&#xD;&#xA;* De betalingen die vanaf een bankafschrift op een inkoopfactuur worden geboekt.&#xD;&#xA;">
   <properties
       key="Objecttype"
       value="Klasse"/>
@@ -14,5 +14,5 @@
       value="Financiën"/>
   <properties
       key="Resource"
-      value="VERA:InkoopfactuurBetalingen"/>
+      value="VERA:Factuurbetalingen"/>
 </archimate:DataObject>

@@ -1,11 +1,15 @@
 <archimate:DataObject
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="PersoneleFunctie"
-    id="id-80f7cedea9154d1f899033faeaabb950">
+    id="id-80f7cedea9154d1f899033faeaabb950"
+    documentation="====Definitie====&#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;&#xD;&#xA;====Voorbeelden====">
   <properties
       key="Domein"
       value="Organisatie"/>
   <properties
       key="Objecttype"
       value="Klasse"/>
+  <properties
+      key="Resource"
+      value="VERA:PersoneleFuncties"/>
 </archimate:DataObject>

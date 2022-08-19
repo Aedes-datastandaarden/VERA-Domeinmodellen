@@ -1,11 +1,15 @@
 <archimate:DataObject
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="OrganisatorischeEenheid"
-    id="id-c995ba82722f4c0992f3242cc159d936">
+    id="id-c995ba82722f4c0992f3242cc159d936"
+    documentation="====Definitie====&#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;&#xD;&#xA;====Voorbeelden====">
   <properties
       key="Objecttype"
       value="Klasse"/>
   <properties
       key="Domein"
       value="Organisatie"/>
+  <properties
+      key="Resource"
+      value="VERA:OrganisatorischeEenheden"/>
 </archimate:DataObject>

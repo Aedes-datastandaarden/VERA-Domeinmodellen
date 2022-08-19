@@ -1,11 +1,15 @@
 <archimate:DataObject
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Medewerker"
-    id="id-0789d6bc2e1a4e8fbed9ce07ecb22163">
+    id="id-0789d6bc2e1a4e8fbed9ce07ecb22163"
+    documentation="====Definitie====&#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;&#xD;&#xA;====Voorbeelden====&#xD;&#xA;">
   <properties
       key="Objecttype"
       value="Klasse"/>
   <properties
       key="Domein"
       value="Organisatie"/>
+  <properties
+      key="Resource"
+      value="VERA:Medewerkers"/>
 </archimate:DataObject>

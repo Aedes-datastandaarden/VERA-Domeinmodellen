@@ -1,0 +1,12 @@
+<archimate:TriggeringRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Doorgeven betaalopdracht"
+    id="id-703ecc14e1c948efbeb3e9018df8bef4">
+  <source
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_id-2e80fe5d80f94a8cb6edab3ddbe285c5.xml#id-2e80fe5d80f94a8cb6edab3ddbe285c5"/>
+  <target
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_id-628d6c68a9e34c7ca36a8e9ef222a7b4.xml#id-628d6c68a9e34c7ca36a8e9ef222a7b4"/>
+</archimate:TriggeringRelationship>

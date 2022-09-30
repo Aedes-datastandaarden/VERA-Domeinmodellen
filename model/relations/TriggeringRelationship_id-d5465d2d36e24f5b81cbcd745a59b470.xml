@@ -1,0 +1,18 @@
+<archimate:TriggeringRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Opvragen facturen"
+    id="id-d5465d2d36e24f5b81cbcd745a59b470">
+  <properties
+      key="Objecttype"
+      value="Trigger"/>
+  <properties
+      key="Resource"
+      value="DEB:Facturen"/>
+  <source
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_id-78f3b808d50941cd849806b564c8ef8b.xml#id-78f3b808d50941cd849806b564c8ef8b"/>
+  <target
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_id-2e80fe5d80f94a8cb6edab3ddbe285c5.xml#id-2e80fe5d80f94a8cb6edab3ddbe285c5"/>
+</archimate:TriggeringRelationship>

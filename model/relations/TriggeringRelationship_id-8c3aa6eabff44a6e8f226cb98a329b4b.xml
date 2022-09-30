@@ -1,0 +1,18 @@
+<archimate:TriggeringRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Opvragen debiteuren"
+    id="id-8c3aa6eabff44a6e8f226cb98a329b4b">
+  <properties
+      key="Objecttype"
+      value="Trigger"/>
+  <properties
+      key="Resource"
+      value="DEB:Debiteuren"/>
+  <source
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_id-b2b35e8023f24de0a3d412db5f236124.xml#id-b2b35e8023f24de0a3d412db5f236124"/>
+  <target
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_id-2e80fe5d80f94a8cb6edab3ddbe285c5.xml#id-2e80fe5d80f94a8cb6edab3ddbe285c5"/>
+</archimate:TriggeringRelationship>

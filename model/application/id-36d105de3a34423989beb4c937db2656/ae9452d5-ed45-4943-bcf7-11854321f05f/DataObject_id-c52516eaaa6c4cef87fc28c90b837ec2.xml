@@ -1,4 +1,15 @@
 <archimate:DataObject
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Overeenkomstkoppeling"
-    id="id-c52516eaaa6c4cef87fc28c90b837ec2"/>
+    id="id-c52516eaaa6c4cef87fc28c90b837ec2"
+    documentation="====Definitie==== &#xD;&#xA;Overeenkomsten kunnen aan elkaar worden gekoppeld.&#xD;&#xA;&#xD;&#xA;====Toelichting==== &#xD;&#xA;Bijvoorbeeld als er meerdere woonruimteverdelers actief zijn binnen een regionaal samenwerkingsverband. Woningzoekenden kunnen hun inschrijvingen van meerdere woonruimteverdelers aan elkaar koppelen.">
+  <properties
+      key="Objecttype"
+      value="Klasse"/>
+  <properties
+      key="Domein"
+      value="Overeenkomsten"/>
+  <properties
+      key="Resource"
+      value="VERA:Overeenkomstkoppelingen"/>
+</archimate:DataObject>

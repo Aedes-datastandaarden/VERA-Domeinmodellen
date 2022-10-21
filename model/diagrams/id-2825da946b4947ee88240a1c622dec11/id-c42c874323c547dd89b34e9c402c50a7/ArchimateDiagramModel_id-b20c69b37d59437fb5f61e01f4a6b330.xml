@@ -1,7 +1,7 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Gebeurtenissen"
+    name="Puntengebeurtenissen"
     id="id-b20c69b37d59437fb5f61e01f4a6b330"
     documentation="====Definitie====&#xD;&#xA;Doorgeven op ophalen van één of meer gebeurtenissen. &#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;Indien een regionaal samenwerkingsverband werkt met een puntensysteem zijn een aantal gebeurtenissen relevant voor het opbouwen van punten maar ook de afbouw en sancties. &#xD;&#xA;&#xD;&#xA;====Voorbeelden====&#xD;&#xA;* Reactie: voor opbouw zoekpunten.&#xD;&#xA;* Intrekken reactie: voor bepalen zoekpunten.&#xD;&#xA;* Weigering: voor toepassen sanctie.&#xD;&#xA;* Intrekken Weigering: voor bepalen sanctie.&#xD;&#xA;* NoShow: voor toepassen sanctie.&#xD;&#xA;* Intrekken NoShow: voor bepalen sanctie&#xD;&#xA;* Toewijzing: voor reset punten.&#xD;&#xA;* Begin Situatiepunten: voor het toekennen van situatiepunten.&#xD;&#xA;* Begin Startpunten: voor het toekennen van startpunten.&#xD;&#xA;* Nieuwe Inschrijving: voor het opbouwen van punten.&#xD;&#xA;* Wijzigen Inschrijving: voor het wijzigen van inschrijfduur.&#xD;&#xA;https://socialehuurwoningzoeken.nl/het-nieuwe-systeem/&#xD;&#xA;"
     viewpoint="information_structure">
@@ -440,5 +440,5 @@
       value="Woonruimteverdeling"/>
   <properties
       key="Resource"
-      value="WRV:Gebeurtenissen"/>
+      value="WRV:Puntengebeurtenissen"/>
 </archimate:ArchimateDiagramModel>

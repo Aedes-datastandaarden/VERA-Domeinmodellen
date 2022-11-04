@@ -1,0 +1,19 @@
+<archimate:TriggeringRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Doorgeven betalingsregeling"
+    id="id-f1ecfae185084f439e0d22f485d137d5"
+    documentation="Synchroniseren van nieuwe betalingsregelingen.&#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;Een betalingsregeling is een afspraak met een debiteur om een achterstand in betaling in termijnen te betalen. Er worden afspraken gemaakt over het aantal termijnen,  het te betalen bedrag per termijn en de wijze waarop betaald zal worden.&#xD;&#xA;&#xD;&#xA;====Scenario's====&#xD;&#xA;*Als medewerker wil ik wijziging op een betalingsregeling kunnen doorvoeren. ">
+  <properties
+      key="Objecttype"
+      value="Trigger"/>
+  <properties
+      key="Resource"
+      value="INC:Betalingsregelingen"/>
+  <source
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_id-176ad6c59f914e0a8ee94dfcad297abf.xml#id-176ad6c59f914e0a8ee94dfcad297abf"/>
+  <target
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_id-3071cdb5e4c24186b2c301b35dc647bb.xml#id-3071cdb5e4c24186b2c301b35dc647bb"/>
+</archimate:TriggeringRelationship>

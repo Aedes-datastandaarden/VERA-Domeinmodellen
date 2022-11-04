@@ -1,0 +1,18 @@
+<archimate:TriggeringRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Doorgeven Externe Incasso"
+    id="id-cb1b5543880948a1a429a75bc7a74c2c">
+  <properties
+      key="Objecttype"
+      value="Trigger"/>
+  <properties
+      key="Resource"
+      value="INC:ExterneIncassos"/>
+  <source
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_id-e4982c9d62e24c59ba017ae379cf660e.xml#id-e4982c9d62e24c59ba017ae379cf660e"/>
+  <target
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_id-e44abb1ad7d3409392dc58d2387411cb.xml#id-e44abb1ad7d3409392dc58d2387411cb"/>
+</archimate:TriggeringRelationship>

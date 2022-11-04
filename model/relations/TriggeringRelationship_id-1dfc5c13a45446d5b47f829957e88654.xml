@@ -1,0 +1,19 @@
+<archimate:TriggeringRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Aanvragen betalingsregeling"
+    id="id-1dfc5c13a45446d5b47f829957e88654"
+    documentation="Starten van nieuwe betalingsregelingen.&#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;Een betalingsregeling is een afspraak met een debiteur om een achterstand in betaling in termijnen te betalen. Er worden afspraken gemaakt over het aantal termijnen,  het te betalen bedrag per termijn en de wijze waarop betaald zal worden.&#xD;&#xA;&#xD;&#xA;====Scenario's====&#xD;&#xA;*Als huurder wil ik een betalingsregeling voor een of meer openstaande posten kunnen starten &#xD;&#xA;*Als medewerker wil ik van een huurder met een betaalachterstand een regeling kunnen starten &#xD;&#xA;&#xD;&#xA;&#xD;&#xA;">
+  <properties
+      key="Objecttype"
+      value="Trigger"/>
+  <properties
+      key="Resource"
+      value="INC:Betalingsregelingen"/>
+  <source
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_id-ceef07a7993b44d7a713b8c89444e2b0.xml#id-ceef07a7993b44d7a713b8c89444e2b0"/>
+  <target
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_id-176ad6c59f914e0a8ee94dfcad297abf.xml#id-176ad6c59f914e0a8ee94dfcad297abf"/>
+</archimate:TriggeringRelationship>

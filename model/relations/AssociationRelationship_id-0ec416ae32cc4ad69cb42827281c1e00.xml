@@ -1,0 +1,14 @@
+<archimate:AssociationRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="woonsituatie"
+    id="id-0ec416ae32cc4ad69cb42827281c1e00"
+    documentation="====Definitie====&#xD;&#xA;Gegevens van de huidige woning, huidige contract en status (doorstromer of starter) van een hoofdaanvrager.&#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;De huidige woning van een hoofdaanvrager is de eenheid waar deze woonachtig is.&#xD;&#xA;Het huidige contract is het koop- of huurcontract voor de huidige woning van de woonconsument.&#xD;&#xA;Alleen de gegevens die nodig zijn in de woonruimteverdeling processen (selectie, sortering en aanbieden vastgoed) worden vastgelegd in de huidige woonsituatie.&#xD;&#xA;Geïmplementeerd als 1:1 relatie met NatuurlijkPersoon"
+    directed="true">
+  <source
+      xsi:type="archimate:DataObject"
+      href="DataObject_cfd99ced-c35a-4e22-a5af-453c0955cb7d.xml#cfd99ced-c35a-4e22-a5af-453c0955cb7d"/>
+  <target
+      xsi:type="archimate:DataObject"
+      href="DataObject_id-ad14ae0ce8e54dbe8964411f648e5642.xml#id-ad14ae0ce8e54dbe8964411f648e5642"/>
+</archimate:AssociationRelationship>

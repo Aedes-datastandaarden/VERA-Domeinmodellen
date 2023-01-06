@@ -1,0 +1,18 @@
+<archimate:DataObject
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Woonsituatie"
+    id="id-ad14ae0ce8e54dbe8964411f648e5642"
+    documentation="====Definitie====&#xD;&#xA;Gegevens van de huidige woning, huidige contract en status (doorstromer of starter) van een hoofdaanvrager.&#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;De huidige woning van een hoofdaanvrager is de eenheid waar deze woonachtig is.&#xD;&#xA;Het huidige contract is het koop- of huurcontract voor de huidige woning van de woonconsument.">
+  <properties
+      key="Objecttype"
+      value="Klasse"/>
+  <properties
+      key="Code"
+      value="RELWON"/>
+  <properties
+      key="Domein"
+      value="Relaties"/>
+  <properties
+      key="Resource"
+      value="VERA:Woonsituaties"/>
+</archimate:DataObject>

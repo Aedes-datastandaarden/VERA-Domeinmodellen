@@ -1,18 +1,18 @@
 <archimate:DataObject
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Creditfactuur"
+    name="Inkoopfactuur"
     id="b34800c8-6f17-490b-b0b3-14742982a645"
-    documentation="====Definitie====&#xD;&#xA;Een creditfactuur, ook wel inkoopfactuur, is een document dat de betalingsverplichting van het financiële bedrijf aan een crediteur weergeeft. &#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;Crediteuren versturen inkoopfacturen aan het financiële bedrijf voor de geleverde diensten of producten. Een creditfactuur is een verbijzondering van een factuur.&#xD;&#xA;&#xD;&#xA;====Voorbeelden====&#xD;&#xA;Een aannemer stuurt een factuur voor het repareren van een onderdeel in het kader van het Dagelijks Onderhoud.&#xD;&#xA;">
+    documentation="====Definitie====&#xD;&#xA;Een inkoopfactuur is een document dat de betalingsverplichting van het financiële bedrijf aan een crediteur weergeeft. Indien het bedrag negatief is dan spreekt men van een creditfactuur.&#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;Crediteuren versturen inkoopfacturen aan het financiële bedrijf voor de geleverde diensten of producten. Een creditfactuur is een verbijzondering van een factuur.&#xD;&#xA;&#xD;&#xA;====Voorbeelden====&#xD;&#xA;Een aannemer stuurt een factuur voor het repareren van een onderdeel in het kader van het Dagelijks Onderhoud.&#xD;&#xA;">
   <properties
       key="Objecttype"
       value="Klasse"/>
   <properties
       key="Code"
-      value="FINCRF"/>
+      value="FININK"/>
   <properties
       key="Domein"
       value="Financiën"/>
   <properties
       key="Resource"
-      value="VERA:Creditfacturen"/>
+      value="VERA:Inkoopfacturen"/>
 </archimate:DataObject>

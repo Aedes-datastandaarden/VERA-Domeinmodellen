@@ -1,18 +1,18 @@
 <archimate:DataObject
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="EenheidVoorwaarden"
+    name="Eenheidcriterium"
     id="19ef5284-8b6e-41df-9be0-007696a0c9f0"
-    documentation="====Definitie====&#xD;&#xA;Voorwaarden van een eenheid waaraan een huurder moet voldoen om in aanmerking te komen voor de eenheid. &#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;Een eenheid bevat een aantal voorwaarden waaraan een potentiele huurder aan moet voldoen om de eenheid te mogen huren. &#xD;&#xA;&#xD;&#xA;">
+    documentation="====Definitie====&#xD;&#xA;Voorwaarden van een eenheid waaraan een huurder moet voldoen om in aanmerking te komen of om voorrang te krijgen voor de eenheid. &#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;Een eenheid bevat een aantal criteria waaraan een potentiele huurder aan moet voldoen om de eenheid te mogen huren. Daarnaast kunnen er criteria zijn bepaald waarbij de woningzoekende een hogere positie op de kandidatenlijst krijgt.&#xD;&#xA;&#xD;&#xA;">
   <properties
       key="Objecttype"
       value="Klasse"/>
   <properties
       key="Code"
-      value="VASVOO"/>
+      value="VASCRI"/>
   <properties
       key="Domein"
       value="Vastgoed"/>
   <properties
       key="Resource"
-      value="VERA:EenheidVoorwaardes"/>
+      value="VERA:Eenheidcriteria"/>
 </archimate:DataObject>

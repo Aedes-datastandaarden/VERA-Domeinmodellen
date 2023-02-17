@@ -1,11 +1,13 @@
-<archimate:CompositionRelationship
+<archimate:AssociationRelationship
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-f2b9f7f4f90243e48def5dc0bff48948">
+    name="contractant"
+    id="id-1eb14652fb934150b0a00f0ba0e6179b"
+    directed="true">
   <source
       xsi:type="archimate:BusinessObject"
-      href="BusinessObject_id-50660a3390264b30abef2b2c32977b4d.xml#id-50660a3390264b30abef2b2c32977b4d"/>
+      href="BusinessObject_id-4b986645ce6d46eab312fad59022e866.xml#id-4b986645ce6d46eab312fad59022e866"/>
   <target
       xsi:type="archimate:BusinessObject"
       href="BusinessObject_id-27bd48f571104d43837665ea573b0d7b.xml#id-27bd48f571104d43837665ea573b0d7b"/>
-</archimate:CompositionRelationship>
+</archimate:AssociationRelationship>

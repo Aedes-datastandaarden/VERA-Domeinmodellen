@@ -1,0 +1,12 @@
+<archimate:TriggeringRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Eerste verhuurnota betaald"
+    id="id-9473b1378be94b248e3496038337d9af">
+  <source
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_id-55459c2ae5014eea8a91af833daef8db.xml#id-55459c2ae5014eea8a91af833daef8db"/>
+  <target
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_id-357696c944f346bc9b43b488e5b0d6bc.xml#id-357696c944f346bc9b43b488e5b0d6bc"/>
+</archimate:TriggeringRelationship>

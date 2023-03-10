@@ -1,0 +1,22 @@
+<archimate:AssociationRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="relatie"
+    id="id-1c825343916b4ccdb1c16deaaa52c21d"
+    directed="true">
+  <properties
+      key="Objecttype"
+      value="Klasse"/>
+  <properties
+      key="Domein"
+      value="Woonruimteverdeling"/>
+  <properties
+      key="Resource"
+      value="VERA:Woonwensen"/>
+  <source
+      xsi:type="archimate:DataObject"
+      href="DataObject_id-4e2dc70c097e4751b1611c847c83b5d4.xml#id-4e2dc70c097e4751b1611c847c83b5d4"/>
+  <target
+      xsi:type="archimate:DataObject"
+      href="DataObject_c741dd31-2b80-4474-8abe-c8832a718069.xml#c741dd31-2b80-4474-8abe-c8832a718069"/>
+</archimate:AssociationRelationship>

@@ -1,0 +1,20 @@
+<archimate:AssociationRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Ophalen Aanbieding"
+    id="id-980b58bc35014495ab8e962adf8b67ba"
+    documentation="Het ophalen van de aanbieding waarbij een sanctie is opgelegd.&#xD;&#xA;&#xD;&#xA;==== Toelichting ====&#xD;&#xA;Om een bezwaar te kunnen beoordelen is informatie uit het aanbiedingsproces nodig.&#xD;&#xA;Bijv. &#xD;&#xA;* De status en detailstatus geven aan waarom een woning is geweigerd of afgewezen.&#xD;&#xA;* En de communicatie contactmomenten die hebben plaatsgevonden."
+    directed="true">
+  <properties
+      key="Objecttype"
+      value="Trigger"/>
+  <properties
+      key="Resource"
+      value="WRV:Aanbiedingen"/>
+  <source
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_id-a760b53ea2af4664bf0f54e5ef3cf300.xml#id-a760b53ea2af4664bf0f54e5ef3cf300"/>
+  <target
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_id-c42fb8c599dd49f6a5a726cc7949337d.xml#id-c42fb8c599dd49f6a5a726cc7949337d"/>
+</archimate:AssociationRelationship>

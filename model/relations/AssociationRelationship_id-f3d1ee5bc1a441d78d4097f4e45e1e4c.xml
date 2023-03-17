@@ -1,0 +1,14 @@
+<archimate:AssociationRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Vastleggen klacht bij puntenaftrek"
+    id="id-f3d1ee5bc1a441d78d4097f4e45e1e4c"
+    documentation="Een woningzoekende kan een klacht indienen indien men puntenaftrek heeft gekregen n.a.v. van een fout van de corporatie.&#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;Soms wordt er een sanctie opgelegd waar de woningzoekende onterecht wordt gedupeerd. &#xD;&#xA;&#xD;&#xA;==== Voorbeelden ====&#xD;&#xA;* De woningzoekende heeft een No Show sanctie maar er was niemand van de corporatie bij de bezichtiging.&#xD;&#xA;* Woningzoekende heeft een onvoldoende reacties sanctie maar er waren geen passende woningen om op te kunnen reageren.&#xD;&#xA;"
+    directed="true">
+  <source
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_id-a6de887b920047a086a65f4076042e55.xml#id-a6de887b920047a086a65f4076042e55"/>
+  <target
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_id-5b6f8b4f25b348319083d9082b4650e5.xml#id-5b6f8b4f25b348319083d9082b4650e5"/>
+</archimate:AssociationRelationship>

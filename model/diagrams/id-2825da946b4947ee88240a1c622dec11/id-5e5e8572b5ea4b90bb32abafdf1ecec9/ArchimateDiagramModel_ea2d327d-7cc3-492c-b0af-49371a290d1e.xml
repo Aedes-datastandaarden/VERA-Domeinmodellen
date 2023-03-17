@@ -391,6 +391,21 @@
           id="id-9b598c4deb2a416697781a29d4a053b0"
           source="9aac4d6e-c1a9-4f58-9067-61d9c442a55a"
           target="c921a571-ac95-45be-9963-89932fa2114b">
+        <bendpoints
+            startX="72"
+            startY="-3"
+            endX="337"
+            endY="-3"/>
+        <bendpoints
+            startX="72"
+            startY="-39"
+            endX="337"
+            endY="-39"/>
+        <bendpoints
+            startX="-216"
+            startY="-39"
+            endX="49"
+            endY="-39"/>
         <archimateRelationship
             xsi:type="archimate:AssociationRelationship"
             href="AssociationRelationship_id-ee72646ec41a473cb35025c0999bb766.xml#id-ee72646ec41a473cb35025c0999bb766"/>
@@ -418,15 +433,15 @@
           source="345a531b-3eda-4bc5-b6f7-63edee01a320"
           target="87653109-895a-4784-b071-97f4f3051e4f">
         <bendpoints
-            startX="-142"
-            startY="-20"
-            endX="96"
-            endY="118"/>
+            startX="-107"
+            startY="-21"
+            endX="132"
+            endY="117"/>
         <bendpoints
-            startX="-142"
-            startY="-116"
-            endX="96"
-            endY="22"/>
+            startX="-107"
+            startY="-117"
+            endX="132"
+            endY="21"/>
         <archimateRelationship
             xsi:type="archimate:AssociationRelationship"
             href="AssociationRelationship_b14e2357-31af-41a0-b240-ea2cd0dfd709.xml#b14e2357-31af-41a0-b240-ea2cd0dfd709"/>
@@ -513,10 +528,20 @@
           source="id-ddbd3333ee66453a9d0e0917e11b073e"
           target="c921a571-ac95-45be-9963-89932fa2114b">
         <bendpoints
+            startX="72"
+            startY="-3"
+            endX="337"
+            endY="69"/>
+        <bendpoints
+            startX="72"
+            startY="-111"
+            endX="337"
+            endY="-39"/>
+        <bendpoints
             startX="-216"
-            startY="-15"
+            startY="-111"
             endX="49"
-            endY="57"/>
+            endY="-39"/>
         <archimateRelationship
             xsi:type="archimate:AssociationRelationship"
             href="AssociationRelationship_23b12c9f-5315-4b20-9cda-243777e0a5f2.xml#23b12c9f-5315-4b20-9cda-243777e0a5f2"/>

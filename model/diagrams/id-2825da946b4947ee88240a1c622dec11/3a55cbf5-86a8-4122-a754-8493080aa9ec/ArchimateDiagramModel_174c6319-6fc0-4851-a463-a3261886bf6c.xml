@@ -393,15 +393,20 @@
           source="id-3a49b7aa6ae9434584e72278d2863ff9"
           target="id-135f36353df148e8971af8eb6912f18a">
         <bendpoints
-            startY="69"
+            startY="81"
             endX="-216"
+            endY="-3"/>
+        <bendpoints
+            startX="144"
+            startY="81"
+            endX="-72"
             endY="-3"/>
         <archimateRelationship
             xsi:type="archimate:AssociationRelationship"
             href="AssociationRelationship_id-4b486af2100c449092087824b06d86f5.xml#id-4b486af2100c449092087824b06d86f5"/>
       </sourceConnections>
       <bounds
-          x="468"
+          x="456"
           y="60"
           width="120"
           height="55"/>
@@ -467,13 +472,13 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-135f36353df148e8971af8eb6912f18a"
-        targetConnections="id-5d482dcbe7ac4e4880d80261aa62b123 id-8c2c09ee628d422ea4c5c721f6c1bbba"
+        targetConnections="id-8c2c09ee628d422ea4c5c721f6c1bbba id-5d482dcbe7ac4e4880d80261aa62b123"
         font="1|Segoe UI|9.0|1|WINDOWS|1|-21|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
         fillColor="#ffff66"
         textPosition="1">
       <bounds
           x="684"
-          y="168"
+          y="144"
           width="120"
           height="55"/>
       <archimateElement

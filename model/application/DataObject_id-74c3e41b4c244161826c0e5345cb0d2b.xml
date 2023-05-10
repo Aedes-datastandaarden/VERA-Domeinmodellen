@@ -1,0 +1,18 @@
+<archimate:DataObject
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="AuthentiekGegeven"
+    id="id-74c3e41b4c244161826c0e5345cb0d2b"
+    documentation="====Definitie====&#xD;&#xA;Een rol is een verschijningsvorm van een relatie ten opzichte van de woningcorporatie of een andere relatie. &#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;Een Relatie kan de rol aannemen van klant maar tegelijkertijd ook van prospect bijvoorbeeld. &lt;br />&#xD;&#xA;RelatieRol maakt het mogelijk meerdere rollen toe te kennen aan een relatie. Per rol van een relatie kunnen verschillende adres en contactgegevens van toepassing zijn. &#xD;&#xA;&#xD;&#xA;====Voorbeelden====&#xD;&#xA;* Klant : huurder, belanghebbende, vve &#xD;&#xA;* Prospect: woningzoekende. &#xD;&#xA;Een natuurlijk persoon kan bijvoorbeeld zowel voorzitter van een vve zijn als een woningzoekende. Deze persoon heeft dan een algemene rol van Prospect. Daarnaast een rol van Klant in relatie tot de rechtspersoon die de VVE voorstelt. ">
+  <properties
+      key="Objecttype"
+      value="Klasse"/>
+  <properties
+      key="Code"
+      value="RELROL"/>
+  <properties
+      key="Domein"
+      value="Relaties"/>
+  <properties
+      key="Resource"
+      value="VERA:Relatierollen"/>
+</archimate:DataObject>

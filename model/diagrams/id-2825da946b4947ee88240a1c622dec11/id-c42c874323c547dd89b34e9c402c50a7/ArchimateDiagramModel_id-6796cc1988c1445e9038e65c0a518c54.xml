@@ -173,6 +173,15 @@
           xsi:type="archimate:CompositionRelationship"
           href="CompositionRelationship_id-d8aa2018cf1741ef88b0506d8b95e398.xml#id-d8aa2018cf1741ef88b0506d8b95e398"/>
     </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-c77b605ad51846f2814282d01e43ab0f"
+        source="id-7cb174d3a35e463c8d1d63aced756e1e"
+        target="id-0aa6aabf42174a04bb099bdcb0001afa">
+      <archimateRelationship
+          xsi:type="archimate:CompositionRelationship"
+          href="CompositionRelationship_id-8fd213bae2bb43ef97b9f1b6fb1643bf.xml#id-8fd213bae2bb43ef97b9f1b6fb1643bf"/>
+    </sourceConnections>
     <bounds
         width="949"
         height="541"/>
@@ -599,6 +608,20 @@
             xsi:type="archimate:AssociationRelationship"
             href="AssociationRelationship_7d17eefa-b8fd-478f-94e3-bd9691d4ae84.xml#7d17eefa-b8fd-478f-94e3-bd9691d4ae84"/>
       </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-2844e61daa0e458cbaf5ca3d1ffe1b2e"
+          source="id-f9cc3a7f63a14f7899a8b413b43c4c36"
+          target="id-0aa6aabf42174a04bb099bdcb0001afa">
+        <bendpoints
+            startX="-131"
+            startY="-9"
+            endX="-36"
+            endY="-255"/>
+        <archimateRelationship
+            xsi:type="archimate:AssociationRelationship"
+            href="AssociationRelationship_id-39ae9458ae02451e82352b38cf8cac74.xml#id-39ae9458ae02451e82352b38cf8cac74"/>
+      </sourceConnections>
       <bounds
           x="131"
           y="162"
@@ -751,6 +774,23 @@
       <archimateElement
           xsi:type="archimate:DataObject"
           href="DataObject_id-74d67f6b1fb141979e1238c71fd1c0a9.xml#id-74d67f6b1fb141979e1238c71fd1c0a9"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-0aa6aabf42174a04bb099bdcb0001afa"
+        targetConnections="id-2844e61daa0e458cbaf5ca3d1ffe1b2e id-c77b605ad51846f2814282d01e43ab0f"
+        font="1|Segoe UI|9.0|1|WINDOWS|1|-21|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
+        fontColor="#ffffff"
+        fillColor="#0099cc"
+        textPosition="1">
+      <bounds
+          x="36"
+          y="408"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:DataObject"
+          href="DataObject_id-90daf6a60dc249b2ade99905a4b0dfe6.xml#id-90daf6a60dc249b2ade99905a4b0dfe6"/>
     </children>
     <archimateElement
         xsi:type="archimate:DataObject"

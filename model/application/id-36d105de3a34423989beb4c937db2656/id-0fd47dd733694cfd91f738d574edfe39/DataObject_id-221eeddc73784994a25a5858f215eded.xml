@@ -1,0 +1,18 @@
+<archimate:DataObject
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Energieprestatievergoeding"
+    id="id-221eeddc73784994a25a5858f215eded"
+    documentation="====Definitie====&#xD;&#xA;De vergoeding die de huurder betaald aan de verhuurder voor energieverbruik mits het energiegebruik voldoet aan de afsrpaken.  &#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;De energieprestatievergoeding (EPV) betaalt de huurder aan de verhuurder als de huurwoning zeer energiezuinig is. En heel veel energie opwekt. Hoe beter de woning geïsoleerd is, hoe hoger de EPV mag zijn. De maximale vergoeding wordt elk jaar per 1 juli aangepast aan de inflatie.&#xD;&#xA;&#xD;&#xA;====Voorbeelden====&#xD;&#xA;Netto warmtevraag in kilowattuur per vierkante meter per jaar&#xD;&#xA;Bepaald met de NTA 7120 | Bepaald met de NTA 8800 | Maximale EPV per vierkante meter per maand&#xD;&#xA;0 tot en met 30&#x9;0 | &#x9;tot en met 27 |  &#x9;€ 1,71&#xD;&#xA;31 tot en met 40 |&#x9;&#x9;27 tot en met 33 | &#x9;€ 1,44&#xD;&#xA;41 tot en met 50 |&#x9;&#x9;33 tot en met 41 | &#x9;€ 1,22">
+  <properties
+      key="Objecttype"
+      value="Klasse"/>
+  <properties
+      key="Code"
+      value="ENEEPV"/>
+  <properties
+      key="Domein"
+      value="Energie"/>
+  <properties
+      key="Resource"
+      value="VERA:Energieprestatievergoedingen"/>
+</archimate:DataObject>

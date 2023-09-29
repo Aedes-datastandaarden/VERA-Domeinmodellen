@@ -1,8 +1,9 @@
 <archimate:TriggeringRelationship
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Opvragen BouwkundigeElementen"
-    id="id-037761cf64b84619894050f5fd8ebd1d">
+    name="Synchroniseren BouwkundigeElementen"
+    id="id-037761cf64b84619894050f5fd8ebd1d"
+    documentation="Doorgeven Bouwkundige elementen.&#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;De bouwkundige elementen behorende bij het betreffende vastgoed geven aan welke te onderscheiden technische/ bouwkundige elementen in het desbetreffende vastgoed aanwezig zijn. Dit in tegenstelling tot collectieve objecten die van administratieve aard zijn. Deze technische elementen zijn te groeperen onder een bouwdeel. Hierbij valt bijvoorbeeld te denken aan een liften (of zelfs de liftmotor), cv-installaties, deur- of raamkozijnen , etc.&#xD;&#xA;&#xD;&#xA;====Scenario's====&#xD;&#xA;Primair&#xD;&#xA;* Als vastgoedbeheerder wil ik in een vastgoedmanagementsysteem in kunnen zien welke technische elementen er aanwezig zijn binnen mijn vastgoed.&#xD;&#xA;* Als vastgoedbeheerder wil ik in kunnen zien op welke technische elementen nog garantie heerst en wie de garantiepartijen zijn.">
   <properties
       key="Objecttype"
       value="tigger"/>
@@ -11,8 +12,8 @@
       value="BVG:BouwkundigElementen"/>
   <source
       xsi:type="archimate:BusinessProcess"
-      href="BusinessProcess_id-6932b3ea7af6465582d82da9182dd97c.xml#id-6932b3ea7af6465582d82da9182dd97c"/>
+      href="BusinessProcess_id-c0bacb9667c84941bfe978a60d6ac0dc.xml#id-c0bacb9667c84941bfe978a60d6ac0dc"/>
   <target
       xsi:type="archimate:BusinessProcess"
-      href="BusinessProcess_id-c0bacb9667c84941bfe978a60d6ac0dc.xml#id-c0bacb9667c84941bfe978a60d6ac0dc"/>
+      href="BusinessProcess_id-6932b3ea7af6465582d82da9182dd97c.xml#id-6932b3ea7af6465582d82da9182dd97c"/>
 </archimate:TriggeringRelationship>

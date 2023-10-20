@@ -2,7 +2,8 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Synchroniseren Eenheden"
-    id="id-8dc985ed94b74997a2ab0efd5330c8b4">
+    id="id-8dc985ed94b74997a2ab0efd5330c8b4"
+    documentation="Het doorgeven van informatie betreffende een eenheid.&#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;De informatie mbt de eenheid omvat naast alle fysieke kenmerken van de eenheid ook informatie over het type eenheid, adresgegevens, BAG-gegevens, koppelingen met bovenliggende eenheden en clusters, enz.">
   <properties
       key="Objecttype"
       value="trigger"/>
@@ -14,5 +15,5 @@
       href="BusinessProcess_id-c0bacb9667c84941bfe978a60d6ac0dc.xml#id-c0bacb9667c84941bfe978a60d6ac0dc"/>
   <target
       xsi:type="archimate:BusinessProcess"
-      href="BusinessProcess_id-a6de887b920047a086a65f4076042e55.xml#id-a6de887b920047a086a65f4076042e55"/>
+      href="BusinessProcess_id-6932b3ea7af6465582d82da9182dd97c.xml#id-6932b3ea7af6465582d82da9182dd97c"/>
 </archimate:TriggeringRelationship>

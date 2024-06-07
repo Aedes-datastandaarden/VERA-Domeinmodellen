@@ -1,17 +1,17 @@
 <archimate:TriggeringRelationship
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Opvragen Koopovereenkomst"
-    id="id-48168d74d7e34f8d872b654cf6bd31bb">
+    name="Synchroniseren Betaalwijze"
+    id="id-8a31f5a3566446f18c32e56a931bd27d">
   <properties
       key="Objecttype"
       value="Trigger"/>
   <properties
       key="Resource"
-      value="BOG:Overeenkomsten"/>
+      value="BOG:Betaalwijzen"/>
   <properties
       key="Bericht"
-      value="Koopovereenkomst opvragen"/>
+      value="Betaalwijze synchroniseren"/>
   <source
       xsi:type="archimate:BusinessProcess"
       href="BusinessProcess_id-2884d518037d4a088794e2e1152283e1.xml#id-2884d518037d4a088794e2e1152283e1"/>

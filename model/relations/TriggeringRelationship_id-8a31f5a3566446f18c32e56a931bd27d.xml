@@ -2,7 +2,8 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Synchroniseren Betaalwijze"
-    id="id-8a31f5a3566446f18c32e56a931bd27d">
+    id="id-8a31f5a3566446f18c32e56a931bd27d"
+    documentation="Het doorgeven van gewijzigde en nieuwe betaalwijzen.&#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;Aan een (huur)overeenkomst kunnen één of meerdere betaalwijzen gekoppeld worden. Daarmee is er de mogelijkheid om bijvoorbeeld de huur te betalen vanaf twee aparte betaalrekeningen die ook nog eens van twee verschillende betalers zijn. Een voorbeeld hierbij is de huur van een studentenkamer; een deel kan betaald worden door de student zelf terwijl het restant door een ouder betaald wordt. Wijzigingen in de betaalwijzen op een overeenkomst kunnen met dit proces-bericht gesynchyroniseerd worden. &#xD;&#xA;&#xD;&#xA;====Scenario's====&#xD;&#xA;* Als Klantbediening wil ik de betaalwijzen op de overeenkomsten synchroniseren met het eigen systeem zodat ik een optimale ondersteuning kan leveren in het klantbedieningsproces zoals het eenvoudig online betalen van de huur.">
   <properties
       key="Objecttype"
       value="Trigger"/>

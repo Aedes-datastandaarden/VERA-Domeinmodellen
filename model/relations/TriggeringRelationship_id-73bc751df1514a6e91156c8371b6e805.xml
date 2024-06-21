@@ -2,7 +2,8 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Opvragen Betaalwijze"
-    id="id-73bc751df1514a6e91156c8371b6e805">
+    id="id-73bc751df1514a6e91156c8371b6e805"
+    documentation="Het opvragen van een betaalwijze.&#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;Aan een (huur)overeenkomst kunnen één of meerdere betaalwijzen gekoppeld worden. Daarmee is er de mogelijkheid om bijvoorbeeld de huur te betalen vanaf twee aparte betaalrekeningen die ook nog eens van twee verschillende betalers zijn. Een voorbeeld hierbij is de huur van een studentenkamer; een deel kan betaald worden door de student zelf terwijl het restant door een ouder betaald wordt. Wijzigingen in de betaalwijzen op een overeenkomst kunnen met dit proces-bericht gesynchyroniseerd worden. &#xD;&#xA;&#xD;&#xA;====Scenario's====&#xD;&#xA;* Als Klantbediening wil ik de betaalwijzen van een overeenkomst opvragen zodat de huurder eenvoudig online zijn huur kan betalen.&#xD;&#xA;* Als huurder wil ik de betaalwijze van mijn huurovereenkomst aanpassen&#xD;&#xA;* Als huurder wil ik een betaalwijze toevoegen en daarbij een mandaat afgeven voor automatische incasso">
   <properties
       key="Objecttype"
       value="Trigger"/>

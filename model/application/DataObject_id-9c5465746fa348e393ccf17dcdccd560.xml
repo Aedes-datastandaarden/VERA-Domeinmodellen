@@ -1,0 +1,18 @@
+<archimate:DataObject
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Monitormeting"
+    id="id-9c5465746fa348e393ccf17dcdccd560"
+    documentation="====Definitie====&#xD;&#xA;Periodieke snapshot van de gemeten monitorwaarden&#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;Met een monitormeting worden Monitoringwaardeen met intervallen opgehaald uit het monitoringsysteem. Deze waarden worden gerbruikt om een beeld te vormen dvan de energieprestaties van een eenheid.&#xD;&#xA;&#xD;&#xA;====Voorbeelden====&#xD;&#xA;Gasgebruik voor de interval van laatste 24 uur.">
+  <properties
+      key="Objecttype"
+      value="Klasse"/>
+  <properties
+      key="Code"
+      value="ENEMOM"/>
+  <properties
+      key="Domein"
+      value="Energie"/>
+  <properties
+      key="Resource"
+      value="VERA:Monitormetingen"/>
+</archimate:DataObject>

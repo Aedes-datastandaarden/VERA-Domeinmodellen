@@ -1,0 +1,18 @@
+<archimate:DataObject
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Energieprestatiemeting"
+    id="id-eed85c6f2da2401bbe760e7cd9d3ae28"
+    documentation="====Definitie====&#xD;&#xA;De meting van de energieprestaties van een eenheid. &#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;Binnen een eenheid kunnen 1 of meerdere monitoring gateways aanwezig zijn die informatie doorgegven aan een monitoring partij. Op basis van deze monitoring gegevens worden de energieprestaties gemeten.&#xD;&#xA;&#xD;&#xA;====Voorbeelden====&#xD;&#xA;* ElektriciteitNetgebruikHoog&#xD;&#xA;* ElektriciteitNetgebruikLaag&#xD;&#xA;* ElektriciteitTerugleveringHoog&#xD;&#xA;* ElektriciteitTerugleveringLaag&#xD;&#xA;* ElektriciteitVermogen&#xD;&#xA;* Gasgebruik&#xD;&#xA;* ElektriciteitsgebruikWTW&#xD;&#xA;* ElektriciteitsgebruikWarmtepomp&#xD;&#xA;* ElektriciteitsgebruikBooster&#xD;&#xA;* ElektriciteitsgebruikBoilervat&#xD;&#xA;* ElektriciteitsgebruikHuishoudelijk&#xD;&#xA;* TemperatuurWarmTapwater&#xD;&#xA;* TemperatuurWoonkamer&#xD;&#xA;* TemperatuurSetpointWoonkamer&#xD;&#xA;* WarmteproductieWarmtepomp&#xD;&#xA;* WatergebruikWarmTapwater&#xD;&#xA;* Zon-opwekMomentaan&#xD;&#xA;* Zon-opwekTotaal&#xD;&#xA;* CO2&#xD;&#xA;* Luchtvochtigheid&#xD;&#xA;* Ventilatiedebiet">
+  <properties
+      key="Objecttype"
+      value="Klasse"/>
+  <properties
+      key="Code"
+      value="ENEEPM"/>
+  <properties
+      key="Domein"
+      value="Energie"/>
+  <properties
+      key="Resource"
+      value="VERA:Energieprestatiemetingen"/>
+</archimate:DataObject>

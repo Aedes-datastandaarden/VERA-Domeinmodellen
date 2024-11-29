@@ -1,0 +1,18 @@
+<archimate:DataObject
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Monitorwaarde"
+    id="id-db419599092a4c44948352d689845414"
+    documentation="====Definitie====&#xD;&#xA;De gemeten monitorwaarden.&#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;Monitoringwaardeen worden met intervallen opgehaald uit het monitoringsysteem. Deze waarden worden gerbruikt om een beeld te vormen dvan de energieprestaties van een eenheid.&#xD;&#xA;&#xD;&#xA;====Voorbeelden====&#xD;&#xA;Gasgebruik op POSIX timestamp 1732874049">
+  <properties
+      key="Objecttype"
+      value="Klasse"/>
+  <properties
+      key="Code"
+      value="ENEMOW"/>
+  <properties
+      key="Domein"
+      value="Energie"/>
+  <properties
+      key="Resource"
+      value="VERA:Monitorwaarden"/>
+</archimate:DataObject>

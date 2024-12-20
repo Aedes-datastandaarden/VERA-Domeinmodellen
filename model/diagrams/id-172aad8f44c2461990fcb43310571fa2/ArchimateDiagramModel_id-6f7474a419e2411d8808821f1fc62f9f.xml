@@ -90,7 +90,7 @@
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-dd9f7fe2244a4191ac5f50a3b351da57"
           targetConnections="id-e8336020960a415daa0f170374b60d69 id-018852965fe74434a8d778d15f231e77 id-5b371abd410a4045b8ba605c3ef5c22c"
-          font="1|Segoe UI|8.0|0|WINDOWS|1|-16|0|0|0|400|0|0|0|0|3|2|1|34|Segoe UI"
+          font="1|Segoe UI|9.0|0|WINDOWS|1|-18|0|0|0|400|0|0|0|0|3|2|1|34|Segoe UI"
           fillColor="#d9f8bc">
         <features
             name="labelExpression"
@@ -178,6 +178,9 @@
           targetConnections="id-62d6d7338cbd470db06f95a6ea2be4c1"
           font="1|Segoe UI|9.0|0|WINDOWS|1|-18|0|0|0|400|0|0|0|0|3|2|1|34|Segoe UI"
           fillColor="#b9eb7c">
+        <features
+            name="labelExpression"
+            value="Bepalen energie-prestaties"/>
         <sourceConnections
             xsi:type="archimate:DiagramModelArchimateConnection"
             id="id-3cf638b9098246ea835a570b2e5a8b01"
@@ -275,6 +278,9 @@
           id="id-05af754a051441c493fa0f37023bbccb"
           targetConnections="id-a9b287251a354f0289d4d4c0650c6028 id-2b2918425e6a40a1bf280f28a7742376"
           fillColor="#ffb062">
+        <features
+            name="labelExpression"
+            value="Vastleggen Energie-prestaties"/>
         <bounds
             x="144"
             y="36"
@@ -289,6 +295,9 @@
           id="id-5639105ed4ec48f3bd70eab685394291"
           targetConnections="id-2029c2f395914427961c449955bd7e4c id-3cf638b9098246ea835a570b2e5a8b01"
           fillColor="#ffb062">
+        <features
+            name="labelExpression"
+            value="Vastleggen Monitor-metingen"/>
         <bounds
             x="12"
             y="36"

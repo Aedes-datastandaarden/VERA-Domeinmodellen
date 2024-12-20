@@ -1,0 +1,18 @@
+<archimate:TriggeringRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Verwerken Energieprestatiemetingen"
+    id="id-1260d990a679439f93e7da7289e54835">
+  <properties
+      key="Objecttype"
+      value="Trigger"/>
+  <properties
+      key="Resource"
+      value="BEP:Energieprestatiemetingen"/>
+  <source
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_id-9b7202f2a5144a5683fe34e703ba013f.xml#id-9b7202f2a5144a5683fe34e703ba013f"/>
+  <target
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_id-d73ac0d7808746a5bf8b66579f4971b2.xml#id-d73ac0d7808746a5bf8b66579f4971b2"/>
+</archimate:TriggeringRelationship>

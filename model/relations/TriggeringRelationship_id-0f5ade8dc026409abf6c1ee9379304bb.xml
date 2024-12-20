@@ -1,0 +1,18 @@
+<archimate:TriggeringRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Ophalen Monitormetingen"
+    id="id-0f5ade8dc026409abf6c1ee9379304bb">
+  <properties
+      key="Objecttype"
+      value="Trigger"/>
+  <properties
+      key="Resource"
+      value="BEP:Monitormetingen"/>
+  <source
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_id-031eec471e0f4783805636f299d5e91a.xml#id-031eec471e0f4783805636f299d5e91a"/>
+  <target
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_id-e8577d665b7c4e6fbf34405a3287c951.xml#id-e8577d665b7c4e6fbf34405a3287c951"/>
+</archimate:TriggeringRelationship>

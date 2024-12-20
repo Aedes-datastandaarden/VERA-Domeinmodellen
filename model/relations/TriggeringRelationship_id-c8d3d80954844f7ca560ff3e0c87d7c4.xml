@@ -1,0 +1,18 @@
+<archimate:TriggeringRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Ophalen Monitorlogs"
+    id="id-c8d3d80954844f7ca560ff3e0c87d7c4">
+  <properties
+      key="Objecttype"
+      value="Trigger"/>
+  <properties
+      key="Resource"
+      value="BEP:Monitorlogs"/>
+  <source
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_id-b5975d556d524130bffea24a08f50e91.xml#id-b5975d556d524130bffea24a08f50e91"/>
+  <target
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_id-e8577d665b7c4e6fbf34405a3287c951.xml#id-e8577d665b7c4e6fbf34405a3287c951"/>
+</archimate:TriggeringRelationship>

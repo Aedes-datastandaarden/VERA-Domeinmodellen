@@ -158,6 +158,7 @@
         <sourceConnections
             xsi:type="archimate:DiagramModelArchimateConnection"
             id="id-018852965fe74434a8d778d15f231e77"
+            textPosition="2"
             source="id-8473af2762ab4100a1005fcc3187f3a6"
             target="id-dd9f7fe2244a4191ac5f50a3b351da57">
           <archimateRelationship
@@ -188,10 +189,10 @@
             source="id-b142aa14b69c4c1dbbdb4b4d946c8a74"
             target="id-5639105ed4ec48f3bd70eab685394291">
           <bendpoints
-              startX="-36"
-              startY="57"
-              endX="24"
-              endY="-111"/>
+              startX="-48"
+              startY="81"
+              endX="12"
+              endY="-87"/>
           <archimateRelationship
               xsi:type="archimate:TriggeringRelationship"
               href="TriggeringRelationship_id-1260d990a679439f93e7da7289e54835.xml#id-1260d990a679439f93e7da7289e54835"/>
@@ -201,6 +202,11 @@
             id="id-2b2918425e6a40a1bf280f28a7742376"
             source="id-b142aa14b69c4c1dbbdb4b4d946c8a74"
             target="id-05af754a051441c493fa0f37023bbccb">
+          <bendpoints
+              startX="36"
+              startY="45"
+              endX="-36"
+              endY="-123"/>
           <archimateRelationship
               xsi:type="archimate:TriggeringRelationship"
               href="TriggeringRelationship_id-60b1a18bac5847059fa52d460be7c702.xml#id-60b1a18bac5847059fa52d460be7c702"/>
@@ -224,11 +230,6 @@
             id="id-5b371abd410a4045b8ba605c3ef5c22c"
             source="id-5fd3702e729b47309f96c51e8002500c"
             target="id-dd9f7fe2244a4191ac5f50a3b351da57">
-          <bendpoints
-              startX="36"
-              startY="-99"
-              endX="-36"
-              endY="57"/>
           <archimateRelationship
               xsi:type="archimate:TriggeringRelationship"
               href="TriggeringRelationship_id-c8d3d80954844f7ca560ff3e0c87d7c4.xml#id-c8d3d80954844f7ca560ff3e0c87d7c4"/>

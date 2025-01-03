@@ -17,11 +17,20 @@
           xsi:type="archimate:AggregationRelationship"
           href="AggregationRelationship_id-93ba2838e24f4e98852ea52c8365233d.xml#id-93ba2838e24f4e98852ea52c8365233d"/>
     </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-de0eb3b7e9644488a3c4a495133e0c96"
+        source="id-af3a771862c34b249f6c65d6c5ec02d1"
+        target="id-fda2fae3f0e34927bf7d166e7d63b79a">
+      <archimateRelationship
+          xsi:type="archimate:AggregationRelationship"
+          href="AggregationRelationship_id-8acf1733f7db4ea595f307bf8ab47a68.xml#id-8acf1733f7db4ea595f307bf8ab47a68"/>
+    </sourceConnections>
     <bounds
         x="12"
         y="12"
         width="277"
-        height="169"/>
+        height="325"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-ce0aefb3e3964689b27b8101ffacd051"
@@ -30,6 +39,15 @@
         fillColor="#a1e44d"
         textPosition="1"
         type="1">
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-e5bf5fdc783646aa945ba2c5245dffb8"
+          source="id-ce0aefb3e3964689b27b8101ffacd051"
+          target="id-fda2fae3f0e34927bf7d166e7d63b79a">
+        <archimateRelationship
+            xsi:type="archimate:AssociationRelationship"
+            href="AssociationRelationship_id-bb2ef7e2486948cd9659038176ebb47f.xml#id-bb2ef7e2486948cd9659038176ebb47f"/>
+      </sourceConnections>
       <bounds
           x="36"
           y="36"
@@ -38,6 +56,23 @@
       <archimateElement
           xsi:type="archimate:DataObject"
           href="DataObject_id-eed85c6f2da2401bbe760e7cd9d3ae28.xml#id-eed85c6f2da2401bbe760e7cd9d3ae28"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-fda2fae3f0e34927bf7d166e7d63b79a"
+        targetConnections="id-de0eb3b7e9644488a3c4a495133e0c96 id-e5bf5fdc783646aa945ba2c5245dffb8"
+        font="1|Segoe UI|11.142858|1|WINDOWS|1|-26|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
+        fillColor="#a1e44d"
+        textPosition="1"
+        type="1">
+      <bounds
+          x="36"
+          y="192"
+          width="198"
+          height="91"/>
+      <archimateElement
+          xsi:type="archimate:DataObject"
+          href="DataObject_id-db419599092a4c44948352d689845414.xml#id-db419599092a4c44948352d689845414"/>
     </children>
     <archimateElement
         xsi:type="archimate:DataObject"

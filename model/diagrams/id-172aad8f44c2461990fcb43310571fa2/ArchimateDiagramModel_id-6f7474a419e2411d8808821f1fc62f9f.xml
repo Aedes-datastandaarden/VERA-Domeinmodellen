@@ -190,9 +190,13 @@
         <sourceConnections
             xsi:type="archimate:DiagramModelArchimateConnection"
             id="id-018852965fe74434a8d778d15f231e77"
-            textPosition="2"
             source="id-8473af2762ab4100a1005fcc3187f3a6"
             target="id-dd9f7fe2244a4191ac5f50a3b351da57">
+          <bendpoints
+              startX="-36"
+              startY="-110"
+              endX="24"
+              endY="58"/>
           <archimateRelationship
               xsi:type="archimate:TriggeringRelationship"
               href="TriggeringRelationship_id-0f5ade8dc026409abf6c1ee9379304bb.xml#id-0f5ade8dc026409abf6c1ee9379304bb"/>

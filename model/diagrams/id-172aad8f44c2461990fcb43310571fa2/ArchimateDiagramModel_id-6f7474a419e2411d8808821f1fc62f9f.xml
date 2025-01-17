@@ -39,7 +39,7 @@
     <bounds
         x="12"
         y="12"
-        width="721"
+        width="781"
         height="505"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
@@ -164,10 +164,19 @@
             xsi:type="archimate:AggregationRelationship"
             href="AggregationRelationship_id-dbab47d096c149b5a1fcc4812cdb23f4.xml#id-dbab47d096c149b5a1fcc4812cdb23f4"/>
       </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-c35f2fb0351b485189d59f118a677854"
+          source="id-02b998a95da24f1b8c53912a43104528"
+          target="id-c9b86bef55ae4f38a323022baa5ae188">
+        <archimateRelationship
+            xsi:type="archimate:AggregationRelationship"
+            href="AggregationRelationship_id-3e09825548f74779b519640c60f7f58b.xml#id-3e09825548f74779b519640c60f7f58b"/>
+      </sourceConnections>
       <bounds
           x="216"
           y="204"
-          width="409"
+          width="541"
           height="109"/>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
@@ -265,6 +274,20 @@
         <archimateElement
             xsi:type="archimate:BusinessProcess"
             href="BusinessProcess_id-b5975d556d524130bffea24a08f50e91.xml#id-b5975d556d524130bffea24a08f50e91"/>
+      </children>
+      <children
+          xsi:type="archimate:DiagramModelArchimateObject"
+          id="id-c9b86bef55ae4f38a323022baa5ae188"
+          targetConnections="id-c35f2fb0351b485189d59f118a677854"
+          fillColor="#b9eb7c">
+        <bounds
+            x="408"
+            y="36"
+            width="120"
+            height="55"/>
+        <archimateElement
+            xsi:type="archimate:BusinessProcess"
+            href="BusinessProcess_id-0d921be4f63f448cb107a0c3abb789d0.xml#id-0d921be4f63f448cb107a0c3abb789d0"/>
       </children>
       <archimateElement
           xsi:type="archimate:BusinessProcess"
@@ -373,7 +396,7 @@
           href="AggregationRelationship_id-a073e2617bb14c94a7f3365e4492474e.xml#id-a073e2617bb14c94a7f3365e4492474e"/>
     </sourceConnections>
     <bounds
-        x="744"
+        x="804"
         y="12"
         width="241"
         height="133"/>

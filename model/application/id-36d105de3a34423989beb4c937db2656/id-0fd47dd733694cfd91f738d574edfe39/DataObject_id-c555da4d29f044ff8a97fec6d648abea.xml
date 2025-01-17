@@ -1,4 +1,14 @@
 <archimate:DataObject
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="MonitorlogRegel"
-    id="id-c555da4d29f044ff8a97fec6d648abea"/>
+    name="Monitorlogregel"
+    id="id-c555da4d29f044ff8a97fec6d648abea">
+  <properties
+      key="Objecttype"
+      value="Klasse"/>
+  <properties
+      key="Domein"
+      value="Energie"/>
+  <properties
+      key="Resource"
+      value="VERA:Monitorlogregels"/>
+</archimate:DataObject>

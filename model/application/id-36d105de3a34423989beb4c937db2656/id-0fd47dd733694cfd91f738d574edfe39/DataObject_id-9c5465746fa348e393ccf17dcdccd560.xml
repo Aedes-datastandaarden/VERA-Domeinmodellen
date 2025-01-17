@@ -2,7 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Monitormeting"
     id="id-9c5465746fa348e393ccf17dcdccd560"
-    documentation="====Definitie====&#xD;&#xA;Periodieke snapshot van de gemeten monitorwaarden&#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;Met een monitormeting worden Monitoringwaardeen met intervallen opgehaald uit het monitoringsysteem. Deze waarden worden gerbruikt om een beeld te vormen dvan de energieprestaties van een eenheid.&#xD;&#xA;&#xD;&#xA;====Voorbeelden====&#xD;&#xA;Gasgebruik voor de interval van laatste 24 uur.">
+    documentation="====Definitie====&#xD;&#xA;Periodieke snapshot van de gemeten monitorwaarden&#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;Met een monitormeting worden Monitoringwaardeen met intervallen opgehaald uit het monitoringsysteem. Deze waarden worden gebruikt om een beeld te vormen van de energieprestaties van een eenheid.&#xD;&#xA;De intervallen waar wij bij monitoringpartijen op koersen zijn:&#xD;&#xA;•&#x9;5 min&#xD;&#xA;•&#x9;15 min&#xD;&#xA;•&#x9;1 uur&#xD;&#xA;•&#x9;24 uur&#xD;&#xA;•&#x9;1 maand&#xD;&#xA;•&#x9;1 jaar&#xD;&#xA;Al lijken  de eerste 2 niet zo relevant voor een corporatie, maar het wordt wel ondersteund door monitoringleveranciers.&#xD;&#xA;&#xD;&#xA;====Voorbeelden====&#xD;&#xA;Gasgebruik voor de interval van laatste 24 uur of 24uur met een bepaalde begindatum.">
   <properties
       key="Objecttype"
       value="Klasse"/>

@@ -2,7 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Monitorwaarde"
     id="id-db419599092a4c44948352d689845414"
-    documentation="====Definitie====&#xD;&#xA;De gemeten monitorwaarden.&#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;Monitoringwaardeen worden met intervallen opgehaald uit het monitoringsysteem. Deze waarden worden gerbruikt om een beeld te vormen dvan de energieprestaties van een eenheid.&#xD;&#xA;&#xD;&#xA;====Voorbeelden====&#xD;&#xA;Gasgebruik op POSIX timestamp 1732874049">
+    documentation="====Definitie====&#xD;&#xA;De gemeten monitorwaarden.&#xD;&#xA;&#xD;&#xA;====Toelichting====&#xD;&#xA;Monitoringwaardeen worden met intervallen opgehaald uit het monitoringsysteem. Dit is een technische voorziening om monitormetingen van (installaties in) een eenheid te verzamelen en naar een online raadpleegbare bron te communiceren. Vaak bestaat zo’n systeem uit sensoren, een gateway en een internetverbinding.&#xD;&#xA;Deze waarden worden gebruikt om een beeld te vormen van de energieprestaties van een eenheid.&#xD;&#xA;&#xD;&#xA;====Voorbeelden====&#xD;&#xA;Gasgebruik op POSIX timestamp 1732874049">
   <properties
       key="Objecttype"
       value="Klasse"/>

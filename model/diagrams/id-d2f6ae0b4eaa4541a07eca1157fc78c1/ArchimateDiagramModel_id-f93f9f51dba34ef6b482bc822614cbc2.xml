@@ -55,17 +55,7 @@
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-c6fa2b872940466a96cb8c2beae060b7"
-      targetConnections="id-de6912f53262462782ee840155140626">
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-784bbf7249c9452a977dba5c29bbc29f"
-        source="id-c6fa2b872940466a96cb8c2beae060b7"
-        target="id-5d343a8e0b9b455c82ef3f829c801e9b">
-      <archimateRelationship
-          xsi:type="archimate:AggregationRelationship"
-          href="AggregationRelationship_id-2f4364737d5e480daf5b9b482cb439bd.xml#id-2f4364737d5e480daf5b9b482cb439bd"/>
-    </sourceConnections>
+      id="id-c6fa2b872940466a96cb8c2beae060b7">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-893b5d28be094f90ade2dad12b7250e2"
@@ -99,30 +89,12 @@
     </sourceConnections>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-653115847ccf4e3cbbeaa0d2b9c9d8f4"
-        source="id-3b15809b4a804cbcad3452d8004c9796"
-        target="id-558cc8b895d1470795a508fa7e264aa1">
-      <archimateRelationship
-          xsi:type="archimate:AggregationRelationship"
-          href="AggregationRelationship_id-fef0b78ae5674fb78c651ae9a5189464.xml#id-fef0b78ae5674fb78c651ae9a5189464"/>
-    </sourceConnections>
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-3547600ffa9245d6bb3e5b8f9cea4326"
         source="id-3b15809b4a804cbcad3452d8004c9796"
         target="id-5a404030b92146128275100ca5b58ce3">
       <archimateRelationship
           xsi:type="archimate:AssociationRelationship"
           href="AssociationRelationship_id-b2662c056fb245e98eb63f85d15c862c.xml#id-b2662c056fb245e98eb63f85d15c862c"/>
-    </sourceConnections>
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-de6912f53262462782ee840155140626"
-        source="id-3b15809b4a804cbcad3452d8004c9796"
-        target="id-c6fa2b872940466a96cb8c2beae060b7">
-      <archimateRelationship
-          xsi:type="archimate:AggregationRelationship"
-          href="AggregationRelationship_id-f0f104586e9447d9b0fe6757a123063c.xml#id-f0f104586e9447d9b0fe6757a123063c"/>
     </sourceConnections>
     <bounds
         x="444"
@@ -354,7 +326,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-5d343a8e0b9b455c82ef3f829c801e9b"
-      targetConnections="id-784bbf7249c9452a977dba5c29bbc29f id-80b303c03bb34ae2b46f5b4a8409e647 id-74922b75edd541f6a55bcec54c87e49a"
+      targetConnections="id-80b303c03bb34ae2b46f5b4a8409e647 id-74922b75edd541f6a55bcec54c87e49a"
       fillColor="#ffff80">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
@@ -456,7 +428,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-e638171555cc4cacacb57c338e36fb4c"
-      targetConnections="id-1a666a94e16044dcbb0b23d4c796678e id-9b892f0bd4e543aeab5e1a3c1959a815 id-8be0125e00d948559b4e55bf2aab79f3 id-091c692fc05a498ba9ad3f5638e42d29">
+      targetConnections="id-1a666a94e16044dcbb0b23d4c796678e id-9b892f0bd4e543aeab5e1a3c1959a815 id-091c692fc05a498ba9ad3f5638e42d29">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-4d9fbe6fa956435387dbcffeddd59e2c"
@@ -486,17 +458,7 @@
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-558cc8b895d1470795a508fa7e264aa1"
-      targetConnections="id-653115847ccf4e3cbbeaa0d2b9c9d8f4">
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-8be0125e00d948559b4e55bf2aab79f3"
-        source="id-558cc8b895d1470795a508fa7e264aa1"
-        target="id-e638171555cc4cacacb57c338e36fb4c">
-      <archimateRelationship
-          xsi:type="archimate:AggregationRelationship"
-          href="AggregationRelationship_id-00ed4377d7dc4ddf932ca4c88014400e.xml#id-00ed4377d7dc4ddf932ca4c88014400e"/>
-    </sourceConnections>
+      id="id-558cc8b895d1470795a508fa7e264aa1">
     <bounds
         x="672"
         y="360"

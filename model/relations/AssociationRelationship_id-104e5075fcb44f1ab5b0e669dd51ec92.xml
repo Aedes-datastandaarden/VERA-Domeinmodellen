@@ -1,0 +1,14 @@
+<archimate:AssociationRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="looptijden"
+    id="id-104e5075fcb44f1ab5b0e669dd51ec92"
+    documentation="===Definitie===&#xD;&#xA;Afbakening in de tijd van een recht, verplichting of mogelijkheid binnen een huurovereenkomst.&#xD;&#xA;&#xD;&#xA;===Toelichting===&#xD;&#xA;Het gegevensobject Looptijd wordt uitsluitend gebruikt in relatie tot een '''huurovereenkomst''' en beschrijft specifieke momenten of perioden binnen de geldigheid daarvan waarop een bepaald '''contractueel of wettelijk effect''' van toepassing is.&#xD;&#xA;&#xD;&#xA;Een huurovereenkomst kent altijd een algemene begindatum en (eventueel) een einddatum. Daarnaast kunnen er één of meerdere looptijden worden vastgelegd om '''partij-specifieke expiraties, tussentijdse beëindigingsrechten (break-opties)''' of '''huurprijsherzieningsmomenten''' expliciet te modelleren.&#xD;&#xA;&#xD;&#xA;De aard van de looptijd wordt bepaald door de looptijdsoort en geeft richting aan de interpretatie van de bijbehorende datums.&#xD;&#xA;&#xD;&#xA;'''Afbakening ten opzichte van datums op de huurovereenkomst'''&#xD;&#xA;De looptijd moet nadrukkelijk worden onderscheiden van de volgende datums die direct op de huurovereenkomst zijn vastgelegd:&#xD;&#xA;&#xD;&#xA;* Begindatum huurovereenkomst&#xD;&#xA;De datum waarop de huurovereenkomst juridisch van kracht wordt.&#xD;&#xA;Dit is het startpunt van de overeenkomst als geheel en '''geen looptijd'''.&#xD;&#xA;&#xD;&#xA;* Einddatum huurovereenkomst&#xD;&#xA;De datum waarop de huurovereenkomst als geheel eindigt, indien geen verlenging of opzegging plaatsvindt.&#xD;&#xA;Dit betreft de totale contractduur.&#xD;&#xA;&#xD;&#xA;* HuurHerzieningsdatum&#xD;&#xA;De datum waarop de huurprijs van de huurovereenkomst feitelijk is aangepast.&#xD;&#xA;Een looptijd van het type Herziening markeert het moment waarop een herziening kan of mag plaatsvinden, niet het administratieve verwerkingsmoment van de prijswijziging.&#xD;&#xA;&#xD;&#xA;Het gegevensobject Looptijd legt daarmee '''geen geldigheid van de huurovereenkomst zelf vast''', maar specificeert '''tijdgebonden rechten, plichten en momenten''' binnen die overeenkomst."
+    directed="true">
+  <source
+      xsi:type="archimate:DataObject"
+      href="DataObject_4c3624d3-0e6c-4992-a081-d9eb9b80d2d3.xml#4c3624d3-0e6c-4992-a081-d9eb9b80d2d3"/>
+  <target
+      xsi:type="archimate:DataObject"
+      href="DataObject_id-04fce4ae785c4e3190ffd1375355f32b.xml#id-04fce4ae785c4e3190ffd1375355f32b"/>
+</archimate:AssociationRelationship>

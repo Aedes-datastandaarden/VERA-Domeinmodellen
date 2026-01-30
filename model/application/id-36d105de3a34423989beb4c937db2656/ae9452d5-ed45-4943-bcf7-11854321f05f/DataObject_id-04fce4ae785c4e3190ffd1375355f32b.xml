@@ -1,0 +1,18 @@
+<archimate:DataObject
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Looptijden"
+    id="id-04fce4ae785c4e3190ffd1375355f32b"
+    documentation="====Definitie==== &#xD;&#xA;Een huurovereenkomst is een type overeenkomst waarmee de woningcorporatie tot wederopzegging, het recht aan één huurder (klant) geeft om één of meer verhuureenheden te gebruiken en waarmee een huurder zich verplicht tot een (periodieke) betaling. &#xD;&#xA;&#xD;&#xA;====Toelichting==== &#xD;&#xA;Een huurovereenkomst heeft een associatie met één of meer relaties en één of meer verhuurbare eenheden. &lt;br />&#xD;&#xA;Bij een huurovereenkomst kunnen nul of meer onderhoudsorders horen. &lt;br />&#xD;&#xA;De huurovereenkomst is afgeleid van de overeenkomst, met andere woorden, de attributen die beschikbaar zijn voor een overeenkomst, zijn ook beschikbaar voor een huurovereenkomst. &#xD;&#xA;Bij een huurovereenkomst kan een andere betaler zijn gekoppeld dan de huurder. Deze betaler neemt dan, soms tijdelijk, een deel of volledig de betalingsverplichting over. Hiervoor krijgt deze betaler een eigen Betalerovereenkomst.&#xD;&#xA;&#xD;&#xA;====Voorbeelden==== &#xD;&#xA;Een overeenkomst die een huurder aangaat met de woningcorporatie om een eenheid te mogen huren. &#xD;&#xA;&#xD;&#xA;====Toepasbaar voor====&#xD;&#xA;Huurcontract. ">
+  <properties
+      key="Objecttype"
+      value="Klasse"/>
+  <properties
+      key="Code"
+      value="OVEHUU"/>
+  <properties
+      key="Domein"
+      value="Overeenkomsten"/>
+  <properties
+      key="Resource"
+      value="VERA:Huurovereenkomsten"/>
+</archimate:DataObject>

@@ -1,1 +1,2 @@
-Onze Archi modellen kun je alleen openen met de Colaboration plugin van Archi.
+Onze Archi modellen zijn gemaakt met Archi.
+https://www.archimatetool.com/

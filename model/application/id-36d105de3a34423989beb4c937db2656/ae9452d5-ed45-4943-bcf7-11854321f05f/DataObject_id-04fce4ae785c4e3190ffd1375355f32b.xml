@@ -1,18 +1,18 @@
 <archimate:DataObject
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Looptijden"
+    name="Looptijd"
     id="id-04fce4ae785c4e3190ffd1375355f32b"
-    documentation="====Definitie==== &#xD;&#xA;Een huurovereenkomst is een type overeenkomst waarmee de woningcorporatie tot wederopzegging, het recht aan één huurder (klant) geeft om één of meer verhuureenheden te gebruiken en waarmee een huurder zich verplicht tot een (periodieke) betaling. &#xD;&#xA;&#xD;&#xA;====Toelichting==== &#xD;&#xA;Een huurovereenkomst heeft een associatie met één of meer relaties en één of meer verhuurbare eenheden. &lt;br />&#xD;&#xA;Bij een huurovereenkomst kunnen nul of meer onderhoudsorders horen. &lt;br />&#xD;&#xA;De huurovereenkomst is afgeleid van de overeenkomst, met andere woorden, de attributen die beschikbaar zijn voor een overeenkomst, zijn ook beschikbaar voor een huurovereenkomst. &#xD;&#xA;Bij een huurovereenkomst kan een andere betaler zijn gekoppeld dan de huurder. Deze betaler neemt dan, soms tijdelijk, een deel of volledig de betalingsverplichting over. Hiervoor krijgt deze betaler een eigen Betalerovereenkomst.&#xD;&#xA;&#xD;&#xA;====Voorbeelden==== &#xD;&#xA;Een overeenkomst die een huurder aangaat met de woningcorporatie om een eenheid te mogen huren. &#xD;&#xA;&#xD;&#xA;====Toepasbaar voor====&#xD;&#xA;Huurcontract. ">
+    documentation="====Definitie==== &#xD;&#xA;Een looptijd is de vastlegging van een specifiek moment of periode binnen een huurovereenkomst, waarin een bepaald recht, plicht of mogelijkheid van toepassing is voor één of meerdere partijen.&#xD;&#xA;&#xD;&#xA;====Toelichting===&#xD;&#xA;Binnen het domein Overeenkomsten (Huurovereenkomst) is een nieuw gegevensobject Looptijd geïntroduceerd. Dit object maakt het mogelijk om specifieke tijdsgebonden momenten en rechten binnen een huurovereenkomst expliciet vast te leggen.&#xD;&#xA; &#xD;&#xA;Met de introductie van Looptijd kunnen de volgende situaties afzonderlijk worden gemodelleerd:&#xD;&#xA;Expiratie van de huurovereenkomst voor huurder en verhuurder&#xD;&#xA;Tussentijdse beëindigingsrechten&#xD;&#xA;Momenten van huurprijsherziening&#xD;&#xA; ">
   <properties
       key="Objecttype"
       value="Klasse"/>
   <properties
       key="Code"
-      value="OVEHUU"/>
+      value="OVELOO"/>
   <properties
       key="Domein"
       value="Overeenkomsten"/>
   <properties
       key="Resource"
-      value="VERA:Huurovereenkomsten"/>
+      value="VERA:Looptijden"/>
 </archimate:DataObject>
